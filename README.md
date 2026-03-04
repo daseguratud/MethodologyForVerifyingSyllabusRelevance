@@ -3,7 +3,9 @@ Este repositorio contiene la evidencia del proceso desarrollado empleando técni
 Dicho proceso fue implementado en el marco del trabajo Emulador de circuitos digitales combinacionales y secuenciales basado en dispositivos SoC” - PPNFF-2025-2144 de la Universidad Distrital Francisco José de Caldas adscrito al Grupo de Investigación LIFAE.
 Este repositotio se organiza en dos carpetas, una con la evidencia del proceso de los recursos bibliográficos y la otra para la evidencia de los contenidos bajo estudio.
 ## FocusData
+hsdkfhskhfsdjk
 ## ReferenceData
+ldkfksdñksñdlflñksd
 ## Descripcion de archivos de python
 * main.py:\
     Script para el procesmiento de los contenidos recolectados.
