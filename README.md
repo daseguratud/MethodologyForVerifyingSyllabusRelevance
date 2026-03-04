@@ -2,8 +2,8 @@
 Este repositorio contiene la evidencia del proceso desarrollado empleando técnicas de procesamiento de lenguaje natural para el análisis del contenido de los libros de referencia en el área de Fundamentos de Sistemas Digitales, así como el análisis del contenido de los syllabus seleccionados correspondientes a este espacio académico en la Universidad Distrital Francisco José de Caldas, el proceso busca establecer la pertinencia temática entre los espacios académicos de Fundamentos De Sistemas Digitales y la bibliografía actualizada.
 Dicho proceso fue implementado en el marco del trabajo Emulador de circuitos digitales combinacionales y secuenciales basado en dispositivos SoC” - PPNFF-2025-2144 de la Universidad Distrital Francisco José de Caldas adscrito al Grupo de Investigación LIFAE.
 Este repositotio se organiza en dos carpetas, una con la evidencia del proceso de los recursos bibliográficos y la otra para la evidencia de los contenidos bajo estudio.
-## Contenidos bajo estudio
-## Contenidos de referencia
+## FocusData
+## ReferenceData
 ## Descripcion de archivos de python
 * main.py:\
     Script para el procesmiento de los contenidos recolectados.
