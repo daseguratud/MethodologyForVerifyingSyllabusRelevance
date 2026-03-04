@@ -1,0 +1,242 @@
+CHAPTER 1
+Algebra of logical variables 1
+11 Logical variable 2
+12 Boolean Algebra 4
+13 Basic Theorems of Boolean Algebra 5
+14 Boolean functions 7
+15 Logic functions used in digital electronics 9
+151 AND function (•) 10
+152 OR (+) 10 function
+153 Inversion function or NOT (ɡ) 11
+154 NAND function 11
+155 NOR function 12
+156 Exclusive OR function
+157 Exclusive NOR (XNOR) function 14
+16 Combinational Circuits 15
+17 Simplification of logical functions 16
+171 Algebraic simplification 17
+172 Karnaugh Tables 17
+18 Incomplete functions 20
+Exercises 21
+CHAPTER 2
+Number systems and binary arithmetic 23
+21 Number systems 24
+22 Binary system 24
+23 Hexadecimal and octal system 26
+24 Binary numerical codes 29
+25 Alphanumeric codes 30
+X DIGITAL ELECTRONICS
+26 Error detector codes 33
+27 Error correcting codes 34
+28 Arithmetic operations with binary numbers 35
+281 Binary sum 36
+282 Binary subtraction 37
+283 Representation of negative numbers 38
+284 Binary multiplication and division 40
+29 Arithmetic operations with other codes 42
+291 Sum BCD 43
+292 Subtraction BCD 43
+293 Multiplication and division BCD 45
+294 Hexadecimal addition 46
+295 Hexadecimal subtraction 47
+Exercises 49
+CHAPTER 3
+Arithmetic Combinational Circuits 53
+31 Design of combinational circuits 54
+32 Binary adder 54
+321 Half-Adder 54
+322 Full-Adder 56
+323 Integrated full adder circuit 59
+33 Parallel adder 60
+331 Parallel adder with serial carry 60
+332 Parallel adder with parallel carry 61
+333 Parallel adder with parallel carry applied to groups 65
+334 Integrated adding circuits 66
+34 BCD Adder 71
+35 Binary subtractor 74
+351 Complete subtractor 74
+352 Multi-bit Binary Subtractor 77
+353 Integrated Subtraction Circuits 79
+36 Adder/subtractor 80
+37 Arithmetic Logic Unit 81
+371 Integrated arithmetic-logical units 84
+38 Advance drive unit 86
+Exercises 88
+CHAPTER 4
+Combinational Logic Circuits 91
+41 Parity generator/detector 92
+411 Parity bit 92
+412 Parity generator/detector circuit: 74ls280 94
+42 Binary Comparators of Magnitude 95
+421 Integrated comparators: 74ls85 96
+CONTENT XI
+43 Multiplexer 99
+431 Multiplexer Integrated Circuits 102
+432 Multiplexer Extension 103
+433 Using the multiplexer for function generation 104
+44 Encoders 107
+441 Priority Encoders 109
+442 Integrated priority encoders 111
+443 Expansion of priority encoders 112
+45 Decoders 114
+451 The decoder as a data demultiplexer 115
+452 Decoder/demultiplexer ICs 116
+453 Expansion of the decoder/demultiplexer 117
+454 Multiplexer-demultiplexer set for data transfer 118
+455 The decoder as a generator of logical functions 119
+46 120 Code Converters
+461 BCD to 7 segment converter 121
+462 BCD to Binary and Binary to BCD 122 Converter
+47 Data bus 123
+471 Tristate output 124
+472 Tristate buffer 124
+473 Transceivers 125
+Exercises 127
+CHAPTER 5
+Digital Integrated Circuits 129
+51 Classification of integrated circuits 130
+511 Depending on the type of signals they handle 130
+512 According to internal construction 130
+513 Depending on substrate material 131
+514 According to the number of transistors 132
+515 Depending on the resolution used in device design 132
+516 According to the design methodology 134
+517 Depending on the type of active devices used 136
+518 Depending on the way digital doors are constructed 137
+52 Nomenclature of integrated circuits 139
+521 Encapsulated 142
+53 Electrical characteristics 143
+531 Supply voltage 144
+532 Logic input and output voltages 145
+533 Noise margin 146
+534 Input and output currents 147
+535 Switching times 149
+536 Power dissipated 150
+54 Special Considerations 151
+541 Static electricity 151
+542 Power supply decoupling 151
+543 Latch-up phenomenon 152
+XII DIGITAL ELECTRONICS
+55 Special digital inputs and outputs 154
+551 Buffer 154
+552 Schmitt trigger or schmitt trigger 154
+553 Open-collector output 155
+56 Connecting digital circuits 156
+561 Pull-up and pull-down resistors 156
+562 Connection of different logical families 157
+563 Connection of circuits at different supply voltages 158
+Exercises 161
+CHAPTER 6
+Sequential circuits 165
+621 RS 166 Scale
+611 RS scale with NOR 166 doors
+612 RS scale with NAND gates 169
+613 Integrated circuits and applications 170
+62 Synchronous flip-flop 173
+621 RS synchronous flip-flop 173
+622 Synchronous RS flip-flop with asynchronous inputs 175
+623 Flip-flop RS master-slave 177
+63 Other flip-flops 179
+631 D flip-flop triggered by level 179
+632 Edge-triggered D flip-flop 180
+633 The D flip-flop in integrated circuits 183
+634 The T 184 flip-flop
+635 The JK 185 flip-flop
+635 The JK flip-flop in integrated circuits 189
+64 Characteristic parameters of flip-flops 190
+65 Sequential Circuits 191
+651 Types of sequential circuits 192
+652 Types of synchronous sequential circuits 194
+66 Synthesis of synchronous sequential circuits 195
+67 Analysis of synchronous sequential circuits 205
+68 Other design methods 208
+69 Design of complex systems 210
+610 General Design Considerations 217
+Exercises 219
+CHAPTER 7
+Registers and counters 225
+71 Records 226
+711 Storage records 226
+712 Shift registers 228
+72 Counters 232
+721 Binary asynchronous counter 233
+722 Decimal asynchronous counter 234
+723 Binary synchronous counter 236
+724 Decimal synchronous counter 238
+CONTENTS XIII
+725 Reversible synchronous counter 242
+726 Counters with anti-blocking protection 246
+727 Shift Register-Based Synchronous Counters 247
+728 Integrated digital counters 249
+729 Expansion of meters 250
+7210 Register and counter applications 251
+Exercises 255
+CHAPTER 8
+User Programmable Logic 257
+81 Programmable logic circuits 258
+82 Advantages and disadvantages of programmable logic circuits 259
+821 Design with standard circuits vs. design with circuits
+programmable logic 259
+822 Design with Application Specific Circuits (ASIC) front
+to design with programmable circuits 261
+83 PLD 264 type programmable logic circuits
+831 PROM structure 264
+832 PLA Structure 265
+833 PAL structure 266
+834 Input/output structure 267
+835 Structure of the current PLDs 270
+84 FPGA type programmable logic circuits 271
+85 PLD-FPGA Comparison 274
+86 Design techniques with programmable logic circuits 276
+861 Logical design 277
+862 Compilation 277
+863 Simulation 277
+864 Programming 278
+87 Conclusions 278
+Exercises 279
+CHAPTER 9
+Memories 281
+91 Random access memories (RAM) 282
+911 General characteristics 282
+912 Read/write memories 283
+913 Read-only memories (ROM) 295
+914 Non-volatile RAM memories (NVRAM) 298
+915 Memory grouping 299
+92 Sequential access memories 301
+921 FIFOs 301
+922 LIFOs 302
+93 Applications 303
+931 LUTs (Look Up Tables) 303
+932 Systems Synchronization 303
+Exercises 305
+XIV DIGITAL ELECTRONICS
+CHAPTER 10
+Analog-digital, digital-analog converters 307
+101 Nyquist's theorem 308
+102 Digital-to-analog converter (DAC) 308
+1021 D/A converter with weighted resistors 309
+1022 D/A converter with r-2r network on 310 ladder
+1023 Inverted ladder d/a converter 311
+1024 Parameters of d/a converters 312
+103 Analog-digital converter 315
+1031 A/D converter with comparators 317
+1032 Successive approximation a/d converter 318
+1033 A/D converter with counters 319
+1034 Dual ramp a/d converter 321
+1035 Ramp Width A/D Converter 322
+1036 A/D converter 323
+1037 Parameters of a/d converters 324
+Exercises 328
+Answers to exercises 329
+Chapter 1 331
+Chapter 2 340
+Chapter 3 345
+Chapter 4 349
+Chapter 5 356
+Chapter 6 359
+Chapter 7 373
+Chapter 8 378
+Chapter 9 379
+Chapter 10 381
+Bibliography 383
+Analytical index 385

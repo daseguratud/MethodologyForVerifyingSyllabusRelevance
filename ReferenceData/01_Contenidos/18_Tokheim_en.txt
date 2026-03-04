@@ -1,0 +1,303 @@
+Preface ix
+Acknowledgments x
+Walkthrough xii
+About the Author xiv
+Safety xv
+Chapter 1 Digital Electronics 1
+1-1What Is a Digital Signal? 2
+1-2Why Use Digital Circuits? 4
+1-3Where Are Digital Circuits Used? 8
+1-4How Do You Generate a Digital Signal? 9
+1-5How Do You Test for a Digital Signal? 15
+1-6Simple Instruments 19
+Summary 22
+Correlated Experiments 22
+Chapter Review Questions 22
+Critical Thinking Questions 24
+Answers to Self-Tests 25
+Chapter 2 Numbers We Use in Digital Electronics 26
+2-1Counting in Decimal and Binary 26
+2-2Place Value 27
+2-3Binary to Decimal Conversion 29
+2-4Decimal to Binary Conversion 30
+2-5Electronic Translators 31
+2-6Hexadecimal Numbers 34
+2-7Octal Numbers 36
+2-8Bits, Bytes, Nibbles, and Word Size 37
+Summary 39
+Correlated Experiments 39
+Chapter Review Questions 39
+Critical Thinking Questions 40
+Answers to Self-Tests 42
+Chapter 3 Logic Gates 43
+3-1The AND Gate 43
+3-2The OR Gate 46
+3-3The Inverter and Buffer 48
+3-4The NAND Gate 50
+3-5The NOR Gate 51
+3-6The Exclusive OR Gate 53
+3-7The Exclusive NOR Gate 54
+3-8The NAND Gate as a Universal Gate 56
+The NOR Gate as a Universal Gate 59
+3-10Gates with More Than Two Inputs 63
+3-11Using Inverters to Convert Gates 65
+3-12Practical TTL Logic Gates 68
+3-13Practical CMOS Logic Gates 71
+3-14Troubleshooting Simple Gate Circuits 75
+3-15IEEE Logic Symbols 77
+3-16Simple Logic Gate Applications 79
+3-17Logic Functions Using Software (BASIC Stamp Module) 83
+Summary 88
+Correlated Experiments 89
+Chapter Review Questions 89
+Critical Thinking Questions 92
+Answers to Self-Tests 95
+Chapter 4 Combining Logic Gates 96
+4-1Constructing Circuits from Boolean Expressions 97
+4-2Drawing a Circuit from a Maxterm Boolean Expression 98
+4-3Truth Tables and Boolean Expressions 99
+4-4Sample Problem 103
+4-5Simplifying Boolean Expressions 105
+4-6Boolean Algebra 106
+4-7Karnaugh Maps 114
+4-8Karnaugh Maps with Three Variables 115
+4-9Karnaugh Maps with Four Variables 117
+4-10More Karnaugh Maps 118
+4-11A Five-Variable Karnaugh Map 119
+4-12Using NAND Logic 120
+4-13Computer Simulations: Logic Converter 122
+4-14Solving Logic Problems: Data Selectors 126
+4-15Programmable Logic Devices (PLDs) 130
+4-16Using De Morgan’s Theorems 138
+page vi
+4-17Solving a Logic Problem (BASIC Stamp Module) 140
+Summary 145
+Correlated Experiments 146
+Chapter Review Questions 146
+Critical Thinking Questions 150
+Answers to Self-Tests 150
+Chapter 5 IC Specifications and Simple Interfacing 155
+5-1Logic Levels and Noise Margin 155
+5-2Other Digital IC Specifications 160
+5-3MOS and CMOS ICs 165
+5-4Interfacing TTL and CMOS with Switches 167
+5-5Interfacing TTL and CMOS with LEDs 171
+5-6Interfacing TTL and CMOS ICs 175
+5-7Interfacing with Buzzers, Relays, Motors, and Solenoids 179
+5-8Optoisolators 182
+The NOR Gate as a Universal Gate 59
+3-10Gates with More Than Two Inputs 63
+3-11Using Inverters to Convert Gates 65
+3-12Practical TTL Logic Gates 68
+3-13Practical CMOS Logic Gates 71
+3-14Troubleshooting Simple Gate Circuits 75
+3-15IEEE Logic Symbols 77
+3-16Simple Logic Gate Applications 79
+3-17Logic Functions Using Software (BASIC Stamp Module) 83
+Summary 88
+Correlated Experiments 89
+Chapter Review Questions 89
+Critical Thinking Questions 92
+Answers to Self-Tests 95
+Chapter 4 Combining Logic Gates 96
+4-1Constructing Circuits from Boolean Expressions 97
+4-2Drawing a Circuit from a Maxterm Boolean Expression 98
+4-3Truth Tables and Boolean Expressions 99
+4-4Sample Problem 103
+4-5Simplifying Boolean Expressions 105
+4-6Boolean Algebra 106
+4-7Karnaugh Maps 114
+4-8Karnaugh Maps with Three Variables 115
+4-9Karnaugh Maps with Four Variables 117
+4-10More Karnaugh Maps 118
+4-11A Five-Variable Karnaugh Map 119
+4-12Using NAND Logic 120
+4-13Computer Simulations: Logic Converter 122
+4-14Solving Logic Problems: Data Selectors 126
+4-15Programmable Logic Devices (PLDs) 130
+4-16Using De Morgan’s Theorems 138
+page vi
+4-17Solving a Logic Problem (BASIC Stamp Module) 140
+Summary 145
+Correlated Experiments 146
+Chapter Review Questions 146
+Critical Thinking Questions 150
+Answers to Self-Tests 150
+Chapter 5 IC Specifications and Simple Interfacing 155
+5-1Logic Levels and Noise Margin 155
+5-2Other Digital IC Specifications 160
+5-3MOS and CMOS ICs 165
+5-4Interfacing TTL and CMOS with Switches 167
+5-5Interfacing TTL and CMOS with LEDs 171
+5-6Interfacing TTL and CMOS ICs 175
+5-7Interfacing with Buzzers, Relays, Motors, and Solenoids 179
+5-8Optoisolators 182
+5-9Interfacing with Servo and Stepper Motors 185
+5-10Using Hall-Effect Sensors 193
+5-11Troubleshooting Simple Logic Circuits 200
+5-12Interfacing the Servo (BASIC Stamp Module) 201
+Summary 204
+Correlated Experiments 205
+Chapter Review Questions 205
+Critical Thinking Questions 209
+Answers to Self-Tests 210
+Chapter 6 Encoding, Decoding, and Seven-Segment Displays 212
+6-1The 8421 BCD Code 212
+6-2The Excess-3 Code 214
+6-3The Gray Code 215
+6-4The ASCII Code 218
+6-5Encoders 219
+6-6Seven-Segment LED Displays 221
+6-7Decoders 224
+6-8BCD-to-Seven-Segment Decoder/Drivers 225
+6-9Liquid-Crystal Displays 229
+6-10Using CMOS to Drive an LCD Display 234
+6-11Vacuum Fluorescent Displays 237
+6-12Driving a VF Display 240
+6-13Troubleshooting a Decoding Circuit 243
+Summary 245
+Correlated Experiments 246
+Chapter Review Questions 246
+Critical Thinking Questions 249
+Answers to Self-Tests 250
+Chapter 7 Flip-Flops 252
+7-1The R-S Flip-Flop 252
+7-2The Clocked R-S Flip-Flop 255
+7-3The D Flip-Flop 257
+7-4The J-K Flip-Flop 259
+7-5IC Latches 263
+7-6Triggering Flip-Flops 265
+7-7Schmitt Trigger 267
+7-8IEEE Logic Symbols 268
+7-9Application: Latched Encoder-Decoder System 270
+Summary 273
+Correlated Experiments 274
+Chapter Review Questions 274
+Critical Thinking Questions 275
+Answers to Self-Tests 276
+Chapter 8 Counters 278
+8-1Ripple Counters 278
+Mod-10 Ripple Counters 281
+8-3Synchronous Counters 282
+8-4Down Counters 283
+8-5Self-Stopping Counters 285
+8-6Counters as Frequency Dividers 286
+8-7TTL IC Counters 288
+8-8CMOS IC Counters 292
+8-9A Three-Digit BCD Counter 296
+8-10Counting Real-World Events 300
+8-11Using a CMOS Counter in an Electronic Game 304
+8-12Using Counters—An Experimental Tachometer 307
+8-13Troubleshooting a Counter 311
+Summary 314
+Correlated Experiments 314
+Chapter Review Questions 315
+Critical Thinking Questions 318
+Answers to Self-Tests 319
+page vii
+Chapter 9 Shift Registers 321
+9-1Serial-Load Shift Registers 323
+9-2Parallel-Load Shift Registers 324
+9-3A Universal Shift Register 327
+9-4Using the 74LS194 IC Shift Register 329
+9-5An 8-Bit CMOS Shift Register 331
+9-6Using Shift Registers: Digital Roulette 333
+9-7Troubleshooting a Simple Shift Register 338
+Summary 340
+Correlated Experiments 340
+Chapter Review Questions 340
+page viii
+Critical Thinking Questions 342
+Answers to Self-Tests 343
+Chapter 10 Arithmetic Circuits 345
+10-1Binary Addition 345
+10-2Half Adders 347
+10-3Full Adders 348
+10-43-Bit Adders 350
+10-5Binary Subtraction 351
+10-6Parallel Subtractors 353
+10-7IC Adders 355
+10-8Binary Multiplication 358
+10-9Binary Multipliers 360
+10-102s Complement Notation, Addition, and Subtraction 363
+10-112s Complement Adders/Subtractors 368
+10-12Troubleshooting a Full Adder 370
+Summary 372
+Correlated Experiments 372
+Chapter Review Questions 372
+Critical Thinking Questions 373
+Answers to Self-Tests 374
+Chapter 11 Memories 377
+11-1Overview of Memory 378
+11-2Random-Access Memory (RAM) 381
+11-3Static RAM ICs 383
+11-4Using a SRAM 386
+11-5Read-Only Memory (ROM) 388
+11-6Using a ROM 391
+11-7Programmable Read-Only Memory [PROM] 393
+11-8Nonvolatile Read/Write Memory 397
+11-9Memory Packaging 400
+11-10Computer Bulk Storage Devices 403
+11-11Digital Potentiometer: Using NV Memory 410
+Summary 414
+Correlated Experiments 415
+Chapter Review Questions 415
+Critical Thinking Questions 417
+Answers to Self-Tests 417
+Chapter 12 Simple Digital Systems 419
+12-1Elements of a System 419
+12-2A Digital System on an IC 422
+12-3Digital Games 423
+12-4The Digital Clock 425
+12-5The LSI Digital Clock 429
+12-6The Frequency Counter 434
+12-7An Experimental Frequency Counter 439
+12-8LCD Timer with Alarm 441
+12-9Simple Distance Sensing 447
+12-10JTAG/Boundary Scan 453
+Summary 456
+Correlated Experiments 456
+Chapter Review Questions 456
+Critical Thinking Questions 458
+Answers to Self-Tests 459
+Chapter 13 Computer Systems 461
+13-1The Computer 461
+13-2The Microcomputer 463
+13-3Microcomputer Operation 466
+13-4Microcomputer Address Decoding 470
+13-5Data Transmission 473
+13-6Detecting Errors in Data Transmissions 477
+13-7Data Transmission in a Computer System 480
+13-8Programmable Logic Controllers 485
+13-9Microcontrollers 489
+The BASIC Stamp Microcontroller Modules 491
+13-11Digital Signal Processing 498
+13-12DSP in a Digital Camera 502
+13-13Microcontroller: Photo Input and Servo Motor Output 504
+Summary 509
+Correlated Experiments 509
+Chapter Review Questions 510
+Critical Thinking Questions 512
+Answers to Self-Tests 513
+Chapter 14 Connecting with Analog Devices 515
+14-1D/A Conversion 516
+14-2Operational Amplifiers 517
+14-3A Basic D/A Converter 518
+14-4Ladder-Type D/A Converters 520
+14-5An A/D Converter 522
+14-6Voltage Comparators 524
+14-7An Elementary Digital Voltmeter 526
+14-8Other A/D Converters 528
+14-9A/D Converter Specifications 532
+14-10An A/D Converter IC 533
+14-11Digital Light Meter 536
+14-12Digitizing Temperature 539
+Summary 541
+Correlated Experiments 541
+Chapter Review Questions 541
+Critical Thinking Questions 543
+Answers to Self-Tests 544
+Appendix A Solder and the Soldering Process 546
+Appendix B 2s Complement Conversions 551
+Glossary of Terms and Symbols 552
+Index 566

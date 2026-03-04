@@ -1,0 +1,180 @@
+Preface xi
+Acknowledgement xv
+List of Figures xvii
+List of Tables xxix List of Abbreviations xxxi 1 Introduction 1
+11 Objectives  1
+111 Equationrepresentation  1
+112 Hardware platform implementation  3
+113 Sequential design  4
+114 Data path components 6
+115 Backend lectures  6
+12 Analog vs Digital 7
+13 Digital Design 11
+131 Levels of digital design 12
+132 What do digital designers do?  13
+2 Numeral Systems and BCD codes 17
+21 Introduction 18
+211 Unary numeral systems 18
+212 The positional numeral system, or the place-value system  19
+2121 Binary numbers  19
+2122 Hexadecimal numbers  20
+2123 Octalnumbers  20
+2124 Converting from decimal to different bases 21
+2125 Converting from one arbitrary base (p) to anotherarbitrarybase(q)  22
+22 Addition and Subtraction in the Positional Numeral System  24
+23 Negative Numbers in Binary  26
+231 Signed magnitude  26
+232 The 1’s complement  28
+2321 Addition in the 1’s complement  30
+2322 Subtraction in the 1’s complement  31
+233 The2’scomplement  32
+2331 Addition in the 2’s complement  34
+2332 Subtraction in the 2’s complement  35
+24 Strings of Bits and Binary-Coded Decimal Representations  36
+241 The8421BCDcode  36
+242 The 2421, 631-1, 84-2-1, and Excess-3 BCD codes  38
+243 Thebiquinarycode  39
+244 Thegraycode 39
+245 BCDsummary  43
+25 More on Number Systems  44
+26 ConclusionandKeyPoints  46
+3 Boolean Algebra and Logic Gates 51
+31 Motivation 52
+32 HuntingtonPostulates 52
+33 Basic Theorems of Boolean Algebra  53
+331 Basic postulates with 0 and 1 53
+332 Idempotent laws  54
+333 The Law of involution  54
+334 Complementarity laws  54
+335 Commutative laws  55
+336 Associative laws  55
+337 Distributive laws  55
+338 DeMorgan’slaws  56
+34 Duality  59
+341 What you should know from duality  60
+35 Logic Gates for Implementation of Boolean Networks  60
+351 AND,OR,andNOT  60
+352 Implicantgates  61
+353 Otherlogicgates  62
+354 Equivalentgates  65
+355 Conceptofcompleteness  67
+36 CMOSGates  67
+37 General Complementary Switching Network  70
+38 Conclusion  71
+39 KeyPoints 72
+4 Timing Diagrams 79
+41 NotionofTimingDelayinaCircuit  80
+42 DefinitionofPropagationDelay  82
+43 TimingDiagramsofaGatedLogic  84
+44 The Ring Oscillator: Good Use of Delays  86
+45 Glitches and Hazards: Bad Effects Due to Unequal Path Delays 89
+451 Correction of the static-1 hazard  90
+46 ConclusionandKeyPoints  93
+5 Combinational Logic Design Techniques: Part I 99
+51 Designing a Digital System from a Problem Statement    100
+511 Stairwelllampproblem 100
+512 BCD to seven-segment converter  107
+513 Eventdetector  110
+52 ConclusionandKeyPoints  111
+6 Combinational Logic Design Techniques: Part II 115
+61 MajorityGateDesign  116
+611 SOPimplementation  117
+612 POSimplementation  119
+613 Self-duality 120
+62 Why Different Representations: Two-Level Logic ImplementationStyles  121
+621 SOPrepresentations  121
+622 POSrepresentations  122
+623 Compatible representations for CMOS design  122
+63 HardwareDescriptionLanguages 123
+631 Majority gate and stairwell lamp verilog Implementation 125
+632 Full adder verilog implementation  126
+633 Ripplecarryadder  126
+64 ConclusionandKeyPoints  127
+7 Combinational Logic Minimization 135
+71 Representation for Minimization: Summarization  135
+711 Intuitivedesignapproach 136
+712 Booleanminimization  136 
+72 Graphical Method: The Karnaugh Map 
+137 73 Three-and Four-Variable Karnaugh Maps for Logic Circuits 139
+74 Minimizing with Four-Variable K-maps 142
+741 Formaldefinitions 143
+742 Example 1: detailed illustration of minimization 743
+Example 2: prime implicant definition reinforcement 146
+744 Example 3: dealing with “Don’t cares”  146 
+75 ConclusionandKeyPoints  149
+8 Combinational Building Blocks 155
+81 Decoders  55
+811 Implementation of larger-bit decoders  156
+812 Using decoders to implement boolean functions    158
+8121 Example1  58
+8122 Example2  58
+82 Multiplexers 60
+821 Implementation of larger-bit multiplexers  62
+822 Using multiplexers to implement boolean functions  163
+8221 Example1  163
+8222 Example2  167
+83 MSIBuildingBlocks  167
+831 Decoders  167
+8311 The 74139 decoder  167
+8312 The 74138 Decoder  170
+832 Tri-statebuffers 170
+8321 Application  171
+8322 The 74541 three-state driver  173 
+833 Encoders  173
+8331 The 74148 priority encoder  174
+8332 Verilog implementation  176 
+834 Multiplexers  178
+835 Paritycircuits  178
+836 Comparisoncircuits  181
+8361 Equality  181
+8362 Greater than and less than  182
+8363 The 74682 magnitude comparator IC    182
+84 Conclusion  183
+85 KeyPoints 183
+9 Foundations of Sequential Design: Part I 191
+91 TaxonomyofSequentialModels  191
+911 Themealymachine 191
+912 Themooremachine 193
+92 Flip-Flops 193
+921 Operation of flip-flops and their applications  193
+922 Classification of flip-flops  194
+9221 S-Rflip-flop  194
+92211 Characteristic table  194
+92212 Statediagram  196
+9222 Tflip-flop  197
+92221 Characteristic table  197
+92222 Statediagram  198
+9223 J-K flip-flop1 198
+92231 Characteristic table  199
+92232 Statediagram  200
+9224 Dflip-flop  200
+93 ConclusionandKeyPoints  201
+10 Foundations of Sequential Design: Part II 207
+101 Gate Implementation of Flip-Flops and Timing Diagrams   208
+1011 Simple inverters without feedback  208
+1012 Single inverter with feedback (oscillator)  208
+1013 Two inverters with feedback (flip-flop)  209
+1014 S-Rlatch  210
+10141 S-R latch timing diagram  211
+10142 Problems with the S-R latch  213
+102ClockedFlip-Flops  214
+1021 ClockedS-Rflip-flop 215
+1022 ClockedJ-Kflip-flop  216
+10221 J-K flip-flop timing diagram  217
+10222 Problems with the J-K flip-flop  218
+1023 Solutions to the race-around problem  219
+10231 Narrowing the clock pulse width  220
+10232 Separating the inputs and outputs of the flip-flop  222
+102321 Master-Slave D flip-flop  223
+102322 Master-Slave J-K flip-flop  224
+1024 IEEE symbols and flip-flop types  228
+1025 Timing analysis of flip-flop problems  230
+10251 Example 1: timing diagram of a J-K flip-flop 230
+10252 Example 2: timing diagram of J-K flip-flops configured as a counter/binary divider 231
+10253 Example 3: Timing diagram of D flip-flops configured as a ring counter  232
+1026 Effectofthewidthofthesetpulse  233
+1027 Dealing with metastability and asynchronous inputs  234
+103ConclusionandKeyPoint 235
+104ProblemsonFlip-Flops 236
+Index 243
+About the Authors 247

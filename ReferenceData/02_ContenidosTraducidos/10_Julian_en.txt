@@ -1,0 +1,165 @@
+Editor's Message IX
+About the author XI
+Preface XIX
+1 Micromanufacturing and technology 1
+11 Introduction 1
+12 The manufacturing process 4
+121 Lithograph 5
+1211 The photolithographic process 6
+1212 Removal 7
+1213 Masks 8
+122 Oxidation 9
+1221 External factors 10
+123 Introduction of dopants 12
+1231 Diffusion 12
+1232 Implantation of ions 14
+124 Deposition 15
+1241 Evaporation 16
+1242 Sputtering 16
+1243 Chemical vapor deposition 16
+1244 E p ita x is 19
+125 Simplified processes 19
+1251 Manufacture of a resistor 19
+1252 Manufacturing of an NMOS 20 transistor
+13 Geometric design rules 22
+14 Technological processes 26
+141 P-w e l l process 26
+142 Twin-tub process 27
+143 Silicon on insulator (SOI) 28
+144 Inclusion of bipolar transistors 30
+XIV general index
+145 3D Processes 34
+15 F a l la s 34
+151 Performance o y i e l d 36
+152 Margins 36
+2 Devices 39
+21 Interconnections 39
+211 Parasitic capabilities 40
+212 Parasitic resistances 43
+213 Parasitic inductances 44
+214 Driver models 45
+2141 Lumped parameter models 45
+2142 Distributed Parameter Models 46
+22 The semiconductor junction 50
+221 DC 51 Behavior
+222 Incremental linear model 51
+223 AC Model 53
+2231 Investment capacity 53
+2232 Direct capacity 54
+23 The M O S transistor 54
+231 D C Model 55
+2311 NMOS 55
+2312 PMOS 57
+232 Incremental linear model 60
+233 Model of A C 61
+2331 Capacity dz g a te 61
+2332 Joint capacity s 62
+2333 Overlap capacity 64
+3 CMOS Combinational Logic Circuits 67
+31 Preliminary concepts 67
+311 The transistor as a key 69
+32 CMOS logic gates 71
+321 Conceptual description 72
+3211 The reversing gate 72
+3212 The gate N A N D 74
+3213 The gate Ñ O R 75
+3214 Passage and transmission gates 75
+3215 Three-state inverter 76
+322 DC 77 Features
+3221 The reversing gate 77
+3222 NAND gate 85
+3223 The NOR 91 gate
+3224 Passage and transmission gates 95
+3224I 95 Pitch NMOS Transistor
+322A2 96 Pitch PMOS Transistor
+32243 Transmission Gate 98
+323 Complex gates 101
+33 Other logical styles103
+331 Pseudo-nMOS logic 103
+332 Dynamic logic 106
+333 Step gate logic 109
+3331 Complementary Pass Transistor Logic (CPL) 111
+4 Physical design of gates 113
+41 Freehand diagrams 114
+42 Basic gates116
+421 The investor r116
+422 NAND and NOR gates 117
+423 Transmission gates 118
+43 Com p le ja s gates 119
+431 Euler path methodology 119
+432 Weinberger Methodology 122
+433 Standard cells 122
+44 Good habits of the y o u t 123
+5 Dynamics of combinational circuits 127
+51 Transition times 129
+511 Non-immediate entry transitions134
+512 The transistor as a resistor 134
+513 Computation of capabilities138
+5131 Input capacity 138
+5132 Safety capacity 140
+52 CMO S142 Gates
+521 The reversing gate143
+522 NAND145 gate
+523 The NOR gate R147
+53 Sizing148
+531 Chain of investors151
+5311 Choice of number of stages 153
+532 Branching effect155
+54 Power Dissipation 158
+541 Static dissipation 158
+542 Dynamic dissipation 159
+543 Short-circuit current dissipation 161
+6 Sequential circuits 165
+61 Latch and static registers167
+611 Definitions 167
+612 Temporary requirements 168
+6121 Records168
+6122 L atch 170
+613 Regeneration and bistability 171
+6131 Regenerative property 171
+6132 Principle of bistability172
+614 C M O S Implementations 175
+6141 The tch 175
+6142 Registry 179
+61421 Non-ideal clock signals 180
+6143 Flip-flop S R 183
+62 Memories 186
+621 ROM memories 187
+622 Static RAM memories (SRAM) 190
+6221 Read operation192
+6222 Write operation194
+623 Dynamic RAM memories (DRAM) 196
+6231 Cell 3 T 197
+6232 Cell I T 198
+624 Decoders201
+6241 File decoders 201
+6242 Column decoders 202
+63 Circuits not b ie s ta b le s203
+631 Oscillators or astables 203
+632 Monostable circuits 206
+633 Schmitt trigger circuit207
+A Elmore Method 209
+B Design flow 211
+C Practical aspects 213
+Cl External connections: P a d s 213
+C2 Latch-up215
+C 3 Internal connections: power and clock 216
+C31 Power 216
+C 32 Clock 219
+D SPICE 223 Models
+D l Sources 223
+D ll Independent sources223
+D12 Dependent sources223
+D2 Passive devices 224
+D21 Resistors224
+D22 Capacitors224
+D23 Inductors224
+D24 Mutual inductors 224
+D3 Semiconductor devices 224
+D31 Diode 225
+D32 Bipolar Transistors 226
+D33 MOS Transistors 227
+D331 Level 1 Model 227
+D332 Level 2 and 3 Models 228
+D333 Level 4 Model 230
+Circuits

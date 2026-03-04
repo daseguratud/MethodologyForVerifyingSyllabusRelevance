@@ -1,0 +1,242 @@
+CAPÍTULO 1
+Álgebra de variables lógicas 1
+11 Variable lógica  2
+12 Álgebra de Boole 4
+13 Teoremas básicos del álgebra de Boole  5
+14 Funciones booleanas  7
+15 Funciones lógicas utilizadas en electrónica digital  9
+151 Función AND (•)  10
+152 Función OR (+) 10
+153 Función inversión o NOT (􀀐)  11
+154 Función NAND 11
+155 Función NOR 12
+156 Función OR exclusiva XOR (􀂆)  13
+157 Función NOR exclusiva (XNOR)  14
+16 Circuitos combinacionales  15
+17 Simplificación de funciones lógicas 16
+171 Simplificación algebraica  17
+172 Tablas de Karnaugh  17
+18 Funciones incompletas  20
+Ejercicios  21
+CAPÍTULO 2
+Sistemas numéricos y aritmética binaria  23
+21 Sistemas numéricos  24
+22 Sistema binario 24
+23 Sistema hexadecimal y octal  26
+24 Códigos numéricos binarios  29
+25 Códigos alfanuméricos 30
+X ELECTRÓNICA DIGITAL
+26 Códigos detectores de error  33
+27 Códigos correctores de error 34
+28 Operaciones aritméticas con números binarios  35
+281 Suma binaria 36
+282 Resta binaria 37
+283 Representación de los números negativos  38
+284 Multiplicación y división binarias 40
+29 Operaciones aritméticas con otros códigos 42
+291 Suma BCD  43
+292 Resta BCD 43
+293 Multiplicación y división BCD  45
+294 Suma hexadecimal  46
+295 Resta hexadecimal 47
+Ejercicios 49
+CAPÍTULO 3
+Circuitos combinacionales aritméticos  53
+31 Diseño de circuitos combinacionales 54
+32 Sumador binario 54
+321 Semisumador (Half-Adder) 54
+322 Sumador completo (Full-Adder) 56
+323 Circuito sumador completo integrado 59
+33 Sumador paralelo  60
+331 Sumador paralelo con llevada en serie 60
+332 Sumador paralelo con llevada en paralelo  61
+333 Sumador paralelo con llevada en paralelo aplicado a grupos  65
+334 Circuitos sumadores integrados  66
+34 Sumador BCD 71
+35 Restador binario 74
+351 Restador completo 74
+352 Restador binario de varios bits 77
+353 Circuitos restadores integrados  79
+36 Sumador/restador  80
+37 Unidad aritmético lógica 81
+371 Unidades aritmético-lógicas integradas  84
+38 Unidad de arrastre anticipado  86
+Ejercicios 88
+CAPÍTULO 4
+Circuitos combinacionales lógicos 91
+41 Generador/detector de paridad 92
+411 Bit de paridad  92
+412 Circuito generador/detector de paridad: 74ls280 94
+42 Comparadores binarios de magnitud  95
+421 Comparadores integrados: 74ls85 96
+CONTENIDO XI
+43 Multiplexor 99
+431 Circuitos integrados multiplexores 102
+432 Extensión del multiplexor 103
+433 Utilización del multiplexor para la generación de funciones  104
+44 Codificadores  107
+441 Codificadores de prioridad  109
+442 Codificadores de prioridad integrados 111
+443 Ampliación de los codificadores de prioridad 112
+45 Decodificadores 114
+451 El decodificador como demultiplexor de datos 115
+452 Circuitos integrados decodificadores/demultiplexores  116
+453 Ampliación del decodificador/demultiplexor 117
+454 Conjunto multiplexor-demultiplexor para transferencia de datos 118
+455 El decodificador como generador de funciones lógicas 119
+46 Conversores de código  120
+461 Conversor BCD a 7 segmentos 121
+462 Conversor BCD a binario y binario a BCD 122
+47 Bus de datos  123
+471 Salida triestado  124
+472 Buffer triestado  124
+473 Transceivers 125
+Ejercicios  127
+CAPÍTULO 5
+Circuitos integrados digitales 129
+51 Clasificación de los circuitos integrados 130
+511 Según el tipo de señales que manejan  130
+512 Según la construcción interna 130
+513 Según el material del substrato 131
+514 Según el número de transistores  132
+515 Según la resolución utilizada en el diseño de dispositivos 132
+516 Según la metodología de diseño  134
+517 Según el tipo de dispositivos activos utilizados  136
+518 Según la forma de construir las puertas digitales  137
+52 Nomenclatura de los circuitos integrados  139
+521 Encapsulado 142
+53 Características eléctricas  143
+531 Tensión de alimentación 144
+532 Tensiones lógicas de entrada y salida 145
+533 Margen de ruido 146
+534 Corrientes de entrada y salida 147
+535 Tiempos de conmutación 149
+536 Potencia disipada  150
+54 Consideraciones especiales  151
+541 La electricidad estática  151
+542 Desacoplo de alimentaciones  151
+543 Fenómeno de latch-up  152
+XII ELECTRÓNICA DIGITAL
+55 Entradas y salidas digitales especiales 154
+551 Buffer  154
+552 Schmitt trigger o disparador schmitt 154
+553 Salida colector-abierto  155
+56 Conexión de circuitos digitales 156
+561 Resistencias de pull-up y pull-down  156
+562 Conexión de familias lógicas distintas 157
+563 Conexión de circuitos a diferentes tensiones de alimentación 158
+Ejercicios 161
+CAPÍTULO 6
+Circuitos secuenciales 165
+621 Báscula RS 166
+611 Báscula RS con puertas NOR  166
+612 Báscula RS con puertas NAND  169
+613 Circuitos integrados y aplicaciones 170
+62 Flip-flop síncrono  173
+621 Flip-flop RS síncrono 173
+622 Flip-flop RS síncrono con entradas asíncronas 175
+623 Flip-flop RS maestro-esclavo 177
+63 Otros flip-flops 179
+631 Flip-flop D disparado por nivel 179
+632 Flip-flop D disparado por flanco 180
+633 El flip-flop D en los circuitos integrados  183
+634 El flip-flop T  184
+635 El flip-flop JK  185
+635 El flip-flop JK en los circuitos integrados  189
+64 Parámetros característicos de los flip-flops  190
+65 Circuitos secuenciales 191
+651 Tipos de circuitos secuenciales  192
+652 Tipos de circuitos secuenciales síncronos 194
+66 Síntesis de circuitos secuenciales síncronos  195
+67 Análisis de circuitos secuenciales síncronos  205
+68 Otros métodos de diseño 208
+69 Diseño de sistemas complejos  210
+610 Consideraciones generales de diseño 217
+Ejercicios 219
+CAPÍTULO 7
+Registros y contadores 225
+71 Registros  226
+711 Registros de almacenamiento 226
+712 Registros de desplazamiento 228
+72 Contadores  232
+721 Contador asíncrono binario 233
+722 Contador asíncrono decimal 234
+723 Contador síncrono binario 236
+724 Contador síncrono decimal  238
+CONTENIDO XIII
+725 Contador síncrono reversible 242
+726 Contadores con protección antibloqueo  246
+727 Contadores síncronos basados en registros de desplazamiento  247
+728 Contadores digitales integrados 249
+729 Ampliación de contadores  250
+7210 Aplicaciones de registros y contadores  251
+Ejercicios  255
+CAPÍTULO 8
+Lógica programable por el usuario  257
+81 Circuitos lógicos programables 258
+82 Ventajas e inconvenientes de los circuitos lógicos programables  259
+821 Diseño con circuitos estándar frente a diseño con circuitos
+lógicos programables  259
+822 Diseño con circuitos de aplicación específica (ASIC) frente
+a diseño con circuitos programables 261
+83 Circuitos lógicos programables de tipo PLD  264
+831 Estructura PROM  264
+832 Estructura PLA  265
+833 Estructura PAL  266
+834 Estructura de entrada/salida 267
+835 Estructura de los PLDs actuales  270
+84 Circuitos lógicos programables de tipo FPGA  271
+85 Comparación PLD-FPGA  274
+86 Técnicas de diseño con circuitos lógicos programables  276
+861 Diseño lógico 277
+862 Compilación 277
+863 Simulación  277
+864 Programación 278
+87 Conclusiones  278
+Ejercicios  279
+CAPÍTULO 9
+Memorias  281
+91 Memorias de acceso aleatorio (RAM)  282
+911 Características generales 282
+912 Memorias de lectura/escritura  283
+913 Memorias de sólo lectura (ROM) 295
+914 Memorias RAM no volátiles (NVRAM) 298
+915 Agrupación de memorias 299
+92 Memorias de acceso secuencial  301
+921 FIFOs  301
+922 LIFOs 302
+93 Aplicaciones  303
+931 LUTs (Look Up Tables) 303
+932 Sincronización de sistemas 303
+Ejercicios  305
+XIV ELECTRÓNICA DIGITAL
+CAPÍTULO 10
+Convertidores analógico-digital, digital-analógicos  307
+101 El teorema de Nyquist 308
+102 Convertidor digital-analógico (DAC) 308
+1021 Convertidor d/a con resistencias ponderadas 309
+1022 Convertidor d/a con red r-2r en escalera 310
+1023 Convertidor d/a en escalera invertida 311
+1024 Parámetros de los convertidores d/a 312
+103 Convertidor analógico-digital 315
+1031 Convertidor a/d con comparadores  317
+1032 Convertidor a/d de aproximaciones sucesivas  318
+1033 Convertidor a/d con contadores  319
+1034 Convertidor a/d de doble rampa 321
+1035 Convertidor a/d de ancho de rampa  322
+1036 Convertidor a/d 􀄱􀄯  323
+1037 Parámetros de los convertidores a/d 324
+Ejercicios 328
+Respuestas a los ejercicios 329
+Capítulo 1 331
+Capítulo 2 340
+Capítulo 3 345
+Capítulo 4 349
+Capítulo 5 356
+Capítulo 6 359
+Capítulo 7 373
+Capítulo 8 378
+Capítulo 9 379
+Capítulo 10 381
+Bibliografía 383
+Índice analítico  385

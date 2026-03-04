@@ -1,0 +1,91 @@
+Introduction xii
+How to use this book?xv
+Explanatory note xv
+For Professor xv
+For the student xvi
+Lesson 1 The most basic 1
+What is Boolean algebra?1
+What is vhdl hardware description language?1
+Mathematical foundations 2
+Logical constants 2
+Logical variables 3
+Signals (signal) 3
+Operators 4
+Lesson 2 Number Systems 5
+decimal system 5
+Binary system 6
+Octal system 7
+Hexadecimal system 8
+Workshop 10
+Lesson 3 Conversions 13
+Converting from binary to octal 13
+Octal to Binary 14 Conversion
+Binary to Hexadecimal Conversion 14
+Workshop 16
+
+Digital Logic Fundamentals VIII with VHDL
+Lesson 4 Organizing logical values 19
+Truth tables 19
+Boolean Algebra Functions 19
+Representation of numbers with sign 20
+Lesson 5 vhdl - fundamental components 21
+Entity (entity) 22
+Architecture (architecture) 22
+Lesson 6 Sentences 25
+Concurrent 25
+Coditionals 26
+Cycles 28
+Lesson 7 Xilinx development software – ise 31
+Creating a project in xilinx ise 32
+Ise-design flow 36
+Synthesize (synthesize) 36
+Register Transfer Level (rtl) 36
+Design implementation (implementation design) 37
+Generation of the programming file - fpga 38
+Simulation and verification (test bench) 38
+Lesson 8 Logic Gates i 41
+Lesson 9 Logic Gates ii 45
+Workshop 50
+Lesson 10 Logic Gates iii 51
+Workshop 54
+Lesson 11 Logic Gates iv 55
+Lesson 12 Operators and hierarchy 59
+Workshop 61
+Lesson 13 Logic Functions and Circuits 63
+Complete example 63
+Workshop 67
+Lesson 14 Simplifying functions i 69
+Example of function 70
+Original function 74
+Simplified function 75
+Original function logic circuit 75
+Workshop 75
+
+Lesson 15 Simplifying functions ii 77
+Step 1 80
+Step 2 81
+Step 3 81
+Step 4 81
+Step 5 81
+Step 6 81
+Step 7 81
+Original function 84
+Simplified function 85
+Workshop 86
+Lesson 16 Simplifying functions iii 87
+Workshop 92
+Lesson 17 Morgan's Laws i 93
+Workshop 97
+Lesson 18 Morgan's Laws II 99
+Workshop 105
+Lesson 19 Karnaugh Maps 107
+Workshop 115
+Lesson 20 Decoder 117
+Lesson 21 Encoder 121
+Lesson 22 Multiplexers 125
+Lesson 23 Demultiplexers 129
+Lesson 24 Add 133
+Lesson 25 Binary Comparators 137
+Lesson 26 Clock system (clock) 141
+Lesson 27 Flip-flop 145
+Bibliography 155

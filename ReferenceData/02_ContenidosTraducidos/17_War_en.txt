@@ -1,0 +1,226 @@
+Chapter 1:​ Introduction to Logic Gates
+Integrated Circuits, or ICs
+Gate Technology
+The Main Differences Between TTL and CMOS
+Logic Families
+Fan-Out and Fan-In
+Unused Inputs
+Handling Logic ICs
+The Historical Circuits of the Logic Gates
+The Laws of Logic
+Diode-Resistor (DR) Logic
+Analysis of Diode-Resistor Circuit 1
+Analysis of Diode-Resistor Circuit 2
+Analysis of Circuit 3
+The “4000” Series
+The PLA, or Programmable Logic Array
+The Binary Number System
+Binary Numbers
+Converting from Decimal to Binary
+Converting from Binary to Decimal
+Exercise 1
+Adding and Subtracting Binary Numbers
+Worked Example
+Exercise 2
+Subtracting Binary Numbers
+Worked Example
+Exercise 3
+The Logic Gates
+The AND Gate
+The NAND Gate
+The OR Gate
+The NOR Gate
+The EXOR Gate
+The NOT Gate or Inverter
+Summary
+Chapter 2:​ Boolean Algebra
+What Is Boolean Algebra
+The Basic Concept
+The NOT Gate
+The AND and NAND Gates
+The OR and NOR Gates
+The Exclusive OR Gate, That Is, the EXOR Gate
+Deriving Boolean Expressions from Logic Circuits
+Boolean Derivation Circuit 1
+Boolean Derivation Circuit 2
+Boolean Derivation Circuit 3
+Building Logic Circuits from Boolean Expressions
+Build Logic Circuit Example 1
+Build Logic Circuit Example 2
+Build Logic Circuit Example 3
+Exercise 1
+Exercise 2
+The Laws of Boolean Algebra
+Commutative Law
+Commutative Example 1
+Commutative Example 2
+Associative Law
+Associative Law Example 1
+Associative Law Example 2
+Distributive Law
+Distributive Law Example 1
+Distributive Law Example 2
+Distribution Law Example 3
+Absorption Law
+De Morgan’s Theory
+De Morgan’s Example 1
+De Morgan’s Example 2
+De Morgan’s Examples 3
+The OR Function with NAND Gates
+Summary
+Chapter 3:​ Simplifying Boolean Expressions
+Some Fundamental Identities
+The Inverse Law
+The Identity Law
+The Null Law
+The Idempotent Law
+The OR Version of the Idempotent Law
+The OR Version of the Identity Law
+The OR Version of the Null Law
+The OR Version of the Inverse Law
+Using Boolean Algebra to Minimize Expressions
+Simplification Example 1
+Simplification Example 2
+Simplification Example 3
+Simplification Example 4
+Simplification Example 5
+Simplification Example 6
+Karnaugh Maps
+Karnaugh Map Example 1
+Using the Karnaugh Map
+Karnaugh Map Example 2
+Simplification Examples
+Simplification Example 7
+The 1st and 2nd Canonical Formats and the Minterms and Maxterms
+The 2nd Canonical Format
+Simplification Example 8
+Simplification Example 9
+Simplification Example 10
+Simplification Example 11
+Summary
+Chapter 4:​ Moving On from the NAND Gate
+The SR Latch
+The De-bounce Circuit
+The Basic SR Latch with NOR Gates
+The Indeterminate State
+The Clocked $$ \overline{S}\kern0.5em \overline{R}\kern0.5em \mathrm{Latch} $$
+The Master-Slave Clocked SR
+The JK Flip Flop
+Using the JK Flip Flop
+The D-Type Latch
+The T Latch
+The Main Configurations for the JK Flip Flop
+The JK Flip Flop
+Summary
+Chapter 5:​ Design Methods for Digital Circuits
+Combinational and Sequential Logic
+Combinational Logic
+Sequential Logic
+Representing a Digital System
+Asynchronous and Synchronous Logic Systems
+The Ripple Counter
+Design Example 1:​ The Modulo 10 Counter
+Design Example 2:​ A Non-sequential Output
+Design Example 3:​ A Synchronized Sequential Circuit
+Exercise 5.​1
+Design Example 4:​ A Synchronized Up Counter
+Exercise 5.​2
+Design Example 5:​ A Modulo 6 Binary Counter
+Determining the Inputs for the Three D-Type Latches
+The D0 Inputs
+The D1 Inputs
+The D2 Inputs
+Synopsis
+Chapter 6:​ State Example 3 A Bit Stream Monitor
+State Diagrams
+The State Diagram of the JK Flip Flop
+Creating the JK Flip Flop State Table
+Methodology for Designing Sequential Digital Logic Circuits
+State Diagram Example 1:​ The Synchronized Binary Counter
+Determining the Inputs for the Four D-Type Latches
+The D0 Input
+Exercise 1
+The D1 Input
+The D2 Input
+Exercise 2
+State Diagram Example 2:​ The Design of a Modulo 10 Binary Counter Using State Diagrams
+The State Table
+Determining the Inputs for the Four D-Type Latches
+The D0 Input
+The D1 Input
+Exercise 3
+State Diagram Example 3:​ A Bit Stream Monitor
+The D0 Inputs
+The D1 Expression
+State Diagram Example 4
+The D0 Expression
+Exercise 4
+Moore’s and Mealy Diagrams
+Summary
+Chapter 7:​ Combinational Logic
+The Tri-state Buffer
+The Half Adder Circuit
+The Design of the Full Adder Circuit
+Exercise 1
+A 3-Bit Full Adder
+The Binary Subtractor Circuit
+An Alternative Subtractor Circuit
+Subtracting by Adding Decimal Numbers
+A 4-Bit Multiplexer
+A Demultiplexer
+Digital Encoders
+Application of Digital Encoders
+The Digital Decoder
+A Seven-Segment Decoder Chip
+The Seven-Segment Display
+Common Anode Seven-Segment Display
+Common Cathode Seven-Segment Display
+Exercise 2
+Summary
+Chapter 8:​ Shift Registers and More
+The D-Type Latch
+The 4-Bit Shift Register or SISO (Serial In Serial Out)
+The PISO (Parallel In Serial Out) Register
+The PIPO (Parallel In Parallel Out) Register
+The SIPO (Serial In Parallel Out)
+The Ring Counter
+The Johnson Ring Counter
+A Frequency Divider
+The Divide by 4 Johnson Ring Counter
+The Phase Shift Across the Latches
+Summary
+Chapter 9:​ Designing Some Useful Logic Circuits
+Example 1:​ A Design Process for a Single Set of Traffic Lights
+Analysis of the Output Logic
+Example 2:​ An Alternative Single Set of Traffic Lights
+Example 3:​ Adding a Pelican Crossing
+An Egg Timer Circuit
+The SN74168
+The Practical IC We Have Looked At
+The 7400 Quad-Two-Input NAND Gate
+Counters
+The 7493 Binary Counter
+The SN74194 Multifunction Shift Register
+Summary
+Chapter 10:​ Introduction to the 555 Timer
+The 555 Timer
+The Pins of the 555 Timer
+The Timer Used as a Monostable
+The Basic Astable
+Creating a 50/​50 Duty Cycle Square Wave
+Creating a 1Hz Square Wave
+A PWM Application
+Summary
+Chapter 11:​ Using TINA 12
+What Is ECAD and TINA 12
+Running the Software
+Creating Our First Test Circuit
+Using a Binary Counter
+Using Jumper Terminals
+Creating a Macro for the 7400 IC, a Quad-Two-I/​P NAND Gate
+Using the Quad NAND 7400 Macro
+Summary
+Appendix:​ Appendix 1
+Appendix 2:​ Solutions for Exercises in the Chapters
+Appendix:​ Exercises
+Index

@@ -1,0 +1,5 @@
+En el Pensum del Programa de Ingeniería Electrónica de la Universidad Distrital [1] vigente a la fecha de 2025, se encuentra el espacio académico de Fundamentos de Circuitos Digitales [2] donde se establecen los siguientes temarios:
+•	Unidad 1: Algebra de variables lógicas.
+•	Unidad 2: Síntesis de circuitos combinacionales.
+•	Unidad 3: Análisis de circuitos sincrónicos y asincrónicos.
+•	Unidad 4: Diseño de Máquinas de Estado Finito.

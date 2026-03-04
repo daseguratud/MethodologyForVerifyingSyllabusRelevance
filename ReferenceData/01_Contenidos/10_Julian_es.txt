@@ -1,0 +1,165 @@
+Mensaje del editor IX
+Sobre el autor XI
+Prefacio XIX
+1 Microfabricación y tecnología 1
+11 Introducción 1
+12 El proceso de fabricación 4
+121 Litografía 5
+1211 El proceso fotolitográfico 6
+1212 R emo c ió n  7
+1213 Máscaras 8
+122 Oxidación 9
+1221 Factores externos  10
+123 Introducción de dopantes 12
+1231 Difu sió n 12
+1232 Implantación de io n e s  14
+124 Deposición 15
+1241 Evaporación 16
+1242 Sputtering 16
+1243 Deposición química de v a p o r  16
+1244 E p ita x is  19
+125 Procesos simplificados 19
+1251 Fabricación de un re sisto r 19
+1252 Fabricación de un transistor NMOS 20
+13 Reglas geométricas de diseño 22
+14 Procesos tecnológicos 26
+141 Proceso P-w e l l  26
+142 Proceso Twin-tub 27
+143 Silicio sobre aislante (SOI) 28
+144 Inclusión de transistores bipolares 30
+XIV índice general
+145 Procesos 3D  34
+15 F a l la s  34
+151 Rendimiento o y i e l d  36
+152 Márgenes 36
+2 Dispositivos 39
+21 Interconexiones 39
+211 Capacidades parásitas  40
+212 Resistencias parásitas 43
+213 Inductancias parásitas  44
+214 Modelos de conductores 45
+2141 Modelos de parámetros concentrados 45
+2142 Modelos de parámetros distribuidos 46
+22 La juntura semiconductora 50
+221 Comportamiento de DC  51
+222 Modelo lineal incremental 51
+223 Modelo de AC  53
+2231 Capacidad en in v e r s a  53
+2232 Capacidad en directa 54
+23 El transistor M O S  54
+231 Modelo de D C  55
+2311 NMOS 55
+2312 PMOS  57
+232 Modelo lineal incremental 60
+233 Modelo de A C  61
+2331 Capacidad dz g a te  61
+2332 Capacidad de juntura s 62
+2333 Capacidad de solapamiento 64
+3 Circuitos de lógica combinacional CMOS 67
+31 Conceptos preliminares 67
+311 El transistor como llave 69
+32 Compuertas lógicas CMOS 71
+321 Descripción conceptual 72
+3211 La compuerta inversora 72
+3212 La compuerta N A N D  74
+3213 La compuerta Ñ O R  75
+3214 Compuertas de paso y transmisión 75
+3215 Inversor de tres e s ta d o s  76
+322 Características de DC  77
+3221 La compuerta inversora 77
+3222 La compuerta NAND  85
+3223 La compuerta NOR  91
+3224 Compuertas de paso y transmisión 95
+3224I Transistor NMOS de paso  95
+322A2 Transistor PMOS de paso  96
+32243 Compuerta de transmisión  98
+323 Compuertas complejas 101
+33 Otros estilos lógicos103
+331 Lógica pseudo-nMOS 103
+332 Lógica dinámica  106
+333 Lógica de compuertas de p a s o  109
+3331 Lógica complementaria de transistores de paso (CPL)    111
+4 Diseño físico de compuertas 113
+41 Diagramas a mano alzada 114
+42 Compuertas básicas116
+421 El in v e rs o r116
+422 Compuertas NAND y NOR  117
+423 Compuertas de transmisión 118
+43 Compuertas com p le ja s 119
+431 Metodología de caminos de Euler 119
+432 Metodología de Weinberger 122
+433 Celdas estándar 122
+44 Buenos hábitos de la y o u t 123
+5 Dinámica de circuitos combinacionales 127
+51 Tiempos de transición 129
+511 Transiciones de entrada no inmediatas134
+512 El transistor como un resistor  134
+513 Cómputo de capacidades138
+5131 Capacidad de e n tr a d a  138
+5132 Capacidad de s a lid a  140
+52 Compuertas CMO S142
+521 La compuerta inversora143
+522 La compuerta NAND145
+523 La compuerta NOR R147
+53 Dimensionamiento148
+531 Cadena de inversores151
+5311 Elección del número de etapas 153
+532 Efecto de ramificación155
+54 Disipación de p o te n c ia  158
+541 Disipación estática 158
+542 Disipación dinámica 159
+543 Disipación por corriente de cortocircuito 161
+6 Circuitos secuenciales 165
+61 Latch y registros estáticos167
+611 Definiciones  167
+612 Requisitos temporales 168
+6121 Registros168
+6122 L atch 170
+613 Regeneración y biestabilidad 171
+6131 Propiedad regenerativa 171
+6132 Principio de biestabilidad172
+614 Implementaciones C M O S 175
+6141 La tch  175
+6142 R e g is tro 179
+61421 Señales de reloj no ideales  180
+6143 Flip-flop S R  183
+62 Memorias 186
+621 Memorias ROM  187
+622 Memorias RAM estáticas (SRAM) 190
+6221 Operación de lectura192
+6222 Operación de escritura194
+623 Memorias RAM dinámicas (DRAM) 196
+6231 Celda 3 T 197
+6232 Celda I T 198
+624 Decodificadores201
+6241 Decodificadores de f i l a  201
+6242 Decodificadores de columna 202
+63 Circuitos no b ie s ta b le s203
+631 Osciladores o astables  203
+632 Circuitos monoestables 206
+633 Circuito disparador de Schmitt207
+A Método de Elmore 209
+B Flujo de diseño 211
+C Aspectos prácticos 213
+Cl Conexiones externas: P a d s 213
+C2 Latch-up215
+C 3 Conexiones internas: alimentación y reloj 216
+C31 Alimentación 216
+C 32 Reloj 219
+D Modelos de SPICE 223
+D l Fuentes 223
+D ll Fuentes independientes223
+D12 Fuentes dependientes223
+D2 Dispositivos pasivos 224
+D21 Resistencias224
+D22 Capacitores224
+D23 Inductores224
+D24 Inductores m u tu o s  224
+D3 Dispositivos semiconductores 224
+D31 Diodo  225
+D32 Transistores bipolares  226
+D33 Transistores MOS  227
+D331 Modelo de Nivel 1  227
+D332 Modelos de Nivel 2 y 3 228
+D333 Modelo de Nivel 4  230
+Circuitos

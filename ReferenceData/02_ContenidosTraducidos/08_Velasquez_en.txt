@@ -1,0 +1,625 @@
+Presentation
+PART 1. Logical families
+TTL logic gates
+Introduction
+Structure of a two-input TTL NAND gate
+Output loadability of a TTL inverting gate
+Analytical estimation
+Analysis using PSpice
+Transfer Features
+Standard TTL inverting gate
+Reversing door (CI 7404)
+NAND gate (IC 7400)
+Floating inputs on TTL gates
+The potential risk of floating entries
+What to do with unused tickets?
+Temporal characterization
+Characteristic parameters
+The ring oscillator
+Components
+Experimental verification
+Obtaining truth tables
+NOT logic function (inversion)
+NAND logic function
+NOR logic function
+Output loadability
+Estimation of the output resistance of a device
+Transfer characteristics of an inverter
+Transfer characteristic vs(ve)
+Transfer characteristic ie(ve)
+Floating inputs on a NAND gate (74x00 IC)
+Temporal characterization: ring oscillator
+Exercises and reinforcement questions
+CMOS logic gates
+Introduction
+Structure of a two-input CMOS NAND gate
+Output loadability of a CMOS NAND gate
+Preliminary considerations
+Analysis using PSpice
+
+Case study 1
+Case study 2
+Case study 3
+CI 4011B Loadability
+Transfer Features
+Floating inputs on CMOS gates
+Components
+Experimental verification
+Output loadability
+Transfer characteristics of a CMOS inverter
+Transfer characteristic vs(ve)
+Transfer characteristic ie(ve)
+Floating inputs in a NAND gate (CI 4011B)
+Exercises and reinforcement questions
+PART 2. Combinational logic
+Basic 2 to 4 Binary Decoder
+Introduction
+Basic 2 to 4 Binary Decoder
+Decoding with outputs active at high level
+Decoding with outputs active at low level
+Simulation
+Decoding with outputs active at high level
+Decoding with outputs active at low level
+Components
+Experimental verification
+Decoding with outputs active at high level
+Decoding with outputs active at low level
+Exercises and reinforcement questions
+Optimal synthesis of combinational circuits
+Introduction
+Synthesis in the form of sum of products (AND-OR)
+Synthesis in the form of a product of sums (OR-AND)
+NAND-NAND two-level synthesis
+Two-level NOR-NOR synthesis
+Multilevel synthesis with two-input NAND gates
+Transient analysis: random phenomena
+Types of random phenomena
+Random function phenomena
+Elimination of random phenomena
+Simulation
+Analysis in steady state
+Transient analysis
+Components
+Experimental verification
+Exercises and reinforcement questions
+Basic 4 to 2 Binary Encoder
+Introduction
+Basic 4 to 2 binary encoder without priority
+Encoding with active inputs at high level
+Encoding with active low level inputs
+Basic 4 to 2 Binary Encoder with Priority
+Encoding with active inputs at high level
+Encoding with active low level inputs
+Simulation
+4 to 2 encoder circuits without priority
+Encoding with active inputs at high level
+Encoding with active low level inputs
+4 to 2 priority encoder circuits
+Encoding with active inputs at high level
+Encoding with active low level inputs
+Components
+Experimental verification
+Non-priority coding and active inputs at low level
+Encoding with priority and active inputs at low level
+Exercises and reinforcement questions
+Comparator, parity and code converter circuits
+Introduction
+Comparator arithmetic circuits
+Generator circuit and parity detector circuit
+Code converter circuits
+Simulation
+Comparator circuit
+Parity generator circuit
+Code converter circuits
+Components
+Experimental verification
+Comparator circuit
+Parity generator circuit
+Code converter circuits
+Exercises and reinforcement questions
+2 to 4 binary decoder with polarity control
+Introduction
+Basic 2 to 4 Binary Decoder with Polarity Control
+Three different syntheses with two-input NAND gates
+Synthesis with NAND gates of any number of inputs
+XOR gate-based synthesis
+Simulation
+Components
+Experimental verification
+Exercises and reinforcement questions
+Prime number detection with multiplexers
+Introduction
+Design of a BCD prime number detector
+Synthesis using logic gates
+Synthesis using a 16:1 multiplexer
+Synthesis using an 8:1 multiplexer
+Alternative synthesis using an 8:1 multiplexer
+Design of a 4-bit prime number detector
+Synthesis using logic gates
+Synthesis using a 16:1 multiplexer
+Synthesis using two 8:1 multiplexers
+Alternative synthesis using an 8:1 multiplexer
+Simulation
+BCD prime number detectors with multiplexer
+Synthesis using a 16:1 multiplexer
+Synthesis using an 8:1 multiplexer
+Alternative synthesis using an 8:1 multiplexer
+4-bit prime number detectors with multiplexer
+Synthesis using a 16:1 multiplexer
+Synthesis using two 8:1 multiplexers
+Alternative synthesis using an 8:1 multiplexer
+Components
+Experimental verification
+Exercises and reinforcement questions
+Full adder and parallel binary adder
+Introduction
+Semi-adding circuit
+Full adder circuit
+Full adder implementations
+Two-level AND-OR synthesis using PAL
+NAND-NAND two-level synthesis
+Two six-level syntheses with basic doors
+Four-level synthesis with three-input NAND gates
+Two-level synthesis based on XOR and NAND gates
+Three-level synthesis based on XOR and NAND gates
+Parallel binary adder with serial carry
+Simulation
+Semi-adder
+Full adder
+4-bit parallel binary adder with serial carry
+Carry propagation and associated delay
+Components
+Experimental verification
+Semi-adder
+Full adder
+2-bit parallel binary adder with serial carry
+Exercises and reinforcement questions
+4-bit two's complement arithmetic unit
+Introduction
+Design of a 4-bit arithmetic unit in C2
+The 74x283 adder
+The XOR gate as a solution to implement subtraction
+The overflow detector
+Complete arithmetic unit
+Simulation
+Adder module
+Adder/subtractor module
+Arithmetic unit with overflow detector
+Components
+Experimental verification
+Adder module
+Adder/subtractor module
+Arithmetic unit with overflow detector
+Exercises and reinforcement questions
+PART 3. Synchronous sequential logic
+Clock signal generation with astable circuits
+Introduction
+Design of an astable multivibrator with logic gates
+Design of an astable multivibrator with the 555
+Simulation
+Components
+Experimental verification
+Exercises and reinforcement questions
+Module 8 curl counter with T flip-flops
+Introduction
+Two implementations of a ripple counter
+Module 8 counter designed with J – K flip-flops
+Module 8 counter designed with D flip-flops
+The problem of spurious states
+Simulation
+Response of the counter designed with J – K flip-flops
+Filtering spurious states using logging
+Response of the counter designed with D flip-flops
+Filtering spurious states using logging
+Components
+Experimental verification
+Exercises and reinforcement questions
+Module 8 curl counter with 74x90
+Introduction
+Design of a module 8 counter with the 74x90
+The problem of spurious states
+Simulation
+Module 8 counter state sequence
+Filtering spurious states using logging
+Decoding states with 7448
+Components
+Experimental verification
+Exercises and reinforcement questions
+Module 4 reversible synchronous counter with J – K flip-flops
+Introduction
+Design of a module 4 reversible synchronous counter
+Simulation
+Design implementation with CI 7473
+Constant S control input
+S logic level change with clock signal low
+S logic level change with clock signal high
+Conclusions
+Design implementation with the 74LS73A IC
+Components
+Experimental verification
+Exercises and reinforcement questions
+Synchronous counters with the 74x163
+Introduction
+Counter design with the 74x163
+Counter in free run mode (module 16)
+Module 13 counter with the sequence 0,1,…,12
+Module 12 counter with the sequence 3,4,…,14
+Counter module 146 with the sequence 0,1,…,145
+Simulation
+Counter in free run mode (module 16)
+Module 13 counter with the sequence 0,1,…,12
+Module 12 counter with the sequence 3,4,…,14
+Counter module 146 with the sequence 0,1,…,145
+Components
+Experimental verification
+Exercises and reinforcement questions
+Digital second hand with modular counters
+Introduction
+Three designs of a seconds hand with synchronous counters
+Combination of two 74x163
+Combination of a 74x162 and a 74x163
+Combination of a 74x162 and a 74x161
+Simulation
+Components
+Experimental verification
+Module 10 counter (second hand units)
+Module 6 counter (tens of the second hand)
+Full digital seconds hand
+Exercises and reinforcement questions
+Decoding the states of a counter
+Introduction
+Decoding modular counters
+Decoding an asynchronous counter
+Decoding a synchronous counter
+Risk of interference on decoded lines
+Eliminating the risk of decoding interference
+Outdated decoder enable
+Filtering by registry
+Direct decoding with a ring counter
+Simulation
+Decoding 74x90 counters with 74x138 devices
+Decoding 74x163 counters with 74x42 devices
+Eliminating the risk of decoding interference
+Outdated decoder enable
+Filtering by registry
+Components
+Experimental verification
+Exercises and reinforcement questions
+4-bit shift register with D flip-flops
+Introduction
+Design of a 4-bit shift register
+Simulation
+Serial input and parallel output
+Parallel input and parallel output
+Components
+Experimental verification
+Exercises and reinforcement questions
+Pseudorandom number generator
+Introduction
+3-bit pseudorandom generator
+4-bit pseudorandom generator
+Simulation
+3-bit pseudorandom generator
+4-bit pseudorandom generator
+Components
+Experimental verification
+3-bit pseudorandom generator
+4-bit pseudorandom generator
+Exercises and reinforcement questions
+Layouts with 74x194 shift register
+Introduction
+Sequential design based on the 74x194
+Charging and inhibition
+The ring counter
+Accountant Johnson
+serial communication
+Simulation
+Charging and inhibition
+ring counter
+serial communication
+Accountant Johnson
+serial communication
+Components
+Experimental verification
+Charging and inhibition
+Ring counter and serial communication
+Johnson counter and serial communication
+Exercises and reinforcement questions
+Mealy and Moore finite state automata
+Introduction
+Sequential design according to the Mealy and Moore models
+Specifications
+Design according to the Mealy model
+Design according to the Moore model
+Simulation
+Mealy finite state automaton
+Moore's finite state automaton
+Components
+Experimental verification
+Exercises and reinforcement questions
+PART 4. Asynchronous sequential logic
+Asynchronous flip-flops
+Introduction
+Three types of asynchronous flip-flops
+Asynchronous flip-flop without inputs
+Asynchronous bistable S – R
+Asynchronous bistable –
+Simulation
+Asynchronous bistable S – R
+Response to allowed input sequences
+Response to illegal input sequences
+Determination of the minimum pulse width
+Asynchronous bistable –
+Response to allowed input sequences
+Components
+Experimental verification
+Asynchronous flip-flop without inputs
+Asynchronous bistable S – R
+Asynchronous bistable –
+Exercises and reinforcement questions
+Debounce circuits with asynchronous flip-flops
+Introduction
+The problem of bounces in digital design
+The asynchronous flip-flop as a debounce circuit
+NOR debounce circuit
+NAND debounce circuit
+NOT debounce circuit
+Parking access detection
+Simulation
+Operation of NAND debounce circuit
+Operation of the NOT debounce circuit
+Components
+Experimental verification
+NAND debounce circuit
+NOT debounce circuit
+Exercises and reinforcement questions
+Digital combination lock
+Introduction
+Design of a pulse mode sequence detector
+Specifications
+Design according to the Mealy model
+Simulation
+Components
+Experimental verification
+Operation in the absence of debounce circuits
+Using a basic flip-flop as a debounce circuit
+Using a flip-flop – as a debounce circuit
+Exercises and reinforcement questions
+Asynchronous frequency divider
+Introduction
+Design of a two-fold asynchronous frequency divider
+Specifications
+Design according to the Moore model
+Simulation
+Design with S – R asynchronous flip-flops
+Failed preliminary design based on direct feedback
+Correct design based on direct feedback
+Components
+Experimental verification
+Design with S – R asynchronous flip-flops
+Failed preliminary design based on direct feedback
+Correct design based on direct feedback
+Exercises and reinforcement questions
+PART 5. Applications of commonly used logic functions
+Decoding applications
+Generation of minterms
+Decoding address lines
+Memory circuits and their storage capacity
+Decoding memory addresses in a computer
+Decoding from BCD to seven segment code
+Decoding the states of a counter
+Coding applications
+Prioritized management of interruptions in a processor
+Coding a numeric keypad
+Analog-digital conversion: the flash converter
+Digital video encoding in analog format
+Error detection with parity circuits
+Transmission errors and their detection
+Parallel transmission with parity bits
+Serial transmission with parity bits
+Vertical redundancy check
+Horizontal redundancy check
+Two-dimensional redundancy check
+Other error detection techniques
+Arithmetic applications of comparators and adders
+Arithmetic selector with external control signal
+The full adder in multiplier circuits
+The matrix multiplier
+The multiplier with reserved carry
+Other multiplier circuits
+The ALU as a generalization of the modular adder
+Three ALU circuits and their features
+The ALU in computers
+Counter Applications
+Pulse counter in automated systems
+frequency divider
+digital clock
+The digital timer
+Digital waveform synthesizer
+Frequency meter
+The register-counter in computers
+The computer and its internal structure
+The program counter
+The stack pointer
+Microprogram register-counter
+Registering data count on DMA controllers
+The CX register-counter of the x86 architecture
+Applications of shift registers
+Interface logic in digital data transmission
+The role of shift register in speech coding
+Voice and data traffic in the analog subscriber loop
+Revolution in the subscriber loop: fiber optics arrives
+Synchronous serial transmission
+Asynchronous serial transmission
+Bit shifts and rotations
+The basic combinational shifter
+Circular shifters
+Moving instructions in assembler
+Setting a delay on bit streams
+Generation of pseudorandom sequences
+Detection of defects in logic circuits
+Sources of white noise
+Multiplexing applications
+Generation of logical functions
+Multiplexing of analog inputs in microcontrollers
+Multiplexed scanning of dynamic displays
+Multiplexed sweep with fixed function logic devices
+Multiplexed scanning implemented on a microcontroller
+Multiplexed scanning with configurable digital circuitry
+Multiplexing in the Switched Telephone Network
+Two-channel PCM-TDM transmission system
+T-1 Digital Carrier System
+Multi-level hierarchy in the RTC
+Multiplexing and demultiplexing in optical access networks
+A new paradigm of communications networks and services
+PART 6. Introduction to prototyping embedded systems
+Strategies to implement a digital circuit
+Normalized Fixed Function Logic and Its Limitations
+Custom logic design and its scope
+Semi-custom logic design overview
+Normalized cells, compiled cells, and macromodules
+Intellectual Property (IP) Cores
+Array-based implementation
+Door matrices
+Preconnected arrays
+Microcontrollers: fundamentals and prototyping platforms
+Structure and programming of microcontrollers
+The microcontroller and its internal resources
+Organization of memory access
+The instruction set: CISC and RISC architectures
+From source code to machine code
+The microcontroller in embedded systems
+Microchip PIC Microcontrollers
+Electronic programming modules
+PICkitTM 1 Flash Starter Kit
+Curiosity High Pin Count (HPC)
+PIC18F47Q10 Curiosity Nano
+MPLAB Xpress General Purpose
+Microcontrollers in the Arduino ecosystem
+Arduino Diecimila and Arduino Duemilanove
+Arduino UNO (versions R1, R2 and R3)
+Expansion modules: shields
+Arduino Mega 2560
+Arduino Due and the jump to 32 bits
+Arduino Nano 33 IoT
+Arduino UNO R4
+Texas Instruments MSP430 and C2000 Microcontrollers
+MSP-EX430G2 Launchpad
+C2000TM DIMM100 Experimenter's Kit
+STM32 Microcontrollers from STMicroelectronics
+blue pill
+The STM32 Discovery family of prototyping platforms
+STM32VLDISCOVERY
+STM32F4DISCOVERY
+B-U585I-IOT02A Discovery kit
+The STM32 Nucleo family of prototyping platforms
+Representative platforms of the STM32 Nucleo-64 series
+Representative platforms of the STM32 Nucleo-144 series
+Future prospects for microcontrollers
+FPGA circuits: fundamentals and prototyping platforms
+Internal structure of FPGA circuits
+Multilevel architectures in configurable logic
+Logic modules embedded in an FPGA circuit
+The challenge of synchronism
+Organization of configurable logical blocks
+HDL languages for circuit simulation and synthesis
+Xilinx Spartan-3E and Artix-7 family FPGA circuits
+Altera Cyclone IV Family FPGA Circuits
+An application in the field of industrial electronics
+FPGA Circuits vs.microcontrollers
+Appendices
+The teaching laboratory
+Introduction
+The prototyping board
+The power supply
+Performance and handling
+Wiring the source with a generic load
+Prototyping board power
+Power supply decoupling
+The multimeter
+The oscilloscope
+The HM303-6 Analog Oscilloscope from HAMEG Instruments
+The MP720009 digital oscilloscope from Multicomp PRO
+Oscilloscope measurement probes
+The DIgilent Analog Discovery 2 USB Oscilloscope
+The integrated circuit tester
+Notes on experimental setups
+Instrumentation and its use
+Practical tips
+Auxiliary components
+Common mistakes
+Electrical hazards
+Introduction
+The ground connection
+Severity of an electrocution
+Identification of pins on integrated circuits
+Pin numbering on an IC
+Pin identification on logic gates
+Pin Identification on Other Integrated Devices
+Identification of terminals in optoelectronic components
+Terminals of an LED and an LED light bar
+Terminals of a seven-segment display
+Identification of terminals on electrical components
+Terminals of a rotary potentiometer
+Terminals of an electrolytic capacitor
+Terminals of a SPDT Rocker Toggle Switch
+Terminals of a Slide Actuator SPDT Switch
+Standard values of resistors and capacitors
+Color code for resistors
+Standard resistance values
+Standard Capacitor Values
+Simulation notes
+Introduction
+PSpice Quick Guide
+Creating a project
+Drawing a circuit in the schematic window
+Simulation and execution profile
+The PSpice Model Editor
+Connecting a bus to a circuit
+Linking a stimulus to a bus
+Flip-flop initialization
+Location of components in libraries
+List of all components used
+Sources of tension and digital stimuli
+Discrete Semiconductors
+Integrated devices with simulation model
+Integrated devices without simulation model
+Other components
+Notes on commutation algebra
+Introduction
+Postulates and theorems of commutation algebra
+XOR and XNOR logic functions
+Bibliography
+Monographs
+Research articles
+Technical information from manufacturers
+Fixed Function Integrated Circuits (General)
+Logic gates
+Decoders
+Multiplexer
+Parity generator
+Adder
+Arithmetic-logical units (ALU circuits)
+Timer
+Asynchronous flip-flops
+Synchronous flip-flops
+Accountants
+Records
+ROM and RAM memory circuits
+Microprocessors
+Microcontrollers
+Microcontroller-based development boards
+Configurable digital logic (CPLD and FPGA circuits)
+Development boards based on FPGA circuits
+Video encoders
+A/D converter
+Signal generators
+Luminescent diodes (LEDs)
+Seven segment displays
+Quadruple half-bridge
+Rocker Toggle Switch
+Simulation tool for electronic design
+Web links of interest
+Acronyms
+Supplementary material
+Index

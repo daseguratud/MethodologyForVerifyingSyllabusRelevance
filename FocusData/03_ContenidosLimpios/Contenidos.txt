@@ -1,0 +1,353 @@
+
+->**********************************01_Fundamentos de Circuitos Digitales.txt
+en el pensum del programa de ingeniería electrónica de la universidad distrital [] vigente a la fecha de , se encuentra el espacio académico de fundamentos de circuitos digitales [] donde se establecen los siguientes temarios:
+•	unidad : algebra de variables lógicas
+•	unidad : síntesis de circuitos combinacionales
+•	unidad : análisis de circuitos sincrónicos y asincrónicos
+•	unidad : diseño de máquinas de estado finito
+
+->**********************************02_Electrónica Digital.txt
+	introducción a los sistemas digitales 
+	descripción y definición de sistemas digitales 
+	niveles de abstracción
+	sistemas de numeración y códigos 
+	códigos alfanumas de numeración, bcd, ascii, ebcdic, otros) 
+	sistemas de numeración (binario, octal, decimal, hexadecimal, gray) 
+	conversión entre bases y aritmética de la base 
+	códigos numéricos ponderados y no ponderados
+	representación de los números enteros (magnitud y signo, complemento)
+	representación en coma fija y flotante
+	operaciones aritméticas (suma, resta, multiplicación, división, banderas de overflow, carry)
+	códigos de detección y corrección de errores (códigos hamming) 
+	funciones lógicas y álgebra de boole
+	algebra de boole 
+	axiomas, propiedades y teoremas 
+	operaciones y funciones lógicas 
+	compuertas lógicas (and, or, not, xor, tablas de verdad) 
+	expresiones canónicas suma y producto estándar 
+	expresiones simplificadas por álgebra de boole 
+	tecnologías de realización de circuitos integrados 
+	características eléctricas y dinámicas; explicación de hojas de datos (disipación de potencia, voltajes y corrientes, fan-in, fan-out, retardos, tiempos de propagación, niveles de integración, etc)
+	conexiones and y or alambrado, salidas totem pole, open colector 
+	buffer tres estados ttl y mos 
+	análisis y diseño de sistemas combinacionales 
+	definición de sistema combinacional 
+	técnicas de simplificación de las funciones lógicas (mapas de karnaugth) 
+	implementación de funciones lógicas con compuertas nand o nor 
+	aplicaciones (codificadores, decodificadores, multiplexores, demultiplexores) 
+	semisumador, sumador completo, sumador integrado 
+	semirestador, restador completo, resta por complemento 
+	sumador-restador, comparadores de magnitud, alu
+	memorias rom 
+	análisis y diseño de sistemas secuenciales
+	clasificación de sistemas secuenciales 
+	flip flops, (sr, d,t,jk, preset, clear, maestro esclavo) 
+	análisis y diseño de un sistema secuencial con máquinas de estados finitos (fsm) (autómatas de mealy y de moore) 
+	aplicación con sistemas secuenciales sincrónicos (registros, contadores, registros de desplazamiento) 
+	pwm 
+	introducción y visión de la tecnología micro procesada en la actualidad dispositivos a nivel de procesador 
+	dispositivos lógicos programables 
+	fpga- field-programmable gate array 
+	cepld- complex programmable logic device 
+	psoc- programmable system on chip 
+	microcontrolador
+
+sugiriendo las siguientes prácticas:
+	implementación de funciones de álgebra de boole 
+	formas canónicas de suma y producto 
+	implementación con compuertas nand y nor 
+	sumadores 
+	restadores 
+	multiplicadores 
+	codificadores y visualización estática 
+	multiplexores 
+	comparadores de magnitud 
+	registros 
+	máquinas de estados 
+	contadores y visualización dinámica 
+	pwm
+
+->**********************************03_Arquitectura de Computadores.txt
+	fundamentos de lógica matemática
+	funciones booleanas 
+	expresiones de boole
+	postulados y teoremas
+	ecuaciones booleanas, maxtérminos y mintérminos
+	optimización de funciones booleanas
+	compuertas lógicas (and, or, not, xor)
+	implementación de funciones booleanas empleando compuestas lógicas
+	universalidad de las compuertas lógicas nand y nor 
+	sistemas combinacionales
+	compuertas lógicas en circuitos integrados
+	sumadores, restadores, codificadores, decodificadores, multiplexores, demultiplexores
+	unidad central de proceso (alu)
+	sistemas secuenciales
+	latch y flip-flop
+	contadores
+	registros
+	memoria ram, rom, prom, eprom, eeprom 
+	introducción a la arquitectura de computadores
+	el concepto de bus
+	acceso al bus (buffer triestado)
+	organización del procesador
+	diseño de instrucciones
+	modos de direccionamiento
+	mapas de memoria
+	temas complementarios
+	arquitecturas avanzadas de computadores
+	paralelismo 
+
+->**********************************04_Diseño Lógico.txt
+capítulo : introducción
+	conceptos fundamentales de los circuitos digitales
+ diseño digital vs diseño análogo
+ software de diseño digital
+ circuitos integrados
+ niveles de diseño digital
+ familias lógicas
+ familia ttl
+ interfases cmos/ttl
+capítulo : información digital binaria
+ aspectos básicos concepto de sistema posicional
+ sistemas binario, octal y hexadecimal
+ conversiones
+ operaciones aritméticas
+ codificación binario-decimal (bcd)
+ sistemas de numeración binaria
+ enteros sin signo
+ enteros complemento a dos
+ fraccional sin signo
+ fraccional con signo complemento a dos
+ código gray
+ magnitud con signo
+ complemento a dos con corrimiento
+ complemento a uno
+ punto flotante
+ códigos para detección y corrección de errores
+ códigos para transmisión serial de datos y almacenamiento
+ ejercicios y simulaciones
+capítulo : funciones lógicas
+ lógica booleana en electrónica
+ operaciones lógicas elementales
+ tabla de verdad
+ expresiones funcionales
+ ejercicios y simulaciones
+capítulo : circuitos digitales elementales
+ compuertas lógicas
+ compuerta and
+ compuerta or
+ compuerta not
+ compuertas adicionales
+ análisis de circuitos
+ circuitos equivalentes
+ diseño de circuitos
+ directo y simplificado
+ condicionado por un tipo de compuerta
+ ejercicios y simulaciones
+capítulo : sistemas combinacionales
+ definición de un sistema combinacional
+ análisis de circuitos combinacionales
+ subsistemas combinacionales
+ codificadores
+ decodificadores
+ multiplexores
+ demultiplexores
+ circuitos aritméticos
+ síntesis de circuitos combinacionales
+ métodos de simplificación en programación
+ el lenguaje de descripción de hardware abel
+ el lenguaje de descripción de hardware vhdl
+ ejercicios y simulaciones
+capítulo : diseño combinacional aplicado
+ documentación de standards
+ circuitos de tiempo
+ plds
+ decoders
+ encoders
+ dispositivos three-state
+ multiplexores
+ or exclusiva, compuertas y circuitos de paridad
+ comparadores
+ sumadores, restadores y alus
+ multiplicadores
+ ejercicios y simulaciones utilizando abel y vhdl
+capítulo : sistemas secuenciales
+ definición de un sistema secuencial
+ biestables
+ análisis de circuitos con biestables
+ análisis lógico
+ análisis temporal
+ análisis de máquinas de estado
+ diseño de sistemas secuenciales
+ caso síncrono
+ caso asíncrono
+ subsistemas secuenciales
+ registros de desplazamiento
+ contadores
+ características del diseño secuencial en abel y vhdl
+ ejercicios y simulaciones
+capítulo : memorias y dispositivos lógicos programables
+ concepto de memoria
+ decodificación de direcciones
+ tipos de memoria (ram y rom)
+ realización de circuitos lógicos con rom
+ dispositivos lógicos programables (cplds y fpgas)
+ diseño de circuitos
+capítulo : máquinas de estado
+ definición de máquina de estado
+ clasificación
+ tipo moore – tipo mealy
+ msf y asf
+ análisis y diseño de msf
+ análisis y diseño de asf
+ aplicaciones con vhdl – altera
+capítulo : arquitectura de los procesadores
+ arquitecturas básicas
+ von newman
+ harvard
+ harvard modificada
+ microprocesadores y microcontroladores
+ microprocesador 
+ microcontrolador piccx
+ microcontrolador hc
+ dsp tmscx
+ microprogramación
+
+->**********************************05_Circuitos Digitales I.txt
+lenguaje de descripción de hardware: elementos básicos vhdl, definición entidades, arquitecturas, identificadores, operadores, tipos de sentencias, descripción estructural, simulación y fases de simulación
+principios de diseño de lógica combinatoria: algebra de boole, síntesis lógica de circuitos combinatorios, representación por suma de productos y por producto de sumas, mapas de karnaugh, algoritmo de quine –mccluskeyn
+circuitos lógicos combinatorios: decodificadores binarios de  a , de  a  y de  a  líneas, ejemplos de aplicación en los computadores, decodificadores bcd a  segmentos, registros de  estados, codificadores, multiplexores y demultiplexores, generadores de paridad, comparadores, circuitos aritméticos, sumador y restador de  bits, sumador bcd, unidad aritmética y lógica alu, multiplicador combinatorio
+dispositivos lógicos programables: diseño lógico hoy día, herramientas computacionales utilizadas en las metodologías de diseño descendente (top/down), herramientas para la automatización del diseño electrónico (eda tools), principios y aplicaciones de los dispositivos lógicos programables como los pals y los plds, programación en lenguaje cupl
+cerrojos y flip-flops: definición de la lógica secuencial, cerrojos con compuertas, estado metaestable, interruptor sin rebote, flip-flops, flip-flops construidos con compuertas de transmisión e inversores
+contadores y registros: contadores de propagación, contadores sincrónicos, ejemplos de contadores en circuito integrado, registros de corrimiento, contador en anillo, circuitos integrados para relojes, laboratorio  contador con detector fotoeléctrico
+análisis y diseño de circuitos secuenciales: teoría de máquinas de estado (fsm), análisis y diseño de circuitos secuenciales sincrónicos, análisis de circuitos secuenciales asincrónicos, ejemplos de control secuencial
+plds secuenciales: arquitectura de diversos plds secuenciales, ejemplos de programación
+memorias: aspectos generales sobre memorias, memorias de acceso aleatorio, memorias de solo lectura (rom), aplicaciones de las memorias, ejemplos de memorias comerciales
+procesadores digitales: configuración, arquitectura de un microprocesador, decodificadores, puertos, memorias, instrucciones en lenguaje ensamblador, microcontroladores
+
+->**********************************06_Circuitos Digitales.txt
+•	conceptos fundamentales de los sistemas digitales
+o	presentación del curso introducción magnitudes analógicas y digitales
+o	diseño digital vs diseño análogo 
+o	dígitos binarios, niveles lógicos y formas de onda digitales 
+o	introducción a las funciones lógicas básicas 
+o	circuitos integrados de función fija 
+o	cmos/ttl
+•	sistemas de numeración y operaciones
+o	sistema decimal 
+o	sistema binario 
+o	sistema octal 
+o	sistema hexadecimal 
+o	sistema bcd 
+o	sistema gray 
+o	aritmética binaria 
+o	complemento a y a 
+o	números con signo
+•	algebra de boole
+o	puertas lógicas 
+o	propiedades de boole 
+o	leyes de boole 
+o	teorema de demorgan
+o	funciones booleanas minterminos y maxterminos
+o	función canónica 
+o	simplificación por algebra de boole
+o	mapas de karnaugh
+•	lógica combinacional
+o	diseño de sistemas combinacionales 
+o	sumador completo sumador – restador 
+o	comparador
+o	diseño de sistemas combinacionales misceláneos
+o	practica : diseño discreto, tipos de sangre
+o	multiplexores 
+o	demultiplexores 
+o	codificadores 
+o	decodificadores
+o	display de  segmentos 
+o	conversores de código 
+o	dispositivos three-state 
+o	codigo hamming
+o	practica : diseño discreto, conversor de código
+o	taller y solución de dudas
+o	examen parcial 
+o	practica : introducción a xilinx, diseño esquemático
+•	arquitecturas reconfigurables
+o	arquitectura de los spld: gal, pla y pal 
+o	arquitectura de los cplds 
+o	arquitectura de los fpgas
+o	introducción al lenguaje vhdl 
+o	metodologías de diseño: bottom-up y top-down 
+o	descripción del diseño: esquemático, comportamental o funcional y estructural
+•	lenguaje vhdl
+o	practica : sumador completo proceso de diseño 
+o	sistemas de desarrollo xilinx (ise y modelsim) 
+o	descripción del circuito digital 
+o	simulación funcional y con retardos 
+o	síntesis de la descripción del circuito 
+o	restricciones de usuario 
+o	implementación y enrutamiento del cpld o fpga 
+o	programación del cpld o fpga 
+o	verificación y pruebas
+o	concepto de entidad y arquitectura 
+o	estructura de un programa en vhdl 
+o	ejemplos
+o	símbolos especiales 
+o	palabras reservadas
+o	operadores y expresiones 
+o	tipos de datos 
+o	atributos de los elementos 
+o	genéricos, constantes, señales y variables 
+o	declaraciones de genéricos, constantes, señales y variables
+o	practica : conversor de código
+o	ejecución concurrente y ejecución serie: descripción por flujo de datos y algorítmica 
+o	bloque de ejecución serie: process sentencia condicional: if … then … else 
+o	sentencia de selección: case 
+o	ejemplos
+o	asignación condicional: when … else 
+o	asignación con selección: with  select … when 
+o	ejemplos
+o	practica : multiplexor, decodificador, practica  y 
+o	bloque concurrente: block 
+o	sentencia de espera: wait 
+o	bucles: loop, for y while 
+o	llamado de procedimientos 
+o	definición de componentes 
+o	referencia de componentes 
+o	enlace entre componentes y entidades 
+o	ejemplos
+o	taller y solución de dudas
+o	practica : alu  funciones  bits
+o	examen parcial 
+•	lógica secuencial
+o	definición de sistemas digitales secuenciales 
+o	señal de reloj registros 
+o	circuito integrado 
+o	practica : prescaler
+o	flip-flops 
+o	contadores 
+o	registros de desplazamiento
+•	máquinas de estados finitos
+o	máquina de estados finitos (fsm) 
+o	fsm tipo moore y tipo mealy 
+o	ejemplos 
+o	practica : contador sencillo 
+o	análisis y diseño de fsm con vhdl
+•	memorias y almacenamiento
+o	concepto de memoria 
+o	funcionamiento de una memoria 
+o	memorias de acceso aleatorio (ram) 
+o	memorias de solo lectura (rom) 
+o	tipos de memoria rom 
+o	practica : cronometro 
+o	diseño de circuitos digitales con rom 
+o	otras arquitecturas digitales 
+o	practica : control motor paso a paso 
+o	taller y solución de dudas 
+o	examen parcial 
+•	proyecto de investigación
+o	practica : practica libre 
+o	proyecto de investigación 
+o	proyecto de investigación 
+o	practica : proyecto de investigador 
+o	proyecto de investigación 
+o	proyecto de investigación 
+o	practica : presentación del proyecto de investigación

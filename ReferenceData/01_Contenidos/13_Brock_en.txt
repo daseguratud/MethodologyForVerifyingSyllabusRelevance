@@ -1,0 +1,270 @@
+1: INTRODUCTION: ANALOG VERSUS DIGITAL  1
+11 DIFFERENCES BETWEEN ANALOG AND DIGITAL SYSTEMS  1
+12 ADVANTAGES OF DIGITAL SYSTEMS OVER ANALOG SYSTEMS  3
+2: NUMBER SYSTEMS  7
+21 POSITIONAL NUMBER SYSTEMS  7
+211 Generic Structure 8
+212 Decimal Number System (Base 10)  9
+213 Binary Number System (Base 2)  9
+214 Octal Number System (Base 8)  10
+215 Hexadecimal Number System (Base 16)  10
+22 BASE CONVERSION  11
+221 Converting to Decimal  11
+222 Converting from Decimal  14
+223 Converting Between 2n Bases  18
+23 BINARY ARITHMETIC  22
+231 Addition (Carries)  22
+232 Subtraction (Borrows)  23
+24 UNSIGNED AND SIGNED NUMBERS  25
+241 Unsigned Numbers  25
+242 Signed Numbers  26
+3: DIGITAL CIRCUITRY AND INTERFACING  43
+31 BASIC GATES  43
+311 Describing the Operation of a Logic Circuit  43
+312 The Buffer  45
+313 The Inverter  46
+314 The AND Gate  46
+315 The NAND Gate  47
+316 The OR Gate  47
+317 The NOR Gate  47
+318 The XOR Gate  48
+319 The XNOR Gate  49
+32 DIGITAL CIRCUIT OPERATION  50
+321 Logic Levels  51
+322 Output DC Specifications  51
+323 Input DC Specifications  53
+324 Noise Margins  53
+325 Power Supplies  54
+326 Switching Characteristics  56
+327 Data Sheets  57
+51 HISTORY OF HARDWARE DESCRIPTION LANGUAGES  154
+33 LOGIC FAMILIES  62
+331 Complementary Metal Oxide Semiconductors (CMOS)  62
+332 Transistor-Transistor Logic (TTL)  71
+333 The 7400 Series Logic Families  73
+34 DRIVING LOADS  77
+341 Driving Other Gates  77
+342 Driving Resistive Loads  79
+343 Driving LEDs  81
+4: COMBINATIONAL LOGIC DESIGN  93
+41 BOOLEAN ALGEBRA  93
+411 Operations  94
+412 Axioms  94
+413 Theorems  95
+42 COMBINATIONAL LOGIC ANALYSIS  111
+421 Finding the Logic Expression from a Logic Diagram  111
+422 Finding the Truth Table from a Logic Diagram  112
+423 Timing Analysis of a Combinational Logic Circuit  113
+43 COMBINATIONAL LOGIC SYNTHESIS  115
+431 Canonical Sum of Products  115
+432 The Minterm List (Σ)  116
+433 Canonical Product of Sums (POS)  118
+434 The Maxterm List (Π)  120
+435 Minterm and Maxterm List Equivalence  122
+44 LOGIC MINIMIZATION  124
+441 Algebraic Minimization  124
+442 Minimization Using Karnaugh Maps  125
+443 Don’t Cares  137
+444 Using XOR Gates  138
+45 TIMING HAZARDS AND GLITCHES  141
+5: VERILOG (PART 1)  153
+52 HDL ABSTRACTION  157
+53 THE MODERN DIGITAL DESIGN FLOW  160
+54 VERILOG CONSTRUCTS  163
+541 Data Types  164
+542 The Module  168
+543 Verilog Operators  171
+55 MODELING CONCURRENT FUNCTIONALITY IN VERILOG  176
+551 Continuous Assignment  176
+552 Continuous Assignment with Logical Operators  176
+553 Continuous Assignment with Conditional Operators  177
+554 Continuous Assignment with Delay  179
+61 DECODERS  193
+71 SEQUENTIAL LOGIC STORAGE DEVICES  211
+56 STRUCTURAL DESIGN AND HIERARCHY  182
+561 Lower-Level Module Instantiation  182
+562 Gate Level Primitives  184
+563 User-Defined Primitives  185
+564 Adding Delay to Primitives  186
+57 OVERVIEW OF SIMULATION TEST BENCHES  187
+6: MSI LOGIC  193
+611 Example: One-Hot Decoder  194
+612 Example: 7-Segment Display Decoder  196
+62 ENCODERS  200
+621 Example: One-Hot Binary Encoder  200
+63 MULTIPLEXERS  202
+64 DEMULTIPLEXERS  205
+7: SEQUENTIAL LOGIC DESIGN  211
+711 The Cross-Coupled Inverter Pair  211
+712 Metastability  212
+713 The SR Latch  214
+714 The S’R’ Latch  217
+715 SR Latch with Enable  219
+716 The D-Latch  222
+717 The D-Flip-Flop  223
+72 SEQUENTIAL LOGIC TIMING CONSIDERATIONS  227
+73 COMMON CIRCUITS BASED ON SEQUENTIAL STORAGE DEVICES  228
+731 Toggle Flop Clock Divider  228
+732 Ripple Counter  229
+733 Switch Debouncing  230
+734 Shift Registers  234
+74 FINITE-STATE MACHINES  236
+741 Describing the Functionality of an FSM  236
+742 Logic Synthesis for an FSM  238
+743 FSM Design Process Overview  245
+744 FSM Design Examples  246
+75 COUNTERS  254
+751 2-Bit Binary Up Counter  254
+752 2-Bit Binary Up/Down Counter  256
+753 2-Bit Gray Code Up Counter  258
+754 2-Bit Gray Code Up/Down Counter  260
+755 3-Bit One-Hot Up Counter  262
+756 3-Bit One-Hot Up/Down Counter  264
+76 FINITE-STATE MACHINE’S RESET CONDITION  267
+77 SEQUENTIAL LOGIC ANALYSIS  268
+771 Finding the State Equations and Output Logic Expressions of an FSM  268
+772 Finding the State Transition Table of an FSM  269
+773 Finding the State Diagram of an FSM  270
+774 Determining the Maximum Clock Frequency of an FSM  271
+8: VERILOG (PART 2)  287
+81 PROCEDURAL ASSIGNMENT  287
+811 Procedural Blocks  287
+812 Procedural Statements  290
+813 Statement Groups  295
+814 Local Variables  295
+82 CONDITIONAL PROGRAMMING CONSTRUCTS  296
+821 if-else Statements  296
+822 case Statements  297
+823 casez and casex Statements  299
+824 forever Loops  299
+825 while Loops  299
+826 repeat Loops  300
+827 for Loops  300
+828 disable  301
+83 SYSTEM TASKS  302
+831 Text Output  302
+832 File Input/Output  303
+833 Simulation Control and Monitoring  305
+84 TEST BENCHES  306
+841 Common Stimulus Generation Techniques  307
+842 Printing Results to the Simulator Transcript  308
+843 Automatic Result Checking  309
+844 Using Loops to Generate Stimulus  311
+845 Using External Files in Test Benches  312
+9: BEHAVIORAL MODELING OF SEQUENTIAL LOGIC  319
+91 MODELING SEQUENTIAL STORAGE DEVICES IN VERILOG  319
+911 D-Latch  319
+912 D-Flip-Flop  320
+913 D-Flip-Flop with Asynchronous Reset  320
+914 D-Flip-Flop with Asynchronous Reset and Preset  321
+915 D-Flip-Flop with Synchronous Enable  322
+92 MODELING FINITE STATE MACHINES IN VERILOG  323
+921 Modeling the States  325
+922 The State Memory Block  325
+923 The Next-State Logic Block  325
+924 The Output Logic Block  326
+925 Changing the State Encoding Approach  328
+1123 Programmable Interconnect Points (PIPs)  384
+93 FSM DESIGN EXAMPLES IN VERILOG  329
+931 Serial Bit Sequence Detector in Verilog  329
+932 Vending Machine Controller in Verilog  331
+933 2-Bit, Binary Up/Down Counter in Verilog  333
+94 MODELING COUNTERS IN VERILOG  335
+941 Counters in Verilog Using a Single Procedural Block  335
+942 Counters with Range Checking  336
+943 Counters with Enables in Verilog  336
+944 Counters with Loads  337
+95 RTL MODELING  338
+951 Modeling Registers in Verilog  338
+952 Registers as Agents on a Data Bus  339
+953 Shift Registers in Verilog  341
+10: MEMORY  347
+101 MEMORY ARCHITECTURE AND TERMINOLOGY  347
+1011 Memory Map Model  347
+1012 Volatile vs Nonvolatile Memory  348
+1013 Read Only vs Read/Write Memory  348
+1014 Random Access vs Sequential Access  348
+102 NONVOLATILE MEMORY TECHNOLOGY  349
+1021 ROM Architecture  349
+1022 Mask Read Only Memory  352
+1023 Programmable Read Only Memory  353
+1024 Erasable Programmable Read Only Memory  354
+1025 Electrically Erasable Programmable Read Only Memory  356
+1026 FLASH Memory  357
+103 VOLATILE MEMORY TECHNOLOGY  358
+1031 Static Random-Access Memory  358
+1032 Dynamic Random-Access Memory  361
+104 MODELING MEMORY WITH VERILOG  368
+1041 Read Only Memory in Verilog  368
+1042 Read/Write Memory in Verilog  369
+11: PROGRAMMABLE LOGIC  375
+111 PROGRAMMABLE ARRAYS  375
+1111 Programmable Logic Array (PLA)  375
+1112 Programmable Array Logic (PAL)  376
+1113 Generic Array Logic (GAL)  377
+1114 Hard Array Logic (HAL)  378
+1115 Complex Programmable Logic Devices (CPLD)  378
+112 FIELD PROGRAMMABLE GATE ARRAYS (FPGAS)  379
+1121 Configurable Logic Block (or Logic Element)  380
+1122 Look-Up Tables (LUTs)  381
+12: ARITHMETIC CIRCUITS  389
+121 ADDITION  389
+13: COMPUTER SYSTEM DESIGN  419
+131 COMPUTER HARDWARE  419
+14: FLOATING-POINT SYSTEMS  465
+141 OVERVIEW OF FLOATING-POINT NUMBERS  465
+1124 Input/Output Block (IOBs)  385
+1125 Configuration Memory  386
+1211 Half Adders  389
+1212 Full Adders  390
+1213 Ripple Carry Adder  392
+1214 Carry Look Ahead Adder  394
+1215 Adders in Verilog  397
+122 SUBTRACTION  402
+123 MULTIPLICATION  405
+1231 Unsigned Multiplication  405
+1232 A Simple Circuit to Multiply by Powers of Two  408
+1233 Signed Multiplication  408
+124 DIVISION  411
+1241 Unsigned Division  411
+1242 A Simple Circuit to Divide by Powers of Two  414
+1243 Signed Division  415
+1311 Program Memory  420
+1312 Data Memory  420
+1313 Input/Output Ports  420
+1314 Central Processing Unit  421
+1315 A Memory-Mapped System  422
+132 COMPUTER SOFTWARE  424
+1321 Opcodes and Operands  425
+1322 Addressing Modes  425
+1323 Classes of Instructions  426
+133 COMPUTER IMPLEMENTATION:AN 8-BIT COMPUTER EXAMPLE  433
+1331 Top-Level Block Diagram  433
+1332 Instruction Set Design  434
+1333 Memory System Implementation  435
+1334 CPU Implementation  439
+134 ARCHITECTURE CONSIDERATIONS  460
+1341 Von Neumann Architecture  460
+1342 Harvard Architecture  460
+1411 Limitations of Fixed-Point Numbers  465
+1412 The Anatomy of a Floating-Point Number  466
+1413 The IEEE 754 Standard  467
+1414 Single-Precision Floating-Point Representation (32-Bit)  467
+1415 Double-Precision Floating-Point Representation (64-Bit)  471
+1416 IEEE 754 Special Values  474
+1417 IEEE 754 Rounding Types  476
+1418 Other Capabilities of the IEEE 754 Standard  477
+142 IEEE 754 BASE CONVERSIONS  478
+1421 Converting from Decimal into IEEE 754 Single-Precision Numbers  478
+1422 Converting from IEEE 754 Single-Precision Numbers into Decimal  481
+143 FLOATING-POINT ARITHMETIC  482
+1431 Addition and Subtraction of IEEE 754 Numbers  482
+1432 Multiplication and Division of IEEE 754 Numbers  490
+144 FLOATING-POINT MODELING IN VERILOG  496
+1441 Modeling Floating-Point Addition in Verilog  496
+1442 Modeling Floating-Point Subtraction in Verilog  501
+1443 Modeling Floating-Point Multiplication in Verilog  505
+1444 Modeling Floating-Point Division in Verilog  508
+APPENDIX A: LIST OF WORKED EXAMPLES  515
+APPENDIX B: CONCEPT CHECK SOLUTIONS  521
+INDEX  523

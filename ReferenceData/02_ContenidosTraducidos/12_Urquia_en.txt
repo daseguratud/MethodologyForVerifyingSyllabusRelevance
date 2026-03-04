@@ -1,0 +1,468 @@
+Index 5
+VHDL 13 code listing
+1 Digital Hardware Design Fundamentals 25
+1.1 Introduction 29
+1.2 Languages for hardware description 30
+1.2.1 Uses of an HDL program 31
+1.2.2 Most widely used HDL 31
+1.3 Digital circuit design cycle 32
+1.4 Integrated circuit technologies 34
+1.4.1 Classification of technologies 34
+1.4.2 Comparison between technologies 38
+1.5 Properties of digital circuits 42
+1.5.1 Device delay 42
+1.5.2 Concurrent execution 44
+1.5.3 Marginal designs 45
+1.5.4 Signal strength 45
+1.6 Circuit test 46
+1.6.1 Test in manufacturing 47
+1.6.2 Functional test 49
+5
+The VHDL code used to illustrate the theoretical explanations, as well as the designs and banks of
+test proposed as a solution to the self-check exercises, are available at
+the following URL: https://canal.uned.es/series/64149eb43056d535ce6fe473
+DESIGN AND ANALYSIS OF DIGITAL CIRCUITS WITH VHDL
+1.6.3 Functional test programs 49
+1.6.4 Test bench 51
+1.7 Representations and levels of abstraction 52
+1.7.1 System representation 52
+1.7.2 Levels of abstraction 53
+1.7.3 VHDL in the development flow 57
+1.8 Basic concepts through an example 58
+1.8.1 Behavior at the level of logical functions 59
+1.8.2 Structure description 64
+1.8.3 Abstract description of behavior 66
+1.8.4 Test bench 69
+1.8.5 Configuration 71
+1.9 Simulation of VHDL code through an example 72
+1.9.1 Design of a tristate buffer 72
+1.9.2 Test bench design 73
+1.10 Recommended readings 75
+1.11 Self-check exercises 76
+1.12 Solutions to exercises 80
+2 VHDL Basics 83
+2.1 Introduction 87
+2.2 Design units 87
+2.3 Entity 89
+2.3.1 Port 90 clause
+2.3.2 Generic Clause 91
+2.3.3 Declarations 93
+2.3.4 Sentences 93
+2.3.5 Summary of entity syntax 93
+2.4 Architecture 94
+6
+INDEX
+2.5 Concurrent assignments 95
+2.5.1 Simple concurrent assignments 96
+2.5.2 Conditional concurrent assignments 98
+2.5.3 Concurrent selection assignments 102
+2.5.4 Sensitivity of concurrent sentences 105
+2.6 generate 106 statement
+2.6.1 Iterative generate statement 106
+2.6.2 Conditional generate statement 107
+2.7 Process block 107
+2.7.1 wait 109 statements
+2.7.2 Sensitivity list 111
+2.8 Sequential code 113
+2.8.1 Sequential assignment to a signal 113
+2.8.2 Sequential assignment to a variable 114
+2.8.3 if 115 statement
+2.8.4 Case 119 ruling
+2.8.5 Loop for 123
+2.9 Structure description 125
+2.9.1 Designs with regular structure 130
+2.10 Parameterization 133
+2.10.1 Behavior parameterization 133
+2.10.2 Structure parameterization 133
+2.11 Signals, variables and constants 134
+2.12 Data types and operators 136
+2.12.1 Predefined types in VHDL 137
+2.12.2 IEEE.std logic 1164 140 package types
+2.12.3 Operators on bit vector and std logic vector 144
+2.12.4 IEEE.numeric std 147 packet types
+7
+DESIGN AND ANALYSIS OF DIGITAL CIRCUITS WITH VHDL
+2.12.5 Time and string types 153
+2.12.6 User-defined types 153
+2.13 Attributes 156
+2.14 Libraries 157
+2.15 Assert 159
+2.16 Subprograms 159
+2.16.1 Functions 159
+2.16.2 Procedures 161
+2.16.3 Differences between functions and procedures 164
+2.17 Packages 165
+2.18 Recommended readings 166
+2.19 Self-check exercises 168
+2.20 Solutions to exercises 175
+3 Simulation of VHDL 189 code
+3.1 Introduction 193
+3.2 VHDL 194 code processing
+3.3 Build order 195
+3.4 Drivers 196
+3.5 Initialization 199
+3.5.1 Example: signal with a 200 driver
+3.5.2 Example: signal with two drivers 201
+3.6 Signal attributes 204
+3.7 The delta 205 delay
+3.8 Driver transaction queue management 209
+3.8.1 Example: Waveform Simulation with Inertial Delay 209
+3.8.2 Example: Transport Delay Waveform Simulation
+212
+3.9 Example: simulation of a simple circuit 214
+8
+INDEX
+3.10 Recommended readings 217
+3.11 Self-check exercises 218
+3.12 Solutions to exercises 229
+4 Combinational logic design 263
+4.1 Introduction 267
+4.2 Design for combinational logic synthesis 267
+4.2.1 Use of concurrent sentences 268
+4.2.2 Use of process 270 blocks
+4.3 Logic functions 271
+4.3.1 Circuit Design 271
+4.3.2 Test bench programming 273
+4.4 4-input multiplexer 275
+4.4.1 Design using sequential statements 275
+4.4.2 Design using concurrent statements 279
+4.5 1-bit full subtractor 281
+4.5.1 Description of behavior 281
+4.5.2 Structure description 283
+4.5.3 Test bench programming 286
+4.6 1-bit full adder 291
+4.6.1 Circuit Design 292
+4.6.2 Test bench 294
+4.7 Arithmetic Logic Unit 296
+4.7.1 Design of the ALU 296
+4.7.2 Test bench programming 298
+4.8 Recommended readings 302
+4.9 Self-check exercises 303
+4.10 Solutions to exercises 310
+9
+DESIGN AND ANALYSIS OF DIGITAL CIRCUITS WITH VHDL
+5 Records and memories 341
+5.1 Introduction 345
+5.2 4-bit register 345
+5.2.1 Description of behavior 346
+5.2.2 Test bench 347
+5.3 Multi-function register 349
+5.3.1 Description of behavior 349
+5.3.2 Test bench 352
+5.4 Shift register 355
+5.4.1 Description of behavior 355
+5.4.2 Test bench 356
+5.4.3 Test bench with access to file 359
+5.5 Register file 363
+5.5.1 Tristate Registry 364
+5.5.2 Structural description of register file 365
+5.5.3 Drivers and 367 resolution function
+5.5.4 Register file 367 test bench
+5.5.5 Description of the behavior of register file 371
+5.6 Bidirectional bus and memories 373
+5.6.1 Read-only memory 373
+5.6.2 Read and write memory 375
+5.6.3 Bidirectional bus 376
+5.7 Recommended readings 378
+5.8 Self-check exercises 379
+5.9 Solutions to exercises 385
+6 Sequential Logic Design 403
+6.1 Introduction 407
+6.2 Design of finite state machines 407
+10
+INDEX
+6.2.1 Sequence detector circuit 408
+6.3 Synthesis of sequential logic 410
+6.3.1 Incomplete conditional statements 411
+6.3.2 Complete conditional statements 411
+6.3.3 Delays 411
+6.3.4 Initialization 412
+6.3.5 Process blocks 412
+6.4 Flip-flop JK 413
+6.4.1 Design of the 414 flip-flop
+6.4.2 Test bench 415
+6.5 Moore 418 Finite State Machines
+6.5.1 Machine Design 418
+6.5.2 Test bench 421
+6.5.3 Structural modeling 424
+6.6 Mealy 426 finite state machines
+6.6.1 Machine Design 427
+6.6.2 Test bench 433
+6.7 Safe finite state machines 436
+6.8 Recommended readings 437
+6.9 Self-check exercises 439
+6.10 Solutions to exercises 449
+7 Transfer methodology between 501 records
+7.1 Introduction 505
+7.2 Transfer operations between registers 506
+7.2.1 Basic RT Operation 506
+7.2.2 RT 508 Program
+7.3 Finite state machines with data paths 509
+7.3.1 Multiple RT operations and 510 data path
+11
+DESIGN AND ANALYSIS OF DIGITAL CIRCUITS WITH VHDL
+7.3.2 Control logic using FSM 510
+7.3.3 FSMD 511 Basic Block Diagram
+7.4 Description of the RT program using VHDL 513
+7.5 Sequence detector circuit 516
+7.6 Control of a vending machine 518
+7.6.1 Handshaking protocol 519
+7.6.2 Description of algorithm 520
+7.6.3 Control circuit design 522
+7.6.4 Test bench programming 525
+7.7 Recommended readings 527
+7.8 Self-check exercises 528
+7.9 Solutions to exercises 532
+A Introduction to using ModelSim 547
+A.1 Installation 549
+A.2 Edition and compilation of a model 549
+A.2.1 Main simulator window 549
+A.2.2 Steps to create a 550 project
+A.2.3 Add files to project 551
+A.2.4 Compilation of 556 files
+A.2.5 Test bench 558
+A.3 Simulation, visualization and debugging 560
+A.3.1 Activation of 560 simulation mode
+A.3.2 Viewing results 562
+A.3.3 Simulation execution 563
+A.3.4 Insertion of breakpoints 564
+Alphabetical index 567
+Bibliography 573
+12
+VHDL CODE LIST
+1.1 Entity of the parity detector circuit60
+1.2 Architecture of the parity detector describing the behavior using the logic function60
+1.3 Architecture of the parity detector describing the behavior using the XOR63 logic function
+1.4 Inverter gate65
+1.5 XOR gate with two inputs65
+1.6 Architecture of the parity detector describing the circuit structure65
+1.7 Architecture of the parity detector described using an XOR67 network
+1.8 Architecture of the parity detector described by an algorithm68
+1.9 Parity detector test bench70
+1.10 Configuration for parity detector test bench simulation71
+1.11 Tri-state buffer73
+1.12 Tri-state buffer testbench74
+1.13 Design of the control circuit of a car security alarm79
+1.14 Alternative design of the car alarm control circuit79
+2.1 Parity detector circuit88
+2.2 Bad code, causing a compilation error92
+2.3 Correct description of the circuit shown in Figure 2.392
+2.4 4-input 8-bit multiplexer100
+2.5 2-input binary decoder100
+2.6 4 to 2 encoder with priority100
+13
+DESIGN AND ANALYSIS OF DIGITAL CIRCUITS WITH VHDL
+2.7 4-input 8-bit multiplexer103
+2.8 2-input binary decoder103
+2.9 4 to 2 encoder with priority103
+2.10 Flip-flop D with asynchronous reset activated at level LOW112
+2.11 4-input 8-bit multiplexer116
+2.12 2-input binary decoder116
+2.13 4 to 2 encoder with priority117
+2.14 4-input 8-bit multiplexer120
+2.15 2-input binary decoder120
+2.16 4 to 2 encoder with priority121
+2.17 Bitwise XOR of two 4-bit signals124
+2.18 XOR the bits of a 4-bit signal124
+2.19 Structural description at the logic gate level of a multiplexer
+of two one-bit signals128
+2.20 Structural description of a 4-bit 2-signal multiplexer129
+2.21 AND131 8-door array
+2.22 8-bit parity detector132
+2.23 The conv integer function converts a parameter of type std logic -
+vector to an integer161
+2.24 Procedure that returns two input parameters in order164
+2.25 Defining a function in a package167
+2.26 Using a function defined in a package167
+2.27 Design corresponding to Exercise 2.3169
+2.28 Design corresponding to Exercise 2.1176
+2.29 Test bank corresponding to Exercise 2.1176
+2.30 Design corresponding to Exercise 2.2177
+2.31 “One-shot” circuit design179
+2.32 One-shot circuit test bench179
+2.33 Design of a 2:4 decoder with enable180 input
+14
+VHDL CODE LIST
+2.34 Test bench of a 2:4 decoder with enable181 input
+3.1 Code corresponding to Exercise 3.1218
+3.2 Code corresponding to Exercise 3.2219
+3.3 Exercise Design 3.3219
+3.4 Test bench for Exercise 3.3220
+3.5 Exercise Design 3.4221
+3.6 Test bench for Exercise 3.4221
+3.7 Design corresponding to Exercise 3.5222
+3.8 Test bank corresponding to Exercise 3.5223
+3.9 Design corresponding to Exercise 3.6223
+3.10 Test bank corresponding to Exercise 3.6224
+3.11 Design corresponding to Exercise 3.7225
+3.12 Design corresponding to Exercise 3.8226
+3.13 Design corresponding to Exercise 3.9227
+3.14 Design corresponding to Exercise 3.10228
+4.1 Design by describing logical functions272
+4.2 Test bench of the circuit that implements the two logical functions272
+4.3 Design of a 4:1 MUX using an if275 statement
+4.4 Description of the 4:1 MUX using if and case276 statements
+4.5 MUX Test Bench 4:1277
+4.6 Misdescription of the MUX architecture 4:1279
+4.7 Design of a 4:1 MUX using a concurrent statement280
+4.8 Design of a 4:1 MUX using two concurrent statements280
+4.9 Description of the behavior of a complete one-bit282 subtractor
+4.10 Exclusive OR gate with 2 inputs284
+4.11 1-input inverter284
+4.12 2-input AND gate284
+4.13 3-input OR gate284
+15
+DESIGN AND ANALYSIS OF DIGITAL CIRCUITS WITH VHDL
+4.14 Description of the structure of a complete one-bit subtractor285
+4.15 One-bit full subtractor testbench287
+4.16 One-bit complete subtractor test bench using a procedure.
+289
+4.17 One-bit full subtractor testbench using a function290
+4.18 2-input AND with delay292
+4.19 3-input OR with delay292
+4.20 2-input exclusive OR with delay 293
+4.21 Package in which the logic gates are declared293
+4.22 1-bit full adder294
+4.23 1-bit full adder testbench295
+4.24 Definition of global constants of the ALU297
+4.25 ALU designed using a concurrent statement297
+4.26 ALU designed using a process298 block
+4.27 Global constants of the ALU299 test bench
+4.28 ALU299 test bench
+4.29 Design of a 4:2 encoder with priority 310
+4.30 Test bench of a 4:2 encoder with priority311
+4.31 Design of the 4-bit comparator circuit for X < 5313
+4.32 4-bit comparator circuit test bench for X < 5314
+4.33 7-segment BCD decoder described using a statement
+case315
+4.34 BCD316 decoder test bench
+4.35 BCD decoder described using an if317 statement
+4.36 BCD decoder described using an assignment statement
+conditional concurrent318
+4.37 BCD decoder described using a with select319 statement
+4.38 N-bit adder design320
+4.39 4-bit adder testbench321
+16
+VHDL CODE LIST
+4.40 Displacer Circuit Design322
+4.41 Displacer circuit test bench323
+4.42 Equality comparator of two 1-bit numbers325
+4.43 Equality comparator of two N-bit numbers325
+4.44 Test bench of the equality comparator of two numbers of N
+bits326
+4.45 Package with the global constants of the ALU327
+4.46 Design of the ALU whose circuit is shown in Figure 4.12328
+4.47 Package with the constants used in the ALU329 test bench
+4.48 ALU329 test bench
+4.49 Design of a 1-input NOT gate333
+4.50 Design of a 4-input AND gate335
+4.51 Design of a 3 to 8-bit decoder335
+4.52 Test bench of a 3 to 8 bit decoder336
+4.53 Design of the binary code to Gray code converter, using a
+process block with a case338 statement
+4.54 Design of the binary code to Gray code converter, using a
+concurrent selection assignment (with - select)339
+4.55 Design of the binary code to Gray code converter, describing the
+circuit structure at the logic gate level339
+4.56 Gray340 Binary to Code Converter Testbed
+5.1 Design of a 4-bit register with synchronous reset346
+5.2 Test bench of a 4-bit register with synchronous reset348
+5.3 Design of a 4-bit multifunction register350
+5.4 Test bench of a 4-bit multifunction register352
+5.5 Design of a 32-bit shift register356
+5.6 32-bit shift register testbench357
+5.7 Registry test bench with access to file359
+5.8 Design of a tri-state registry365
+17
+DESIGN AND ANALYSIS OF DIGITAL CIRCUITS WITH VHDL
+5.9 Structural design of register file366
+5.10 Register file test bench, with access to file368
+5.11 Design of the register file by describing the behavior372
+5.12 Read-only memory374
+5.13 Read and write memory375
+5.14 Bidirectional bus376
+5.15 Design of a 4-bit shift register using variables385
+5.16 Design of a 4-bit shift register using signals386
+5.17 Incorrect design of a 4-bit shift register386
+5.18 Test bench of a 4-bit shift register with
+serial input and output387
+5.19 N-bit shift register, with serial input and output388
+5.20 4-bit serial-to-parallel and parallel-to-serial register389
+5.21 Test bench for serial-to-parallel and parallel-to-serial recording of
+4 bits390
+5.22 Global ALU and Register Constants392
+5.23 ALU circuit design and register shown in Figure 5.15393
+5.24 Global testbench constants394
+5.25 ALU circuit test bench and register394
+5.26 ROM397 design
+5.27 ROM398 test bench
+5.28 RAM399 Design
+5.29 RAM400 test bench
+5.30 Detector circuit design401
+5.31 Detector circuit test bench402
+6.1 Design of a JK flip-flop with asynchronous reset414
+6.2 Test bench of a JK416 flip-flop
+6.3 Package with the coding of the states418
+6.4 Design of the Moore machine of Figure 6.7419
+18
+VHDL CODE LIST
+6.5 Moore machine test bench of Figure 6.7422
+6.6 Structural design of Moore425 machine
+6.7 Package with the coding of the states427
+6.8 Design of the Mealy machine in Figure 6.11427
+6.9 Alternative design of the Mealy machine of Figure 6.11430
+6.10 Non-exhaustive test bench of the Mealy machine in Figure
+6.11432
+6.11 Mealy machine test bench of Figure 6.11433
+6.12 Design of a secure FSM438
+6.13 Design of a D449 latch
+6.14 D449 latch test bench
+6.15 Design of an RS451 flip-flop
+6.16 RS452 flip-flop test bench
+6.17 Design of a D flip-flop with enable, set and clear454 signals
+6.18 D455 flip-flop test bench
+6.19 Module 4457 upcounter design constants
+6.20 Design of a module 4458 ascending counter
+6.21 Test bench of an ascending counter module 4459
+6.22 Structural design of the module 4462 up-counter
+6.23 Global constants that encode states464
+6.24 Signal generator design464
+6.25 Signal generator test bench465
+6.26 Frequency divider design by 3467
+6.27 Frequency divider test bench for 3468
+6.28 Signal generator circuit469
+6.29 Signal generator circuit test bench471
+6.30 Detector circuit of 3 or more consecutive ones472
+6.31 Sequence detector circuit test bench474
+6.32 BCD477 Counter Design
+19
+DESIGN AND ANALYSIS OF DIGITAL CIRCUITS WITH VHDL
+6.33 BCD478 Counter Test Bench
+6.34 Design of the “1011”480 sequence detector
+6.35 “1011”482 sequence detector test bench
+6.36 Design of 4-bit up and down binary counter484
+6.37 4 Up and Down Binary Counter Test Bench
+bits485
+6.38 Global constants of the two semaphore controller487
+6.39 Two-traffic light controller design488
+6.40 Two Traffic Light Controller Testbed490
+6.41 Global microwave controller constants493
+6.42 Microwave Controller Design493
+6.43 Microwave Controller Test Bench496
+7.1 VHDL encoding of an RT515 algorithm
+7.2 Two designs of a detector circuit of the sequence 0111 1110517
+7.3 Vending machine circuit constants522
+7.4 Vending machine control circuit523
+7.5 Vending Machine Control Circuit Test Bench525
+7.6 Circuit that calculates the greatest common factor of two numbers534
+7.7 Circuit test bench that calculates the greatest common factor of
+two numbers535
+7.8 Circuit that calculates the average of 4 4-bit numbers537
+7.9 Circuit test bench that calculates the average of 4 numbers out of 4
+bits538
+7.10 Declaration of the global constant539
+7.11 BCD to Binary540 Code Converter
+7.12 BCD to Binary Code Converter Testbed540
+7.13 Declaration of global design constants542
+7.14 Circuit that calculates the exponentiation of two unsigned binary numbers542
+7.15 Test bench of the circuit that calculates exponentiation544
