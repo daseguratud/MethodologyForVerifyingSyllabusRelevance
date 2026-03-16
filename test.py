@@ -1,0 +1,8 @@
+from deep_translator import GoogleTranslator
+from deep_translator import single_detection
+texto = "LAS PUERTAS AND Y OR SON LOS BLOQUES DE CONSTRUCCIÓN BÁSICOS DE LOS CIRCUITOS DIGITALES. REALIZAN OPERACIONES LÓGICAS EN UNA O MÁS ENTRADAS BINARIAS PARA PRODUCIR UNA ÚNICA SALIDA BINARIA. LA PUERTA Y SALIRÁ VERDADERA SÓLO SI TODAS LAS ENTRADAS SON VERDADERAS, MIENTRAS QUE LA PUERTA O SALIRÁ VERDADERA SI AL MENOS UNA ENTRADA ES VERDADERA."
+texto=texto.lower()
+
+traduccion = GoogleTranslator(source='es', target='en').translate(texto)
+
+print(traduccion)

@@ -30,3 +30,9 @@ ldkfksdñksñdlflñksd
     En esta carpeta se encuentra un solo archivo consolidado con el contenido en ingles de todos los libros.
 * 04_ContenidosLimpios\
     En esta carpeta está el archivo resultado de procesar el archivo consolidado de todos los contenidos en ingles. Parte del proceso está convertir este contenido a minúsculas y retirar las palabras y caracteres registrados en el archivo "stopwords.csv" 
+# Dependencias para instalar
+pip install PyPDF2
+pip install googletrans
+pip install deep-translator
+pip install matplotlib
+pip install wordcloud
