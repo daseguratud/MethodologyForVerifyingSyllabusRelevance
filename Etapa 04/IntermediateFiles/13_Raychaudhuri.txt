@@ -1,0 +1,456 @@
+contents
+preface xvii
+chapter origin of electronics
+what is electronics
+evolution of electronics
+revisiting the history
+trends of development
+widespread applications
+electrons electricity and electronics
+electric current
+drift velocity mobility and conductivity
+electron emission from metal
+circuits and sources
+types of circuits
+voltage and current sources
+active and passive device
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical problems
+exercise
+chapter semiconductor fundamentals
+crystalline solids
+lattice basis and unit cell
+bravais lattice and miller indices
+energy band
+semiconductors
+electron and hole
+intrinsic semiconductor
+doping and extrinsic semiconductor
+doping in compound semiconductor
+direct and indirect band gap
+effective mass
+istudyvi contents
+fermi level energy band and semiconductors
+energy band of n type semiconductors
+energy band of p type semiconductors
+equilibrium carrier concentrations
+drift and diffusion of carriers
+drift current density
+diffusion current density
+semiconductor current density
+einstein relation
+continuity equation
+hall effect
+resistivity and four probe technique
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical problems
+exercise
+project work on chapter
+chapter p–n junction diodes
+fabrication of p–n junction
+barrier formation in p–n junction
+built in potential
+fermi level in p–n junction
+energy band diagram of p–n junction
+forward and reverse bias
+unbiased diode
+forward biased diode
+reverse biased diode
+diode current–voltage characteristics
+static and dynamic resistance
+cut in voltage
+junction capacitances
+depletion capacitance
+diffusion capacitance
+zener diode
+zener breakdown
+avalanche breakdown
+zener diode characteristics
+zener voltage regulator
+light emitting diode led
+istudyvii contents
+photodiode and solar cell
+metal–semiconductor contacts
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical problems
+exercise
+project work on chapter
+chapter diode applications
+piecewise linear model
+load line and q point
+rectifiers
+half wave rectifier
+full wave rectifier
+bridge rectifier
+filters
+capacitor filter
+inductor filter
+clippers
+shunt clipper
+series clipper
+clamper
+voltage multiplier
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical problems
+exercise
+project work on chapter
+chapter bipolar junction transistor bjt
+transistors n–p–n and p–n–p
+transistor operating principle
+common emitter configuration
+current amplification in transistor
+transistor current components
+common emitter output characteristics
+early effect
+ce input characteristics
+ce transfer characteristics
+common base characteristics
+common collector configuration
+istudyviii contents
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical problems
+exercise
+project work on chapter
+chapter transistor biasing and amplification
+load line and q point
+transistor biasing and stability
+base bias
+emitter–feedback bias
+collector–feedback bias
+voltage divider bias
+load dc and ac
+bjt small signal voltage amplifiers
+common emitter ce amplifier
+common collector cc amplifier
+common base cb amplifier
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical problems
+exercise
+project work on chapter
+chapter network theorems and transistor
+thevenin’s theorem
+norton’s theorem
+other useful theorems
+superposition theorem
+maximum power transfer theorem
+two port model and hybrid parameters
+transistor as two port network
+significance of h parameters
+transistor amplifier with h parameters
+simplified hybrid model
+re model and h model
+transistor thevenin and norton equivalents
+frequency dependence of gain
+hybrid π model
+transistor gain at high frequency
+gain and decibel
+istudyix contents
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical problems
+exercise
+project work on chapter
+chapter transistor power and multistage amplifiers
+need for power amplification
+conditions for power amplification
+distortions due to nonlinearity
+amplitude distortion
+harmonic distortion
+intermodulation distortion
+amplifier classes
+class a amplifier
+bias for voltage amplifier
+resistive load power amplifier
+transformer coupled amplifier
+class b amplifier
+push–pull amplifier
+class a push–pull amplifier
+class b push–pull amplifier
+crossover distortion
+class ab amplifier
+complementary symmetry amplifier
+class c amplifier
+multistage amplifiers
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical problems
+exercise
+chapter field effect transistor fet
+‘field effect’ and ‘transistor’
+junction field effect transistor jfet
+jfet current–voltage characteristics
+jfet transfer characteristics
+fet parameters
+fet versus bjt
+mosfet
+n channel depletion type mosfet
+n channel enhancement type mosfet
+istudyx contents
+fet model
+fet biasing
+self bias
+drain feedback bias
+gate bias
+voltage divider bias
+fet amplifiers
+common source cs amplifier
+common drain cd amplifier
+common gate cg amplifier
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical problems
+exercise
+project work on chapter
+chapter feedback amplifiers and oscillators
+concept of feedback
+types of feedback
+voltage–series feedback
+voltage–shunt feedback
+current–series feedback
+current–shunt feedback
+advantages of negative feedback
+stability improvement
+impedance improvement
+bandwidth enhancement
+noise reduction
+reduction of nonlinear distortion
+oscillators
+positive feedback and oscillation
+resonant circuit oscillators
+colpitts oscillator
+hartley oscillator
+wien bridge oscillator
+phase shift oscillator
+crystal oscillator
+multivibrators
+astable multivibrator
+monostable multivibrator
+istudyxi contents
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical problems
+exercise
+project work on chapter
+chapter operational amplifier
+a review on amplifiers
+features of op amp
+differential amplifier
+common mode rejection ratio
+diff amp to op amp
+offset parameters
+slew rate
+linear op amp circuits
+inverting amplifier
+noninverting amplifier
+virtual short and virtual ground
+voltage follower
+op amp adder inverting
+op amp adder noninverting
+differential amplifier
+instrumentation amplifier
+passive and active filters
+active low pass filter
+active high pass filter
+active band pass and band stop filters
+nonlinear op amp circuits
+integrator
+differentiator
+comparator
+schmitt trigger
+logarithmic amplifier
+solving algebraic equation
+solving differential equation
+precision rectifier
+op amp waveform generators
+square wave generator
+triangular wave generator
+sine wave generator
+istudyxii contents
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical problems
+exercise
+projects on chapter
+chapter ic technology and instrumentation
+integrated circuit ic
+ic classification
+ic fabrication
+ic components active and passive
+regulated power supply
+cathode ray oscilloscope cro
+construction of cro
+working principle
+electrostatic focusing
+electrostatic deflection
+waveform display
+applications of cro
+digital storage oscilloscope
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical analytic problems
+exercise
+chapter digital principles and boolean algebra
+the digital system
+analog and digital
+pros and cons of digital system
+number systems and conversions
+binary numbers
+binary to decimal conversion
+decimal to binary conversion
+octal numbers
+hexadecimal numbers
+digital codes
+binary arithmetic
+’s complement and ’s complement
+radix complements
+signed binary numbers
+istudyxiii contents
+boolean algebra
+or operation
+and operation
+not operation
+de morgan’s theorems
+boolean simplification
+sum of products and product of sums
+sum of products sop
+product of sums pos
+karnaugh map
+don’t care conditions
+simplification is not unique
+sop and pos are equivalent
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical and logical problems
+exercise
+projects on chapter
+chapter combinational logic circuits
+boolean algebra and digital electronics
+combinational and sequential logic
+positive and negative logic
+logic gates
+or gate
+and gate
+not gate
+nor gate universal gate
+nand gate universal gate
+bubbled gates
+exclusive or xor gate
+timing diagram
+logic families
+transistor–transistor logic ttl
+mos logic
+arithmetic and logic circuits
+half adder
+full adder
+half and full subtractors
+adder–subtractor
+digital comparators
+istudyxiv contents
+data processing circuits
+multiplexer
+demultiplexer
+decoders
+seven segment display
+encoders
+parity checker and generator
+multiple choice type questions and answers
+reasoning type questions and answers
+solved logical problems
+exercise
+project work on chapter
+chapter sequential logic circuits
+clock and timer
+clock parameters
+working principles of ic
+astable multivibrator with ic
+monostable multivibrator with ic
+latch and flip flop
+bistable multivibrator
+rs flip flop with nor gates
+rs flip flop with nand gates
+clocked rs flip flop
+d flip flop
+jk flip flop
+racing and propagation delay
+edge and pulse triggering
+jk master–slave flip flop
+t flip flop
+flip flop characterization
+characteristic equation
+state diagram
+preset and clear
+register
+register with series and parallel shifting
+ring counter
+johnson counter
+register applications
+counters
+asynchronous counter
+synchronous counter
+istudyxv contents
+changing counter modulus
+mod counter
+mod counter
+mod counter
+decade mod counter
+decade counter using preset clear
+applications of the counter
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical problems
+exercise
+chapter analog–digital conversion and memory
+why d a and a d conversions
+binary equivalent weight
+digital to analog d a conversion
+weighted resistor d a converter
+r r ladder d a converter
+d a converter performance
+analog to digital a d conversion
+flash a d converter
+counter type a d converter
+successive approximation a d converter
+memory
+read only memory rom
+random access memory ram
+memory addressing
+memory read write
+multiple choice type questions and answers
+reasoning type questions and answers
+solved numerical problems
+exercise
+project work on chapter
+chapter microcomputer and microprocessor
+evolution of computer
+historical background
+modern computer
+computer microprocessor and microcontroller
+computer organization
+use of microprocessor
+use of microcontroller
+istudyxvi contents
+hardware and software
+operating system
+computer languages
+microprocessor
+pin configuration
+operational code opcode
+programming
+types of instructions
+use of subroutine
+arduino programming
+arduino board
+arduino ide
+multiple choice type questions and answers
+reasoning type questions and answers
+solved examples
+exercise
+bibliography
+index
+istudy

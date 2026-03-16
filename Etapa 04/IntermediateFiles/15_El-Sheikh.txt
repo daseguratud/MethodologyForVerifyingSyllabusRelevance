@@ -1,0 +1,231 @@
+ga el sheikh digital logic design i devices and circuits
+dlogic a iv
+iv table of contents
+preface
+introduction
+history of computational fabrics
+evolution of electronic digital devices
+basic digital system concepts
+digital system design
+hierarchical system design
+digital systems
+levels of integrated circuits
+types of vlsi chips
+digital systems
+digital system design levels
+advantages of digital systems
+analog vs digital system s
+building binary digital solutions to computational problems
+hardware description language hdl
+embedded digital system
+a wireless microsensor system
+temporal representations of electronic signals
+stored program digital computer
+digital computer basic operation
+numbers systems and codes
+introductory background
+motivation
+computers and numbers
+binary number system applications
+decimal base numbers
+binary ba se numbers
+octal base numbers
+hexadecimal base numbers
+numbers conversions
+decimal conversions
+binary conversions
+binary into decimal
+binary into octal
+binary into hexadecimal
+octal conversions
+decimal and octal conversion
+hexadecimal conversion
+decimal and hexadecimal conversion
+generalized conversions
+numbers arithmetic
+binary addition
+binary subtracti on
+signed binary numbers
+complementary arithmetic
+’s and ’s complement ga el sheikh digital logic design i devices and circuits
+dlogic a v
+v signed magnitude
+’s complement
+’s complement
+arithmetic operations with signed numbers
+operations with negative numbers
+two’s complement motivation
+octal arithmetic
+octal addition
+octal subtraction
+hexadecimal arithmetic
+hexadecimal addition
+hexadecimal subtraction
+binary multiplication and division
+codes
+num erical binary codes
+classifications of binary codes
+binary coded decimal bcd
+bcd in electronics
+packed bcd
+bcd conversion
+bcd addition
+bcd subtraction
+comparison with pure binary
+disadvantages
+gray code
+binary to gray code conversion
+gray code to binary conversion
+excess code
+addition of two numbers in excess code
+bi quinary coded decimal code decoding
+character alphanumeric codes
+ebcdic code
+ascii code
+parity method
+cyclic redundancy check
+background
+error detection and correction
+binary number system applications
+binary numbers in electronics
+binary bits of zeros and ones
+analogue voltage output
+digital voltage output
+digital logic levels
+exercises numbers systems and codes
+logic gates
+binary logic
+logic operations
+inversion not operation
+or operation ga el sheikh digital logic design i devices and circuits
+dlogic a vi
+vi and operation
+combined or and operations
+truth table
+symbols
+types of logic gates
+basic logic gates
+the not inverter gate
+th e or gate
+the and gate
+tristate logic gate tristate buffer
+universal logic gates
+nand gate nand not and
+nor gate nor not or
+special logic gates
+exor exclusive or gate
+exnor exclusive nor gate
+combinations of logic gates
+truth tables and logic circuits
+nand gate equivalents
+nor gate equivalents
+electronics implementation within digital logic gates
+classificati on of integrated circuits
+ttl and cmos logic levels
+drl and dtl logic gates
+ttl logic gates
+emitter coupled digital logic gates
+cmos gate circuitry
+inverter logic gate
+static logic desig n of nand nor xor and xnor gates
+digital logic gates implementation within vhdl
+not gate code
+and gate code
+or gate code
+exercises logic gates and logic circuits
+boolean algebra and karnaugh maps
+introduction
+boolean algebra rules
+two valued boolean algebra
+basic theorems and properties of boolean algebra
+duality
+basic theorems
+operator precedence
+boolean functions
+logic gate implementation basi c
+complement of a function
+canonical and standard forms
+minterms and maxterms
+minterms sop
+maxterms pos
+simplification of boolean functions ga el sheikh digital logic design i devices and circuits
+dlogic a vii
+vii product of sums pos simplification
+nand and nor imple mentation
+don’t care conditions
+karnaugh map k map
+k mapping and minimization steps
+two variable s map
+three variable s map
+four variable s map
+five variable s map
+six variabl es map
+case studies
+exercises boolean algebra and logic gates
+data processing and arithmetic circuits
+comparison
+addition
+quarter adder
+half adder ha
+full adder fa
+parallel adders
+ripple carry adder
+carry look ahead adder
+negative numbers and binary subtraction
+subtraction
+exercises decoders encoders and adders subtractors
+combinational networks
+d ecoders
+three to eight line decoder
+two to four line decoder with enable and nands
+expanded realization
+bcd to seven segment decoder
+combinational logic implementation
+encoders
+to bit binary encoder
+active high to line encoder
+active low to line encoder
+priority encoder
+eight to three bit priority encoder
+encoder applications positional encoders
+multiplexe rs
+two input multiplexer
+four input multiplexer
+combined multiplexers
+multiplexer expansion
+demultiplexers
+the to line decoder demultiplexer
+boolean functions realization implementa tion
+three variables function ga el sheikh digital logic design i devices and circuits
+dlogic a viii
+viii four variables function
+multiplexers using three state gates
+exercices decoders encoders and multiplexers
+references
+appendices
+appendix a digital principles of syste m design understanding
+appendix b circuits and devices symbols
+appendix c electronic devices and circuits significant equations
+appendix d laboratory experiments and assignments
+preface
+abstract logic laboratories
+measuring instruments
+lab basic electronic instruments and measurements
+lab oscilloscope and function generator
+lab voltage current resistance and power measurements
+lab inverters
+lab and gates
+lab or gates
+lab nand and nor gates
+lab xor and xnor gates
+lab half and full adders
+lab half and full subtractors
+lab ’s complement adder subtractor
+lab s complement adder subtractor
+lab multiplexers and demultiplexers
+appendix e list of series integrated circuits
+e integrated circuits functioning
+e integrated circuits pin configuration
+appendix f list of series integrated circuits
+f integrated circuits functioning
+f integrated circuits pin configuration

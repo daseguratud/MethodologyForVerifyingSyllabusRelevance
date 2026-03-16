@@ -1,0 +1,275 @@
+v
+contents
+preface xiii
+how to use this book for self study xviii
+digital resources xix
+about the authors xxiv
+unit introduction
+number systems and conversion
+objectives
+study guide
+digital systems and switching circuits
+number systems and conversion
+binary arithmetic
+representation of negative numbers
+sign and magnitude numbers
+’s complement numbers
+addition of ’s complement numbers
+’s complement numbers
+addition of ’s complement numbers
+binary codes
+problems
+unit boolean algebra
+objectives
+study guide
+introduction
+basic operations
+boolean expressions and truth tables
+copyright cengage learning all rights reserved may not be copied scanned or duplicated in whole or in part due to electronic rights some third party content may be suppressed from the ebook and or echapter s
+editorial review has deemed that any suppressed content does not materially affect the overall learning experience cengage learning reserves the right to remove additional content at any time if subsequent rights restrictions require itvi contents
+basic theorems
+commutative associative distributive and
+demorgan’s laws
+simplification theorems
+multiplying out and factoring
+complementing boolean expressions
+problems
+unit boolean algebra continued
+objectives
+study guide
+multiplying out and factoring expressions
+exclusive or and equivalence operations
+the consensus theorem
+algebraic simplification of switching expressions
+proving validity of an equation
+programmed exercises
+problems
+unit applications of boolean algebra
+minterm and maxterm expansions
+objectives
+study guide
+conversion of english sentences to boolean equations
+combinational logic design using a truth table
+minterm and maxterm expansions
+general minterm and maxterm expansions
+incompletely specified functions
+examples of truth table construction
+design of binary adders and subtracters
+problems
+unit karnaugh maps
+objectives
+study guide
+minimum forms of switching functions
+two and three variable karnaugh maps
+copyright cengage learning all rights reserved may not be copied scanned or duplicated in whole or in part due to electronic rights some third party content may be suppressed from the ebook and or echapter s
+editorial review has deemed that any suppressed content does not materially affect the overall learning experience cengage learning reserves the right to remove additional content at any time if subsequent rights restrictions require itcontents vii
+four variable karnaugh maps
+determination of minimum expressions using
+essential prime implicants
+five variable karnaugh maps
+other uses of karnaugh maps
+other forms of karnaugh maps
+programmed exercises
+problems
+unit quine mccluskey method
+objectives
+study guide
+determination of prime implicants
+the prime implicant chart
+petrick’s method
+simplification of incompletely specified functions
+simplification using map entered variables
+conclusion
+programmed exercise
+problems
+unit multi level gate circuits
+nand and nor gates
+objectives
+study guide
+multi level gate circuits
+nand and nor gates
+design of two level nand and nor gate circuits
+design of multi level nand and nor gate circuits
+circuit conversion using alternative gate symbols
+design of two level multiple output circuits
+determination of essential prime implicants for
+multiple output realization
+multiple output nand and nor gate circuits
+problems
+copyright cengage learning all rights reserved may not be copied scanned or duplicated in whole or in part due to electronic rights some third party content may be suppressed from the ebook and or echapter s
+editorial review has deemed that any suppressed content does not materially affect the overall learning experience cengage learning reserves the right to remove additional content at any time if subsequent rights restrictions require itviii contents
+unit combinational circuit design
+and simulation using gates
+objectives
+study guide
+review of combinational circuit design
+design of circuits with limited gate fan in
+gate delays and timing diagrams
+hazards in combinational logic
+simulation and testing of logic circuits
+problems
+design problems
+seven segment indicator
+unit multiplexers decoders and programmable logic devices
+objectives
+study guide
+introduction
+multiplexers
+three state buffers
+decoders and encoders
+read only memories
+programmable logic devices
+programmable logic arrays
+programmable array logic
+complex programmable logic devices
+field programmable gate arrays
+decomposition of switching functions
+problems
+unit introduction to vhdl
+objectives
+study guide
+vhdl description of combinational circuits
+vhdl models for multiplexers
+vhdl modules
+four bit full adder
+copyright cengage learning all rights reserved may not be copied scanned or duplicated in whole or in part due to electronic rights some third party content may be suppressed from the ebook and or echapter s
+editorial review has deemed that any suppressed content does not materially affect the overall learning experience cengage learning reserves the right to remove additional content at any time if subsequent rights restrictions require itcontents ix
+signals and constants
+arrays
+vhdl operators
+packages and libraries
+ieee standard logic
+compilation and simulation of vhdl code
+problems
+design problems
+unit latches and flipflop
+objectives
+study guide
+introduction
+set reset latch
+gated latches
+edge triggered d flip flop
+s r flip flop
+j k flip flop
+t flip flop
+flipflop with additional inputs
+asynchronous sequential circuits
+summary
+problems
+programmed exercise
+unit registers and counters
+objectives
+study guide
+registers and register transfers
+parallel adder with accumulator
+shift registers
+design of binary counters
+counters for other sequences
+counter design using d flipflop
+counter design using s r and j k flipflop
+derivation of flip flop input equations—summary
+problems
+copyright cengage learning all rights reserved may not be copied scanned or duplicated in whole or in part due to electronic rights some third party content may be suppressed from the ebook and or echapter s
+editorial review has deemed that any suppressed content does not materially affect the overall learning experience cengage learning reserves the right to remove additional content at any time if subsequent rights restrictions require itx contents
+unit analysis of clocked sequential circuits
+objectives
+study guide
+a sequential parity checker
+analysis by signal tracing and timing charts
+state tables and graphs
+construction and interpretation of timing charts
+general models for sequential circuits
+programmed exercise
+problems
+unit derivation of state graphs and tables
+objectives
+study guide
+design of a sequence detector
+more complex design problems
+guidelines for construction of state graphs
+serial data code conversion
+alphanumeric state graph notation
+incompletely specified state tables
+programmed exercises
+problems
+unit reduction of state tables
+state assignment
+objectives
+study guide
+elimination of redundant states
+equivalent states
+determination of state equivalence using an
+implication table
+equivalent sequential circuits
+reducing incompletely specified state tables
+derivation of flip flop input equations
+equivalent state assignments
+guidelines for state assignment
+using a one hot state assignment
+problems
+copyright cengage learning all rights reserved may not be copied scanned or duplicated in whole or in part due to electronic rights some third party content may be suppressed from the ebook and or echapter s
+editorial review has deemed that any suppressed content does not materially affect the overall learning experience cengage learning reserves the right to remove additional content at any time if subsequent rights restrictions require itcontents xi
+unit sequential circuit design
+objectives
+study guide
+summary of design procedure for sequential circuits
+design example—code converter
+design of iterative circuits
+design of a comparator
+design of sequential circuits using roms and plas
+sequential circuit design using cplds
+sequential circuit design using fpgas
+simulation and testing of sequential circuits
+overview of computer aided design
+design problems
+additional problems
+unit vhdl for sequential logic
+objectives
+study guide
+modeling flipflop using vhdl processes
+modeling registers and counters
+using vhdl processes
+modeling combinational logic using vhdl processes
+modeling a sequential machine
+synthesis of vhdl code
+more about processes and sequential statements
+problems
+simulation problems
+unit circuits for arithmetic operations
+objectives
+study guide
+serial adder with accumulator
+design of a binary multiplier
+design of a binary divider
+programmed exercises
+problems
+copyright cengage learning all rights reserved may not be copied scanned or duplicated in whole or in part due to electronic rights some third party content may be suppressed from the ebook and or echapter s
+editorial review has deemed that any suppressed content does not materially affect the overall learning experience cengage learning reserves the right to remove additional content at any time if subsequent rights restrictions require itxii contents
+unit state machine design with sm charts
+objectives
+study guide
+state machine charts
+derivation of sm charts
+realization of sm charts
+problems
+unit vhdl for digital system design
+objectives
+study guide
+vhdl code for a serial adder
+vhdl code for a binary multiplier
+vhdl code for a binary divider
+vhdl code for a dice game simulator
+concluding remarks
+problems
+lab design problems
+a appendices
+a mos and cmos logic
+b vhdl language summary
+c tips for writing synthesizable vhdl code
+d proofs of theorems
+e answers to selected study guide questions and problems
+references
+index
+description of the cd
+copyright cengage learning all rights reserved may not be copied scanned or duplicated in whole or in part due to electronic rights some third party content may be suppressed from the ebook and or echapter s
+editorial review has deemed that any suppressed content does not materially affect the overall learning experience cengage learning reserves the right to remove additional content at any time if subsequent rights restrictions require it

@@ -1,0 +1,335 @@
+contents
+binary number system
+introduction
+b i n a r yn u m b e rs y s t e m
+r e p r e s e n t a t i o no fn u m b e r s
+signed magnitude representation
+one’s complement representation two’s complement representation
+binary representation of real numbers
+f i x e dp o i n td a t af o r m a t
+f l o a t i n gp o i n td a t af o r m a t
+signed number system
+b i n a r ys dn u m b e rs y s t e m sd representation to two’s complement
+r e p r e s e n t a t i o n
+conclusion
+basics of verilog hdl
+introduction v e r i l o ge x p r e s s i o n s
+verilog operands
+v e r i l o go p e r a t o r s concatenation and replication
+data flow modelling
+behavioural modelling
+initial statement
+a l w a y ss t a t e m e n t
+t i m i n gc o n t r o l procedural assignment
+xiiixiv contents
+structural modelling
+gate level modelling
+hierarchical modelling
+mixed modelling
+verilog function
+v e r i l o gt a s k f i l eh a n d l i n g
+reading from a text file
+writing into a text file
+test bench writing
+frequently asked questions
+conclusion
+basic combinational circuits
+introduction addition
+subtraction
+parallel binary adder controlled adder subtractor
+multiplexers
+de multiplexers decoders
+encoders
+m a j o r i t yv o t e rc i r c u i t data conversion between binary and gray code
+conversion between binary and bcd code
+b i n a r yt ob c dc o n v e r s i o n b c dt ob i n a r yc o n v e r s i o n
+parity generators checkers
+c o m p a r a t o r s
+constant multipliers
+frequently asked questions conclusion
+basic sequential circuits
+introduction d i f f e r e n tf l i p f l o p s
+s rf l i p f l o p
+j kf l i p f l o p
+df l i p f l o p
+tf l i p f l o p m a s t e r s l a v edf l i p f l o p
+s h i f tr e g i s t e r s
+s e r i a li ns e r i a lo u t s e r i a li np a r a l l e lo u t contents xv
+p a r a l l e li ns e r i a lo u t
+p a r a l l e li np a r a l l e lo u t
+sequence generator pseudo noise sequence generator
+synchronous counter design
+loadable counter
+loadable up counter
+loadable down counter
+even and odd counter shift register counters
+phase generation block
+c l o c kd i v i d e rc i r c u i t s
+clock division by power of
+c l o c kd i v i s i o nb y
+c l o c kd i v i s i o nb y programmable clock divider circuit
+frequently asked questions
+conclusion
+memory design
+introduction c o n t r o l l e dr e g i s t e r
+r e a do n l ym e m o r y
+s i n g l ep o r tr o m d u a lp o r tr o m d p r o m
+random access memory ram
+s i n g l ep o r tr a m s p r a m d u a lp o r tr a m d p r a m
+memory initialization
+implementing bigger memory element using smaller
+m e m o r ye l e m e n t s
+i m p l e m e n t a t i o no fm e m o r ye l e m e n t s conclusion
+finite state machines
+introduction fsm types
+sequence detector using mealy machine
+sequence detector using moore machine
+comparison of mealy and moore machine
+fsm based serial adder design fsm based vending machine design
+state minimization techniques
+row equivalence method i m p l i c a t i o nc h a r tm e t h o d
+state partition method xvi contents
+performance of state minimization techniques
+verilog modelling of fsm based systems
+frequently asked questions conclusion
+design of adder circuits
+introduction ripple carry adder
+carry look ahead adder
+higher bit adders using cla
+preﬁx tree adders
+manchester carry chain module mcc carry skip adder
+carry increment adder
+carry select adder conditional sum adder
+ling adders
+hybrid adders multi operand addition
+carry save addition
+tree of carry save adders
+bcd addition
+conclusion
+design of multiplier circuits
+introduction
+sequential multiplication array multipliers
+partial product generation and reduction
+booth’s multiplication r a d i x b o o t h ’ sa l g o r i t h m
+canonical recoding
+an alternate bit at a time multiplication
+a l g o r i t h m
+implementing larger multipliers using smaller
+o n e s
+accumulation of partial products
+accumulation of partial products for unsigned
+n u m b e r s
+accumulation of partial products for signed
+n u m b e r s
+alternative techniques for partial product
+accumulation
+wallace and dedda multiplier design multiplication using look up tables
+dedicated square block contents xvii
+a r c h i t e c t u r e sb a s e do nv e d i ca r i t h m e t i c
+vedic multiplier
+vedic square block v e d i cc u b eb l o c k
+conclusion
+division and modulus operation
+introduction
+sequential division methods
+r e s t o r i n gd i v i s i o n
+unsigned array divider
+n o n r e s t o r i n gd i v i s i o n conversion from signed binary to two’s
+c o m p l e m e n t
+f a s td i v i s i o na l g o r i t h m s
+s r td i v i s i o n
+srt algorithm properties
+i t e r a t i v ed i v i s i o na l g o r i t h m s
+g o l d s c h m i d td i v i s i o n
+newton–raphson division
+computation of modulus conclusion
+square root and its reciprocal
+introduction
+slow square root computation methods
+r e s t o r i n ga l g o r i t h m n o n r e s t o r i n ga l g o r i t h m
+iterative algorithms for square root and its reciprocal
+g o l d s c h m i d ta l g o r i t h m newton–raphson iteration
+h a l l e y ’ sm e t h o d
+bakhshali method t w ov a r i a b l ei t e r a t i v em e t h o d
+fast srt algorithm for square root
+taylor series expansion method
+theory
+i m p l e m e n t a t i o n
+function evaluation by bipartite table method
+conclusion
+cordic algorithm
+introduction
+theoretical background
+v e c t o r i n gm o d e
+computation of sine and cosine xviii contents
+linear mode
+multiplication
+d i v i s i o n
+hyperbolic mode
+square root computation
+cordic algorithm using redundant number system
+redundant radix based cordic algorithm
+redundant radix based cordic algorithm
+e x a m p l eo fc o r d i ci t e r a t i o n i m p l e m e n t a t i o no fc o r d i ca l g o r i t h m s
+p a r a l l e la r c h i t e c t u r e
+s e r i a la r c h i t e c t u r e i m p r o v e dc o r d i ca r c h i t e c t u r e s
+a p p l i c a t i o n
+conclusion
+floating point architectures
+introduction f l o a t i n gp o i n tr e p r e s e n t a t i o n
+fixed point to floating point conversion
+leading zero counter floating point addition
+floating point multiplication
+f l o a t i n gp o i n td i v i s i o n f l o a t i n gp o i n tc o m p a r i s o n
+floating point square root
+floating point to fixed point conversion conclusion
+timing analysis
+introduction
+t i m i n gd e ﬁ n i t i o n s
+s l e wo fw a v e f o r m clock jitter
+c l o c kl a t e n c y
+launching and capturing flip flop c l o c ks k e w
+clock uncertainty
+clock to q delay
+combinational logic timing
+m i na n dm a xt i m i n gp a t h s c l o c kd o m a i n s
+s e t u pt i m e
+h o l dt i m e contents xix
+s l a c k
+required time and arrival time
+t i m i n gp a t h s
+timing checks
+setup timing check
+hold timing check
+timing checks for different timing paths
+setup check for flip flop to flip flop timing
+p a t h
+setup and hold check for input to flip flop
+t i m i n gp a t h
+setup check for flip flop to output timing path setup check for input to output timing path
+multicycle paths
+f a l s ep a t h s h a l fc y c l ep a t h s
+asynchronous checks
+recovery timing check
+removal timing check
+maximum frequency computation m a x i m u ma l l o w a b l es k e w
+frequently asked questions
+conclusion
+digital system implementation
+introduction
+f p g ai m p l e m e n t a t i o n
+internal structure of fpga
+fpga implementation using xilinx eda
+t o o l
+d e s i g nv e r i ﬁ c a t i o n
+f p g ae d i t o r
+a s i ci m p l e m e n t a t i o n
+simulation and synthesis
+placement and routing
+frequently asked questions
+conclusion
+low power digital system design
+introduction
+different types of power consumption
+s w i t c h i n gp o w e r
+short circuit power
+leakage power s t a t i cp o w e r xx contents
+architecture driven voltage scaling
+s e r i a la r c h i t e c t u r e
+p a r a l l e la r c h i t e c t u r e p i p e l i n ea r c h i t e c t u r e
+a l g o r i t h m i co p t i m i z a t i o n
+minimizing the hardware complexity selection of data representation techniques
+a r c h i t e c t u r a lo p t i m i z a t i o n
+choice of data representation techniques ordering of input signals
+reducing glitch activity
+choice of topology l o g i cl e v e lp o w e rd o w n
+synchronous versus asynchronous
+loop unrolling operation reduction
+substitution of operation
+r e t i m i n g
+wordlength reduction
+resource sharing
+frequently asked questions
+conclusion
+digital system design examples
+fpga implementation fir filters
+fir low pass filter
+advanced dsp blocks different filter structures
+performance estimation
+conclusion
+top module for fir filter in transposed direct
+f o r m
+fpga implementation of iir filters
+iir low pass filter
+different iir filter structures pipeline implementation of iir filters
+performance estimation
+conclusion
+fpga implementation of k means algorithm
+k means algorithm
+example of k means algorithm proposed architecture
+design performance
+conclusion contents xxi
+matrix multiplication
+matrix multiplication by scalar–vector
+multiplication
+matrix multiplication by vector–vector
+multiplication
+systolic array for matrix multiplication
+s o r t i n ga r c h i t e c t u r e s
+parallel sorting architecture
+parallel sorting architecture s e r i a ls o r t i n ga r c h i t e c t u r e
+s o r t i n gp r o c e s s o rd e s i g n
+median filter for image de noising
+median filter
+fpga implementation of median filter
+f p g ai m p l e m e n t a t i o no f p o i n tf f t
+data path for point fft processor
+control path for point fft processor
+interfacing adc chips with fpga using spi protocol
+interfacing dac chips with fpga using spi protocol
+interfacing external devices with fpga using uart conclusion
+basics of system verilog
+introduction language elements
+l o g i cl i t e r a lv a l u e s
+basic data types user deﬁned data types
+e n u m e r a t i o nd a t at y p e
+a r r a y s
+dynamic arrays
+a s s o c i a t i v ea r r a y queues
+e v e n t s
+string methods
+composite data types
+s t r u c t u r e s
+u n i o n s c l a s s e s
+e x p r e s s i o n s
+parameters and constants v a r i a b l e s
+o p e r a t o r s
+s e tm e m b e r s h i po p e r a t o r s t a t i cc a s to p e r a t o r xxii contents
+dynamic casting
+t y p eo p e r a t o r
+concatenation of string data type s t r e a m i n go p e r a t o r s
+behavioural modelling
+procedural constructs l o o ps t a t e m e n t s
+c a s es t a t e m e n t
+i fs t a t e m e n t f i n a ls t a t e m e n t
+d i s a b l es t a t e m e n t
+e v e n tc o n t r o l continuous assignment
+parallel blocks
+process control
+structural modelling
+module prototype
+s u m m a r y
+advanced fpga implementation techniques
+introduction s y s t e m o n c h i pi m p l e m e n t a t i o n
+implementations using soc fpgas
+axi protocol axi protocol features
+partial re conﬁguration pr
+dynamic pr advantages of dpr
+dpr techniques
+d p rt e r m i n o l o g y
+d p rt o o l s
+d p rf l o w communication between reconﬁgurable
+modules
+conclusion
+references
+index

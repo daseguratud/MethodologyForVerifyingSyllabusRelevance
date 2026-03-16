@@ -1,0 +1,147 @@
+contents
+basic components and combinatorial circuits
+the three basic logic gates
+other logic gates
+physical realisation of gates
+mosfet transistors
+cmos gates
+switching delays
+moore’s law
+algebraic manipulation and duality
+two layer circuits
+karnaugh maps
+functional completeness of the nand gate
+multiplexers
+summary
+numbers basic circuits and the alu
+representation of unsigned numbers
+two’s complement representation of integers
+adding unsigned numbers
+adding two’s complement numbers
+subtraction
+comparing unsigned and two’s complement numbers
+arithmetic circuits addition and subtraction
+addition the half and full adder
+subtraction
+the carry look ahead adder
+the arithmetic logic unit alu
+multiplication
+alternative representations for numbers
+sign and magnitude
+one’s complement
+xixii contents
+floating point numbers
+parity bits and hamming codes
+gray code
+representation of character sets
+summary
+sequential circuits
+a one time latch
+the set reset ﬂip ﬂop set reset latch
+the d latch d ﬂip ﬂop
+registers
+finite state machines
+an example state machine with four states
+encoding the state machine
+realising the state machine using logic gates and ﬂip ﬂops
+random access memory
+finite state machines to control registers
+hardware description languages
+summary
+an elementary processor
+the general structure of the processor
+the instruction set
+the instruction fetch and the register transfer language
+the format of machine code instructions
+implementing instructions on the processor
+optimisation of the execution of instructions
+more advanced instructions
+input and output
+interrupts
+summary
+assembly programming
+labels and comments equ and cons
+arithmetic calculations
+a timed loop
+basic data structures
+arrays
+stacks
+linked lists
+memory layout
+allocation dependence
+relocatable code and data
+subroutines
+saving the return address contents xiii
+returning values
+passing arguments on the stack
+local variables
+interrupt routines
+interrupt handlers
+installing handlers
+an example displaying keyboard strokes
+multitasking and multithreading
+timer interrupts and context switching
+data structures for multitasking
+summary
+compiling higher level languages
+a simple higher level programming language
+context free grammars and parsing
+type checking
+compilation scheme
+compiler optimisation
+compilation of other language constructs
+input output
+more complex data types
+parameter passing
+classes and objects
+flow control
+exception handling
+summary
+computer organisation
+starting a computer system
+the basic input output system and the power on self test
+the boot loader
+uniﬁed extensible firmware interface
+operating systems
+processor modes
+system calls
+memory organisation
+virtual memory
+replacement policies
+translation look aside buffers
+code stack data and other segments
+caches
+placement policies
+multi and many core processor machines
+summary xiv contents
+the raspberry pi and the arm processor
+raspberry pi overview
+the arm architecture
+arm architecture instruction sets
+arm architecture proﬁles
+arm security modes
+virtual memory the memory management unit
+memory attributes
+memory attributes and the vmmu
+the system memory management unit
+the arm instruction set
+instruction groups
+setting ﬂags and conditional execution
+arguments and addressing modes
+the arm calling convention
+the use of system calls
+summary
+a an extended instruction set for the simple processor
+b the arm bit instruction set
+c syntax of the register transfer language
+answers to the exercises
+d answers for chapter
+d answers for chapter
+d answers for chapter
+d answers for chapter
+d answers for chapter
+d answers for chapter
+d answers for chapter
+d answers for chapter
+references
+index

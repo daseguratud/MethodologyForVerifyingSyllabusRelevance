@@ -1,0 +1,458 @@
+index
+index
+vhdl code listing
+preface
+fundamentals of digital hardware design
+introduction
+languages for hardware description
+uses of an hdl program
+most widely used hdl
+digital circuit design cycle
+integrated circuit technologies
+classification of technologies
+comparison between technologies
+properties of digital circuits
+device delay
+concurrent execution
+marginal designs
+signal strength
+circuit test
+manufacturing test
+functional test
+the vhdl code used to illustrate the theoretical explanations as well as the designs and banks of
+test proposed as a solution to the self-test exercises are available at
+the following url https canalunedes series ebdcefedesign and analysis of digital circuits with vhdl
+functional test programs
+test bench
+representations and levels of abstraction
+system representation
+abstraction levels
+vhdl in the development flow
+basic concepts through an example
+behavior at the level of logical functions
+structure description
+abstract description of behavior
+test bench
+configuration
+vhdl code simulation through example
+design of a tri-state buffer
+test bench design
+recommended readings
+self-test exercises
+exercises solutions
+vhdl basics
+introduction
+design units
+entity
+port clause
+generic clause
+statements
+sentences
+summary of entity syntax
+architecture
+index
+concurrent assignments
+simple concurrent assignments
+conditional concurrent assignments
+concurrent selection assignments
+sensitivity of concurrent sentences
+generate statement
+iterative generate statement
+conditional generate statement
+process block
+wait statements
+sensitivity list
+sequential code
+sequential assignment to a signal
+sequential assignment to a variable
+if statement
+case sentence
+for loop
+structure description
+designs with regular structure
+parameterization
+behavior parameterization
+structure parameterization
+variable and constant signals
+data types and operators
+predefined types in vhdl
+ieestd logic package types
+operators on bit vector and std logicvector
+ieeenumeric std package types
+design and analysis of digital circuits with vhdl
+time and string types
+user-defined types
+attributes
+bookstores
+assert
+applets
+functions
+procedures
+differences between functions and procedures
+packages
+recommended readings
+self-test exercises
+exercises solutions
+vhdl code simulation
+introduction
+vhdl code processing
+build order
+drivers
+initialization
+signal example with a driver
+signal example with two drivers
+signal attributes
+delta delay
+driver transaction queue management
+example simulation of waveforms with inertial delay
+example simulation of waveforms with trans delay
+bearing
+simulation example of a simple circuit
+index
+recommended readings
+self-test exercises
+exercises solutions
+combinational logic design
+introduction
+design for combinational logic synthesis
+use of concurrent sentences
+use of process blocks
+logical functions
+circuit design
+test bench programming
+input multiplexer
+design using sequential statements
+design using concurrent statements
+full bit subtractor
+description of behavior
+structure description
+test bench programming
+bit full adder
+circuit design
+test bench
+arithmetic logical unit
+aluminum design
+test bench programming
+recommended readings
+self-test exercises
+exercises solutions
+design and analysis of digital circuits with vhdl
+records and memories
+introduction
+bit register
+description of behavior
+test bench
+multifunction register
+description of behavior
+test bench
+shift register
+description of behavior
+test bench
+test bench with file access
+register file
+tristate registry
+structural description of the register file
+drivers and resolution function
+register file test bench
+description of register file behavior
+bidirectional bus and memories
+read-only memory
+read and write memory
+bidirectional bus
+recommended readings
+self-test exercises
+exercises solutions
+sequential logic design
+introduction
+finite state machine design
+index
+sequence detector circuit
+sequential logic synthesis
+incomplete conditional statements
+complete conditional statements
+delays
+initialization
+process blocks
+flip ﬂop jk
+flip flop design
+test bench
+moore finite state machines
+machine design
+test bench
+structural modeling
+mealy finite state machines
+machine design
+test bench
+safe finite state machines
+recommended readings
+self-test exercises
+exercises solutions
+transfer methodology between records
+introduction
+transfer operations between registers
+basic rt operation
+rt program
+finite state machines with data path
+multiple rt and data path operations
+design and analysis of digital circuits with vhdl
+control logic using fsm
+fsmd basic block diagram
+description of the rt program using vhdl
+sequence detector circuit
+control of a vending machine
+handshaking protocol
+algorithm description
+control circuit design
+test bench programming
+recommended readings
+self-test exercises
+exercises solutions
+An introduction to using modelsim
+to installation
+editing and compiling a model
+to main window of the simulator
+steps to create a project
+to add files to the project
+compilation of the files
+to test bench
+simulation visualization and debugging
+activation of simulation mode
+displaying the results
+to run the simulation
+insertion of breakpoints
+alphabetical index
+bibliography
+vhdl code listing
+entitydel parity detector circuit
+parity detector architecture describing behavior
+using the logic function
+parity detector architecture describing behavior
+using the xor logic function
+reversing door
+xor gate with two entrances
+architecture of the parity detector describing the structure of the
+circuit
+Parity detector architecture described using an xor network
+parity detector architecture described by an algorithm
+parity detector test bench
+configuration for the simulation of the detector test bench
+parity
+tri-state buffer
+tri-state buffer test bench
+Design of the control circuit of a car security alarm
+alternative design of the car alarm control circuit
+parity detector circuit
+bad code causing a compile error
+correct description of the circuit shown in the figure
+bit input multiplexer
+binary input decoder
+priority encoder
+design and analysis of digital circuits with vhdl
+bit input multiplexer
+binary input decoder
+priority encoder
+bistable d with asynchronous reset activated at low level
+bit input multiplexer
+binary input decoder
+priority encoder
+bit input multiplexer
+binary input decoder
+priority encoder
+Bitwise xor of two bit signals
+xor of the bits of a bit signal
+structural description at the level of logic gates of a multiplexer
+of two one-bit signals
+Structural description of a bit signal multiplexer
+array of doors and
+bit parity detector
+The conv integer function converts a parameter of type stdlogic
+vectors an integer
+procedure that returns two ordered input parameters
+definition of a function in a package
+using a function defined in a package
+design corresponding to the exercise
+design corresponding to the exercise
+test bank corresponding to the exercise
+design corresponding to the exercise
+“one shot” circuit design
+“one shot” circuit test bench
+design of a decoder with enable input
+vhdl code listing
+test bench of a decoder with enable input
+code corresponding to the exercise
+code corresponding to the exercise
+exercise design
+exercise test bench
+exercise design
+exercise test bench
+design corresponding to the exercise
+test bank corresponding to the exercise
+design corresponding to the exercise
+test bank corresponding to the exercise
+design corresponding to the exercise
+design corresponding to the exercise
+design corresponding to the exercise
+design corresponding to the exercise
+design by describing logical functions
+circuit test bench that implements the two logic functions
+designing a mux using an if statement
+description of the mux using ifycase statements
+mux testbench
+misdescription of mux architecture
+designing a mux using a concurrent statement
+design of a mux using two concurrent statements
+description of the behavior of a full one-bit subtractor
+Exclusive entrance door
+input inverter
+door and entrance
+entrance door
+design and analysis of digital circuits with vhdl
+description of the structure of a complete one-bit subtractor
+one bit full subtractor testbench
+one-bit complete subtractor test bench using a procedure
+lie
+one-bit full subtractor testbench using a function
+and input delay
+input delay
+or exclusive of delayed inputs
+package in which logic gates are declared
+bit full adder
+bit full adder testbench
+deﬁnition of global constants of aluminum
+alu designed using a concurrent statement
+alu designed using a process block
+alu test bench global constants
+aluminum test bench
+design of a priority encoder
+priority encoder testbed
+bit comparator circuit design for x
+bit comparator circuit testbench for x
+bcd segment decoder described using a sentence
+case
+bcd decoder test bench
+bcd decoder described using an if statement
+bcd decoder described using an assignment statement
+conditional concurrent
+bcd decoder described using a with select statement
+nbit adder design
+bit adder testbench
+vhdl code listing
+displacer circuit design
+displacer circuit test bench
+equality comparator of two bit numbers
+equality comparator of two nbit numbers
+den two number equality comparator test bank
+bits
+package with the global constants of the alu
+design of the alu whose circuit is shown in the figure
+package with the constants used in the alu testbench
+aluminum test bench
+design of an entrance door
+design of a door and entrances
+design of a bit decoder
+test bench of a bit decoder
+design of the binary code to gray code converter using a
+process blockwith a case statement
+design of the binary code to gray code converter using a
+concurrent selection assignment with select
+design of the binary code to gray code converter describing the
+circuit structure at the logic gate level
+binary code to free code converter testbench
+design of a bit register with synchronous reset
+test bench of a bit register with synchronous reset
+design of a multifunction bit register
+test bench of a multifunction bit register
+design of a bit shift register
+bit shift register testbench
+registry test bank with file access
+design of a tristate registry
+design and analysis of digital circuits with vhdl
+register file structural design
+register file testbench with file access
+design of the register file by describing the behavior
+read-only memory
+read and write memory
+bidirectional bus
+design of a bit shift register using variables
+design of a bit shift register using signals
+wrong design of a bit shift register
+test bench of a bit shift register with
+serial input and output
+nbit shift register with serial input and output
+serial to parallel and parallel to serial bit register
+test bench for serial-to-parallel and parallel-to-serial recording
+bits
+alu global constants and register
+alu circuit design and register shown in figure
+testbench global constants
+alu circuit test bench and record
+rom design
+rom test bench
+ram design
+ram test bench
+detector circuit design
+detector circuit test bench
+design of a ﬂip ﬂop jk with asynchronous reset
+test bench of a ﬂip ﬂop jk
+package with the encoding of the states
+figure moore machine design
+vhdl code listing
+figure moore machine test bench
+structural design of moore machine
+package with the encoding of the states
+figure mealy machine design
+alternative figure mealy machine design
+non-exhaustive test bench of the mealy machine in figu
+ra
+figure mealy machine test bench
+design of a secure fsm
+design of a latch d
+d latch test bench
+design of a ﬂip ﬂop rs
+test bench of a ﬂip ﬂop rs
+design of a ﬂip ﬂop d with setyclear enable signals
+test bench of a ﬂip ﬂop d
+module up-counter design constants
+Design of an up-counter module
+test bench of an up counter module
+Structural design of counter up module
+global constants that encode the states
+signal generator design
+signal generator test bench
+frequency divider design
+frequency divider test bench
+signal generator circuit
+signal generator circuit test bench
+detector circuit of or more consecutive ones
+sequence detector circuit test bench
+bcd counter design
+design and analysis of digital circuits with vhdl
+bcd counter test bench
+string detector design
+string detector test bench
+b its up and down binary counter design
+binary up and down counter test bench
+bits
+two semaphore driver global constants
+two traffic light controller design
+two traffic light controller test bench
+microwave controller global constants
+microwave controller design
+microwave controller test bench
+vhdl encoding of an rt algorithm
+Two designs of a sequence detector circuit
+vending machine circuit constants
+vending machine control circuit
+Vending machine control circuit test bench
+circuit that calculates the greatest common factor of two numbers
+Circuit test bench that calculates the greatest common factor r of
+two numbers
+circuit that calculates the average of number of bits
+Circuit test bench that calculates the average of numbers of
+bits
+global constant declaration
+bcd to binary code converter
+bcd to binary code converter testbench
+declaration of global layout constants
+circuit that calculates exponentiation of binary numbers in sign
+circuit testbench that calculates exponentiation

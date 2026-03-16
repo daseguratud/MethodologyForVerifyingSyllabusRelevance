@@ -1,0 +1,101 @@
+contents
+preface i x
+chapter number systems
+introduction
+decimal numbers
+binary numbers
+octal numbers
+hexadecimal numeration
+representation in a radix b
+binary coded decimal numbers
+representations of signed integers
+sign magnitude representation
+two’s complement representation
+excess e representation
+representation of the fractional part of a number
+arithmetic operations on binary numbers
+addition
+subtraction
+multiplication
+division
+representation of real numbers
+fixed point representation
+floating point representation
+data representation
+gray code
+p out of n code
+ascii code
+other codes
+codes to protect against errors vi digital electronics
+parity bit
+error correcting codes
+exercises
+solutions
+chapter logic gates
+introduction
+logic gates
+not gate
+and gate
+or gate
+xor gate
+complementary logic gates
+three state buffer
+logic function
+the correspondence between a truth table and a logic function
+boolean algebra
+boolean algebra theorems
+karnaugh maps
+simpliﬁcation of logic functions with multiple outputs
+factorization of logic functions
+multi level logic circuit implementation
+examples
+nand gate logic circuit
+nor gate based logic circuit
+representation based on xor and and operators
+practical considerations
+timing diagram for a logic circuit
+static hazard
+dynamic hazard
+demonstration of some boolean algebra identities
+exercises
+solutions
+chapter function blocks of combinational logic
+introduction
+multiplexer
+demultiplexer and decoder
+implementation of logic functions using multiplexers or decoders
+multiplexer
+decoder
+encoders
+encoder contents vii
+encoder
+priority encoder
+transcoders
+binary code and gray code
+bcd and excess code
+parity check generator
+barrel shifter
+exercises
+solutions
+chapter systematic methods for the simpliﬁcation of
+logic functions
+introduction
+deﬁnitions and reminders
+deﬁnitions
+minimization principle of a logic function
+karnaugh maps
+function of ﬁve variables
+function of six variables
+karnaugh map with entered variable
+applications
+representation based on the xor and and operators
+systematic methods for simpliﬁcation
+determination of prime implicants
+finding the constitutive terms of a minimal expression
+quine–mccluskey technique simpliﬁcation of incompletely
+deﬁned functions
+simpliﬁcation of functions with multiple outputs
+exercises
+solutions
+bibliography
+index

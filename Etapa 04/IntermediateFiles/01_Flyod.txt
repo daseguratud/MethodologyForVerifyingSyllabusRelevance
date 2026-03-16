@@ -1,0 +1,160 @@
+contents
+chapter introductory concepts
+digital and analog quantities
+binary digits logic levels and digital waveforms
+basic logic functions
+combinational and sequential logic functions
+introduction to programmable logic
+fixed function logic devices
+test and measurement instruments
+introduction to troubleshooting
+chapter number systems operations and codes
+decimal numbers
+binary numbers
+decimal to binary conversion
+binary arithmetic
+complements of binary numbers
+signed numbers
+arithmetic operations with signed numbers
+hexadecimal numbers
+octal numbers
+binary coded decimal bcd
+digital codes
+error codes
+chapter logic gates
+the inverter
+the and gate
+the or gate
+the nand gate
+the nor gate
+the exclusive or and exclusive nor gates
+programmable logic
+fixed function logic gates
+troubleshooting
+chapter boolean algebra and logic simplification
+boolean operations and expressions
+laws and rules of boolean algebra
+demorgan’s theorems
+contents
+boolean analysis of logic circuits
+logic simplification using boolean algebra
+standard forms of boolean expressions
+boolean expressions and truth tables
+the karnaugh map
+karnaugh map sop minimization
+karnaugh map pos minimization
+the quine mccluskey method
+boolean expressions with vhdl
+applied logic
+chapter combinational logic analysis
+basic combinational logic circuits
+implementing combinational logic
+the universal property of nand and nor gates
+combinational logic using nand and nor gates
+pulse waveform operation
+combinational logic with vhdl
+troubleshooting
+applied logic
+chapter functions of combinational logic
+half and full adders
+parallel binary adders
+ripple carry and look ahead carry adders
+comparators
+decoders
+encoders
+code converters
+multiplexers data selectors
+demultiplexers
+parity generators checkers
+troubleshooting
+applied logic
+chapter latches flipflop and timers
+latches
+flipflop
+flip flop operating characteristics
+flip flop applications
+one shots
+the astable multivibrator
+troubleshooting
+applied logic contents
+chapter shift registers
+shift register operations
+types of shift register data i os
+bidirectional shift registers
+shift register counters
+shift register applications
+logic symbols with dependency notation
+troubleshooting
+applied logic
+chapter counters
+finite state machines
+asynchronous counters
+synchronous counters
+up down synchronous counters
+design of synchronous counters
+cascaded counters
+counter decoding
+counter applications
+logic symbols with dependency notation
+troubleshooting
+applied logic
+chapter programmable logic
+simple programmable logic devices splds
+complex programmable logic devices cplds
+macrocell modes
+field programmable gate arrays fpgas
+programmable logic software
+boundary scan logic
+troubleshooting
+applied logic
+chapter data storage
+semiconductor memory basics
+the random access memory ram
+the read only memory rom
+programmable roms
+the flash memory
+memory expansion
+special types of memories
+magnetic and optical storage
+memory hierarchy
+cloud storage
+troubleshooting contents
+chapter signal conversion and processing
+analog to digital conversion
+methods of analog to digital conversion
+methods of digital to analog conversion
+digital signal processing
+the digital signal processor dsp
+chapter data transmission
+data transmission media
+methods and modes of data transmission
+modulation of analog signals with digital data
+modulation of digital signals with analog data
+multiplexing and demultiplexing
+bus basics
+parallel buses
+the universal serial bus usb
+other serial buses
+bus interfacing
+chapter data processing and control
+the computer system
+practical computer system considerations
+the processor basic operation
+the processor addressing modes
+the processor special operations
+operating systems and hardware
+programming
+microcontrollers and embedded systems
+system on chip soc
+on website http wwwpearsonglobaleditionscom floyd
+chapter integrated circuit technologies
+basic operational characteristics and parameters
+cmos circuits
+ttl bipolar circuits
+practical considerations in the use of ttl
+comparison of cmos and ttl performance
+emitter coupled logic ecl circuits
+pmos nmos and ecmos
+answers to odd numbered problems a
+glossary a
+index a

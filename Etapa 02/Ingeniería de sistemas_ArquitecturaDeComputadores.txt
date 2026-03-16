@@ -1,0 +1,160 @@
+Código: AA-FR-003
+Versión: 01
+Fecha de Aprobación: 
+27/07/2023
+HTD 2 HTC 4 HTA 3
+Asignatura x Cátedra
+Obligatorio
+ Básicox Electivo IntrínsecoElectivo 
+Extrínseco
+Teórico Práctico Teórico-Práctico x Otros: Cuál:_______
+Presencial xPresencial con 
+incorporación de TICVirtual Otros: Cuál:_______
+Dominio-Nivel RA
+1
+2
+3
+4
+5
+Cognitivo - AplicarCompetencias Resultados de Aprendizaje
+Conocer y comprender los fundamentos de la lógica matemática
+Aplicar conocimientos de las técnicas del álgebra booleana para diseñar y 
+construir hardware combinacionalSimplificar expresiones proposicionales mediante la aplicación de las leyes.Comprende y manipula algebraicamente las 
+variables y operadores booleanos, construye tablas 
+de verdad y optimiza las proposiciones 
+simplificándolas.Cognitivo - Conocer
+Cognitivo - Aplicar
+Comprende el funcionamiento, diseña y construye 
+hardware digital.Establecer la relación entre el lenguaje natural y las conectivas lógicas.
+Construir las tablas de verdad de cada una de las conectivas lógicasI. IDENTIFICACIÓN DEL ESPACIO ACADÉMICO
+NOMBRE DEL ESPACIO ACADÉMICO:  Arquitectura de computadorasCÓDIGO PLAN DE ESTUDIOS:FACULTAD: Ingeniería
+Ingeniería de Sistemas PROYECTO CURRICULAR:
+III. JUSTIFICACIÓN DEL ESPACIO ACADÉMICO
+IV. OBJETIVOS DEL ESPACIO ACADÉMICO (GENERAL Y ESPECÍFICOS)
+V. PROPÓSITOS DE FORMACIÓN Y DE APRENDIZAJE (PFA) DEL ESPACIO ACADÉMICO Código del espacio académico: Número de créditos académicos: 3
+Tipo de espacio académico:
+MODALIDAD DE OFERTA DEL ESPACIO ACADÉMICO:Distribución horas de trabajo:
+NATURALEZA DEL ESPACIO ACADÉMICO:
+CARÁCTER DEL ESPACIO ACADÉMICO:Obligatorio
+Complementario
+II.  SUGERENCIAS DE SABERES Y CONOCIMIENTOS PREVIOS
+Conocimientos básicos de programación de computadoras
+Conocimientos básicos de circuitos
+Los ingenieros de sistemas deben conocer la parte básica del hardware de los sistemas computacionales para tener un concepto claro del funcionamiento de los equipos pequeños y 
+grandes, además de la optimización de los recursos disponibles. 
+Objetivo General: 
+Presentar al estudiante los elementos básicos de diseño digital y aplicarlos al diseño de sistemas de cómputo para mejorar la eficiencia y prestaciones de rendimiento del sistema de 
+cómputo. 
+Objetivos específicos:
+1. Conocer y comprender los diferentes sistemas numéricos posicionales.  
+2. Adquirir los elementos para el manejo de la lógica utilizada en los sistemas computacionales  
+3. Adquirir destrezas para la implementación del hardware combinacional.  
+4. Adquirir destrezas para la implementación del hardware secuencial.  
+5. Adquirir conocimientos para el manejo de dispositivos de memoria y de la transferencia de registros.  FORMATO DE SYLLABUS
+Macroproceso: Direccionamiento Estratégico
+Proceso: Autoevaluación y Acreditación
+6
+7
+8
+9
+10
+Cognitivo - Evaluar 11
+X X X
+X X X
+X
+Actividades Entregables Talleres ParcialesInformes de 
+proyecto finalProyecto 
+finalExposiciones
+X X X X X X
+X X X X X X
+X X X X X X
+X X X X X X
+X X X X X X
+X X X X X X
+X X X X X X
+X X X X X X
+X X X X X XRA08
+RA09Cognitivo - Aplicar
+Conocer y diseñar repertorios de instrucciones sencillas en un procesadorCognitivo - Conocer
+Cognitivo - Aplicar
+Comparar el rendimiento y/o consumo en un sistema computacional teniendo en 
+cuenta: la jerarquía de memoria, los sistemas de almacenamiento, el diseño del 
+lenguaje máquina y las principales técnicas de diseño de procesadores.
+RA06Aprendizaje Activo Autodirigido Centrado en el estudiante
+Resultados de aprendizaje (RA) a ser evaluados:Resultados de aprendizaje asociados a las evaluaciones
+(T: Teórico / P: Práctico)Tradicional Basado en ProyectosDescribir la estructura interna, las unidades funcionales y el funcionamiento de 
+los principales componentes de un sistema computacionalhardware digital.
+Identifica, comprende y evalua la estructura y 
+arquitectura de los computadores, así como los 
+componentes básicos que los conforman.Conocer las diferentes arquitecturas existentes de los sistemas computacionales 
+y sus diferencias en rendimiento.
+Aplicar optimizaciones sencillas en fragmentos de código para mejorar el 
+rendimiento y/o consumo en un sistema computacional. Aplicar conocimientos de las técnicas del álgebra booleana para diseñar y 
+construir hardware secuencial
+VII. ESTRATEGIAS DE ENSEÑANZA QUE FAVORECEN EL APRENDIZAJE1. Fundamentos de lógica matemática
+* Funciones Booleanas. Expresiones de Boole
+* Postulados y teoremas
+* Ecuaciones booleanas, Maxtérminos y Mintérminos 
+* Optimización de funciones booleanas
+* Compuertas lógicas (AND, OR, NOT, XOR)
+* Implementación de funciones booleanas empleando compuestas lógicas
+* Universalidad de las  compuertas lógicas NAND y NOR 
+2. Sistemas Combinacionales 
+* Compuertas lógicas en circuitos integrados
+* Sumadores, Restadores, Codificadores, Decodificadores, Multiplexores, Demultiplexores
+* Unidad central de proceso (ALU)
+3. Sistemas Secuenciales 
+* Latch y Flip-flop
+* Contadores
+* Registros
+* Memoria RAM, ROM, PROM, EPROM, EEPROM
+4. Introducción a la Arquitectura de Computadores. 
+* El concepto de BUS
+* Acceso al bus (Buffer triestado)
+* Organización del procesador 
+* Diseño de Instrucciones
+* Modos de direccionamiento
+* Mapas de memoria
+5. Temas complementarios. 
+* Arquitecturas avanzadas de computadores  
+* Paralelismo 
+Basado en Tecnología
+Basado en Problemas Colaborativo Experimental
+VIII.  EVALUACIÓN
+RA01
+RA02
+RA03
+RA04
+RA05
+RA07VI.  CONTENIDOS TEMÁTICOSX X X X X X
+X X X X X X
+25 20 20 5 25 5
+G G I G G I/G
+0-5 0-5 0-5 0-5 0-5 0-5
+Fecha aprobación por Consejo Curricular: Número de acta:RA10
+• Salón normal con pizarrón para sesiones de cátedra y para sesiones de discusión.  
+• Acceso a Videobeam. 
+• Página web para publicar material didáctico, guías de trabajo, talleres, etc.  
+• Videos didácticos alrededor de los temas de la asignatura. 
+• Acceso fuera de clases a salas de informática para realizar los talleres investigativos y prácticos.  
+• Acceso al material bibliográfico recomendado  
+No hayX. PRÁCTICAS ACADÉMICAS - SALIDAS DE CAMPO
+Básicas:
+MANO Morris y KIME Charles. Fundamentos de Diseño Lógico y Computadoras. Editorial Prentice Hall. México, 1998. 
+MALVINO, Albert Paul y BROWN, Jerald; Digital computer electronics; McGraw-Hill, 1999
+Complementarias :
+• MARTINEZ Jaime y OLVERA Jorge. Organización y Arquitectura de Computadoras. Editorial Prentice Hall. México, 2000. 
+• GAJSKI Daniel. Principios de Diseño Digital. Editorial Prentice Hall. España, 1997 
+• TANENBAUM Andrew. Organización de Computadoras un Enfoque Estructurado. Editorial Prentice Hall, tercera edición. México, 1992. 
+• PATERSON David y HENESSY John. Organización y Diseño del Computador: La Interfaz hardware/software. Editorial McGraw Hill. España, 1995. 
+• STALLING William. Organización y Arquitectura de Computadores. Editorial Prentice Hall, séptima edición. España, 2007. 
+Páginas web :
+Intel Documentation Center - https://www.intel.com/content/www/us/en/resources-documentation/developer.html 
+AMD Documentation Center - https://developer.amd.com/resources/developer-guides-manuals/ 
+ARM Developer - https://developer.arm.com/documentation/ 
+RISC Specifications manuals - https://riscv.org/technical/specifications/ XI.  BIBLIOGRAFÍARA11
+Tipo de evaluación**
+Porcentaje de evaluación (%)
+Trabajo Individual (I) o Grupal (G)
+Tipo de nota
+Fecha revisión por Consejo Curricular:XII. SEGUIMIENTO Y ACTUALIZACIÓN DEL SYLLABUSIX. MEDIOS Y RECURSOS EDUCATIVOS

@@ -12,13 +12,13 @@ class ui:
         print(f"\033[36m{message}\033[0m")
     @staticmethod
     def printStageStart(stageNumber):
-        print(f"\033[32mEtapa {stageNumber} iniciada...\033[0m")
+        print(f"\033[33mEtapa {stageNumber} iniciada...\033[0m")
     @staticmethod
     def printStageFinish(stageNumber):
-        print(f"\033[32mEtapa {stageNumber} terminada\033[0m")
+        print(f"\033[33mEtapa {stageNumber} terminada\033[0m")
     @staticmethod
     def printStageMessage(message):
-        print(f"\033[33m{message}\033[0m")
+        print(f"\033[32m{message}\033[0m")
     @staticmethod
     def printStageMessageSubProcess(message):
         print(f"\033[34m{message}\033[0m")

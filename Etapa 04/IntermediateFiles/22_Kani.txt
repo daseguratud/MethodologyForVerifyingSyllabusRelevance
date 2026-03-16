@@ -1,0 +1,499 @@
+preface vii
+chapter introduction to digital systems
+analog and digital electronics
+analog and digital signal
+binary representation in digital systems
+digital integrated circuits ics
+digital systems
+binary storage devices registers and memory
+binary logic and arithmetic
+logic families
+hardware discription languages hdls
+chapter number systems –
+review of number systems representation and conversions
+number represe ntation
+decimal number system
+binary number system
+octal number system
+hexadecimal number system
+relation between binary octal and hexadecimal number systems
+binary arithmetic
+binary addition
+binary subtraction
+binary multiplication
+binary division
+unsigned and signed binary number systems
+unsigned binary
+sign magnitude form
+complement of number systems r’s and r ’s complement
+one’s complement
+two’s complement
+one’s and two’s complement addition
+one’s and two’s complement subtraction
+nine’s and ten’s complement
+nine’s and ten’s complement addition
+nine’s and ten’s complement subtraction contentsxii digital logic circuits
+summary of important concepts
+short answer questions
+exercises
+chapter binary codes –
+introduction
+classification of binary codes
+bcd codes
+bcd
+bcd addition
+bcd subtraction
+code
+code
+code
+excess code
+excess addition
+excess subtraction
+gray code
+alphanumeric code
+ascii code
+ebcdic code
+error detection and correction
+parity
+hamming code
+checksum
+summary of important concepts
+short answer questions
+exercises
+chapter boolean algebra and logic gates –
+boolean algebra
+duality
+postulates of boolean algebra
+boolean theorems
+binary logic
+logic gates
+universal gates
+positive and negative logic gates
+boolean functions
+implementation of boolean functions by logic gates
+minterms
+maxterms
+standard forms
+sum of products and product of sums simplification contents xiii
+canonical form
+complement of a function
+implementation of boolean functions using universal gates
+implementation of logic design using standard logic gate ic’s
+implementation of logic design using standard universal gate ic’s
+simplification of boolean expressions or functions
+karnaugh map or k map m inimization
+realization of sum of products form using k map
+two variable k map
+three variable k map
+four variable k map
+five variable k map
+realization of product of sums form using k map
+completely and incompletely specified functions
+k map with don’t care conditions
+quine mccluskey qm method of minimization
+table method of minimization
+summary of important concepts
+short answer questions
+exercises
+chapter combinational logic circuits –
+introduction
+combinati onal c ircuits
+k map representation and minimization using k maps
+problem formulation and design of combinational circuits
+code converters
+decoders
+logic high to decoder
+logic low to decoder
+logic high to decoder with logic high enable
+logic high to decoder with logic low enable
+logic low to decoder with logic high enable
+logic low to decoder with logic low enable
+logic high to decoder
+logic low to decoder
+expanding the decoder
+combinational circuit design using decoder
+implementation of combinational logic design using
+standard decoder ic’s
+encoders
+logic high to encoder
+logic high to encoder xiv digital logic circuits
+priority encoders
+logic high to priority encoder
+logic high to priority encoder design using k maps
+logic high to priority encoder
+multiplexer
+expanding the multiplexer
+combinational circuit design using multiplexer
+implementation of combinational logic design using
+standard multiplexer ic’s
+demultiplexer
+expanding the demultiplexer
+demultiplexers and decoders
+adders
+half a dder
+full adder
+binary parallel adder
+carry look ahead adder
+bcd adder
+subtractors
+half subtractor
+full subtractor
+parallel adder subtractor
+binary parallel adder subtractor
+bcd subtractor
+bcd adder subtractor
+magnitude comparator
+bit magnitude comparator
+bit magnitude comparator
+bit magnitude comparator
+combinational multiplier
+combinational bit binary multiplier
+combinational bit binary multiplier
+arithmetic and logic unit
+design of bit alu
+alu using standard ic’s
+bit and bit alu using
+bit and bit alu using
+combinational systems case study
+digital trans receiver
+parallel data trans receiver
+serial data trans receiver
+parity generator and checker
+bcd to segment decoder contents xvcontents xv
+summary of important concepts
+short answer questions
+exercises
+chapter latches and flipflop –
+bistable element and latches
+sr latch
+analysis of sr latch using nor gates
+analysis of sr latch using nand gates
+d latch
+application of latches swith debouncing
+flipflop
+clock and triggering of flipflop
+sr flip flop
+jk flip flop
+t flip flop toggle flip flop
+d flip flop data flip flop
+flip flop with preset and reset facility
+master slave flip flop
+excitation table and characteristic equation of flipflop
+excitation table of d flip flop
+excitation table of jk flip flop
+excitation table of t flip flop
+excitation table of sr flip flop
+conversion of flipflop
+conversion of sr to jk flip flop
+conversion of sr to d flip flop
+conversion of sr to t flip flop
+conversion of jk flip flop to sr d and t flipflop
+conversion of d to sr flip flop
+conversion of d to jk flip flop
+conversion of d to t flip flop
+conversion of t to sr flip flop
+conversion of t to jk flip flop
+conversion of t to d flip flop
+summary of important concepts
+short answer questions
+exercises
+chapter synchronous sequential circuits –
+introduction
+analysis and design of syn chronous or clocked sequential circuits
+design of mealy and moore models xvi digital logic circuits
+state and state equations
+state table and state diagram
+state reduction
+state assignment
+lock out condition circuit implementation
+implementation of sequential logic design using standard ic’s
+summary of important concepts
+short answer questions
+exercises
+chapter sequential logic counters and registers –
+design of counters
+asynchronous or ripple counter
+up counter
+down counter
+up down counter using t flip flop
+down counter with positive clock
+bcd counter
+mod counter
+synchronous counter
+synchronous binary up counter
+synchronous binary down counter
+synchronous up down counter
+synchronous bcd counter
+ring counter
+johnson counter
+application of counter
+implementation of counters using standard ics
+register
+shift register
+serial in serial out shift register
+serial in parallel out shift register
+parallel in serial out shift register
+parallel in parallel out shift register
+universal shift register
+application of shift register
+synchronous systems model development
+designing of rolling display
+designing of real time clock
+summary of important concepts
+short answer questions
+exercises contents xvii
+chapter asynchronous sequential circuits –
+introduction to asynchronous sequential logic circuits
+fundamental and pulse mode sequential circuits
+transition table
+stable and unstable states
+flow table
+cycles and races
+race free assignment
+transition diagram
+state reduction
+implication table
+merger diagram to find equivalent state groups
+merging of rows of flow tables with incompletely specified states
+merger diagram to find maximum compatible states
+maximum compatible
+closed covering condition
+assigning outputs in flow table with incompletely specified states
+asynchronous circuits with sr latches
+nor based sr latch
+nand based sr latch
+design using sr latches
+design of pulse mode asynchronous sequential circuits
+summary of important concepts
+short answer questions
+exercises
+chapter hazards –
+hazards
+hazards in combinational circuits
+static and static hazards
+dynamic hazard
+hazards in sequential circuits
+essential hazards
+design of hazard free circuits
+elimination of hazards in combinational circuits
+elimination of hazards in sequential circuits
+summary of important concepts
+short answer questions
+exercises
+chapter logic families –
+logic families
+evolution of logic family xviii digital logic circuits
+operation and characteristics of digitial logic families
+logic levels
+propagation delay
+power requirement
+fan out and fan in
+noise margin
+on off characteristics of bipolar junction transistors
+on off characteristics of cmos field effect transistors
+rtl resistor transistor logic
+rtl nor gate
+rtl or gate
+rtl nand gate
+rtl and gate
+rtl not gate
+dtl diode transistor logic
+dtl nand gate
+dtl nor gate
+dtl not gate
+dtl and gate
+dtl or gate
+ttl transistor transistor logic
+types of output in ttl devices
+ttl nand gate
+ttl not gate
+ttl and gate
+ttl nor gate
+ttl or gate
+ecl emitter coupled logic
+emitter coupled current switch
+emitter coupled basic gate circuit
+ecl nor gate
+ecl or gate
+ecl not gate
+ecl nand gate
+ecl and gate
+cmos complementary mosfet
+cmos not gate
+cmos nor gate
+cmos or gate
+cmos nand gate
+cmos and gate
+buffered and unbuffered cmod devices
+combinational logic implementation in cmos contents xix
+comparison of logic families
+resistor transistor logic rtl family
+diode transistor logic dtl family
+transistor transistor logic ttl family
+emitter coupled logic ecl family
+complementary mosfet logic cmos family
+summary of important concepts
+short answer questions
+exercises
+chapter memory and programmable logic devices –
+basic concepts of memory
+types of semi conductor memories
+functional block diagram of semiconductor memory
+memory or binary cell bc
+address decoding in memory
+address multiplexing in memory
+rom and prom
+custom or mask programmed rom
+programmable or field programmable rom
+eprom
+eeprom eaprom
+ram
+static ram
+dram
+content addressable memory cam
+programmable logic devices
+prom as pld
+pla programmable logic array
+implementation of combinational circuit using pla
+pal programmable array logic
+implementation of combinational circuit using pal
+sequential programmable logic device spld
+complex programmable logic device cpld
+field programmable gate array fpga
+basic architecture of fpga
+xilinx fpga family of devices
+spartan family of fpga
+spartan fpga architecture
+summary of important concepts
+short answer questions
+exercises xx digital logic circuits
+chapter data converters –
+introduction
+param eters of data converters
+digital to analog converter dac
+r r ladder type dac
+weighted resistor type dac
+switched current source type dac
+switched capacitor type dac
+dac
+analog to digital converter adc
+flash type adc
+counter type adc
+tracking type adc
+dual slope type adc
+successive approximation type adc
+adc
+summary of important concepts
+short answer questions
+exercises
+chapter vhdl –
+introduction to vhdl
+elements of vhdl language
+literals
+comments
+identifiers
+predefined data types
+data types and subtypes
+scalar data types
+composite data types
+access data types
+data objects or objects
+operators
+process and process statement
+sequential statements
+variable assignment statement
+signal assignment statement
+wait statement
+if statement
+case statement
+loop statement
+exit statement
+next statement
+null statement
+assertion statement contents xxi
+concurrent statements
+concurrent signal assignment statement
+conditional signal assignment statement
+selected signal assignment statement
+concurrent assertion statement
+vhdl design entity or model
+entity declaration
+architeture body
+component declaration
+component instantiation
+vhdl programs for half adder with three different architecture
+subprograms
+procedure
+functions
+introduction to packages
+package body
+library
+test bench
+rtl design
+combinational logic
+sequential logic
+vhdl programs without test bench
+vhdl programs with test bench
+vhdl programs in rtl methodology
+summary of important concepts
+short answer questions
+exercises
+chapter verilog –
+introduction to verilog
+elements of verilog language
+identifiers
+keywords
+comments
+logic values in verilog
+number representation in verilog
+operators in verilog language
+data types in verilog
+net data types
+variable data types
+verilog primitives
+user defined primitives udp
+verilog statements and loops
+continuous assignment statement
+procedural assignment statement xxii digital logic circuits
+if and if else statement
+case statement
+while loop
+for loop
+forever and repeat loop
+function in verilog
+task in verilog
+timescale and timing control
+delay control
+event control
+wait statement
+verilog program structure
+module
+declarations
+initial block
+always block
+types of program modeling in verilog
+dataflow model
+behavior model
+structural model
+test bench
+verilog programs without test bench
+verilog programs with test bench
+summary of important concepts
+short answer questions
+exercises
+appendices a–a
+appendix list of some standard ic’s a
+appendix pin configuratio n of some standard ic’s a
+appendix summary of various binary codes a
+appendix unsigned and signed binary number system a
+appendix boolean theorems a
+appendix two variable boolean function a
+appendix summary of flip flop tables a
+appendix list of xillinx fpgas a
+appendix spartan fpga feature and logic resources a
+appendix reserved words in vhdl a
+appendix data types and operators in vhdl a
+appendix keywords in verilog a
+appendix operators and net data types in verilog a
+university question papers q–q
+index i–i
