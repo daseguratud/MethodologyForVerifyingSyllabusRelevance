@@ -27,8 +27,8 @@ class SyllabusRelevanceVerifier:
     def Run(self): 
         ui.printTest()
         ui.printMainMessage("************************  INICIA PROCESO  ************************")
-        self.etapa02.Procesar()
-        self.etapa03.Procesar()
-        self.etapa04.Procesar()        
+        # self.etapa02.Procesar()
+        # self.etapa03.Procesar()
+        # self.etapa04.Procesar()        
         self.etapa05.Procesar()        
         ui.printMainMessage("***********************  PROCESO TERMINADO ***********************")
