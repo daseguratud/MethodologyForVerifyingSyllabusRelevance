@@ -2,14 +2,15 @@ import asyncio
 import re
 from wordcloud import WordCloud,STOPWORDS
 import matplotlib.pyplot as plt
-from googletrans import Translator
-from deep_translator import GoogleTranslator
+import matplotlib.image as mpimg
 from FileManager import FileManager
+from Translator import Translator
 from ui import ui
 class TextProcessor:
     def __init__(self):
         self.stopWords=self.__LoadCustomStopWords()
         self.destLanguage='en'
+        self.translator = Translator() 
     @staticmethod
     def __LoadCustomStopWords():
         lineas=FileManager.ReadAllText("stopwords.csv").splitlines()
@@ -17,29 +18,8 @@ class TextProcessor:
         for linea in lineas: 
             stopwords.append(linea.replace("\n",""))
         return stopwords 
-    def GetLanguaje(self,text):
-        detected = asyncio.run(Translator().detect(text))
-        return detected
     def TranslateToTargetLanguage(self,text):
-        re=self.GetLanguaje(text[0:100])
-        fileLanguage = re.lang
-        if fileLanguage == self.destLanguage:
-            return text
-        ui.printInternalProcess("Tranlating...")        
-        traduccion=""
-        lineas= text.splitlines()
-        nLines = len(lineas)
-        nline=0
-        textToTranslate = ""
-        for linea in lineas:
-            textToTranslate += linea + '\n'
-            if len(textToTranslate) > 4000 or nline == nLines-1:            
-                textoTraducido = GoogleTranslator(source='auto', target=self.destLanguage).translate(textToTranslate)
-                if textoTraducido is not None:
-                    traduccion +=  textoTraducido+ '\n'
-                textToTranslate = ""
-            nline += 1
-        return traduccion
+        return self.translator.Translate(text,self.destLanguage)
     def CleanNumbersFromText(self,text):
         numbers = ['1','2','3','4','5','6','7','8','9','0','.']
         textResult=""
@@ -90,16 +70,16 @@ class TextProcessor:
                 line =  re.sub(r' +', ' ', line).strip()
                 resultLines.append(line)
         return '\n'.join(resultLines)
-    def LemaText(self,text):
+    def TerminologyUnification(self,text):
         normalizedText = text
-        normalizationRules={
-            "flipflops":"flipflop",
-            "flip flops":"flipflop",
-            "flip-flops":"flipflop",
-            "flip-flop":"flipflop",
-        }
-        for pattern,normalText in normalizationRules.items():
-            normalizedText = re.sub(pattern,normalText,normalizedText,) 
+        rulesText = FileManager.ReadAllText("NormalizationRules.rule")
+        rules = rulesText.splitlines()
+        for rule in rules:
+            fields=rule.split("<-")
+            lema = fields[0]
+            variants = fields[1].split(';') 
+            for variant in variants:
+                normalizedText = re.sub(variant,lema,normalizedText,) 
         return normalizedText
     def CreateWordCloud(self,text,fullCSVOutputFileName,showWordCloud=False):
         stopWords = STOPWORDS.union(self.stopWords)
@@ -123,3 +103,23 @@ class TextProcessor:
             datFrec.append(data)        
         FileManager.WriteAllText(fullCSVOutputFileName,str.join("\n",datFrec))
     
+    def CrossPlot(self, unifiedTerms, outputFileName, bacgroundImage,showWordCloud=False):
+        x = [float(t.syllabusFrecuency) for t in unifiedTerms]
+        y = [float(t.referenceFrecuency) for t in unifiedTerms]
+        labels = [t.term for t in unifiedTerms]
+        img = mpimg.imread(bacgroundImage)
+        # plt.xscale("log")
+        # plt.yscale("log")
+        # plt.imshow(img,extent=[-0.05, 1.05, -0.05, 1.05], alpha=0.1)
+        plt.grid(True, which="both")
+        plt.scatter(x, y)
+        for i in range(len(x)):
+            plt.text(x[i], y[i], labels[i])
+            # plt.text(x[i], y[i], "t"+str(i))
+        plt.xlabel("Syllabus Frecuency Terms")
+        plt.ylabel("Reference Frecuency Terms")
+        
+        
+        plt.savefig(outputFileName, dpi=600)
+        if showWordCloud:
+            plt.show()

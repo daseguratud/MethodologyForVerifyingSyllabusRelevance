@@ -29,7 +29,7 @@ v training and learning purposes pfa of the academic space code of the academic 
 type of academic space
 modality of offer of academic space distribution of working hours
 nature of academic space
-character of the obligatory academic space
+nature of the mandatory academic space
 complementary
 ii suggestions of knowledge and prior knowledge
 basic computer programming knowledge

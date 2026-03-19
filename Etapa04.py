@@ -26,14 +26,14 @@ class Etapa04:
         for fileName in self.__FilesList:
             if os.path.isfile(fileName):
                 ui.printStageMessage(f"Processing file: {os.path.basename(fileName)} ")
-                content = FileManager.ReadAllText(fileName)                
+                content = FileManager.ReadAllText(fileName)        
+                content=self.textProcessor.SolveSpetialCases(content)
+                content=self.textProcessor.TranslateToTargetLanguage(content)
                 content=self.textProcessor.ToLowerCase(content)
+                content=self.textProcessor.TerminologyUnification(content)
                 content=self.textProcessor.CleanNumbersFromText(content)
                 content=self.textProcessor.CleanPunctuationFromText(content)
-                content=self.textProcessor.SolveSpetialCases(content)
                 content=self.textProcessor.RemoveExtraBlancks(content)
-                content=self.textProcessor.TranslateToTargetLanguage(content)
-                content=self.textProcessor.LemaText(content)
                 FileManager.WriteAllText(os.path.join(self.languageProcessWorkingPath,"IntermediateFiles",os.path.basename(fileName)),content)
         self.__Consolidar()
         self.__CrerateWordCloud()

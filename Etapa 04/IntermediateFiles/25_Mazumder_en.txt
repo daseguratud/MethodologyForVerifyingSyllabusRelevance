@@ -1,0 +1,180 @@
+preface xi
+acknowledgement xv
+list of figures xvii
+list of tables xxix list of abbreviations xxxi introduction
+objectives
+equationrepresentation
+hardware platform implementation
+sequential design
+data path components
+backend lectures
+analog vs digital
+digital design
+levels of digital design
+what do digital designers do
+numeral system and bcd codes
+introduction
+unary numeral system
+the positional numeral system or the place value system
+binary numbers
+hexadecimal numbers
+octalnumbers
+converting from decimal to different bases
+converting from one arbitrary base p to anotherarbitrarybase q
+addition and subtraction in the positional numeral system
+negative numbers in binary
+signed magnitude
+the ’s complement
+addition in the ’s complement
+subtraction in the ’s complement
+the’scomplement
+addition in the ’s complement
+subtraction in the ’s complement
+strings of bits and binary coded decimal representations
+thebcdcode
+the and excess bcd codes
+thebiquinarycode
+thegraycode
+bcdsummary
+more on number system
+conclusionandkeypoints
+boolean and logicgate
+motivation
+huntingtonpostulates
+basic theorems of boolean
+basic postulates with and
+idempotent laws
+the law of involution
+complementarity laws
+commutative laws
+associative laws
+distributive laws
+demorgan’slaws
+duality
+what you should know from duality
+logicgate for implementation of boolean networks
+and or andnot
+implicantgate
+otherlogicgate
+equivalentgate
+conceptofcompleteness
+cmosgate
+general complementary switching network
+conclusion
+keypoints
+timing diagrams
+notionoftimingdelayinacircuit
+definitionofpropagationdelay
+timingdiagramsofagatedlogic
+the ring oscillator good use of delays
+glitches and hazards bad effects due to unequal path delays
+correction of the static hazard
+conclusionandkeypoints
+combinational logic design techniques part i
+designing a digital system from a problem statement
+stairwelllampproblem
+bcd to seven segment converter
+eventdetector
+conclusionandkeypoints
+combinational logic design techniques part ii
+majoritygatedesign
+sopimplementation
+posimplementation
+self duality
+why different representations two level logic implementationstyles
+soprepresentations
+posrepresentations
+compatible representations for cmos design
+hardwaredescriptionlanguages
+majority gate and stairwell lamp verilog implementation
+full adder verilog implementation
+ripplecarryadder
+conclusionandkeypoints
+combinational logic minimization
+representation for minimization summarization
+intuitivedesignapproach
+booleanminimization
+graphical method the karnaugh
+three and four variable karnaughs for logic circuit
+minimizing with four variable k maps
+formaldefinitions
+example detailed illustration of minimization
+example prime implicant definition reinforcement
+example dealing with “don’t cares”
+conclusionandkeypoints
+combinational building blocks
+decoders
+implementation of larger bit decoders
+using decoders to implement boolean functions
+example
+example
+multiplexer
+implementation of larger bit multiplexer
+using multiplexer to implement boolean functions
+example
+example
+msibuildingblocks
+decoders
+the decoder
+the decoder
+tri statebuffers
+application
+the three state driver
+encoders
+the priority encoder
+verilog implementation
+multiplexer
+paritycircuit
+comparisoncircuit
+equality
+greater than and less than
+the magnitude comparatorintegratedcircuit
+conclusion
+keypoints
+foundations of sequential design part i
+taxonomyofsequentialmodels
+themealymachine
+themooremachine
+flipflop
+operation of flipflop and their applications
+classification of flipflop
+s rflipflop
+characteristic table
+statediagram
+tflipflop
+characteristic table
+statediagram
+j k flipflop
+characteristic table
+statediagram
+dflipflop
+conclusionandkeypoints
+foundations of sequential design part ii
+gate implementation of flipflop and timing diagrams
+simple inverters without feedback
+single inverter with feedback oscillator
+two inverters with feedback flipflop
+s rlatch
+s r latch timing diagram
+problems with the s r latch
+clockedflipflop
+clockeds rflipflop
+clockedj kflipflop
+j k flipflop timing diagram
+problems with the j k flipflop
+solutions to the race around problem
+narrowing the clock pulse width
+separating the inputs and outputs of the flipflop
+master slave d flipflop
+master slave j k flipflop
+ieee symbols and flipflop types
+timing analysis of flipflop problems
+example timing diagram of a j k flipflop
+example timing diagram of j k flipflop configured as a counter binary divider
+example timing diagram of d flipflop configured as a ring counter
+effectofthewidthofthesetpulse
+dealing with metastability and asynchronous inputs
+conclusionandkeypoint
+problemsonflipflop
+index
+about the authors

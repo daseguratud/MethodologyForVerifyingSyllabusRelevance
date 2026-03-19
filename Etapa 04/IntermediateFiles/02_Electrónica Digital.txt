@@ -1,0 +1,58 @@
+introduction to digital system
+description and definition of digital system
+levels of abstraction
+numbering and code system
+alphanumeric numbering codes bcd ascii ebcdic others
+numbering system binary octal decimal hexadecimal gray
+conversion between bases and base arithmetic
+weighted and unweighted numerical codes
+representation of integers magnitude and sign complement
+fixed and floatingpoint representation
+arithmetic operations addition subtraction multiplication division overflow flags carry
+error detection and correction codes hamming codes
+logical functions and boolean
+boolean
+axioms properties and theorems
+operations and logical functions
+logicgate and or not xor truth tables
+canonical expressions sum and standard product
+expressions simplified by boolean
+technologies for the realization of integratedcircuit
+electrical and dynamic characteristics explanation of data sheets power dissipation voltages and currents fan in fan out delays propagation times integration levels etc
+and and or wiring connections totem pole outputs open collector
+buffer three states ttl and mos
+analysis and design of combinational
+definition of combinational
+simplification techniques for logical functions karnaugth maps
+implementation of logic functions with nand or nor gate
+applications encoders decoders multiplexer demultiplexer
+half adder full adder integrated adder
+semisubtractor complete subtractor subtraction by complement
+adder subtractor magnitude comparators alu
+rom memory
+analysis and design of sequential
+classification of sequential
+flipflop sr d t jk preset clear master slave
+analysis and design of a sequential with finite statemachines statemachine mealy and moore automata
+application with synchronous sequential register counter shift register
+pwm
+introduction and vision of micro processed technology today processor level devices
+programmable logic devices
+fpga field programmable gate array
+cepld cpld
+psoc psoc
+microcontroller
+suggesting the following practices
+implementation of boolean functions
+canonical forms of sum and product
+implementation with nand and nor gate
+adders
+restors
+multipliers
+encoders and static display
+multiplexer
+magnitude comparators
+records
+statemachines
+counter and dynamic visualization
+pwm

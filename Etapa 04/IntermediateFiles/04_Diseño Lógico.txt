@@ -1,0 +1,114 @@
+chapter introduction
+fundamental concepts of digital circuit
+digital design vs analog design
+digital design software
+integratedcircuit
+digital design levels
+logical families
+ttl family
+cmos ttl interfaces
+chapter binary digital information
+basic aspects concept of positional system
+binary octal and hexadecimal system
+conversions
+arithmetic operations
+binary decimal bcd coding
+binary number system
+unsigned integers
+two s complement integers
+unsigned fractional
+fractional with two s complement sign
+gray code
+signed magnitude
+two s complement with shift
+one s complement
+floatingpoint
+codes for error detection and correction
+codes for serial data transmission and storage
+exercises and simulations
+chapter logical functions
+boolean in electronics
+elementary logical operations
+truth table
+functional expressions
+exercises and simulations
+chapter elementary digital circuit
+logicgate
+and gate
+or gate
+not gate
+additional gate
+circuit analysis
+equivalent circuit
+circuit design
+direct and simplified
+conditioned by a type of gate
+exercises and simulations
+chapter combinational
+definition of a combinational
+analysis of combinational circuit
+combinational subsystem
+encoders
+decoders
+multiplexer
+demultiplexer
+arithmetic circuit
+synthesis of combinational circuit
+simplification methods in programming
+the abel hardware description language
+the vhdl hardware description language
+exercises and simulations
+chapter applied combinational design
+standards documentation
+time circuit
+plds
+decoders
+encoders
+three state devices
+multiplexer
+exclusive or gate and parity circuit
+comparators
+adders subtractors and alus
+multipliers
+exercises and simulations using abel and vhdl
+chapter sequential
+definition of a sequential
+flipflop
+analysis of circuit with flipflop
+logical analysis
+temporal analysis
+analysis of statemachines
+design of sequential
+synchronous case
+asynchronous case
+sequential subsystem
+shift register
+counter
+characteristics of sequential design in abel and vhdl
+exercises and simulations
+chapter memory and programmable logic devices
+memory concept
+address decoding
+types of memory ram and rom
+realization of logic circuit with rom
+programmable logic devices cplds and fpgas
+circuit design
+chapter statemachines
+definition of statemachine
+classification
+moore type – mealy type
+msf and asf
+analysis and design of msf
+asf analysis and design
+applications with vhdl – altera
+chapter processor architecture
+basic architectures
+von newman
+harvard
+modified harvard
+microprocessors and microcontrollers
+microprocessor
+piccx microcontroller
+hc microcontroller
+dsp tmscx
+microprogramming

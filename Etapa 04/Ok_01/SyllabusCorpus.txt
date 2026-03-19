@@ -1,0 +1,340 @@
+in the pensum of the electronic engineering program of the district university in force as of there is the academic space of fundamentals of digital circuit where the following topics are established
+• unit algebra of logical variables
+• unit synthesis of combinational circuit
+• unit analysis of synchronous and asynchronous circuit
+• unit design of finite statemachines
+introduction to digital system
+description and definition of digital system
+levels of abstraction
+numbering and code system
+alphanumeric numbering codes bcd ascii ebcdic others
+numbering system binary octal decimal hexadecimal gray
+conversion between bases and base arithmetic
+weighted and unweighted numerical codes
+representation of integers magnitude and sign complement
+fixed and floatingpoint representation
+arithmetic operations addition subtraction multiplication division overflow flags carry
+error detection and correction codes hamming codes
+logical functions and boolean
+boolean
+axioms properties and theorems
+operations and logical functions
+logicgate and or not xor truth tables
+canonical expressions sum and standard product
+expressions simplified by boolean
+technologies for the realization of integratedcircuit
+electrical and dynamic characteristics explanation of data sheets power dissipation voltages and currents fan in fan out delays propagation times integration levels etc
+and and or wiring connections totem pole outputs open collector
+buffer three states ttl and mos
+analysis and design of combinational
+definition of combinational
+simplification techniques for logical functions karnaugth maps
+implementation of logic functions with nand or nor gate
+applications encoders decoders multiplexer demultiplexer
+half adder full adder integrated adder
+semisubtractor complete subtractor subtraction by complement
+adder subtractor magnitude comparators alu
+rom memory
+analysis and design of sequential
+classification of sequential
+flipflop sr d t jk preset clear master slave
+analysis and design of a sequential with finite statemachines statemachine mealy and moore automata
+application with synchronous sequential register counter shift register
+pwm
+introduction and vision of micro processed technology today processor level devices
+programmable logic devices
+fpga field programmable gate array
+cepld cpld
+psoc psoc
+microcontroller
+suggesting the following practices
+implementation of boolean functions
+canonical forms of sum and product
+implementation with nand and nor gate
+adders
+restors
+multipliers
+encoders and static display
+multiplexer
+magnitude comparators
+records
+statemachines
+counter and dynamic visualization
+pwm
+fundamentals of mathematical logic
+boolean functions
+boolean expressions
+postulates and theorems
+boolean equations maxterms and minterms
+boolean function optimization
+logicgate and or not xor
+implementation of boolean functions using logical compounds
+universality of nand and nor logicgate
+combinational
+logicgate in integratedcircuit
+adders subtracters encoders decoders multiplexer demultiplexer
+central processing unit alu
+sequential
+latch and flipflop
+accountants
+records
+ram rom prom eprom eeprom
+introduction to computer architecture
+the bus concept
+bus access tri state buffer
+processor organization
+instruction design
+addressing modes
+memory maps
+complementary topics
+advanced computer architectures
+parallelism
+chapter introduction
+fundamental concepts of digital circuit
+digital design vs analog design
+digital design software
+integratedcircuit
+digital design levels
+logical families
+ttl family
+cmos ttl interfaces
+chapter binary digital information
+basic aspects concept of positional system
+binary octal and hexadecimal system
+conversions
+arithmetic operations
+binary decimal bcd coding
+binary number system
+unsigned integers
+two s complement integers
+unsigned fractional
+fractional with two s complement sign
+gray code
+signed magnitude
+two s complement with shift
+one s complement
+floatingpoint
+codes for error detection and correction
+codes for serial data transmission and storage
+exercises and simulations
+chapter logical functions
+boolean in electronics
+elementary logical operations
+truth table
+functional expressions
+exercises and simulations
+chapter elementary digital circuit
+logicgate
+and gate
+or gate
+not gate
+additional gate
+circuit analysis
+equivalent circuit
+circuit design
+direct and simplified
+conditioned by a type of gate
+exercises and simulations
+chapter combinational
+definition of a combinational
+analysis of combinational circuit
+combinational subsystem
+encoders
+decoders
+multiplexer
+demultiplexer
+arithmetic circuit
+synthesis of combinational circuit
+simplification methods in programming
+the abel hardware description language
+the vhdl hardware description language
+exercises and simulations
+chapter applied combinational design
+standards documentation
+time circuit
+plds
+decoders
+encoders
+three state devices
+multiplexer
+exclusive or gate and parity circuit
+comparators
+adders subtractors and alus
+multipliers
+exercises and simulations using abel and vhdl
+chapter sequential
+definition of a sequential
+flipflop
+analysis of circuit with flipflop
+logical analysis
+temporal analysis
+analysis of statemachines
+design of sequential
+synchronous case
+asynchronous case
+sequential subsystem
+shift register
+counter
+characteristics of sequential design in abel and vhdl
+exercises and simulations
+chapter memory and programmable logic devices
+memory concept
+address decoding
+types of memory ram and rom
+realization of logic circuit with rom
+programmable logic devices cplds and fpgas
+circuit design
+chapter statemachines
+definition of statemachine
+classification
+moore type – mealy type
+msf and asf
+analysis and design of msf
+asf analysis and design
+applications with vhdl – altera
+chapter processor architecture
+basic architectures
+von newman
+harvard
+modified harvard
+microprocessors and microcontrollers
+microprocessor
+piccx microcontroller
+hc microcontroller
+dsp tmscx
+microprogramming
+hardware description language basic vhdl elements definition of entities architectures identifiers operators types of statements structural description simulation and simulation phases
+combinatorial logic design principles boolean logical synthesis of combinatorial circuit representation by sum of products and by product of sums karnaughs quine mccluskeyn algorithm
+combinatorial logic circuit binary decoders from to from to and from to lines application examples in computers segment bcd decoders state register encoders multiplexer and demultiplexer parity generators comparators arithmetic circuit bit adder and subtractor bcd adder arithmetic and logic unit alu combinatorial multiplier
+programmable logic devices logic design today computational tools used in top down design methodologies tools for the automation of electronic design eda tools principles and applications of programmable logic devices such as pals and plds programming in cupl language
+latches and flipflop definition of sequential logic latches with gate metastable state debounce switch flipflop flipflop built with transmission gate and inverters
+counter and register propagation counter synchronous counter examples of integratedcircuit counter shift register ring counter integratedcircuit for clocks laboratory counter with photoelectric detector
+analysis and design of sequential circuit theory of statemachines statemachine analysis and design of synchronous sequential circuit analysis of asynchronous sequential circuit examples of sequential control
+sequential plds architecture of various sequential plds programming examples
+memory general aspects of memory random access memory read only memory rom applications of memory examples of commercial memory
+digital processors configuration architecture of a microprocessor decoders ports memory instructions in assembly language microcontrollers
+• fundamental concepts of digital system
+o presentation of the course introduction analog and digital quantities
+o digital design vs analog design
+o binary digits logic levels and digital waveforms
+o introduction to basic logical functions
+o fixed function integratedcircuit
+or cmos ttl
+• numbering system and operations
+o decimal system
+o	sistema binario
+o octal system
+o hexadecimal system
+o bcd system
+o gray system
+o binary arithmetic
+o complement a and a
+o signed numbers
+• boolean
+o logicgate
+o boolean properties
+o boolean laws
+o demorgan s theorem
+o boolean functions minterms and maxterms
+o canonical function
+o simplification by boolean
+o karnaughs
+• combinational logic
+o design of combinational
+o full adder adder – subtractor
+or comparator
+o design of miscellaneous combinational
+o practice discreet design blood types
+o	multiplexores
+o demultiplexer
+o encoders
+o decoders
+o segment display
+o code converters
+o three state devices
+or hamming code
+o practice discrete design code converter
+o workshop and solution to doubts
+o midterm exam
+o practice introduction to xilinx schematic design
+• reconfigurable architectures
+o spld architecture gal pla and pal
+o architecture of the cplds
+o fpga architecture
+o introduction to the vhdl language
+o	metodologías de diseño bottom up y top down
+o design description schematic behavioral or functional and structural
+• vhdl language
+o practice full adder design process
+o xilinx development system ise and modelsim
+o description of the digital circuit
+o functional and delayed simulation
+o synthesis of the circuit description
+o user restrictions
+o implementation and routing of the cpld or fpga
+o cpld or fpga programming
+o verification and testing
+o concept of entity and architecture
+o structure of a program in vhdl
+or examples
+o special symbols
+o reserved words
+o operators and expressions
+o types of data
+o element attributes
+o generics constants signals and variables
+o declarations of generics constants signals and variables
+o practice code converter
+o concurrent execution and serial execution description by data flow and algorithm
+o series execution block process conditional statement if … then … else
+o selection statement case
+or examples
+o	asignación condicional when … else
+o assignment with selection with select … when
+or examples
+o practice multiplexer decoder practice and
+o concurrent block block
+o waiting statement wait
+o loops loop for and while
+o procedure call
+o definition of components
+o component reference
+o link between components and entities
+or examples
+o workshop and solution to doubts
+o practice alu functions bits
+o midterm exam
+• sequential logic
+o definition of sequential digital system
+o clock signal register
+o integratedcircuit
+o practice prescaler
+or flipflop
+or accountants
+o shift register
+• finite statemachines
+o finite statemachine statemachine
+o statemachine moore type and mealy type
+o	ejemplos
+o practice simple counter
+o analysis and design of statemachine with vhdl
+• memory and storage
+o concept of memory
+o operation of a memory
+o random access memory ram
+o read only memory rom
+o types of rom memory
+o practice stopwatch
+o design of digital circuit with rom
+o other digital architectures
+o practice step by step motor control
+o workshop and solution to doubts
+o midterm exam
+• research project
+o practice free practice
+o research project
+o research project
+o practice researcher project
+o research project
+o research project
+o practice presentation of the research project

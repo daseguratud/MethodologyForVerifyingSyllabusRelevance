@@ -4,12 +4,7 @@
 # texto=texto.lower()
 # traduccion = GoogleTranslator(source='es', target='en').translate(texto)
 # print(traduccion)
-import os
-os.system("cls")
-a=[
-    "hola",
-    "dario",
-    "togo"
-]
-b=[t for t in a]
-print(b)
+import re
+
+text = "<-flipflops;flip flop;flip flops;flip-flops;flip-flop"
+print(re.sub("flip[-\s]?flops?","flipflop",text))

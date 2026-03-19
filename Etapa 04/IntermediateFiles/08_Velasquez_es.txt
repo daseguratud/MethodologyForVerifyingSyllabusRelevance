@@ -1,0 +1,49 @@
+the pspice model editor
+connecting a bus to a circuit
+linking a stimulus to a bus
+flipflop initialization
+location of components in libraries
+list of all components used
+sources of tension and digital stimuli
+discrete semiconductors
+integrated devices with simulation model
+integrated devices without simulation model
+other components
+notes on commutation algebra
+introduction
+postulates and theorems of commutation algebra
+xor and xnor logic functions
+bibliography
+monographs
+research articles
+technical information from manufacturers
+fixed function integratedcircuit general
+logicgate
+decoders
+multiplexer
+parity generator
+adder
+arithmetic logical units alu circuit
+timer
+asynchronous flipflop
+synchronous flipflop
+accountants
+records
+rom and ram memory circuit
+microprocessors
+microcontrollers
+microcontroller based development boards
+configurable digital logic cpld and fpga circuit
+development boards based on fpga circuit
+video encoders
+a d converter
+signal generators
+luminescent diodes leds
+seven segment displays
+quadruple half bridge
+rocker toggle switch
+simulation tool for electronic design
+web links of interest
+acronyms
+supplementary material
+index

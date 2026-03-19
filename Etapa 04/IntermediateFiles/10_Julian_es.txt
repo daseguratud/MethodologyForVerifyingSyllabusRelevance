@@ -1,0 +1,28 @@
+oscillators or astables
+monostable circuit
+schmitt trigger circuit
+a elmore method
+b design flow
+c practical aspects
+cl external connections p a d s
+c latch up
+c internal connections power and clock
+c power
+c clock
+d spice models
+d l sources
+d ll independent sources
+d dependent sources
+d passive devices
+d resistors
+d capacitors
+d inductors
+d mutual inductors
+d semiconductor devices
+d diode
+d bipolar transistors
+d mos transistors
+d level model
+d level and models
+d level model
+circuit

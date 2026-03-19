@@ -1,0 +1,625 @@
+Presentación
+PARTE 1. Familias lógicas
+Puertas lógicas TTL
+Introducción
+Estructura de una puerta TTL NAND de dos entradas
+Cargabilidad de salida de una puerta inversora TTL
+Estimación analítica
+Análisis mediante PSpice
+Características de transferencia
+Puerta inversora TTL estándar
+Puerta inversora (CI 7404)
+Puerta NAND (CI 7400)
+Entradas flotantes en puertas TTL
+El riesgo potencial de las entradas flotantes
+¿Qué hacer con las entradas no utilizadas?
+Caracterización temporal
+Parámetros característicos
+El oscilador en anillo
+Componentes
+Verificación experimental
+Obtención de las tablas de verdad
+Función lógica NOT (inversión)
+Función lógica NAND
+Función lógica NOR
+Cargabilidad de salida
+Estimación de la resistencia de salida de un dispositivo
+Características de transferencia de un inversor
+Característica de transferencia vs(ve)
+Característica de transferencia ie(ve)
+Entradas flotantes en una puerta NAND (CI 74x00)
+Caracterización temporal: oscilador en anillo
+Ejercicios y cuestiones de refuerzo
+Puertas lógicas CMOS
+Introducción
+Estructura de una puerta CMOS NAND de dos entradas
+Cargabilidad de salida de una puerta CMOS NAND
+Consideraciones preliminares
+Análisis mediante PSpice
+
+Caso de estudio 1
+Caso de estudio 2
+Caso de estudio 3
+Cargabilidad del CI 4011B
+Características de transferencia
+Entradas flotantes en puertas CMOS
+Componentes
+Verificación experimental
+Cargabilidad de salida
+Características de transferencia de un inversor CMOS
+Característica de transferencia vs(ve)
+Característica de transferencia ie(ve)
+Entradas flotantes en una puerta NAND (CI 4011B)
+Ejercicios y cuestiones de refuerzo
+PARTE 2. Lógica combinacional
+Decodificador binario básico de 2 a 4
+Introducción
+Decodificador binario básico de 2 a 4
+Decodificación con salidas activas a nivel alto
+Decodificación con salidas activas a nivel bajo
+Simulación
+Decodificación con salidas activas a nivel alto
+Decodificación con salidas activas a nivel bajo
+Componentes
+Verificación experimental
+Decodificación con salidas activas a nivel alto
+Decodificación con salidas activas a nivel bajo
+Ejercicios y cuestiones de refuerzo
+Síntesis óptima de circuitos combinacionales
+Introducción
+Síntesis en forma de suma de productos (AND-OR)
+Síntesis en forma de producto de sumas (OR-AND)
+Síntesis de dos niveles NAND-NAND
+Síntesis de dos niveles NOR-NOR
+Síntesis multinivel con puertas NAND de dos entradas
+Análisis transitorio: fenómenos aleatorios
+Tipos de fenómenos aleatorios
+Fenómenos aleatorios de función
+Eliminación de fenómenos aleatorios
+Simulación
+Análisis en régimen permanente
+Análisis transitorio
+Componentes
+Verificación experimental
+Ejercicios y cuestiones de refuerzo
+Codificador binario básico de 4 a 2
+Introducción
+Codificador binario básico de 4 a 2 sin prioridad
+Codificación con entradas activas a nivel alto
+Codificación con entradas activas a nivel bajo
+Codificador binario básico de 4 a 2 con prioridad
+Codificación con entradas activas a nivel alto
+Codificación con entradas activas a nivel bajo
+Simulación
+Circuitos codificadores de 4 a 2 sin prioridad
+Codificación con entradas activas a nivel alto
+Codificación con entradas activas a nivel bajo
+Circuitos codificadores de 4 a 2 con prioridad
+Codificación con entradas activas a nivel alto
+Codificación con entradas activas a nivel bajo
+Componentes
+Verificación experimental
+Codificación sin prioridad y entradas activas a nivel bajo
+Codificación con prioridad y entradas activas a nivel bajo
+Ejercicios y cuestiones de refuerzo
+Circuitos comparadores, de paridad y conversores de código
+Introducción
+Circuitos aritméticos comparadores
+Circuito generador y circuito detector de paridad
+Circuitos conversores de código
+Simulación
+Circuito comparador
+Circuito generador de paridad
+Circuitos conversores de código
+Componentes
+Verificación experimental
+Circuito comparador
+Circuito generador de paridad
+Circuitos conversores de código
+Ejercicios y cuestiones de refuerzo
+Decodificador binario de 2 a 4 con control de polaridad
+Introducción
+Decodificador binario básico de 2 a 4 con control de polaridad
+Tres síntesis distintas con puertas NAND de dos entradas
+Síntesis con puertas NAND de cualquier número de entradas
+Síntesis basada en puertas XOR
+Simulación
+Componentes
+Verificación experimental
+Ejercicios y cuestiones de refuerzo
+Detección de números primos con multiplexores
+Introducción
+Diseño de un detector BCD de números primos
+Síntesis mediante puertas lógicas
+Síntesis mediante un multiplexor 16:1
+Síntesis mediante un multiplexor 8:1
+Síntesis alternativa mediante un multiplexor 8:1
+Diseño de un detector de números primos de 4 bits
+Síntesis mediante puertas lógicas
+Síntesis mediante un multiplexor 16:1
+Síntesis mediante dos multiplexores 8:1
+Síntesis alternativa mediante un multiplexor 8:1
+Simulación
+Detectores BCD de números primos con multiplexor
+Síntesis mediante un multiplexor 16:1
+Síntesis mediante un multiplexor 8:1
+Síntesis alternativa mediante un multiplexor 8:1
+Detectores de números primos de 4 bits con multiplexor
+Síntesis mediante un multiplexor 16:1
+Síntesis mediante dos multiplexores 8:1
+Síntesis alternativa mediante un multiplexor 8:1
+Componentes
+Verificación experimental
+Ejercicios y cuestiones de refuerzo
+Sumador completo y sumador binario en paralelo
+Introducción
+Circuito semisumador
+Circuito sumador completo
+Implementaciones de un sumador completo
+Síntesis de dos niveles AND-OR mediante PAL
+Síntesis de dos niveles NAND-NAND
+Dos síntesis de seis niveles con puertas básicas
+Síntesis de cuatro niveles con puertas NAND de tres entradas
+Síntesis de dos niveles basada en puertas XOR y NAND
+Síntesis de tres niveles basada en puertas XOR y NAND
+Sumador binario en paralelo con acarreo serie
+Simulación
+Semisumador
+Sumador completo
+Sumador binario en paralelo de 4 bits con acarreo en serie
+Propagación del acarreo y retardo asociado
+Componentes
+Verificación experimental
+Semisumador
+Sumador completo
+Sumador binario en paralelo de 2 bits con acarreo en serie
+Ejercicios y cuestiones de refuerzo
+Unidad aritmética de 4 bits en complemento a dos
+Introducción
+Diseño de una unidad aritmética de 4 bits en C2
+El sumador 74x283
+La puerta XOR como solución para implementar la resta
+El detector de desbordamiento
+Unidad aritmética completa
+Simulación
+Módulo sumador
+Módulo sumador/restador
+Unidad aritmética con detector de desbordamiento
+Componentes
+Verificación experimental
+Módulo sumador
+Módulo sumador/restador
+Unidad aritmética con detector de desbordamiento
+Ejercicios y cuestiones de refuerzo
+PARTE 3. Lógica secuencial síncrona
+Generación de señal de reloj con circuitos astables
+Introducción
+Diseño de un multivibrador astable con puertas lógicas
+Diseño de un multivibrador astable con el 555
+Simulación
+Componentes
+Verificación experimental
+Ejercicios y cuestiones de refuerzo
+Contador de rizo módulo 8 con biestables T
+Introducción
+Dos implementaciones de un contador de rizo
+Contador módulo 8 diseñado con biestables J – K
+Contador módulo 8 diseñado con biestables D
+La problemática de los estados espurios
+Simulación
+Respuesta del contador diseñado con biestables J – K
+Filtrado de los estados espurios mediante registro
+Respuesta del contador diseñado con biestables D
+Filtrado de los estados espurios mediante registro
+Componentes
+Verificación experimental
+Ejercicios y cuestiones de refuerzo
+Contador de rizo módulo 8 con el 74x90
+Introducción
+Diseño de un contador módulo 8 con el 74x90
+La problemática de los estados espurios
+Simulación
+Secuencia de estados del contador módulo 8
+Filtrado de los estados espurios mediante registro
+Decodificación de estados con el 7448
+Componentes
+Verificación experimental
+Ejercicios y cuestiones de refuerzo
+Contador síncrono reversible módulo 4 con biestables J – K
+Introducción
+Diseño de un contador síncrono reversible módulo 4
+Simulación
+Implementación del diseño con el CI 7473
+Entrada de control S constante
+Cambio de nivel lógico de S con señal de reloj en estado bajo
+Cambio de nivel lógico de S con señal de reloj en estado alto
+Conclusiones
+Implementación del diseño con el CI 74LS73A
+Componentes
+Verificación experimental
+Ejercicios y cuestiones de refuerzo
+Contadores síncronos con el 74x163
+Introducción
+Diseño de contadores con el 74x163
+Contador en modo de carrera libre (módulo 16)
+Contador módulo 13 con la secuencia 0,1,…,12
+Contador módulo 12 con la secuencia 3,4,…,14
+Contador módulo 146 con la secuencia 0,1,…,145
+Simulación
+Contador en modo de carrera libre (módulo 16)
+Contador módulo 13 con la secuencia 0,1,…,12
+Contador módulo 12 con la secuencia 3,4,…,14
+Contador módulo 146 con la secuencia 0,1,…,145
+Componentes
+Verificación experimental
+Ejercicios y cuestiones de refuerzo
+Segundero digital con contadores modulares
+Introducción
+Tres diseños de un segundero con contadores síncronos
+Combinación de dos 74x163
+Combinación de un 74x162 y un 74x163
+Combinación de un 74x162 y un 74x161
+Simulación
+Componentes
+Verificación experimental
+Contador módulo 10 (unidades del segundero)
+Contador módulo 6 (decenas del segundero)
+Segundero digital completo
+Ejercicios y cuestiones de refuerzo
+Decodificación de los estados de un contador
+Introducción
+Decodificación de contadores modulares
+Decodificación de un contador asíncrono
+Decodificación de un contador síncrono
+Riesgo de interferencias en las líneas decodificadas
+Eliminación del riesgo de interferencias en la decodificación
+Habilitación desfasada del decodificador
+Filtrado mediante registro
+Decodificación directa con un contador en anillo
+Simulación
+Decodificación de contadores 74x90 con dispositivos 74x138
+Decodificación de contadores 74x163 con dispositivos 74x42
+Eliminación del riesgo de interferencias en la decodificación
+Habilitación desfasada del decodificador
+Filtrado mediante registro
+Componentes
+Verificación experimental
+Ejercicios y cuestiones de refuerzo
+Registro de desplazamiento de 4 bits con biestables D
+Introducción
+Diseño de un registro de desplazamiento de 4 bits
+Simulación
+Entrada serie y salida en paralelo
+Entrada en paralelo y salida en paralelo
+Componentes
+Verificación experimental
+Ejercicios y cuestiones de refuerzo
+Generador de números seudoaleatorios
+Introducción
+Generador seudoaleatorio de 3 bits
+Generador seudoaleatorio de 4 bits
+Simulación
+Generador seudoaleatorio de 3 bits
+Generador seudoaleatorio de 4 bits
+Componentes
+Verificación experimental
+Generador seudoaleatorio de 3 bits
+Generador seudoaleatorio de 4 bits
+Ejercicios y cuestiones de refuerzo
+Diseños con el registro de desplazamiento 74x194
+Introducción
+Diseño secuencial basado en el 74x194
+Carga e inhibición
+El contador en anillo
+El contador Johnson
+Comunicación serie
+Simulación
+Carga e inhibición
+Contador en anillo
+Comunicación serie
+Contador Johnson
+Comunicación serie
+Componentes
+Verificación experimental
+Carga e inhibición
+Contador en anillo y comunicación serie
+Contador Johnson y comunicación serie
+Ejercicios y cuestiones de refuerzo
+Autómatas de estados finitos de Mealy y de Moore
+Introducción
+Diseño secuencial según los modelos de Mealy y de Moore
+Especificaciones
+Diseño según el modelo de Mealy
+Diseño según el modelo de Moore
+Simulación
+Autómata de estados finitos de Mealy
+Autómata de estados finitos de Moore
+Componentes
+Verificación experimental
+Ejercicios y cuestiones de refuerzo
+PARTE 4. Lógica secuencial asíncrona
+Biestables asíncronos
+Introducción
+Tres tipos de biestables asíncronos
+Biestable asíncrono sin entradas
+Biestable asíncrono S – R
+Biestable asíncrono –
+Simulación
+Biestable asíncrono S – R
+Respuesta ante secuencias de entrada permitidas
+Respuesta ante secuencias de entrada no permitidas
+Determinación de la anchura de pulso mínima
+Biestable asíncrono –
+Respuesta ante secuencias de entrada permitidas
+Componentes
+Verificación experimental
+Biestable asíncrono sin entradas
+Biestable asíncrono S – R
+Biestable asíncrono –
+Ejercicios y cuestiones de refuerzo
+Circuitos antirrebotes con biestables asíncronos
+Introducción
+La problemática de los rebotes en el diseño digital
+El biestable asíncrono como circuito antirrebotes
+Circuito antirrebotes NOR
+Circuito antirrebotes NAND
+Circuito antirrebotes NOT
+Detección del acceso a un aparcamiento
+Simulación
+Funcionamiento del circuito antirrebotes NAND
+Funcionamiento del circuito antirrebotes NOT
+Componentes
+Verificación experimental
+Circuito antirrebotes NAND
+Circuito antirrebotes NOT
+Ejercicios y cuestiones de refuerzo
+Cerradura digital de combinación
+Introducción
+Diseño de un detector de secuencia de modo pulso
+Especificaciones
+Diseño según el modelo de Mealy
+Simulación
+Componentes
+Verificación experimental
+Funcionamiento en ausencia de circuitos antirrebotes
+Empleo de un biestable básico como circuito antirrebotes
+Empleo de un biestable – como circuito antirrebotes
+Ejercicios y cuestiones de refuerzo
+Divisor de frecuencia asíncrono
+Introducción
+Diseño de un divisor de frecuencia por dos asíncrono
+Especificaciones
+Diseño según el modelo de Moore
+Simulación
+Diseño con biestables asíncronos S – R
+Diseño preliminar fallido basado en realimentación directa
+Diseño correcto basado en realimentación directa
+Componentes
+Verificación experimental
+Diseño con biestables asíncronos S – R
+Diseño preliminar fallido basado en realimentación directa
+Diseño correcto basado en realimentación directa
+Ejercicios y cuestiones de refuerzo
+PARTE 5. Aplicaciones de las funciones lógicas de uso común
+Aplicaciones de la decodificación
+Generación de minitérminos
+Decodificación de líneas de dirección
+Los circuitos de memoria y su capacidad de almacenamiento
+Decodificación de direcciones de memoria en un computador
+Decodificación de BCD a código de siete segmentos
+Decodificación de los estados de un contador
+Aplicaciones de la codificación
+Gestión priorizada de interrupciones en un procesador
+Codificación de un teclado numérico
+Conversión analógico-digital: el convertidor flash
+Codificación de vídeo digital en formato analógico
+Detección de errores con circuitos de paridad
+Los errores de transmisión y su detección
+Transmisión en paralelo con bits de paridad
+Transmisión en serie con bits de paridad
+Comprobación de redundancia vertical
+Comprobación de redundancia horizontal
+Comprobación de redundancia bidimensional
+Otras técnicas de detección de errores
+Aplicaciones aritméticas de comparadores y sumadores
+Selector aritmético con señal de control externa
+El sumador completo en los circuitos multiplicadores
+El multiplicador matricial
+El multiplicador con acarreo reservado
+Otros circuitos multiplicadores
+La ALU como generalización del sumador modular
+Tres circuitos ALU y sus prestaciones
+La ALU en los computadores
+Aplicaciones de los contadores
+Contador de pulsos en sistemas automatizados
+Divisor de frecuencia
+Reloj digital
+El temporizador digital
+Sintetizador digital de formas de onda
+Medidor de frecuencia
+El registro-contador en los computadores
+El computador y su estructura interna
+El contador de programa
+El puntero de pila
+El registro-contador de microprograma
+El registro de cuenta de datos en los controladores DMA
+El registro-contador CX de la arquitectura x86
+Aplicaciones de los registros de desplazamiento
+Lógica de interfaz en la transmisión de datos digitales
+El papel del registro de desplazamiento en la codificación de voz
+Tráfico de voz y datos en el bucle de abonado analógico
+Revolución en el bucle de abonado: llega la fibra óptica
+Transmisión serie síncrona
+Transmisión serie asíncrona
+Desplazamientos y rotaciones de bits
+El desplazador combinacional básico
+Desplazadores circulares
+Instrucciones de desplazamiento en ensamblador
+Establecimiento de un retardo en secuencias de bits
+Generación de secuencias seudoaleatorias
+Detección de defectos en circuitos lógicos
+Fuentes de ruido blanco
+Aplicaciones del multiplexado
+Generación de funciones lógicas
+Multiplexado de entradas analógicas en microcontroladores
+Barrido multiplexado de visualizadores dinámicos
+Barrido multiplexado con dispositivos lógicos de función fija
+Barrido multiplexado implementado en un microcontrolador
+Barrido multiplexado con circuitos digitales configurables
+El multiplexado en la Red Telefónica Conmutada
+Sistema de transmisión PCM-TDM de dos canales
+Sistema de portadora digital T-1
+Jerarquía multinivel en la RTC
+Multiplexado y demultiplexado en redes ópticas de acceso
+Un nuevo paradigma de redes y servicios de comunicaciones
+PARTE 6. Introducción al prototipado de sistemas empotrados
+Estrategias para implementar un circuito digital
+La lógica normalizada de función fija y sus limitaciones
+El diseño lógico personalizado y su ámbito de aplicación
+Visión general del diseño lógico semipersonalizado
+Celdas normalizadas, celdas compiladas y macromódulos
+Núcleos de propiedad intelectual (IP)
+Implementación basada en matrices
+Matrices de puertas
+Matrices preconexionadas
+Microcontroladores: fundamentos y plataformas de prototipado
+Estructura y programación de microcontroladores
+El microcontrolador y sus recursos internos
+Organización del acceso a la memoria
+El repertorio de instrucciones: arquitecturas CISC y RISC
+Del código fuente al código máquina
+El microcontrolador en los sistemas empotrados
+Microcontroladores PIC de Microchip
+Módulos electrónicos de programación
+PICkitTM 1 Flash Starter Kit
+Curiosity High Pin Count (HPC)
+PIC18F47Q10 Curiosity Nano
+MPLAB Xpress de propósito general
+Microcontroladores en el ecosistema de Arduino
+Arduino Diecimila y Arduino Duemilanove
+Arduino UNO (versiones R1, R2 y R3)
+Módulos de expansión: los escudos
+Arduino Mega 2560
+Arduino Due y el salto a los 32 bits
+Arduino Nano 33 IoT
+Arduino UNO R4
+Microcontroladores MSP430 y C2000 de Texas Instruments
+MSP-EX430G2 Launchpad
+C2000TM DIMM100 Experimenter’s Kit
+Microcontroladores STM32 de STMicroelectronics
+Blue pill
+La familia de plataformas de prototipado STM32 Discovery
+STM32VLDISCOVERY
+STM32F4DISCOVERY
+B-U585I-IOT02A Discovery kit
+La familia de plataformas de prototipado STM32 Nucleo
+Plataformas representativas de la serie STM32 Nucleo-64
+Plataformas representativas de la serie STM32 Nucleo-144
+Perspectivas de futuro para los microcontroladores
+Circuitos FPGA: fundamentos y plataformas de prototipado
+Estructura interna de los circuitos FPGA
+Arquitecturas multinivel en la lógica configurable
+Módulos lógicos empotrados en un circuito FPGA
+El reto del sincronismo
+Organización de los bloques lógicos configurables
+Lenguajes HDL para la simulación y la síntesis de circuitos
+Circuitos FPGA de las familias Spartan-3E y Artix-7 de Xilinx
+Circuitos FPGA de la familia Cyclone IV de Altera
+Una aplicación en el ámbito de la electrónica industrial
+Circuitos FPGA vs. microcontroladores
+Apéndices
+El laboratorio docente
+Introducción
+La placa de prototipos
+La fuente de alimentación
+Prestaciones y manejo
+Cableado de la fuente con una carga genérica
+Alimentación de la placa de prototipos
+Desacoplo de la fuente de alimentación
+El polímetro
+El osciloscopio
+El osciloscopio analógico HM303-6 de HAMEG Instruments
+El osciloscopio digital MP720009 de Multicomp PRO
+Sondas de medida para osciloscopio
+El osciloscopio USB Analog Discovery 2 de DIgilent
+El comprobador de circuitos integrados
+Notas sobre los montajes experimentales
+La instrumentación y su uso
+Consejos prácticos
+Componentes auxiliares
+Errores comunes
+Riesgos eléctricos
+Introducción
+La conexión a tierra
+Severidad de una electrocución
+Identificación de pines en circuitos integrados
+Numeración de pines en un CI
+Identificación de pines en puertas lógicas
+Identificación de pines en otros dispositivos integrados
+Identificación de terminales en componentes optoelectrónicos
+Terminales de un led y de una barra de luz led
+Terminales de un visualizador de siete segmentos
+Identificación de terminales en componentes eléctricos
+Terminales de un potenciómetro rotatorio
+Terminales de un condensador electrolítico
+Terminales de un interruptor SPDT de palanca basculante
+Terminales de un interruptor SPDT de actuador deslizante
+Valores estándar de resistencias y condensadores
+Código de colores para resistencias
+Valores estándar de resistencias
+Valores estándar de condensadores
+Notas de simulación
+Introducción
+Guía rápida de PSpice
+Creación de un proyecto
+Dibujo de un circuito en la ventana de esquemáticos
+Perfil de simulación y ejecución
+El editor de modelos de PSpice
+Conexión de un bus a un circuito
+Vinculación de un estímulo a un bus
+Inicialización de biestables
+Ubicación de componentes en bibliotecas
+Listado de todos los componentes utilizados
+Fuentes de tensión y estímulos digitales
+Semiconductores discretos
+Dispositivos integrados con modelo de simulación
+Dispositivos integrados sin modelo de simulación
+Otros componentes
+Notas sobre el álgebra de conmutación
+Introducción
+Postulados y teoremas del álgebra de conmutación
+Funciones lógicas XOR y XNOR
+Bibliografía
+Monografías
+Artículos de investigación
+Información técnica de los fabricantes
+Circuitos integrados de función fija (general)
+Puertas lógicas
+Decodificadores
+Multiplexor
+Generador de paridad
+Sumador
+Unidades aritmético-lógicas (circuitos ALU)
+Temporizador
+Biestables asíncronos
+Biestables síncronos
+Contadores
+Registros
+Circuitos de memoria ROM y RAM
+Microprocesadores
+Microcontroladores
+Placas de desarrollo basadas en microcontrolador
+Lógica digital configurable (circuitos CPLD y FPGA)
+Placas de desarrollo basadas en circuitos FPGA
+Codificadores de vídeo
+Conversor A/D
+Generadores de señal
+Diodos luminiscentes (ledes)
+Visualizadores de siete segmentos
+Semipuente cuádruple
+Interruptor de palanca basculante
+Herramienta de simulación para el diseño electrónico
+Enlaces web de interés
+Acrónimos
+Material suplementario
+Índice

@@ -1,0 +1,28 @@
+1.	Fundamentos de lógica matemática
+1.1.	Funciones Booleanas. 
+1.2.	Expresiones de Boole
+1.3.	Postulados y teoremas
+1.4.	Ecuaciones booleanas, Maxtérminos y Mintérminos
+1.5.	Optimización de funciones booleanas
+1.6.	Compuertas lógicas (AND, OR, NOT, XOR)
+1.7.	Implementación de funciones booleanas empleando compuestas lógicas
+1.8.	Universalidad de las compuertas lógicas NAND y NOR 
+2.	Sistemas Combinacionales
+2.1.	Compuertas lógicas en circuitos integrados
+2.2.	Sumadores, Restadores, Codificadores, Decodificadores, Multiplexores, Demultiplexores
+2.3.	Unidad central de proceso (ALU)
+3.	Sistemas Secuenciales
+3.1.	Latch y Flip-flop
+3.2.	Contadores
+3.3.	Registros
+3.4.	Memoria RAM, ROM, PROM, EPROM, EEPROM 
+4.	Introducción a la Arquitectura de Computadores.
+4.1.	El concepto de BUS
+4.2.	Acceso al bus (Buffer triestado)
+4.3.	Organización del procesador
+4.4.	Diseño de Instrucciones
+4.5.	Modos de direccionamiento
+4.6.	Mapas de memoria
+5.	Temas complementarios.
+5.1.	Arquitecturas avanzadas de computadores
+5.2.	Paralelismo 

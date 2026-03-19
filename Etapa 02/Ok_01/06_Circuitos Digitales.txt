@@ -1,0 +1,125 @@
+•	Conceptos fundamentales de los sistemas digitales
+o	Presentación del curso Introducción Magnitudes analógicas y digitales.
+o	Diseño digital vs diseño análogo. 
+o	Dígitos binarios, niveles lógicos y formas de onda digitales. 
+o	Introducción a las funciones lógicas básicas. 
+o	Circuitos integrados de función fija. 
+o	CMOS/TTL.
+•	Sistemas de numeración y operaciones
+o	Sistema decimal 
+o	Sistema binario 
+o	Sistema Octal 
+o	Sistema Hexadecimal 
+o	Sistema BCD 
+o	Sistema Gray 
+o	Aritmética Binaria 
+o	Complemento a1 y a2 
+o	Números con signo
+•	Algebra de Boole
+o	Puertas lógicas 
+o	Propiedades de Boole 
+o	Leyes de Boole 
+o	Teorema de Demorgan
+o	Funciones Booleanas Minterminos y maxterminos
+o	Función canónica 
+o	Simplificación por algebra de Boole
+o	Mapas de Karnaugh
+•	Lógica combinacional
+o	Diseño de sistemas combinacionales 
+o	Sumador completo Sumador – restador 
+o	Comparador
+o	Diseño de sistemas combinacionales misceláneos
+o	Practica 1: Diseño discreto, tipos de sangre
+o	Multiplexores 
+o	Demultiplexores 
+o	Codificadores 
+o	Decodificadores
+o	Display de 7 segmentos 
+o	Conversores de código 
+o	Dispositivos Three-State 
+o	Codigo Hamming
+o	Practica 2: Diseño discreto, conversor de código
+o	Taller y solución de dudas
+o	Examen parcial 1
+o	Practica 3: Introducción a Xilinx, diseño esquemático
+•	Arquitecturas reconfigurables
+o	Arquitectura de los SPLD: GAL, PLA y PAL. 
+o	Arquitectura de los CPLDs. 
+o	Arquitectura de los FPGAs.
+o	Introducción al lenguaje VHDL. 
+o	Metodologías de Diseño: Bottom-Up y Top-Down. 
+o	Descripción del Diseño: Esquemático, Comportamental o Funcional y Estructural.
+•	Lenguaje VHDL
+o	Practica 4: Sumador completo Proceso de Diseño. 
+o	Sistemas de Desarrollo Xilinx (ISE y ModelSim). 
+o	Descripción del circuito digital. 
+o	Simulación funcional y con retardos. 
+o	Síntesis de la descripción del circuito. 
+o	Restricciones de usuario. 
+o	Implementación y enrutamiento del CPLD o FPGA. 
+o	Programación del CPLD o FPGA. 
+o	Verificación y pruebas.
+o	Concepto de Entidad y Arquitectura. 
+o	Estructura de un programa en VHDL 
+o	Ejemplos
+o	Símbolos especiales 
+o	Palabras reservadas.
+o	Operadores y expresiones. 
+o	Tipos de datos. 
+o	Atributos de los elementos. 
+o	Genéricos, Constantes, Señales y Variables. 
+o	Declaraciones de Genéricos, Constantes, Señales y Variables.
+o	Practica 5: Conversor de código
+o	Ejecución concurrente y ejecución serie: descripción por flujo de datos y algorítmica. 
+o	Bloque de ejecución serie: PROCESS Sentencia condicional: IF … THEN … ELSE 
+o	Sentencia de selección: CASE 
+o	Ejemplos
+o	Asignación condicional: WHEN … ELSE 
+o	Asignación con selección: WITH ... SELECT … WHEN 
+o	Ejemplos.
+o	Practica 6: Multiplexor, Decodificador, Practica 1 y 2.
+o	Bloque concurrente: BLOCK 
+o	Sentencia de espera: WAIT 
+o	Bucles: LOOP, FOR y WHILE 
+o	Llamado de procedimientos 
+o	Definición de componentes 
+o	Referencia de componentes 
+o	Enlace entre componentes y entidades 
+o	Ejemplos
+o	Taller y solución de dudas
+o	Practica 7: ALU 4 funciones 4 bits
+o	Examen parcial 2
+•	Lógica secuencial
+o	Definición de sistemas digitales secuenciales 
+o	Señal de reloj Registros 
+o	Circuito Integrado 555
+o	Practica 8: Prescaler
+o	Flip-Flops 
+o	Contadores 
+o	Registros de desplazamiento
+•	Máquinas de estados finitos
+o	Máquina de Estados Finitos (FSM) 
+o	FSM Tipo Moore y Tipo Mealy 
+o	Ejemplos 
+o	Practica 9: Contador sencillo 
+o	Análisis y diseño de FSM con VHDL
+•	Memorias y almacenamiento
+o	Concepto de memoria 
+o	Funcionamiento de una Memoria 
+o	Memorias de acceso aleatorio (RAM) 
+o	Memorias de solo lectura (ROM) 
+o	Tipos de memoria ROM 
+o	Practica 10: Cronometro 
+o	Diseño de circuitos digitales con ROM 
+o	Otras arquitecturas digitales 
+o	Practica 11: Control motor paso a paso 
+o	Taller y solución de dudas 
+o	Examen parcial 3
+•	Proyecto de investigación
+o	Practica 12: Practica libre 
+o	Proyecto de investigación 
+o	Proyecto de investigación 
+o	Practica 13: Proyecto de Investigador 
+o	Proyecto de investigación 
+o	Proyecto de investigación 
+o	Practica 14: Presentación del Proyecto de Investigación

@@ -1,0 +1,468 @@
+Indice 5
+Listado de codigo VHDL 13
+1 Fundamentos del diseño del hardware digital 25
+1.1 Introducción 29
+1.2 Lenguajes para la descripcion de hardware 30
+1.2.1 Usos de un programa HDL 31
+1.2.2 HDL más ampliamente usados 31
+1.3 Ciclo de diseño de los circuitos digitales 32
+1.4 Tecnologías de circuitos integrados 34
+1.4.1 Clasificación de las tecnologías 34
+1.4.2 Comparación entre tecnologías 38
+1.5 Propiedades de los circuitos digitales 42
+1.5.1 Retardo de los dispositivos 42
+1.5.2 Ejecución concurrente 44
+1.5.3 Diseños marginales 45
+1.5.4 Fortaleza de las señales 45
+1.6 Test de los circuitos 46
+1.6.1 Test en manufactura 47
+1.6.2 Test funcional 49
+5
+El código VHDL usado para ilustrar las explicaciones teóricas, así como los diseños y bancos de
+prueba propuestos como solución de los ejercicios de autocomprobación, están disponibles en
+la URL siguiente: https://canal.uned.es/series/64149eb43056d535ce6fe473
+DISEÑO Y ANáLISIS DE CIRCUITOS DIGITALES CON VHDL
+1.6.3 Programas de test funcional 49
+1.6.4 Banco de pruebas 51
+1.7 Representaciones y niveles de abstracción 52
+1.7.1 Representación del sistema 52
+1.7.2 Niveles de abstracción 53
+1.7.3 VHDL en el flujo de desarrollo 57
+1.8 Conceptos básicos a través de un ejemplo 58
+1.8.1 Comportamiento al nivel de funciones lógicas 59
+1.8.2 Descripción de la estructura 64
+1.8.3 Descripción abstracta del comportamiento 66
+1.8.4 Banco de pruebas 69
+1.8.5 Configuración 71
+1.9 Simulación de código VHDL a través de un ejemplo 72
+1.9.1 Diseño de un buffer triestado 72
+1.9.2 Diseño del banco de pruebas 73
+1.10 Lecturas recomendadas 75
+1.11 Ejercicios de autocomprobación 76
+1.12 Soluciones de los ejercicios 80
+2 Conceptos básicos de VHDL 83
+2.1 Introducción 87
+2.2 Unidades de diseño 87
+2.3 Entity 89
+2.3.1 Cláusula port 90
+2.3.2 Cláusula generic 91
+2.3.3 Declaraciones 93
+2.3.4 Sentencias 93
+2.3.5 Resumen de la sintaxis de la entity 93
+2.4 Architecture 94
+6
+INDICE
+2.5 Asignaciones concurrentes 95
+2.5.1 Asignaciones concurrentes simples 96
+2.5.2 Asignaciones concurrentes condicionales 98
+2.5.3 Asignaciones concurrentes de selección 102
+2.5.4 Sensibilidad de las sentencias concurrentes 105
+2.6 Sentencia generate 106
+2.6.1 Sentencia generate iterativa 106
+2.6.2 Sentencia generate condicional 107
+2.7 Bloque process 107
+2.7.1 Sentencias wait 109
+2.7.2 Lista de sensibilidad 111
+2.8 Código secuencial 113
+2.8.1 Asignación secuencial a una señal 113
+2.8.2 Asignación secuencial a una variable 114
+2.8.3 Sentencia if 115
+2.8.4 Sentencia case 119
+2.8.5 Bucle for 123
+2.9 Descripción de la estructura 125
+2.9.1 Diseños con estructura regular 130
+2.10 Parametrización 133
+2.10.1 Parametrización del comportamiento 133
+2.10.2 Parametrización de la estructura 133
+2.11 Señales, variables y constantes 134
+2.12 Tipos de datos y operadores 136
+2.12.1 Tipos predefinidos en VHDL 137
+2.12.2 Tipos del paquete IEEE.std logic 1164 140
+2.12.3 Operadores sobre bit vector y std logic vector 144
+2.12.4 Tipos del paquete IEEE.numeric std 147
+7
+DISEñO Y ANáLISIS DE CIRCUITOS DIGITALES CON VHDL
+2.12.5 Tipos time y string 153
+2.12.6 Tipos definidos por el usuario 153
+2.13 Atributos 156
+2.14 Librerías 157
+2.15 Assert 159
+2.16 Subprogramas 159
+2.16.1 Funciones 159
+2.16.2 Procedimientos 161
+2.16.3 Diferencias entre funciones y procedimientos 164
+2.17 Paquetes 165
+2.18 Lecturas recomendadas 166
+2.19 Ejercicios de autocomprobación 168
+2.20 Soluciones de los ejercicios 175
+3 Simulación del código VHDL 189
+3.1 Introducción 193
+3.2 Procesamiento del código VHDL 194
+3.3 Orden de compilación 195
+3.4 Drivers 196
+3.5 Inicialización 199
+3.5.1 Ejemplo: señal con un driver 200
+3.5.2 Ejemplo: señal con dos drivers 201
+3.6 Atributos de las señales 204
+3.7 El retardo delta 205
+3.8 Gestión de la cola de transacciones del driver 209
+3.8.1 Ejemplo: simulación de formas de onda con retardo inercial 209
+3.8.2 Ejemplo: simulación de formas de onda con retardo de transporte
+212
+3.9 Ejemplo: simulación de un circuito sencillo 214
+8
+INDICE
+3.10 Lecturas recomendadas 217
+3.11 Ejercicios de autocomprobación 218
+3.12 Soluciones de los ejercicios 229
+4 Diseño de lógica combinacional 263
+4.1 Introducción 267
+4.2 Diseño para síntesis de lógica combinacional 267
+4.2.1 Empleo de sentencias concurrentes 268
+4.2.2 Empleo de bloques process 270
+4.3 Funciones lógicas 271
+4.3.1 Diseño del circuito 271
+4.3.2 Programación del banco de pruebas 273
+4.4 Multiplexor de 4 entradas 275
+4.4.1 Diseño usando sentencias secuenciales 275
+4.4.2 Diseño usando sentencias concurrentes 279
+4.5 Restador completo de 1 bit 281
+4.5.1 Descripción del comportamiento 281
+4.5.2 Descripción de la estructura 283
+4.5.3 Programación del banco de pruebas 286
+4.6 Sumador completo de 1 bit 291
+4.6.1 Diseño del circuito 292
+4.6.2 Banco de pruebas 294
+4.7 Unidad aritmético lógica 296
+4.7.1 Diseño de la ALU 296
+4.7.2 Programación del banco de pruebas 298
+4.8 Lecturas recomendadas 302
+4.9 Ejercicios de autocomprobación 303
+4.10 Soluciones de los ejercicios 310
+9
+DISEñO Y ANáLISIS DE CIRCUITOS DIGITALES CON VHDL
+5 Registros y memorias 341
+5.1 Introducción 345
+5.2 Registro de 4 bits 345
+5.2.1 Descripción del comportamiento 346
+5.2.2 Banco de pruebas 347
+5.3 Registro multifunción 349
+5.3.1 Descripción del comportamiento 349
+5.3.2 Banco de pruebas 352
+5.4 Registro de desplazamiento 355
+5.4.1 Descripción del comportamiento 355
+5.4.2 Banco de pruebas 356
+5.4.3 Banco de pruebas con acceso a fichero 359
+5.5 Register file 363
+5.5.1 Registro triestado 364
+5.5.2 Descripción estructural del register file 365
+5.5.3 Drivers y función de resolución 367
+5.5.4 Banco de pruebas del register file 367
+5.5.5 Descripción del comportamiento del register file 371
+5.6 Bus bidireccional y memorias 373
+5.6.1 Memoria de sólo lectura 373
+5.6.2 Memoria de lectura y escritura 375
+5.6.3 Bus bidireccional 376
+5.7 Lecturas recomendadas 378
+5.8 Ejercicios de autocomprobación 379
+5.9 Soluciones de los ejercicios 385
+6 Diseño de lógica secuencial 403
+6.1 Introducción 407
+6.2 Diseño de máquinas de estado finito 407
+10
+INDICE
+6.2.1 Circuito detector de secuencias 408
+6.3 Síntesis de lógica secuencial 410
+6.3.1 Sentencias condicionales incompletas 411
+6.3.2 Sentencias condicionales completas 411
+6.3.3 Retardos 411
+6.3.4 Inicialización 412
+6.3.5 Bloques process 412
+6.4 Flip-flop JK 413
+6.4.1 Diseño del flip-flop 414
+6.4.2 Banco de pruebas 415
+6.5 Máquinas de estado finito de Moore 418
+6.5.1 Diseño de la máquina 418
+6.5.2 Banco de pruebas 421
+6.5.3 Modelado estructural 424
+6.6 Máquinas de estado finito de Mealy 426
+6.6.1 Diseño de la máquina 427
+6.6.2 Banco de pruebas 433
+6.7 Máquinas de estado finito seguras 436
+6.8 Lecturas recomendadas 437
+6.9 Ejercicios de autocomprobación 439
+6.10 Soluciones de los ejercicios 449
+7 Metodología de transferencia entre registros 501
+7.1 Introducción 505
+7.2 Operaciones de transferencia entre registros 506
+7.2.1 Operación RT básica 506
+7.2.2 Programa RT 508
+7.3 Máquinas de estado finito con camino de datos 509
+7.3.1 Múltiples operaciones RT y camino de datos 510
+11
+DISEñO Y ANáLISIS DE CIRCUITOS DIGITALES CON VHDL
+7.3.2 Lógica de control mediante FSM 510
+7.3.3 Diagrama de bloques básico de la FSMD 511
+7.4 Descripción del programa RT usando VHDL 513
+7.5 Circuito detector de secuencia 516
+7.6 Control de una máquina expendedora 518
+7.6.1 Protocolo de handshaking 519
+7.6.2 Descripción del algoritmo 520
+7.6.3 Diseño del circuito de control 522
+7.6.4 Programación del banco de pruebas 525
+7.7 Lecturas recomendadas 527
+7.8 Ejercicios de autocomprobación 528
+7.9 Soluciones de los ejercicios 532
+A Introducción al uso de ModelSim 547
+A.1 Instalación 549
+A.2 Edición y compilación de un modelo 549
+A.2.1 Ventana principal del simulador 549
+A.2.2 Pasos para crear un proyecto 550
+A.2.3 Añadir ficheros al proyecto 551
+A.2.4 Compilación de los ficheros 556
+A.2.5 Banco de pruebas 558
+A.3 Simulación, visualización y depurado 560
+A.3.1 Activación del modo simulación 560
+A.3.2 Visualización de los resultados 562
+A.3.3 Ejecución de la simulación 563
+A.3.4 Inserción de puntos de ruptura 564
+Indice alfabético 567
+Bibliografía 573
+12
+LISTADO DE CóDIGO VHDL
+1.1 Entity del circuito detector de paridad60
+1.2 Architecture del detector de paridad describiendo el comportamiento mediante la función lógica60
+1.3 Architecture del detector de paridad describiendo el comportamiento mediante la función lógica XOR63
+1.4 Puerta inversora65
+1.5 Puerta XOR con dos entradas65
+1.6 Architecture del detector de paridad describiendo la estructura del circuito65
+1.7 Architecture del detector de paridad descrita mediante una red XOR67
+1.8 Architecture del detector de paridad descrita mediante un algoritmo68
+1.9 Banco de pruebas del detector de paridad70
+1.10 Configuration para la simulación del banco de pruebas del detector de paridad71
+1.11 Buffer triestado73
+1.12 Banco de pruebas del buffer triestado74
+1.13 Diseño del circuito de control de la alarma de seguridad de un coche79
+1.14 Diseño alternativo del circuito de control de la alarma de un coche79
+2.1 Circuito detector de paridad88
+2.2 Código incorrecto, que produce un error de compilación92
+2.3 Descripción correcta del circuito mostrado en la Figura 2.392
+2.4 Multiplexor de 4 entradas de 8 bits100
+2.5 Decodificador binario de 2 entradas100
+2.6 Codificador 4 a 2 con prioridad100
+13
+DISEñO Y ANáLISIS DE CIRCUITOS DIGITALES CON VHDL
+2.7 Multiplexor de 4 entradas de 8 bits103
+2.8 Decodificador binario de 2 entradas103
+2.9 Codificador 4 a 2 con prioridad103
+2.10 Biestable D con reset asíncrono activado al nivel LOW112
+2.11 Multiplexor de 4 entradas de 8 bits116
+2.12 Decodificador binario de 2 entradas116
+2.13 Codificador 4 a 2 con prioridad117
+2.14 Multiplexor de 4 entradas de 8 bits120
+2.15 Decodificador binario de 2 entradas120
+2.16 Codificador 4 a 2 con prioridad121
+2.17 XOR bit a bit de dos señales de 4 bits124
+2.18 XOR de los bits de una señal de 4 bits124
+2.19 Descripción estructural al nivel de puertas lógicas de un multiplexor
+de dos señales de un bit128
+2.20 Descripción estructural de un multiplexor de 2 señales de 4 bit129
+2.21 Array de 8 puertas AND131
+2.22 Detector de paridad de 8 bits132
+2.23 La función conv integer convierte un parámetro del tipo std logic -
+vector a un entero161
+2.24 Procedimiento que devuelve dos parámetros de entrada ordenados164
+2.25 Definición de una función en un package167
+2.26 Uso de una función definida en un package167
+2.27 Diseño correspondiente al Ejercicio 2.3169
+2.28 Diseño correspondiente al Ejercicio 2.1176
+2.29 Banco de pruebas correspondiente al Ejercicio 2.1176
+2.30 Diseño correspondiente al Ejercicio 2.2177
+2.31 Diseño del circuito “one-shot”179
+2.32 Banco de pruebas del circuito “one-shot”179
+2.33 Diseño de un decodificador 2:4 con entrada enable180
+14
+LISTADO DE CóDIGO VHDL
+2.34 Banco de pruebas de un decodificador 2:4 con entrada enable181
+3.1 Código correspondiente al Ejercicio 3.1218
+3.2 Código correspondiente al Ejercicio 3.2219
+3.3 Diseño del Ejercicio 3.3219
+3.4 Banco de pruebas del Ejercicio 3.3220
+3.5 Diseño del Ejercicio 3.4221
+3.6 Banco de pruebas del Ejercicio 3.4221
+3.7 Diseño correspondiente al Ejercicio 3.5222
+3.8 Banco de pruebas correspondiente al Ejercicio 3.5223
+3.9 Diseño correspondiente al Ejercicio 3.6223
+3.10 Banco de pruebas correspondiente al Ejercicio 3.6224
+3.11 Diseño correspondiente al Ejercicio 3.7225
+3.12 Diseño correspondiente al Ejercicio 3.8226
+3.13 Diseño correspondiente al Ejercicio 3.9227
+3.14 Diseño correspondiente al Ejercicio 3.10228
+4.1 Diseño mediante la descripción de las funciones lógicas272
+4.2 Banco de pruebas del circuito que implementa las dos funciones lógicas272
+4.3 Diseño de un MUX 4:1 mediante una sentencia if275
+4.4 Descripción del MUX 4:1 mediante sentencias if y case276
+4.5 Banco de pruebas del MUX 4:1277
+4.6 Descripción errónea de la architecture del MUX 4:1279
+4.7 Diseño de un MUX 4:1 mediante una sentencia concurrente280
+4.8 Diseño de un MUX 4:1 mediante dos sentencias concurrentes280
+4.9 Descripción del comportamiento de un restador completo de un bit282
+4.10 Puerta OR exclusiva de 2 entradas284
+4.11 Inversor de 1 entrada284
+4.12 Puerta AND de 2 entradas284
+4.13 Puerta OR de 3 entradas284
+15
+DISEñO Y ANáLISIS DE CIRCUITOS DIGITALES CON VHDL
+4.14 Descripción de la estructura de un restador completo de un bit285
+4.15 Banco de pruebas del restador completo de un bit287
+4.16 Banco de pruebas del restador completo de un bit usando un procedimiento.
+289
+4.17 Banco de pruebas del restador completo de un bit usando una función290
+4.18 AND de 2 entradas con retardo292
+4.19 OR de 3 entradas con retardo292
+4.20 OR exclusiva de 2 entradas con retardo 293
+4.21 Package en el que se declaran las puertas lógicas293
+4.22 Sumador completo de 1 bit294
+4.23 Banco de pruebas del sumador completo de 1 bit295
+4.24 Definición de constantes globales de la ALU297
+4.25 ALU diseñada mediante una sentencia concurrente297
+4.26 ALU diseñada mediante un bloque process298
+4.27 Constantes globales del banco de pruebas de la ALU299
+4.28 Banco de pruebas de la ALU299
+4.29 Diseño de un codificador 4:2 con prioridad310
+4.30 Banco de pruebas de un codificador 4:2 con prioridad311
+4.31 Diseño del circuito comparador de 4 bit para X < 5313
+4.32 Banco de pruebas del circuito comparador de 4 bit para X < 5314
+4.33 Decodificador BCD a 7 segmentos descrito empleando una sentencia
+case315
+4.34 Banco de pruebas del decodificador BCD316
+4.35 Decodificador BCD descrito empleando una sentencia if317
+4.36 Decodificador BCD descrito empleando una sentencia de asignación
+concurrente condicional318
+4.37 Decodificador BCD descrito empleando una sentencia with select319
+4.38 Diseño del sumador de N bits320
+4.39 Banco de pruebas del sumador de 4 bits321
+16
+LISTADO DE CóDIGO VHDL
+4.40 Diseño del circuito desplazador322
+4.41 Banco de pruebas del circuito desplazador323
+4.42 Comparador de igualdad de dos números de 1 bit325
+4.43 Comparador de igualdad de dos números de N bits325
+4.44 Banco de pruebas del comparador de igualdad de dos números de N
+bits326
+4.45 Package con las constantes globales de la ALU327
+4.46 Diseño de la ALU cuyo circuito se muestra en la Figura 4.12328
+4.47 Package con las constantes usadas en el banco de pruebas de la ALU329
+4.48 Banco de pruebas de la ALU329
+4.49 Diseño de una puerta NOT de 1 entrada333
+4.50 Diseño de una puerta AND de 4 entradas335
+4.51 Diseño de un decodificador de 3 a 8 bits335
+4.52 Banco de pruebas de un decodificador de 3 a 8 bits336
+4.53 Diseño del conversor de código binario a código Gray, empleando un
+bloque process con una sentencia case338
+4.54 Diseño del conversor de código binario a código Gray, empleando una
+asignación concurrente de selección (with - select)339
+4.55 Diseño del conversor de código binario a código Gray, describiendo la
+estructura del circuito al nivel de puertas lógicas339
+4.56 Banco de pruebas del conversor de código binario a código Gray340
+5.1 Diseño de un registro de 4 bits con reset síncrono346
+5.2 Banco de pruebas de un registro de 4 bits con reset síncrono348
+5.3 Diseño de un registro multifunción de 4 bits350
+5.4 Banco de pruebas de un registro multifunción de 4 bits352
+5.5 Diseño de un registro de desplazamiento de 32 bits356
+5.6 Banco de pruebas del registro de desplazamiento de 32 bits357
+5.7 Banco de pruebas del registro con acceso a fichero359
+5.8 Diseño de un registro triestado365
+17
+DISEñO Y ANáLISIS DE CIRCUITOS DIGITALES CON VHDL
+5.9 Diseño estructural del register file366
+5.10 Banco de pruebas del register file, con acceso a fichero368
+5.11 Diseño del register file mediante la descripción del comportamiento372
+5.12 Memoria de sólo lectura374
+5.13 Memoria de lectura y escritura375
+5.14 Bus bidireccional376
+5.15 Diseño de un registro de desplazamiento de 4 bits empleando variables385
+5.16 Diseño de un registro de desplazamiento de 4 bits empleando señales386
+5.17 Diseño erróneo de un registro de desplazamiento de 4 bits386
+5.18 Banco de pruebas de un registro de desplazamiento de 4 bits con
+entrada y salida serie387
+5.19 Registro de desplazamiento de N bits, con entrada y salida serie388
+5.20 Registro serie-a-paralelo y paralelo-a-serie de 4 bits389
+5.21 Banco de pruebas para el registro serie-a-paralelo y paralelo-a-serie de
+4 bits390
+5.22 Constantes globales de la ALU y el registro392
+5.23 Diseño del circuito ALU y registro mostrado en la Figura 5.15393
+5.24 Constantes globales del banco de pruebas394
+5.25 Banco de pruebas del circuito ALU y registro394
+5.26 Diseño de la ROM397
+5.27 Banco de pruebas de la ROM398
+5.28 Diseño de la RAM399
+5.29 Banco de pruebas de la RAM400
+5.30 Diseño del circuito detector401
+5.31 Banco de pruebas del circuito detector402
+6.1 Diseño de un flip-flop JK con reset asíncrono414
+6.2 Banco de pruebas de un flip-flop JK416
+6.3 Package con la codificación de los estados418
+6.4 Diseño de la máquina de Moore de la Figura 6.7419
+18
+LISTADO DE CóDIGO VHDL
+6.5 Banco de pruebas de la máquina de Moore de la Figura 6.7422
+6.6 Diseño estructural de la máquina de Moore425
+6.7 Package con la codificación de los estados427
+6.8 Diseño de la máquina de Mealy de la Figura 6.11427
+6.9 Diseño alternativo de la máquina de Mealy de la Figura 6.11430
+6.10 Banco de pruebas no exhaustivo de la máquina de Mealy de la Figura
+6.11432
+6.11 Banco de pruebas de la máquina de Mealy de la Figura 6.11433
+6.12 Diseño de una FSM segura438
+6.13 Diseño de un latch D449
+6.14 Banco de pruebas del latch D449
+6.15 Diseño de un flip-flop RS451
+6.16 Banco de pruebas de un flip-flop RS452
+6.17 Diseño de un flip-flop D con señales enable, set y clear454
+6.18 Banco de pruebas de un flip-flop D455
+6.19 Constantes del diseño del contador ascendente módulo 4457
+6.20 Diseño de un contador ascendente módulo 4458
+6.21 Banco de pruebas de un contador ascendente módulo 4459
+6.22 Diseño estructural del contador ascendente módulo 4462
+6.23 Constantes globales que codifican los estados464
+6.24 Diseño del generador de señal464
+6.25 Banco de pruebas del generador de señal465
+6.26 Diseño del divisor de frecuencia por 3467
+6.27 Banco de pruebas del divisor de frecuencia por 3468
+6.28 Circuito generador de señales469
+6.29 Banco de pruebas del circuito generador de señales471
+6.30 Circuito detector de 3 o más unos consecutivos472
+6.31 Banco de pruebas del circuito detector de secuencia474
+6.32 Diseño del contador BCD477
+19
+DISEñO Y ANáLISIS DE CIRCUITOS DIGITALES CON VHDL
+6.33 Banco de pruebas del contador BCD478
+6.34 Diseño del detector de la secuencia “1011”480
+6.35 Banco de pruebas del detector de la secuencia “1011”482
+6.36 Diseño del contador binario ascendente y descendente de 4 bits484
+6.37 Banco de pruebas del contador binario ascendente y descendente de 4
+bits485
+6.38 Constantes globales del controlador de dos semáforos487
+6.39 Diseño del controlador de dos semáforos488
+6.40 Banco de pruebas del controlador de dos semáforos490
+6.41 Constantes globales del controlador del microondas493
+6.42 Diseño del controlador del microondas493
+6.43 Banco de pruebas del controlador del microondas496
+7.1 Codificación en VHDL de un algoritmo RT515
+7.2 Dos diseños de un circuito detector de la secuencia 0111 1110517
+7.3 Constantes del circuito de la máquina expendedora522
+7.4 Circuito de control de la máquina expendedora523
+7.5 Banco de pruebas del circuito de control de la máquina expendedora525
+7.6 Circuito que calcula el máximo común divisor de dos números534
+7.7 Banco de pruebas del circuito que calcula el máximo común divisor de
+dos números535
+7.8 Circuito que calcula la media de 4 números de 4 bits537
+7.9 Banco de pruebas del circuito que calcula la media de 4 números de 4
+bits538
+7.10 Declaración de la constante global539
+7.11 Conversor de código BCD a binario540
+7.12 Banco de pruebas del conversor de código BCD a binario540
+7.13 Declaración de las constantes globales del diseño542
+7.14 Circuito que calcula la exponenciación de dos números binarios sin signo542
+7.15 Banco de pruebas del circuito que calcula la exponenciación544

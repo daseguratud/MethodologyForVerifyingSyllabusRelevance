@@ -1,0 +1,28 @@
+fundamentals of mathematical logic
+boolean functions
+boolean expressions
+postulates and theorems
+boolean equations maxterms and minterms
+boolean function optimization
+logicgate and or not xor
+implementation of boolean functions using logical compounds
+universality of nand and nor logicgate
+combinational
+logicgate in integratedcircuit
+adders subtracters encoders decoders multiplexer demultiplexer
+central processing unit alu
+sequential
+latch and flipflop
+accountants
+records
+ram rom prom eprom eeprom
+introduction to computer architecture
+the bus concept
+bus access tri state buffer
+processor organization
+instruction design
+addressing modes
+memory maps
+complementary topics
+advanced computer architectures
+parallelism

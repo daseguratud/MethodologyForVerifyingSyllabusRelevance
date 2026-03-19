@@ -1,0 +1,226 @@
+chapter ​ introduction to logicgate
+integratedcircuit or ics
+gate technology
+the main differences between ttl and cmos
+logic families
+fan out and fan in
+unused inputs
+handling logic ics
+the historical circuit of the logicgate
+the laws of logic
+diode resistor dr logic
+analysis of diode resistor circuit
+analysis of diode resistor circuit
+analysis of circuit
+the “” series
+the pla or programmable logic array
+the binary number system
+binary numbers
+converting from decimal to binary
+converting from binary to decimal
+exercise
+adding and subtracting binary numbers
+worked example
+exercise
+subtracting binary numbers
+worked example
+exercise
+the logicgate
+the and gate
+the nand gate
+the or gate
+the nor gate
+the exor gate
+the not gate or inverter
+summary
+chapter ​ boolean
+what is boolean
+the basic concept
+the not gate
+the and and nand gate
+the or and nor gate
+the exclusive or gate that is the exor gate
+deriving boolean expressions from logic circuit
+boolean derivation circuit
+boolean derivation circuit
+boolean derivation circuit
+building logic circuit from boolean expressions
+build logic circuit example
+build logic circuit example
+build logic circuit example
+exercise
+exercise
+the laws of boolean
+commutative law
+commutative example
+commutative example
+associative law
+associative law example
+associative law example
+distributive law
+distributive law example
+distributive law example
+distribution law example
+absorption law
+de morgan’s theory
+de morgan’s example
+de morgan’s example
+de morgan’s examples
+the or function with nand gate
+summary
+chapter ​ simplifying boolean expressions
+some fundamental identities
+the inverse law
+the identity law
+the null law
+the idempotent law
+the or version of the idempotent law
+the or version of the identity law
+the or version of the null law
+the or version of the inverse law
+using boolean to minimize expressions
+simplification example
+simplification example
+simplification example
+simplification example
+simplification example
+simplification example
+karnaughs
+karnaugh example
+using the karnaugh
+karnaugh example
+simplification examples
+simplification example
+the st and nd canonical formats and the minterms and maxterms
+the nd canonical format
+simplification example
+simplification example
+simplification example
+simplification example
+summary
+chapter ​ moving on from the nand gate
+the sr latch
+the de bounce circuit
+the basic sr latch with nor gate
+the indeterminate state
+the clocked overline s kernem overline r kernem mathrm latch
+the master slave clocked sr
+the jk flipflop
+using the jk flipflop
+the d type latch
+the t latch
+the main configurations for the jk flipflop
+the jk flipflop
+summary
+chapter ​ design methods for digital circuit
+combinational and sequential logic
+combinational logic
+sequential logic
+representing a digital system
+asynchronous and synchronous logic system
+the ripple counter
+design example ​ the modulo counter
+design example ​ a non sequential output
+design example ​ a synchronized sequential circuit
+exercise ​
+design example ​ a synchronized up counter
+exercise ​
+design example ​ a modulo binary counter
+determining the inputs for the three d type latches
+the d inputs
+the d inputs
+the d inputs
+synopsis
+chapter ​ state example a bit stream monitor
+state diagrams
+the state diagram of the jk flipflop
+creating the jk flipflop state table
+methodology for designing sequential digital logic circuit
+state diagram example ​ the synchronized binary counter
+determining the inputs for the four d type latches
+the d input
+exercise
+the d input
+the d input
+exercise
+state diagram example ​ the design of a modulo binary counter using state diagrams
+the state table
+determining the inputs for the four d type latches
+the d input
+the d input
+exercise
+state diagram example ​ a bit stream monitor
+the d inputs
+the d expression
+state diagram example
+the d expression
+exercise
+moore’s and mealy diagrams
+summary
+chapter ​ combinational logic
+the tri state buffer
+the half adder circuit
+the design of the full adder circuit
+exercise
+a bit full adder
+the binary subtractor circuit
+an alternative subtractor circuit
+subtracting by adding decimal numbers
+a bit multiplexer
+a demultiplexer
+digital encoders
+application of digital encoders
+the digital decoder
+a seven segment decoder chip
+the seven segment display
+common anode seven segment display
+common cathode seven segment display
+exercise
+summary
+chapter ​ shift register and more
+the d type latch
+the bit shift register or siso serial in serial out
+the piso parallel in serial out register
+the pipo parallel in parallel out register
+the sipo serial in parallel out
+the ring counter
+the johnson ring counter
+a frequency divider
+the divide by johnson ring counter
+the phase shift across the latches
+summary
+chapter ​ designing some useful logic circuit
+example ​ a design process for a single set of traffic lights
+analysis of the output logic
+example ​ an alternative single set of traffic lights
+example ​ adding a pelican crossing
+an egg timer circuit
+the sn
+the practicalintegratedcircuitwe have looked at
+the quad two input nand gate
+counter
+the binary counter
+the sn multifunction shift register
+summary
+chapter ​ introduction to the timer
+the timer
+the pins of the timer
+the timer used as a monostable
+the basic astable
+creating a ​ duty cycle square wave
+creating a hz square wave
+a pwm application
+summary
+chapter ​ using tina
+what is ecad and tina
+running the software
+creating our first test circuit
+using a binary counter
+using jumper terminals
+creating a macro for the ic a quad two i ​p nand gate
+using the quad nand macro
+summary
+appendix ​ appendix
+appendix ​ solutions for exercises in the chapters
+appendix ​ exercises
+index

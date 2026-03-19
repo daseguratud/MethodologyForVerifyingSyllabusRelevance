@@ -1,0 +1,5 @@
+in the pensum of the electronic engineering program of the district university in force as of there is the academic space of fundamentals of digital circuit where the following topics are established
+• unit algebra of logical variables
+• unit synthesis of combinational circuit
+• unit analysis of synchronous and asynchronous circuit
+• unit design of finite statemachines

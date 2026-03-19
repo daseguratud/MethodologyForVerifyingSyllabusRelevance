@@ -1,0 +1,303 @@
+preface ix
+acknowledgments x
+walkthrough xii
+about the author xiv
+safety xv
+chapter digital electronics
+what is a digital signal
+why use digital circuit
+where are digital circuit used
+how do you generate a digital signal
+how do you test for a digital signal
+simple instruments
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+chapter numbers we use in digital electronics
+counting in decimal and binary
+place value
+binary to decimal conversion
+decimal to binary conversion
+electronic translators
+hexadecimal numbers
+octal numbers
+bits bytes nibbles and word size
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+chapter logicgate
+the and gate
+the or gate
+the inverter and buffer
+the nand gate
+the nor gate
+the exclusive or gate
+the exclusive nor gate
+the nand gate as a universal gate
+the nor gate as a universal gate
+gate with more than two inputs
+using inverters to convert gate
+practical ttl logicgate
+practical cmos logicgate
+troubleshooting simple gate circuit
+ieee logic symbols
+simple logicgate applications
+logic functions using software basic stamp module
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+chapter combining logicgate
+constructing circuit from boolean expressions
+drawing a circuit from a maxterm boolean expression
+truth tables and boolean expressions
+sample problem
+simplifying boolean expressions
+boolean
+karnaughs
+karnaughs with three variables
+karnaughs with four variables
+more karnaughs
+a five variable karnaugh
+using nand logic
+computer simulations logic converter
+solving logic problems data selectors
+programmable logic devices plds
+using de morgan’s theorems
+page vi
+solving a logic problem basic stamp module
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+chapter integratedcircuitpecifications and simple interfacing
+logic levels and noise margin
+other digitalintegratedcircuitpecifications
+mos and cmos ics
+interfacing ttl and cmos with switches
+interfacing ttl and cmos with leds
+interfacing ttl and cmos ics
+interfacing with buzzers relays motors and solenoids
+optoisolators
+the nor gate as a universal gate
+gate with more than two inputs
+using inverters to convert gate
+practical ttl logicgate
+practical cmos logicgate
+troubleshooting simple gate circuit
+ieee logic symbols
+simple logicgate applications
+logic functions using software basic stamp module
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+chapter combining logicgate
+constructing circuit from boolean expressions
+drawing a circuit from a maxterm boolean expression
+truth tables and boolean expressions
+sample problem
+simplifying boolean expressions
+boolean
+karnaughs
+karnaughs with three variables
+karnaughs with four variables
+more karnaughs
+a five variable karnaugh
+using nand logic
+computer simulations logic converter
+solving logic problems data selectors
+programmable logic devices plds
+using de morgan’s theorems
+page vi
+solving a logic problem basic stamp module
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+chapter integratedcircuitpecifications and simple interfacing
+logic levels and noise margin
+other digitalintegratedcircuitpecifications
+mos and cmos ics
+interfacing ttl and cmos with switches
+interfacing ttl and cmos with leds
+interfacing ttl and cmos ics
+interfacing with buzzers relays motors and solenoids
+optoisolators
+interfacing with servo and stepper motors
+using hall effect sensors
+troubleshooting simple logic circuit
+interfacing the servo basic stamp module
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+chapter encoding decoding and seven segment displays
+the bcd code
+the excess code
+the gray code
+the ascii code
+encoders
+seven segment led displays
+decoders
+bcd to seven segment decoder drivers
+liquid crystal displays
+using cmos to drive an lcd display
+vacuum fluorescent displays
+driving a vf display
+troubleshooting a decoding circuit
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+chapter flipflop
+the r s flipflop
+the clocked r s flipflop
+the d flipflop
+the j k flipflop
+ic latches
+triggering flipflop
+schmitt trigger
+ieee logic symbols
+application latched encoder decoder system
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+chapter counter
+ripple counter
+mod ripple counter
+synchronous counter
+down counter
+self stopping counter
+counter as frequency dividers
+ttlintegratedcircuitcounter
+cmosintegratedcircuitcounter
+a three digit bcd counter
+counting real world events
+using a cmos counter in an electronic game
+using counter—an experimental tachometer
+troubleshooting a counter
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+page vii
+chapter shift register
+serial load shift register
+parallel load shift register
+a universal shift register
+using the lsintegratedcircuithift register
+an bit cmos shift register
+using shift register digital roulette
+troubleshooting a simple shift register
+summary
+correlated experiments
+chapter review questions
+page viii
+critical thinking questions
+answers to self tests
+chapter arithmetic circuit
+binary addition
+half adders
+full adders
+bit adders
+binary subtraction
+parallel subtractors
+ic adders
+binary multiplication
+binary multipliers
+s complement notation addition and subtraction
+s complement adders subtractors
+troubleshooting a full adder
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+chapter memory
+overview of memory
+random access memory ram
+static ram ics
+using a sram
+read only memory rom
+using a rom
+programmable read only memory prom
+nonvolatile read write memory
+memory packaging
+computer bulk storage devices
+digital potentiometer using nv memory
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+chapter simple digital system
+elements of a system
+a digital system on anintegratedcircuit
+digital games
+the digital clock
+the lsi digital clock
+the frequency counter
+an experimental frequency counter
+lcd timer with alarm
+simple distance sensing
+jtag boundary scan
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+chapter computer system
+the computer
+the microcomputer
+microcomputer operation
+microcomputer address decoding
+data transmission
+detecting errors in data transmissions
+data transmission in a computer system
+programmable logic controllers
+microcontrollers
+the basic stamp microcontroller modules
+digital signal processing
+dsp in a digital camera
+microcontroller photo input and servo motor output
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+chapter connecting with analog devices
+d a conversion
+operational amplifiers
+a basic d a converter
+ladder type d a converters
+an a d converter
+voltage comparators
+an elementary digital voltmeter
+other a d converters
+a d converter specifications
+an a d converterintegratedcircuit
+digital light meter
+digitizing temperature
+summary
+correlated experiments
+chapter review questions
+critical thinking questions
+answers to self tests
+appendix a solder and the soldering process
+appendix b s complement conversions
+glossary of terms and symbols
+index

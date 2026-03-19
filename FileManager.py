@@ -8,6 +8,10 @@ class FileManager:
         with open(filename, "w", encoding="utf-8") as archivo_texto:
             archivo_texto.write(text)
     @staticmethod
+    def AppendAllText(filename, text):
+        with open(filename, "a", encoding="utf-8") as archivo_texto:
+            archivo_texto.write(text)
+    @staticmethod
     def ReadAllText(filename):
         with open(filename, "r", encoding="utf-8") as archivo_texto:
             return archivo_texto.read()

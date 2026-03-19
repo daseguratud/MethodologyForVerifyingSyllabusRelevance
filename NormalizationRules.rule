@@ -1,0 +1,29 @@
+flipflop<-flip-flop;flip flop;flipflops;flip flops
+flipflop<-flipflop flipflop
+flipflop<- flip , flop 
+statemachine<-state machine;state machines;state-machine;fsm
+statemachine<-state machine machine;state machine machines
+memory<-memories?;ememory;eememory
+alu<-arithmetic logic unit
+fpga<-field programmable gate array
+cpld<-complex programmable logic device
+psoc<-programmable system on chip
+register<-registers?
+counter<-counters?
+multiplexer<-multiplexers?
+karnaugh<-karnaugh map;karnaugh maps
+boolean<-boolean logic; booleans
+logicgate<-logic gate;logic gates
+gate<-gates?
+register<-registers?
+counter<-counters?
+integratedcircuit<-integrated circuit;integrated circuits; ic 
+circuit<-circuits?
+system<-systems?
+combinational<-combinational system;combinational systems
+sequential<-sequential system;sequential systems
+boolean<-boolean algebra;booleans
+2scomplement<-s complement,2s complement,two's complement
+floatingpoint<-floating point
+fixedpoint<-fixed point
+errorcontrol<-error detection,error correction

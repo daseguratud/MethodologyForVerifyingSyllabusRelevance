@@ -1,0 +1,118 @@
+ÍNDICE
+
+INTRODUCCIÓN 11
+
+CAPÍTULO 1
+
+INTRODUCCIÓN A LOS SISTEMAS DIGITALES13
+11 SISTEMAS ANALÓGICOS Y DIGITALES13
+12 SISTEMAS BINARIOS 15
+13 SISTEMAS COMBINACIONALES Y SECUENCIALES17
+14 REPRESENTACIÓN DE LA INFORMACIÓN EN LOS SISTEMAS BINARIOS18
+141 Sistemas de numeración18
+15 EL SISTEMA BINARIO 19
+151 Conversión entre los sistemas binario y decimal 20
+152 Sistemas octal y hexadecimal22
+153 Códigos binarios24
+
+CAPÍTULO 2
+
+ÁLGEBRA DE BOOLE Y PUERTAS LÓGICAS37
+21 POSTULADOS Y PROPIEDADES FUNDAMENTALES DEL ÁLGEBRA DE
+BOOLE 37
+22 FUNCIONES Y EXPRESIONES BOOLEANAS39
+221 Tablas de verdad Funciones lógicas39
+222 Representación en forma canónica de una función booleriana40
+223 Simplificación de funciones lógicas44
+224 Paso de formas no canónicas a canónicas 51
+225 Funciones lógicas con formas incompletas51
+226 Implementación de funciones con puertas lógicas53
+227 Funciones múltiples 57
+
+CAPÍTULO 3
+
+SISTEMAS COMBINACIONALES61
+31 ANÁLISIS DE CIRCUITOS COMBINACIONALES62
+32 SÍNTESIS DE CIRCUITOS COMBINACIONALES62
+321 Implementación con puertas AND, OR y NOT 63
+322 Implementación con puertas NAND, y NOR 64
+33 CODIFICADORES 66
+331 Codificador con prioridad 68
+34 DECODIFICADORES 69
+341 Implementación de funciones lógicas con decodificadores72
+342 Expansión de decodificadores74
+35 MULTIPLEXORES75
+36 DEMULTIPLEXORES 76
+361 Implementación de funciones lógicas con multiplexores 77
+
+CAPÍTULO 4
+
+CIRCUITOS ARITMÉTICOS81
+41 COMPARADOR DE MAGNITUD 81
+42 SUMADOR 84
+421 Semisumador84
+422 Sumador total 84
+423 Circuito sumador de n bits 86
+424 Acarreo serie y paralelo87
+43 NÚMEROS NEGATIVOS 88
+431 Suma de números negativos91
+432 Sumador/restador 92
+44 MULTIPLICADOR93
+
+CAPÍTULO 5
+
+BIESTABLES Y DISEÑO SÍNCRONO97
+51 BIESTABLES97
+511 Tipos de biestables 99
+52 BIESTABLES SÍNCRONOS 103
+521 SR activo por nivel103
+53 SINCRONISMO POR FLANCO 106
+531 Estructura maestro-esclavo 107
+532 Tiempos significativos de conmutación108
+533 Biestables síncronos con entradas asíncronas112
+534 Tipos de biestables síncronos114
+54 CRONOGRAMAS 124
+
+CAPÍTULO 6
+
+REGISTROS Y CONTADORES 129
+61 REGISTROS129
+611 Registros serie-paralelo130
+612 Salida triestado 133
+613 Registros paralelo134
+62 CONTADORES135
+621 Contadores asíncronos 135
+622 Contadores síncronos 138
+623 Inicialización 141
+624 Contadores basados en registros de desplazamiento143
+
+CAPÍTULO 7
+
+CIRCUITOS SECUENCIALES149
+71 SÍNTESIS DE UN CIRCUITO SECUENCIAL 149
+711 Máquinas de estado 149
+72 ANÁLISIS DE UN CIRCUITO SECUENCIAL 167
+CAPÍTULO 8 MEMORIAS169
+81 MEMORIAS RAM Y ROM 172
+811 Estructura de las memorias 173
+82 EXTENSIÓN DE MEMORIA181
+83 SÍNTESIS DE FUNCIONES LÓGICAS CON MEMORIAS 188
+
+CAPÍTULO 9
+
+LÓGICA PROGRAMABLE 191
+91 PLANOS DE PROGRAMACIÓN 192
+92 PLD (PROGRAMMABLE LOGIC DEVICES)193
+93 FPGA’S COMERCIALES 200
+
+CAPÍTULO 10
+
+TECNOLOGÍAS DIGITALES203
+101 LA UNIÓN PN203
+102 EL DIODO205
+103 EL TRANSISTOR BIPOLAR 206
+104 LÓGICA TTL 210
+105 EL TRANSISTOR MOS212
+106 PUERTAS LÓGICAS NMOS 215
+107 PUERTAS LÓGICAS CMOS 217
+ÍNDICE ALFABÉTICO221

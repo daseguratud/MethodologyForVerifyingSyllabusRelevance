@@ -1,0 +1,89 @@
+introduction xii
+how to use this book xv
+explanatory note xv
+for professor xv
+for the student xvi
+lesson the most basic
+what is boolean
+what is vhdl hardware description language
+mathematical foundations
+logical constants
+logical variables
+signals signal
+operators
+lesson number system
+decimal system
+binary system
+octal system
+hexadecimal system
+workshop
+lesson conversions
+converting from binary to octal
+octal to binary conversion
+binary to hexadecimal conversion
+workshop
+digital logic fundamentals viii with vhdl
+lesson organizing logical values
+truth tables
+boolean functions
+representation of numbers with sign
+lesson vhdl fundamental components
+entity entity
+architecture architecture
+lesson sentences
+concurrent
+coditionals
+cycles
+lesson xilinx development software – ise
+creating a project in xilinx ise
+ise design flow
+synthesize synthesize
+register transfer level rtl
+design implementation implementation design
+generation of the programming file fpga
+simulation and verification test bench
+lesson logicgate i
+lesson logicgate ii
+workshop
+lesson logicgate iii
+workshop
+lesson logicgate iv
+lesson operators and hierarchy
+workshop
+lesson logic functions and circuit
+complete example
+workshop
+lesson simplifying functions i
+example of function
+original function
+simplified function
+original function logic circuit
+workshop
+lesson simplifying functions ii
+step
+step
+step
+step
+step
+step
+step
+original function
+simplified function
+workshop
+lesson simplifying functions iii
+workshop
+lesson morgan s laws i
+workshop
+lesson morgan s laws ii
+workshop
+lesson karnaughs
+workshop
+lesson decoder
+lesson encoder
+lesson multiplexer
+lesson demultiplexer
+lesson add
+lesson binary comparators
+lesson clock system clock
+lesson flipflop
+bibliography

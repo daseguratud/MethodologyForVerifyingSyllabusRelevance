@@ -1,0 +1,633 @@
+chapter introductory concepts
+introduction to digital s and os
+digital signals
+need for timing
+highs and lows over time
+periodic aperiodic
+period frequency
+duty cycle
+transitions
+edges events
+logic circuit and evolving technology
+logic circuit
+digital integratedcircuit
+numerical representations
+analog representations
+digital representations
+digital and analog system
+advantages of digital techniques
+limitations of digital techniques
+digital number system
+decimal system
+decimal counting
+binary system
+binary counting
+representing signals with numeric quantities
+parallel and serial transmission
+memory
+digital computers
+major parts of acomputer
+types of computers
+memory
+digital progress today and tomorrow
+chapter number system and codes
+binary to decimal conversions
+decimal to binary conversions
+counting range
+hexadecimal number system
+hex to decimal conversion
+decimal to hex conversion
+hex to binary conversion
+binary to hex conversion
+counting in hexadecimal
+usefulness of hex
+summary of conversions
+bcd code
+binary coded decimal code
+comparison of bcd and binary
+the gray code
+quadrature encoders
+putting it all together
+the byte nibble and word
+bytes
+nibbles
+words
+alphanumeric codes
+ascii code
+parity method for error detection
+parity bit
+error correction
+applications
+chapter describing logic circuit
+boolean constants and variables
+truth tables
+or operation with or gate
+or gate
+summary of the or operation
+and operation with and gate
+and gate
+summary of the and operation
+not operation
+not circuit inverter
+summary of boolean operations
+describing logic circuit
+algebraically
+operator precedence
+circuit containing inverters
+evaluating logic circuit outputs
+analysis using a table
+implementing circuit from boolean
+expressions
+nor gate and nand gate
+nor gate
+nand gate
+boolean theorems
+multivariable theorems
+chapter combinational
+logic circuit
+sum of products form
+product of sums
+simplifying logic circuit
+algebraic simplification
+designing combinational logic
+circuit
+complete design procedure
+karnaugh method
+karnaugh format
+looping
+looping groups of two pairs
+looping groups of four quads
+looping groups of eight octets
+complete simplification process
+filling a k map from an output
+expression
+chapter flipflop and related devices
+nand gate latch
+setting the latch ff
+resetting the latch ff
+simultaneous setting and resetting
+summary of nand latch
+alternate representations
+terminology
+nor gate latch
+flipflop state on power up
+troubleshooting case study
+digital pulses
+clock signals and clocked flipflop
+clocked flipflop
+setup and hold times
+clocked s r flipflop
+internal circuitry of the edge
+triggered s r flipflop
+clocked j k flipflop
+internal circuitry of the edge
+triggered j k flipflop
+clocked d flip flop
+implementation of the d flipflop
+parallel data transfer
+d latch transparent latch
+asynchronous inputs
+designations for asynchronous
+inputs
+flipflop timing considerations
+setup and hold times
+propagation delays
+maximum clocking frequency fmax
+clock pulse high and low times
+asynchronous active pulse width
+clock transition times
+potential timing problem in ff circuit
+flipflop applications
+flipflop synchronization
+detecting an input sequence
+detecting a transition or “event”
+data storage and transfer
+parallel data transfer
+serial data transfer shift register
+hold time requirement
+serial transfer between register
+shift left operation
+parallel versus serial transfer
+frequency division and counting
+counting operation
+state transition diagram
+mod number
+application of flipflop with timing constraints
+timing issues
+microcomputer application
+schmitt trigger devices
+one shot monostable multivibrator
+nonretriggerable one shot
+retriggerable one shot
+actual devices
+monostable multivibrator
+clock generator circuit
+schmitt trigger oscillator
+timer used as an astable multivibrator
+crystal controlled clock generators
+troubleshooting flipflop circuit
+open inputs
+shorted outputs
+clock skew
+sequential circuit in plds using
+schematic entry
+sequential circuit using hdl
+the dlatch
+edge triggered devices
+hdl circuit with multiple
+components
+chapter digital arithmetic operations and circuit
+binary addition and subtraction
+binary addition
+binary subtraction
+representing signed numbers
+’s complement form
+’s complement form
+representing signed numbers using
+’s complement
+sign extension
+negation
+special case in ’sscomplement
+representation
+addition in the ’s complement
+system
+subtraction in the ’sscomplement
+system
+arithmetic overflow
+number circles and binary
+arithmetic
+multiplication of binary numbers
+multiplication in the ’s complement system
+binary division
+bcd addition
+sum equals or less
+sum greater than
+bcd subtraction
+hexadecimal arithmetic
+hex addition
+hex subtraction
+hex representation of signed numbers
+arithmetic circuit
+arithmetic logic unit
+parallel binary adder
+design of a full adder
+k map simplification
+half adder
+complete parallel adder with
+register
+register notation
+sequence of operations
+carry propagation
+integrated circuit parallel
+adder
+cascading parallel adders
+’s complement circuit
+addition
+subtraction
+combined addition and
+subtraction
+chapter counter and register
+asynchronous ripple counter
+signal flow
+mod number
+frequency division
+duty cycle
+propagation delay in ripple
+counter
+synchronous parallel counter
+circuit operation
+advantage of synchronous counter
+over asynchronous
+actual ics
+counter with mod numbers
+state transition diagram
+displaying counter states
+changing the mod number
+general procedure
+decade counter bcd counter
+synchronous down and up down
+counter
+presettable counter
+synchronous presetting
+ic synchronous counter
+the als hc
+series
+the als hc
+series
+multistage arrangement
+decoding a counter
+active high decoding
+active low decoding
+bcd counter decoding
+analyzing synchronous counter
+synchronous counter design
+basic idea
+j k excitation table
+design procedure
+stepper motor control
+synchronous counter design
+with dff
+altera library functions for counter €
+hdl counter
+state transition description
+methods
+behavioral description
+simulation of basic counter
+full featured counter in hdl
+simulation of full featured
+counter
+wiring hdl modules together
+mod bcd counter
+statemachines
+simulation of statemachines
+traffic light controller state
+machine
+choosing hdl coding techniques
+register data transfer
+ic register
+parallel in parallel out—the als hc
+serial in serial out—theals hc
+parallel in serial out—the als hc
+serial in parallel out—the als hc
+shift register counter
+ring counter
+starting a ring counter
+johnson counter
+decoding a johnson counter
+ic shift register counter
+troubleshooting
+megafunction register
+hdl register
+hdl ring counter
+hdl one shots
+nonretriggerable one shot simulation
+retriggerable edge triggered one shots in hdl
+edge triggered retriggerable one shot simulation
+chapter integrated circuit
+logic families
+digitalintegratedcircuitterminology
+current and voltage parameters see figure
+fan out
+propagation delays
+power requirements
+noise immunity
+invalid voltage levels
+current sourcing and current sinking
+action
+ic packages
+the ttl logic family
+circuit operation—low state
+circuit operation high state
+current sinking action
+current sourcing action
+totem pole output circuit
+ttl nor gate
+summary
+ttl data sheets
+supply voltage and temperature range
+voltage levels
+maximum voltage ratings
+power dissipation
+propagation delays
+ttl series characteristics
+standard ttl series
+schottky ttl s series
+low power schottky ttl ls series ls ttl
+advanced schottky ttl as series as ttl
+advanced low power schottky ttl als series
+f—fast ttl
+comparison of ttl series characteristics
+ttl loading and fan out
+determining the fan out
+other ttl characteristics
+unconnected inputs floating
+unused inputs
+tied together inputs
+biasing ttl inputs low
+current transients
+mos technology
+the mosfet
+basic mosfet switch
+complementary mos logic
+cmos inverter
+cmos nand gate
+cmos nor gate
+cmos set reset ff
+cmos series characteristics
+series
+hc hct high speed cmos
+ac act advanced cmos
+ahc ahct advanced high speed cmos
+bicmos v logic
+power supply voltage
+logic voltage levels
+noise margins
+power dissipation
+pp increases with frequency
+fan out
+switching speed
+unused inputs
+static sensitivity
+latch up
+low voltage technology
+cmos family
+bicmos family
+open collector open drain outputs
+open collector open drain outputs
+open collector open drain buffer
+drivers
+ieee ansi symbol for open collector drain outputs
+tristate three state logic outputs
+advantage of tristate
+tristate buffers
+tristate ics
+teee ansi symbol for tristate outputs
+high speed bus interface logic
+cmos transmission gate bilateral switch
+ic interfacing
+interfacing v ttl and cmos
+cmos driving ttl
+cmos driving ttl in the high state
+cmos driving ttl in the low state
+mixed voltage interfacing
+low voltage outputs driving high voltage loads
+high voltage outputs driving low voltage loads
+analog voltage comparators
+troubleshooting
+using a logic pulser and probe to testa circuit
+finding shorted nodes
+characteristics of an fpga
+power supply voltage
+logic voltage levels
+power dissipation
+maximum input voltage and output current ratings
+switching sneed
+chapter msi logic circuit
+decoders
+enable inputs
+bcd to decimal decoders
+bcd to decimal decoder driver
+decoder applications
+bcd to segment decoder drivers
+common anode versus common cathode
+led displays
+liquid crystal displays
+driving an lcd
+types of lcds
+encoders
+priority encoders
+decimal to bcd priority encoder
+switch encoder
+troubleshooting
+multiplexer data selectors
+basic two input multiplexer
+four input multiplexer
+eight input multiplexer
+quad two input mux als hc
+multiplexer applications
+data routing
+parallel to serial conversion
+operation sequencing
+logic function generation
+demultiplexer data distributors
+line to line demultiplexer
+security monitoring system
+synchronous data transmission system
+time division multiplexing
+more troubleshooting
+magnitude comparator
+data inputs
+outputs
+cascading inputs
+applications
+code converters
+basic idea
+conversion process
+circuit implementation
+other code converter
+implementations
+data busing
+the als hc tristate register
+data bus operation
+data transfer operation
+bus signals
+simplified bus timing diagram
+expanding the bus
+simplified bus representation
+bidirectional busing
+decoders using hdl
+the hdl segment decoder driver
+encoders using hdl
+hdl multiplexer and demultiplexer
+hdl magnitude comparators
+hdl code converters
+chapter digital system
+projects using hdl
+small project management
+definition
+strategic planning problem decomposition
+synthesis and testing
+system integration and testing
+stepper motor driver project
+problem definition
+strategic planning problem decomposition
+synthesis and testing
+keypad encoder project
+problem analysis
+strategic planning problem decomposition
+digital clock project
+top down hierarchical design
+building the blocks from the bottom up
+mod design
+combining blocks graphically
+combining blocks using only
+hdl
+microwave oven project
+definition of the project
+strategic planning problem
+decomposition
+synthesis integration and
+testing
+frequency counter project
+chapter interfacing with the
+analog world
+review of digital versus analog
+digital to analog conversion
+analog output
+input weights
+resolution step size
+percentage resolution
+what does resolution mean
+bipolar dacs
+dac circuitry
+conversion accuracy
+dac with current output
+r r ladder
+dac specifications
+resolution
+accuracy
+offset error
+settling time
+monotonicity
+an integrated circuit dac
+dac applications
+control
+automatic testing
+signal reconstruction
+a d conversion
+digital amplitude control
+serial dacs
+troubleshooting dacs
+analog to digital conversion
+digital ramp adc
+a d resolution and accuracy
+conversion time tc
+data acquisition
+reconstructing a digitized signal
+aliasing
+serial adcs
+successive approximation adc
+conversion time
+an actual ic the adc successive approximation adc
+flash adcs
+conversion time
+other a d conversion methods
+dual slope integrating adc
+voltage to frequency adc
+sigma delta modulation
+pipelined adc
+typical adc architectures for applications
+sample and hold circuit
+multiplexing
+digital signal processing dsp
+digital filtering
+applications of analog interfacing
+data acquisition system
+digital camera
+digital cellular telephone
+chapter memory devices
+memory terminology
+general memory operation
+address inputs
+the we input
+output enable oe
+memory enable
+cpu memory connections
+read only memory
+rom block diagram
+the read operation
+rom architecture
+register array
+address decoders
+output buffers
+rom timing
+types of roms
+mask programmed rom
+programmable roms proms
+erasable programmable rom eprom
+electrically erasable prom eeprom
+flash memory
+a typical cmos flash memoryic
+flash technology nor and nand
+rom applications
+embedded microcontroller program memory
+data transfer and portability
+bootstrap memory
+data tables
+data converter
+function generator
+semiconductor ram
+ram architecture
+read operation
+write operation
+chip select
+common input output pins
+static ram sram
+static ram timing
+read cycle
+write cycle
+dynamic ram dram
+dynamic ram structure and operation
+address multiplexing
+dram read write cycles
+dram read cycle
+dram write cycle
+dram refreshing
+dram technology
+memory modules
+fpm dram
+edo dram
+sdram
+ddrsdram
+other memory technologies
+magnetic storage
+optical memory
+phase change ram pram
+ferroelectric ram fram
+expanding word size and capacity
+expanding word size
+expanding capacity
+incomplete address decoding
+combining dram chips
+special memory functions
+cache memory
+first in first out memory fifo
+circular buffers
+chapter programmable
+logic device
+architectures
+digital system family tree
+more on plds
+fundamentals of pld circuitry
+pld symbology
+pld architectures
+proms
+programmable array logic pal
+field programmable logic array fpla
+generic array logic gal
+the altera max and max ii families
+generations of hcplds
+glossary
+answers to selected problems
+index of ics
+index
