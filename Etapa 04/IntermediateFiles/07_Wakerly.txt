@@ -1,0 +1,303 @@
+viicontents
+preface xv
+introduction
+about digital design
+analog versus digital
+analog signal
+digital logic signal
+logic circuit and logicgate
+software aspects of digital design
+integratedcircuit
+logic families and cmos
+cmos logic circuit
+programmable devices
+application specific ics
+printed circuit boards
+digital design levels
+the name of the game
+going forward
+drill problems
+number system and codes
+positional number system
+binary octal and hexadecimal numbers
+binary decimal conversions
+addition and subtraction of binary numbers
+representation of negative numbers
+signed magnitude representation complement number system
+two’s complement representation
+ones’ complement representation excess representations
+two’s complement addi tion and subtraction
+addition rules a graphical view overflow
+subtraction rules two’s complement and unsigned binary numbersddppbook page vii tuesd ay march pmviii contents
+ones’ complement addition and subtraction
+binary multiplication
+binary division
+binary codes for decimal numbers
+gray code
+character codes
+codes for actions conditions and states
+n cubes and distance
+codes for detecting and correcting errors
+error detecting codes
+error correcting and mu ltiple error detecting codes
+hamming codes crc codes
+two dimensional codes checksum codes
+m out of n codes
+codes for transmitting and storing serial data
+parallel and serial data serial line codes
+references
+drill problems
+exercises
+switching algebra and combinational logic
+switching algebra
+axioms single variable theorems
+two and three variable theorems n variable theorems
+duality standard repres entations of logic functions
+combinational circuit analysis
+combinational ci rcuit synthesis
+circuit descriptions and designs circuit manipulations
+combinational circuit minimization karnaughs
+timing hazards
+static hazards finding static hazards using maps
+dynamic hazards designing hazard free circuit
+references
+drill problems
+exercises
+digital design practices
+documentation standards
+block diagrams logicgate symbols
+signal names and active levels active levels for pins
+constant logic signal bubble to bubble logic design
+signal naming in hdl models drawing layout
+buses additional schematic information
+circuit timing
+timing diagrams propagation delay
+timing specifications sample timing specifications
+timing analysis toolsddppbook page viii tue sday march pmcontents ix
+hdl based digital design
+hdl history why hdls
+eda tool suites for hdls hdl based design flow
+references
+drill problems
+exercises
+verilog hardware description language
+verilog models and modules
+logic system nets va riables and constants
+vectors and operators
+arrays
+logical operators and expressions
+compiler directives
+structural models
+dataflow models
+behavioral models procedural code
+always statements and blocks procedural statements
+inferred latches assignment statements
+begin end blocks if and if else statements
+case statements looping statements
+functions and tasks
+the time dimension
+simulation
+test benches
+verilog features for sequential logic design
+synthesis
+references
+drill problems
+exercises
+basic combinational logic elements
+read only memory roms
+roms and truth tables
+using roms for arbitrary combinational logic functions
+fpga lookup tables luts
+combinational plds
+programmable logic arrays
+programmable array logic devices
+decoding and selecting
+a more mathy decoder definition binary decoders
+larger decoders decoders in verilog
+custom decoders seven segment decoders
+binary encoders
+multiplexing
+logicgate level multiplexer circuit expanding multiplexer
+multiplexer demultiplexer and buses
+multiplexer in verilogddppbook page ix tuesd ay march pmx contents
+references
+drill problems
+exercises
+more combinational building blocks
+three state devices
+three state buffers standard msi three state buffers
+three state outputs in verilog three state outputs in fpgas
+priority encoding
+cascading priority encoders priority encoders in verilog
+exclusive or logicgate and parity functions
+exclusive or and exclusive nor logicgate
+parity circuit parity checking applications
+exclusive or logicgate and parity circuit in verilog
+comparing
+comparator structure iterative circuit
+an iterative comparator circuit magnitude comparators
+comparators in hdls comparators in verilog
+comparator test benches
+comparing comparator performance
+a random logic example in verilog
+drill problems
+exercises
+combinational arithmetic elements
+adding and subtracting
+half adders and full adders ripple adders
+subtractors carry lookahead adders
+group ripple adders group carry lookahead
+msi arithmetic and logic units adders in verilog
+parallel prefix adders fpga carry element
+shifting and rotating
+barrel shifters bar rel shifters in verilog
+multiplying
+combinational multiplier structures multiplication in verilog
+dividing
+basic unsigned binary division algorithm
+division in verilog
+references
+drill problems
+exercises
+statemachines
+statemachine basics
+statemachine structure and analysis
+statemachine structure output logic
+statemachine timing
+analysis of statemachines with d flipflopddppbook page x tuesd ay march pmcontents xi
+statemachine design with state tables
+state table design example state minimization
+state assignment synthesis using d flipflop
+beyond state tables
+statemachine design with state diagrams
+t bird tail lights example
+statemachine design with asm charts
+t bird tail lights with asm charts
+statemachine design with verilog
+references
+drill problems
+exercises
+sequential logic elements
+bistable elements
+digital analysis analog analysis
+metastable behavior
+latches and flipflop
+s r latch s r latch
+d latch edge triggered d flipflop
+edge triggered d flipflop with enable t flipflop
+latches and flipflop in verilog
+instance statements and library components
+behavioral latch and flipflop models
+more about clocking in verilog
+multibit register and latches
+msi register and latches
+multibit register and latches in verilog
+miscellaneous latch and bistable applications
+switch debouncing bus holder circuit
+sequential plds
+fpga sequential logic elements
+feedback sequential circuit
+basic analysis
+analyzing circuit with multiple feedback loops
+feedback sequential circuit design
+feedback sequential circuit in verilog
+references
+drill problems
+exercises
+counter and shift register
+counter
+ripple counter synchronous counter
+a universal bit counter circuit
+decoding binary counter states
+counter in verilogddppbook page xi tuesd ay march pmxii contents
+shift register
+shift register structure shift register counter
+ring counter johnson counter
+linear feedback shift register counter
+shift register in verilog timing generator examples
+lfsr examples
+iterative versus sequential circuit
+references
+drill problems
+exercises
+statemachines in verilog
+verilog statemachine coding styles
+basic coding style a verilog statemachine example
+combined state memory and next state logic reset inputs
+pipelined moore outputs in verilog
+direct verilog coding without a state table
+statemachine extraction
+verilog statemachine test benches
+statemachine test bench construction methods
+example test benches
+instrumenting next state logic for testing
+in summary
+ones counter
+combination lock
+t bird tail lights
+reinventing traffic light controllers
+the guessing game
+“don’t care” state encodings
+decomposing statemachines
+the guessing game again
+the trilogy game
+references
+drill problems
+exercises
+sequential circuit design practices
+sequential circuit documentation practices
+general requirements logic symbols
+statemachine descriptions
+timing diagrams and specifications
+synchronous design methodology
+synchronous system structure
+a synchronous system design example
+difficulties in synchronous design
+clock skew gating the clock
+asynchronous inputsddppbook page xii tuesd ay march pmcontents xiii
+synchronizer failure and metastability
+synchronizer failure metastability resolution time
+reliable synchronizer design analysis of metastable timing
+better synchronizers other synchronizer designs
+two clock synchronization example
+references
+drill problems
+exercises
+digital circuit
+cmos logic circuit
+cmos logic levels mos transistors
+basic cmos inverter circuit
+cmos nand and nor logicgate
+fan in noninverting logicgate
+cmos and or invert and or and invert logicgate
+electrical behavior of cmos circuit
+overview data sheets and specifications
+cmos static electrical behavior
+logic levels and noise margins
+circuit behavior with resistive loads
+circuit behavior with nonideal inputs fanout
+effects of loading unused inputs
+how to destroy a cmos device
+cmos dynamic electrical behavior
+transition time propagation delay
+power consumption
+current spikes and decoupling capacitors
+inductive effects
+simultaneous switching and ground bounce
+other cmos input and output structures
+transmission logicgate schmitt trigger inputs
+three state outputs open drain outputs
+driving leds and relays multisource buses
+wired logic pull up resistors
+cmos logic families
+hc and hct ahc and ahct
+hc hct ahc and ahct electrical characteristics
+ac and act fct and fct t
+low voltage cmos logic and interfacing
+v lvttl and lvcmos logic levels v tolerant inputs
+v tolerant outputs ttl lvttl interfacing summary
+logic levels less than v
+differential signaling
+references
+drill problems
+exercises ddppbook page xiii tue sday march pm

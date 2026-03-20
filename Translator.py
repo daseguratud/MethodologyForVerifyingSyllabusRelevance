@@ -1,23 +1,22 @@
 from googletrans import Translator as gTranlator
 from deep_translator import GoogleTranslator
-from FileManager import FileManager
+from Cache import Cache
+from LanguageCache import LabguageCache
 from TranslationCache import TranslationCache
 from ui import ui
 import asyncio
 class Translator:
     def __init__(self):
-        pass
+        self._cacheTranlation = Cache("CacheTranslate.txt",TranslationCache,"Original","Translated")
+        self._cacheLanguage = Cache("CacheLanguage.txt",LabguageCache,"Text","Language")
     def Translate(self, text, destLanguage):
-        cacheTranslations = self.__LoadCache()
-        translation=[t for t in cacheTranslations if t.Original==text]
-        existsTranslation = len(translation)>0
-        if existsTranslation: 
+        translation=self._cacheTranlation.GetValue(text)
+        if translation!=None: 
             ui.printInternalProcess("Tranlated from cache")
-            return translation[0].Translated
+            return translation
 
         ui.printInternalProcess("Getting language...")
-        re=self.__GetLanguaje(text[0:100])
-        fileLanguage = re.lang
+        fileLanguage=self.__GetLanguaje(text[0:100])
         if fileLanguage == destLanguage:
             ui.printInternalProcess("No tanslate needed.")
             return text
@@ -26,29 +25,22 @@ class Translator:
         nLines = len(lineas)
         nline=0
         textToTranslate = ""
+        fullTextTranslated=""
         for linea in lineas:
             textToTranslate += linea + '\n'
             if len(textToTranslate) > 4000 or nline == nLines-1:            
                 textoTraducido = GoogleTranslator(source='auto', target=destLanguage).translate(textToTranslate)
                 if textoTraducido is not None:
-                    translation +=  textoTraducido+ ' '
+                    fullTextTranslated +=  textoTraducido+ ' '
                 textToTranslate = ""
             nline += 1
-        self.__SaveCache(text,textoTraducido)
-        return textoTraducido
+        self._cacheTranlation.Save(text,fullTextTranslated)
+        return fullTextTranslated
     def __GetLanguaje(self,text):
+        langCache =self._cacheLanguage.GetValue(text)
+        if langCache!= None:
+            ui.printStageMessageSubProcess("Language from cache")
+            return langCache
         detected = asyncio.run(gTranlator().detect(text))
-        return detected
-    def __LoadCache(self):
-        RS = '\x1E'  # separador de conjuntos
-        US = '\x1F'  # separador de idiomas
-        cacheTextsTranslatedText = FileManager.ReadAllText("CacheTranslate.txt")
-        cacheTextsTranslated = cacheTextsTranslatedText.split(RS)
-        cacheTextsTranslated = cacheTextsTranslated[:-1]
-        cache=[TranslationCache(*ct.split(US)) for ct in cacheTextsTranslated]
-        return cache
-    def __SaveCache(self, Original, Translated):
-        RS = '\x1E'  # separador de conjuntos
-        US = '\x1F'  # separador de idiomas
-        newCache = TranslationCache(Original, Translated)
-        FileManager.AppendAllText("CacheTranslate.txt",f"{Original}{US}{Translated}{RS}")
+        self._cacheLanguage.Save(text,detected.lang)
+        return detected.lang

@@ -7,46 +7,46 @@ mandatory
 basicx elective intrinsicelective
 extrinsic
 theoretical practical theoretical practical x others which
-in-person x-in-person with
+in person xin person with
 incorporation of ticvirtual others which
-ra level domain
-cognitive applycompetencies learning outcomes
+mastery ra level
+cognitive applycompetencies learning results
 know and understand the fundamentals of mathematical logic
-apply knowledge of Boolean algebra techniques to design and
+apply knowledge of boolean techniques to design and
 build combinational hardwaresimplify propositional expressions by applying the lawsunderstand and algebraically manipulate the
-Boolean variables and operators build tables
+variables and boolean operators build tables
 really and optimizes the propositions
-simplifyingcognitive know
+simplifying themcognitive know
 cognitive apply
-understands the operation, designs and builds
-digital hardwareestablish the relationship between natural language and logical connectives
-build the truth tables of each of the logical connectives and identify the academic space
-academic space name computer architecture code curriculum faculty engineering
-systems engineering curricular project
-iii justification of the academic space
-iv objectives of the general and specific academic space
-v training and learning purposes pfa of the academic space code of the academic space number of academic credits
+understand how it works design and build
+digital hardware establish the relationship between natural language and logical connectives
+build the truth tables of each of the logical connectivesi identification of the academic space
+name of the academic space computer architecture curriculum code faculty engineering
+system engineering curricular project
+iii justification of academic space
+iv objectives of the academic space general and specific
+v training and learning purposes pfa of the academic space academic space code number of academic credits
 type of academic space
-modality of offer of academic space distribution of working hours
-nature of academic space
-nature of the mandatory academic space
+modality of offer of the academic space distribution of working hours
+nature of the academic space
+character of the academic space mandatory
 complementary
-ii suggestions of knowledge and prior knowledge
-basic computer programming knowledge
-basic knowledge of circuits
-Systems engineers must know the basic hardware of computer systems to have a clear concept of the operation of small and
+ii suggestions for prior knowledge and knowledge
+basic knowledge of computer programming
+basic knowledge of circuit
+system engineers must know the basic hardware of computer system to have a clear concept of the operation of small and
 large in addition to the optimization of available resources
 general objective
-introduce the student to the basic elements of digital design and apply them to the design of computer systems to improve the efficiency and performance of the information system.
+introduce the student to the basic elements of digital design and apply them to the design of computer system to improve the efficiency and performance of the information system
 computation
 specific objectives
-know and understand the different positional number systems
-acquire the elements for managing the logic used in computer systems
+know and understand the different positional number system
+acquire the elements to manage the logic used in computer system
 acquire skills for the implementation of combinational hardware
-acquire skills for implementing sequential hardware
-acquire knowledge for managing memory devices and register transfer syllabus format
+acquire skills for the implementation of sequential hardware
+acquire knowledge to manage memory devices and transfer register syllabus format
 macroprocess strategic direction
-self-assessment and accreditation process
+process self assessment and accreditation
 cognitive evaluate
 x x x
 x x x
@@ -54,53 +54,52 @@ x
 deliverable activities partial workshops reports
 final projectproject
 finalexhibitions
-x x x x x x
-x x x x x x
-x x x x x x
-x x x x x x
-x x x x x x
-x x x x x x
-x x x x x x
-x x x x x x
-x x x x x xra
+x
+x
+x
+x
+x
+x
+x
+x
+x x
 racognitive apply
-know and design repertoires of simple instructions in a cognitive processor know
+know and design repertoires of simple instructions in a cpucognitive know
 cognitive apply
 compare the performance and or consumption in a computer system taking into account
-account the memory hierarchy the storage systems the design of the
-machine language and the main processor design techniques
-student-centered self-directed active learning
+account the memory hierarchy storage system the design of the
+machine language and the main cpu design techniques
+rastudent centered self directed active learning
 learning outcomes ra to be evaluated learning outcomes associated with the evaluations
-t theoretical p traditional practical project-based describe the internal structure, functional units and operation of
+t theoretical p practical traditional project baseddescribe the internal structure functional units and operation of
 the main components of a computer systemdigital hardware
-identifies understands and evaluates the structure and
+identify understand and evaluate the structure and
 computer architecture as well as
-basic components that make them up to know the different existing architectures of computer systems
-and their differences in performance
-apply simple optimizations to code snippets to improve performance
-performance and or consumption in a computer system apply knowledge of Boolean algebra techniques to design and
+basic components that make them up know the different existing architectures of computer system
+and their differences in performance apply simple optimizations to code snippets to improve performance
+performance and or consumption in a computer system apply knowledge of boolean techniques to design and
 build sequential hardware
 vii teaching strategies that promote learning fundamentals of mathematical logic
 boolean functions boolean expressions
 postulates and theorems
 boolean equations maxterms and minterms
-boolean function optimization
-logic gates and or not xor
+optimization of boolean functions
+logiclogicgate and or not xor
 implementation of boolean functions using logical compounds
-universality of nand and nor logic gates
-combinational systems
-logic gates in integrated circuits
-adders subtractors encoders decoders multiplexers demultiplexers
-aluminum central processing unit
-sequential systems
-latch and flip flop
+universality of nand and nor logiclogicgate
+combinational
+logiclogicgate in integratedcircuit
+adders subtractor encoders decoders multiplexer demultiplexer
+cpu alu
+sequentials
+latch and flipflop
 accountants
-records
-memory ram rom prom eprom eeprom
+register
+memory
 introduction to computer architecture
-the concept of bus
-access to the tri-state buffer bus
-processor organization
+the bus concept
+access to the bus tristate buffer
+cpu organization
 instruction design
 addressing modes
 memory maps
@@ -108,40 +107,40 @@ complementary topics
 advanced computer architectures
 parallelism
 technology based
-problem-based collaborative experimental
+problem based collaborative experimental
 viii evaluation
 ra
 ra
 ra
 ra
 ra
-ravi thematic contentx x x x x x
-x x x x x x
+ravi thematic contentx x
+x
 g g i g g i g
-date approval by curricular council number of minutes
+approval date by curriculum council minute number ra
 • normal room with blackboard for lecture sessions and discussion sessions
 • access to videobeam
-• website to publish teaching material, work guides, workshops, etc.
-• Didactic videos around the topics of the subject
+• website to publish teaching material work guides workshops etc
+• didactic videos around the topics of the subject
 • access outside of classes to computer rooms to carry out investigative and practical workshops
 • access to recommended bibliographic material
-there are no academic practices field trips
+there is no x academic practices field outings
 basic
-mano morris and kime charles fundamentals of logical design and computers editorial prentice hall mexico
+hand morris and kime charles fundamentals of logic design and computers prentice hall publishing mexico
 malvino albert paul and brown jerald digital computer electronics mcgraw hill
 complementary
-• martinez jaime and olvera jorge computer organization and architecture editorial prentice hall mexico
-• gajski daniel principles of digital design editorial prentice hall spain
-• tanenbaum andrew computer organization a structured approach editorial prentice hall third edition mexico
-• paterson david and henessy john organization and design of the computer the interface hardware software editorial mcgraw hill spain
-• stalling william computer organization and architecture prentice hall editorial seventh edition spain
+• martinez jaime and olvera jorge computer organization and architecture prentice hall publishing mexico
+• gajski daniel digital design principles prentice hall publishing spain
+• tanenbaum andrew computer organization a structured approach prentice hall publishing third edition mexico
+• paterson david and henessy john computer organization and design the hardware software interface mcgraw hill publishing spain
+• stalling william computer organization and architecture prentice hall publishing seventh edition spain
 web pages
 intel documentation center https wwwintelcom content www us en resources documentation developerhtml
 amd documentation center https developeramdcom resources developer guides manuals
 arm developer https developerarmcom documentation
 risc specifications manuals https riscvorg technical specifications xi bibliography
-type of evaluation
+evaluation type
 evaluation percentage
-individual work i or group g
-type of note
-review date by curricular council xii monitoring and updating of the syllabusix educational media and resources
+individual i or group g work
+note type
+review date by curricular council xii monitoring and update of the syllabusix educational media and resources

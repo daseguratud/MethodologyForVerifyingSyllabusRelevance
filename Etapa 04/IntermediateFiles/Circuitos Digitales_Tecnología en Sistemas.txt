@@ -1,89 +1,88 @@
-district university “franc isco josé de caldas”
+“franc isco josé de caldas” district university
 technological faculty
-technology in medium and low voltage electrical systems
+technology in medium and low voltage electrical system
 articulated by propaedeutic cycles with electrical engineering i
 district university
-“Francisco José de Caldas”
+“francisco josé de caldas”
 technological faculty
-systems technology
+system technology
 medium and low electric
 tension articulated by
 propaedeutic cycles with
 electrical engineering by cycles
 general information
-academic space digital circuits
+digital circuit academic space
 code
-practical theoretical space type
+type theoretical practical space
 basic engineering area
-academic credits htd htc hta hours per week
+academic credits htd htc hta hours week
 credits
 justification
 taking into account that the only limitation of the application of the design and synthesis of
-digital circuits lies in the imagination of the designer and that most of the processes
-Electrical and electronic processes are carried out in digital form, both in control and
-communications electromedicine image processing etc. it is mandatory that the
+digital circuit lies in the imagination of the designer and that most processes
+electrical and electronic processes are carried out in digital form both in control and
+communications electromedicine image processing etc it is mandatory that the
 professional in the area of modern electrical energy learn about modeling techniques and
-synthesis of digital circuits of very high level of integration and speed through the
+synthesis of digital circuit with a very high level of integration and speed through the
 vhdl hardware description language to be able to compete successfully in the environment
 labor
 objectives
 • introduce the student to the principles of digital logic and the different
 digital electronic design techniques
-• design simple operational and functional digital circuits with components
-discrete and half-scale integrated circuits using the principles of
+• design simple operational and functional digital circuit with components
+discrete and half scale integratedcircuit making use of the principles of
 digital logic
-• know the different digital architectures for the implementation of circuits
-digital such as cpld fpga microprocessor microcontroller and
-digital signal processor dsp
-• interpret and model digital circuits with a very high level of integration and
-speed through the vhdl hardware description language “franc isco josé de caldas” district university
+• know the different digital architectures for the implementation of circuit
+digital such as cpld fpga microcontroller m icrocontroller and
+digital signal cpu dsp
+• interpret and model digital circuit with a very high level of integration and
+speed through the vhdl hardware description language distrital university “franc isco josé de caldas”
 technological faculty
-technology in medium and low voltage electrical systems
+technology in medium and low voltage electrical system
 articulated by propaedeutic cycles with electrical engineering i
-• design analyze model simulate synthesize and program digital circuits with
-help from cad eda tools based on digital technologies such as cpld
+• design analyze model simulate synthesize and program digital circuit with
+help of cad eda tools based on digital technologies such as cpld
 and fpga
 requirements
-As you know, this course requires basic knowledge of devices
-semiconductors and the theory of DC circuits, it is desirable to use a
-programming but it is not an essential requirement for the development of the course, it is required
+as a pre knowledge this course requires basic knowledge of devices
+semiconductors and dc circuit theory it is desirable to use a language of
+programming but it is not an essential requirement for the development of the course it is required
 access to a personal computer with the appropriate software and access to a laboratory to
 basic circuit practices
 pedagogical aspects
 the proposal developed by the group of teachers of the technology curricular project
 in electricity and electrical engineering started from the analysis of the general characteristics that
-Every technologist must possess as a professional in the electrical sector in addition to the
+every technologist must have as a professional in the electrical sector in addition to the
 specific knowledge specific to the application of your career that everyone must possess
 engineer and are detailed in the professional profile that is part of the proposal
-for transition to academic credits
+for the transition to academic credits
 such characteristics fused within the academic spaces of the curriculum
-are
-• high level of development of your communication skills
-• problem-defining skills, collect and evaluate information, and develop
+they are
+• high level of development of their communication skills
+• skills in defining problems collecting and evaluating information and developing
 real and efficient solutions
-• teamwork skills ability to work with others
+• teamwork capabilities ability to work with others
 • ability to use all of the above to address problems in the complex
 real world
-All academic areas of the curriculum, as well as this one, are considered
-theoretical and practical, supporting this dynamic in a problem or question that the student
-must be solved throughout the weeks of the semester as a
-final project or work “franc isco josé de caldas” district university
+all academic spaces in the curriculum like this one are considered
+theoretical practical supporting this dynamic in a problem or question that the student
+must be solved throughout the weeks of the semester as a final project or work distrital university “franc isco josé de caldas”
 technological faculty
-technology in medium and low voltage electrical systems
+technology in medium and low voltage electrical system
 articulated by propaedeutic cycles with electrical engineering i
 description of credits
 distribution of activities hours
 weekly hours
-semester number
+semester number of
 credits
-face-to-face class
-direct work introduction of concept exemplification of content carrying out exercises and problems reinforcement workshops evaluation and diagnosis of knowledge
+in person class
+direct work introduction of concept exemplification of content completion of exercises and problems reinforcement workshops evaluation and diagnosis of knowledge
 accompaniment
 work
-cooperative knowledge diagnosis always follow-up of workshops and consultations workshops extract practices in laboratories final project
+cooperative knowledge diagnosis always follow up to workshops and consultations extractase workshops practices in laboratories final project
 activities
 extractase work
-autonomous previous readings workshops and consultations extra class exercises and assignments design of laboratory practices strengthening research training
+autonomous previous readings workshops and extra class consultations exercises and work design of laboratory practices strengthening investigative training
 through problems applied to reality
 total
 competencies and indicators
@@ -93,94 +92,93 @@ competencies
 suitability indicators
 concepts
 fundamentals of the
-digital systems
+digital system
 interpretive
 argumentative
-Contextual development in the field of digital circuits
-systems
+contextual development in the field of digital circuit
+system
 numbering and
 interpretive operations
 argumentative and
-propositional
-understands and develops skills in the operative manipulation of the
+propositive
+understand and develop skills in the operative manipulation of the
 conversion of bases and their application to real structures
-interpretive boolean algebra
+interpretive boolean
 argumentative and
-propositional explores, understands and develops the concepts of Boolean logic as well
-such as the basic theorems of this as well as the principles of the design of
-specific hardware applying function simplification
+propositive explores understands and develops the concepts of boolean as well
+as the basic theorems of this as well as the principles of the design of
+specific hardware applying simplification of functions
 logic
 combinational
 interpretive
 argumentative and
-purposeful ability to design and analyze combinational circuits through
+propositive ability to design and analyze combinational circuit through the
 strong and moderately structured problem solving and using
-different lsi and msi components or integrated circuits and tools
+different components or integratedcircuit lsi and msi and tools of
 software
 architectures
-interpretive reconfigurable
+reconfigurable interpretive
 argumentative and
-propositional
+propositive
 knowledge of the most used digital architectures and argumentation
 of its operation differences advantages and disadvantages
 vhdl language
 interpretive
 argumentative and
-propositional understands and argues the importance of the language of description of
-vhdl high speed integrated circuit hardware
-understand the meaning of concurrency in the vhdl
-correctly differentiates serial statements and concurrent statements
-acquires skill in the development of the top down methodology through the
+propositive understands and argues the importance of the language of description of
+hardware for high speed integratedcircuit vhdl
+understand the meaning of concurrency in vhdl
+correctly differentiate between serial statements and concurrent statements
+acquire skill in developing the top down methodology through
 use of structural description
 interpretive sequential logic
 argumentative and
-purposeful ability to design and analyze sequential circuits through
+propositive ability to design and analyze sequential circuit through the
 strong and moderately structured problem solving and using
-msl components or integrated circuits and software tools “franc isco josé de caldas” district university
+msl components or integratedcircuit and software tools “franc isco josé de caldas” district university
 technological faculty
-technology in medium and low voltage electrical systems
+technology in medium and low voltage electrical system
 articulated by propaedeutic cycles with electrical engineering i
 name of the
 thematic unit
 competencies
 suitability indicators
-state machines
+statemachines
 finite
 interpretive
 argumentative and
-purposeful approach to successfully confront weak and moderately structured problems in the
-field of digital electronics with specific applications of electronics
-computer architecture, automation and control processes and
-telecommunications doing analysis and design of finite state machines
+purposeful successfully confront weak and moderately structured problems in the
+field of digital electronics with specific applications of electronics the
+computer architecture automation and control processes and
+telecommunications doing analysis and design of finite statemachines
 synchronous and asynchronous
-memories and
+memory and
 storage
 interpretive
 argumentative and
-purposeful explores and understands the development of digital electronics within the
-global development of these areas
-explores, understands, develops and manipulates the technologies available in the
-market for end users analyzing their potential in the development of
+propositive explore and understand the development of digital electronics within the
+global development of these areas explore understand develop and manipulate the technologies available in the
+market for end users analyzing its potential in the development of
 production of productive forces for the development of the country
 programmatic content
 unit
 theme
-session week
+week session
 hsp
 hsa
 ths guidelines
 concepts
 fundamental
-of the systems
+of the system
 digital
 course presentation
 introduction
 analog and digital quantities
 digital design vs analog design
 binary digits logic levels and digital waveforms
-introduction to basic logic functions
-cmos ttl fixed function integrated circuits
-systems
+introduction to basic logical functions
+fixed function integratedcircuit cmos ttl
+system
 numbering and
 operations
 decimal system
@@ -192,36 +190,36 @@ gray system
 binary arithmetic
 complement a and a
 signed numbers
-boolean algebra
-logic gates
+boolean
+logiclogicgate
 boolean properties
 boolean laws
-demorgan theorem
+demoorgan s theorem
 boolean functions
 minterms and maxterms
 canonical function
-simplification by boolean algebra
-karnaugh maps
+simplification by boolean
+karnaughs
 combinational logic
-combinational systems design
+design of combinational
 full adder
 adder – subtractor
 comparator
-design of miscellaneous combinational systems
+design of miscellaneous combinational
 practice
 discreet design blood types
-district university “franc isco josé de caldas”
+“franc isco josé de caldas” district university
 technological faculty
-technology in medium and low voltage electrical systems
+technology in medium and low voltage electrical system
 articulated by propaedeutic cycles with electrical engineering i
 unit
 theme
-session week
+week session
 hsp
 hsa
 ths guidelines
-multiplexers
-demultiplexers
+multiplexer
+demultiplexer
 encoders
 decoders
 segment display
@@ -229,111 +227,110 @@ code converters
 three state devices
 hamming code
 practice
-discrete code converter design
-workshop and solution of doubts
-partial exam
+discreet design code converter
+workshop and solution to doubts
+midterm exam
 practice
 introduction to xilinx schematic design
 architectures
 reconfigurable
-architecture of spld gal pla and pal
-cplds architecture
-fpgas architecture
-introduction to vhdl language
-bottom up and top down design methodologies
-description of the behavioral schematic design or
+spld architecture gal pla and pal
+architecture of the cplds
+fpga architecture
+introduction to the vhdl language
+design methodologies bottom up and top down
+design description schematic behavioral or
 functional and structural
 vhd l language
 practice
 full adder
 design process
-xilinx ise and mod elsim development systems
-digital circuit description
+xilinx development system ise and mod elsim
+description of the digital circuit
 functional and delayed simulation
-circuit description synthesis
+summary of the circuit description
 user restrictions
 implementation and routing of the cpld or fpga
 cpld or fpga programming
 verification and testing
 concept of entity and architecture
-structure of a program in vhdl
+structure of a vhdl program
 examples
 special symbols
 reserved words
 operators and expressions
 data types
 element attributes
-generic constants signals and variables
-declarations of generic constants signals and variables
+generics constants signal and variables
+declarations of generics constants signal and variables
 practice
 code converter
-district university “franc isco josé de caldas”
+“franc isco josé de caldas” district university
 technological faculty
-technology in medium and low voltage electrical systems
+technology in medium and low voltage electrical system
 articulated by propaedeutic cycles with electrical engineering i
 storage
 unit
 theme
-session week
+week session
 hsp
 hsa
 ths guidelines
 concurrent execution and serial execution description by flow
 data and algorithmic
-process series execution block
+serial execution block process
 conditional statement if…then…else
-case selection statement
+selection statement case
 examples
 conditional assignment when…else
-assignment with selection with select … when
-examples
+assignment with selection with select when examples
 practice
-decoder multiplexer practical and
+multiplexer decoder practice and
 concurrent block block
-wait statement wait
-loop for and while loops
+waiting statement wait
+loops loop for and while
 procedure call
-component definition
+definition of components
 component reference
 link between components and entities
 examples
-workshop and solution of doubts
+workshop and solution to doubts
 practice
-alu bit functions
-partial exam
+alu functions bit
+midterm exam
 sequential logic
-definition of sequential digital systems
+definition of sequential digital system
 clock signal
-records
-integrated circuit
+register
+integratedcircuit
 practice
 prescaler
 flipflop
 accountants
-shift registers
-state machines
+shift register
+statemachines
 finite
-finite state machine fsm
-moore type and mealy type fsm
+finite statemachine statemachine
+statemachine moore type and mealy type
 examples
 practice
 simple counter
-analysis and design of fsm with vhdl
-memories and
-memory concept
-operation of a memory
-ram random access memories
+analysis and design of statemachine with vhdl
+memory and
+concept of memory
+memory operation
+ram ram
 read only memory rom
 types of rom memory
 practice
 stopwatch
-district university “franc isco josé de caldas”
+“franc isco josé de caldas” district university
 technological faculty
-technology in medium and low voltage electrical systems
+technology in medium and low voltage electrical system
 articulated by propaedeutic cycles with electrical engineering i
 unit
 theme
-session week
+week session
 hsp
 hsa
 ths guidelines
@@ -341,8 +338,8 @@ digital circuit design with rom
 other digital architectures
 practice
 stepper motor control
-workshop and solution of doubts
-partial exam
+workshop and solution to doubts
+midterm exam
 research project
 practice
 free practice
@@ -355,45 +352,44 @@ research project
 practice
 presentation of the research project
 evaluation strategies
-partial x research project x
-workshops and quizzes x laboratory practices x
+partials x research project x
+workshops and quices x laboratory practices x
 assessment of evaluation strategies
 strategy percentage topics to evaluate date
-ra partial note combinational logic week
-Partial note reconfigurable architectures and language
+st partial note combinational logic week
+nd partial note reconfigurable architectures and language
 vhdl week
-ra partial note logical sequential week
-note workshops and
-maybe workshops and quizzes held during the
-semester the entire semester district university “franc isco josé de caldas”
+rd partial note sequential logic week
+th note workshops and
+quices workshops and quizzes carried out during the
+semester the entire semester distrital university “franc isco josé de caldas”
 technological faculty
-technology in medium and low voltage electrical systems
+technology in medium and low voltage electrical system
 articulated by propaedeutic cycles with electrical engineering i
-note practical laboratory practices carried out during the
+th note practices laboratory practices carried out during the
 semester week to
-ta note project research project and type report
+th note project research project and standard report
 ieee week article
 bibliography and other sources of documentation
 course guide texts
-• floyd thomas “fundamentals of digital systems” ninth edition prentice
+• floyd thomas “fundamentals of digital system” ninth edition prentice
 hall
-• pardo fernando boluda josé to vhdl language for synthesis and mod elado
-circuits second edition alfaomega
+• pardo fernando boluda josé a vhdl language for synthesis and mod elation
+of circuit second edition alfaomega
 complementary bibliography
 • brown stephen vranesic zvonko “fundamentals of digital logic with design
-vhdl” second edition mc graw hill
+vhdl” second edition mcgraw hill
 • morris mano m “digital design” third edition prentice hall
-• teres lluis torroja yago olcoz serafin villar eugenio vhdl
-mc graw hill electronic design standard language
+• teres lluis torroja iago olcoz serafin villar eugenio vhdl
+standard electronic design language mcgraw hill
 • wake rley john f “digital design” third edition pearson education
 mexico
 • wake rly john f “digital design principles and practices and xilinx i
-student package” rd edition prentice hall july
-recommended infographic
-• xilinx xilinx website available at http www xilinxcom
-• altera altera website available at http www alteracom
-• ise xilinx tutorials available at
-http wwwx ilinxcom suppo rt techsup tutorials indexhtm
-• max plus ii altera tutorial available at
-http campusglobalucmes subjects c
-tcitig tutorial pages pagessinusar tutorialhtm
+student package” rd edition prentice hall july recommended infographic
+• xilinx website xilinx available at http www xilinxcom
+• altera website alter available at http www alteracom
+• ise tutorials xilinx available in
+http wwwxilinxcom support techsup tutorials indexhtm
+• max plus ii tutorial alter available in
+http campusglobalucmes asignaturas c
+tcitig tutorial paginas paginassinusar tutorialhtm

@@ -1,0 +1,267 @@
+contents
+introduction analog versus digital
+d ifferences between analog and digital system
+a dvantages of digital system over analog system
+number system
+p ositional number system
+generic structure
+decimal number system base
+binary number system base
+octal number system base
+hexadecimal number system base
+b ase conversion
+converting to decimal
+converting from decimal
+converting between n bases
+b inary arithmetic
+addition carries
+subtraction borrows
+u nsigned and signed numbers
+unsigned numbers
+signed numbers
+digital circuitry and interfacing
+b asic logicgate
+describing the operation of a logic circuit
+the buffer
+the inverter
+the and logicgate
+the nand logicgate
+the or logicgate
+the nor logicgate
+the xor logicgate
+the xnor logicgate
+d igital circuit operation
+logic levels
+output dc speciﬁcations
+input dc speciﬁcations
+noise margins
+power supplies
+switching characteristics
+d ata sheets
+xi h istory of hardware description languages xii contents
+l ogic families
+complementary metal oxide semiconductors cmos
+transistor transistor logic ttl
+the series logic families
+d riving loads
+driving other logicgate
+driving resistive loads
+driving leds
+combinational logic design
+b oolean algebra
+operations
+axioms
+theorems
+c ombinational logic analysis
+finding the logic expression from a logic diagram
+finding the truth table from a logic diagram
+timing analysis of a combinational logic circuit
+c ombinational logic synthesis
+canonical sum of products
+the minterm list σ
+canonical product of sums pos
+the maxterm list π
+minterm and maxterm list equivalence
+l ogic minimization
+algebraic minimization
+minimization using karnaughs
+don’t cares
+using xor logicgate
+t iming hazards and glitches
+verilog part
+hdl a bstraction
+t he modern digital design flow
+v erilog constructs
+data types
+the module
+verilog operators
+m odeling concurrent functionality in verilog
+continuous assignment
+continuous assignment with logical operators
+continuous assignment with conditional operators
+continuous assignment with delay d ecoders
+s equential logic storage devices contents xiii
+s tructural design and hierarchy
+lower level module instantiation
+logicgate level primitives
+user deﬁned primitives
+adding delay to primitives
+o verview of simulation test benches
+msi logic
+example one hot decoder
+example segment display decoder
+e ncoders
+example one hot binary encoder
+m ultiplexers
+d emultiplexer
+sequential logic design
+the cross coupled inverter pair
+metastability
+the sr latch
+the s’r’ latch
+sr latch with enable
+the d latch
+the d flipflop
+s equential logic timing considerations
+c ommon circuit based on sequential storage devices
+toggle flop clock divider
+ripple counter
+switch debouncing
+shift register
+f inite statemachines
+describing the functionality of an statemachine
+logic synthesis for an statemachine
+statemachine design process overview
+statemachine design examples
+c ounters
+bit binary up counter
+bit binary up down counter
+bit gray code up counter
+bit gray code up down counter
+bit one hot up counter
+bit one hot up down counter
+f inite statemachine ’s reset condition xiv contents
+s equential logic analysis
+finding the state equations and output logic expressions of an statemachine
+finding the state transition table of an statemachine
+finding the state diagram of an statemachine
+determining the maximum clock frequency of an statemachine
+verilog part
+p rocedural assignment
+procedural blocks
+procedural statements
+statement groups
+local variables
+c onditional programming constructs
+if else statements
+case statements
+casez and casex statements
+forever loops
+while loops
+repeat loops
+for loops
+disable
+s ystem tasks
+text output
+file input output
+simulation control and monitoring
+t est benches
+common stimulus generation techniques
+printing results to the simulator transcript
+automatic result checking
+using loops to generate stimulus
+using external files in test benches
+behavioral modeling of sequential logic
+m odeling sequential storage devices in verilog
+d latch
+d flipflop
+d flipflop with asynchronous reset
+d flipflop with asynchronous reset and preset
+d flipflop with synchronous enable
+m odeling finite statemachines in verilog
+modeling the states
+the state memory block
+the next state logic block
+the output logic block
+changing the state encoding approach programmable interconnect points pips contents xv
+statemachine d esign examples in verilog
+serial bit sequence detector in verilog
+vending machine controller in verilog
+bit binary up down counter in verilog
+m odeling counter in verilog
+counter in verilog using a single procedural block
+counter with range checking
+counter with enables in verilog
+counter with loads
+rtl m odeling
+modeling register in verilog
+register as agents on a data bus
+shift register in verilog
+memory
+m emory architecture and terminology
+memory map model
+volatile vs nonvolatile memory
+read only vs read write memory
+random access vs sequential access
+n onvolatile memory technology
+rom architecture
+mask rom
+programmable rom
+erasable programmable rom
+electrically erasable programmable rom
+flash memory
+v olatile memory technology
+static random access memory
+dynamic random access memory
+m odeling memory with verilog
+rom in verilog
+read write memory in verilog
+programmable logic
+p rogrammable arrays
+programmable logic array pla
+programmable array logic pal
+generic array logic gal
+hard array logic hal
+cplds cpld
+f ield programmable logicgate arrays fpga s
+conﬁgurable logic block or logic element
+look up tables luts arithmetic circuit
+a ddition
+computer system design
+c omputer hardware
+floating point system
+o verview of floating point numbers input output block iobs
+conﬁguration memory
+half adders
+full adders
+ripple carry adder
+carry look ahead adder
+adders in verilog
+s ubtraction
+m ultiplication
+unsigned multiplication
+a simple circuit to multiply by powers of two
+signed multiplication
+d ivision
+unsigned division
+a simple circuit to divide by powers of two
+signed division
+program memory
+data memory
+input output ports
+cpu
+a memory mapped system
+c omputer software
+opcodes and operands
+addressing modes
+classes of instructions
+c omputer implementation an b it computer example
+top level block diagram
+instruction set design
+memory system implementation
+cpu implementation
+a rchitecture considerations
+von neumann architecture
+architectures architecture
+limitations of fixed point numbers
+the anatomy of a floating point number
+the ieee standard xvi contentscontents xvii
+single precision floating point representation bit
+double precision floating point representation bit
+ieee special values
+ieee rounding types
+other capabilities of the ieee standard
+ieee b ase conversions
+converting from decimal into ieee single precision numbers
+converting from ieee single precision numbers into decimal
+f loating point arithmetic
+addition and subtraction of ieee numbers
+multiplication and division of ieee numbers
+f loating point modeling in verilog
+modeling floating point addition in verilog
+modeling floating point subtraction in verilog
+modeling floating point multiplication in verilog
+modeling floating point division in verilog
+appendix a list of worked examples
+appe ndix b co ncept check solutions
+index

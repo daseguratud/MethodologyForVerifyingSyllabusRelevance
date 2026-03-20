@@ -1,0 +1,1351 @@
+code aa fr
+version
+approval date
+htd htc hta
+subject
+mandatory
+basicx elective intrinsicelective
+extrinsic
+theoretical practical theoretical practical
+in person xin person with
+incorporation of ticvirtual others which
+ra
+syllabus format
+macroprocess strategic direction
+process self assessment and accreditation
+the technological development of recent years is largely due to the advance in the conception of modern techniques in the design and implementation of electronic circuit among
+which highlight digital system as raw material for the majority of electronic devices or components used at home business or academic level this
+academic space provides a basic foundation on the analysis of basic digital circuit such as combinational and sequential circuit which are necessary
+for the interpretation analysis and development of more complex digital circuit such as cpus controllers and or application specific integratedcircuit asic
+additionally digital circuit synthesis techniques are introduced along with design procedures seen from different levels of abstraction which provides a
+complete vision to address hardware development problems using various technological options
+general objective
+develop in the student skills and abilities in the analysis design and implementation of digital system applicable in computing data processing
+industrial instrumentation and control
+specific objectives
+provide the student with the basic concepts of boolean for the analysis and synthesis of combinational circuit
+familiarize the student with the concept of memory and its conception at a hardware level for the development of sequential circuit
+give the student knowledge about the hardware implementation of finite statemachines
+show an overview of the applications in which microcontroller microcontroller dsp s and fpga s technologies are usediii justification of academic space
+iv objectives of the academic space general and specific i identification of the academic space
+name of the academic space digital electronics study plan code faculty faculty of engineering
+electrical engineering curricular project
+ii suggestions for prior knowledge and knowledge
+analogue electronics academic space code number of academic credits
+type of academic space
+modality of offer of the academic space distribution of working hours
+nature of the academic space
+character of the academic space mandatory
+complementary
+v training and learning purposes pfa of the academic space
+domain level competencies
+cognitive understanding
+cognitive understanding
+cognitive analyzeunderstand and master the different system of
+numeration and the basic concepts of algebra
+boolean as a fundamental tool for
+design and implementation of digital circuit learning outcomes
+differentiate between structural description and
+behavior of a digital circuit
+understand and identify the different system of
+numbering and coding used in the
+digital system
+analyze and simplify boolean functions
+from its axioms and theorems
+x
+x x x
+xtraditional project based technology basedvii teaching strategies that promote learning
+experimental
+student centered self directed active learningdesign sequential logic circuit taking into account
+count the memory circuit
+implement combinational logic circuit and
+sequential at different levels of abstractioncognitive create
+cognitive create
+cognitive createdesign and implement circuit based on
+digital electronics at different levels of abstraction using logic solutions
+combinational and sequential as the case may be
+application in problems in the field of
+engineering
+introduction to digital system
+description and definition of digital system
+levels of abstraction
+numbering and code system
+alphanumeric numbering codes bcd ascii ebcdic others
+numbering system binary octal decimal hexadecimal gray
+conversion between bases and base arithmetic
+weighted and unweighted numerical codes
+representation of integers magnitude and sign complement
+fixed and floatingpoint representation
+arithmetic operations addition subtraction multiplication division overflow flags carry
+error detection and correction codes hamming codes
+logical functions and boolean
+boolean
+axioms properties and theorems
+operations and logical functions
+logiclogicgate and or not xor truth tables
+canonical expressions sum and standard product
+expressions simplified by boolean
+technologies for the realization of integratedcircuit
+electrical and dynamic characteristics explanation of data sheets power dissipation voltages and currents fan in fan out delays propagation times levels of
+integration etc
+and and or wiring connections totem pole outputs open collector
+buffer three states ttl and mos
+analysis and design of combinational
+definition of combinational
+simplification techniques for logical functions karnaugth maps
+implementation of logic functions with nand or nor logicgate
+applications encoders decoders multiplexer demultiplexer
+half adder full adder integrated adder
+semisubtractor complete subtractor subtraction by complement
+adder subtractor magnitude comparators alu
+rom memory
+analysis and design of sequentials
+classification of sequentials
+flipflop sr d t jk preset clear master slave
+analysis and design of a sequential with finite statemachines statemachine mealy and moore automata
+application with synchronous sequentials register counter shift register
+pwm
+introduction and vision of micro processed technology today cpu level devices
+programmable logic devices
+fpga field programmable logicgate array
+cepld cpld
+psoc psoc
+microcontroller design combinational logic circuit from
+of the basic concepts of boolean
+vi thematic content
+problem based collaborativedeliverable activities partial workshopsreports
+final projectproject
+finallaboratory
+x
+x
+x x x
+x x x
+x x x
+x
+ehp ee ehp
+i g i i g
+approval date by curriculum council number of
+minutes
+abbreviation
+ehp
+ebp
+eop
+ee
+ef
+edweb pages
+http wwwxilinxcom
+https wwwcypresscom products psoc creator integrated design environment ide viii evaluation
+xi bibliographylearning outcomes associated with assessments
+t theoretical p practical
+rooms equipped with
+oscilloscopes
+multimeters
+dc sources
+signal generators
+connectors
+matlab and multisim software
+implementation of boolean functions
+canonical forms of sum and product
+implementation with nand and nor logicgate
+adders
+restors
+multipliers
+encoders and static display
+multiplexer
+magnitude comparators
+register
+statemachines
+counter and dynamic visualization
+pwmnote type
+x academic practices field outputs learning outcomes ra to be evaluated
+complementary
+stephen brown fundamentals of digital logic with vhdl design mcgraw gill j f wakerly digital design pearson education
+t l floyd fundamentals of digital system
+r j tocci and n s widmer digital system pearson education
+v p nelson analysis and design of digital logic circuit
+m d ercegovac and t lang digital arithmetic elsevier ra
+ra
+basic
+d d gajski digital design principles prentice hall
+t l floyd fundamentals of digital system
+julián camargo introduction to psoc lp theory and applications francisco josé de caldas district university
+review date by curricular council xii monitoring and update of the syllabusix educational media and resourcesevaluation percentage
+individual work i or group g ra
+ra
+ra
+ra
+evaluation type
+practical skills assessment
+project based evaluation
+oral evaluation or presentations
+written evaluation
+formative evaluation
+performance evaluation type of evaluation
+code aa fr
+version
+approval date
+htd htc hta
+subject
+mandatory
+basicx elective intrinsicelective
+extrinsic
+theoretical practical theoretical practical
+in person xin person with
+incorporation of ticvirtual others which
+ra
+syllabus format
+macroprocess strategic direction
+process self assessment and accreditation
+the technological development of recent years is largely due to the advance in the conception of modern techniques in the design and implementation of electronic circuit among
+which highlight digital system as raw material for the majority of electronic devices or components used at home business or academic level this
+academic space provides a basic foundation on the analysis of basic digital circuit such as combinational and sequential circuit which are necessary
+for the interpretation analysis and development of more complex digital circuit such as cpus controllers and or application specific integratedcircuit asic
+additionally digital circuit synthesis techniques are introduced along with design procedures seen from different levels of abstraction which provides a
+complete vision to address hardware development problems using various technological options
+general objective
+develop in the student skills and abilities in the analysis design and implementation of digital system applicable in computing data processing
+industrial instrumentation and control
+specific objectives
+provide the student with the basic concepts of boolean for the analysis and synthesis of combinational circuit
+familiarize the student with the concept of memory and its conception at a hardware level for the development of sequential circuit
+give the student knowledge about the hardware implementation of finite statemachines
+show an overview of the applications in which microcontroller microcontroller dsp s and fpga s technologies are usediii justification of academic space
+iv objectives of the academic space general and specific i identification of the academic space
+name of the academic space digital electronics study plan code faculty faculty of engineering
+electrical engineering curricular project
+ii suggestions for prior knowledge and knowledge
+analogue electronics academic space code number of academic credits
+type of academic space
+modality of offer of the academic space distribution of working hours
+nature of the academic space
+character of the academic space mandatory
+complementary
+v training and learning purposes pfa of the academic space
+domain level competencies
+cognitive understanding
+cognitive understanding
+cognitive analyzeunderstand and master the different system of
+numeration and the basic concepts of algebra
+boolean as a fundamental tool for
+design and implementation of digital circuit learning outcomes
+differentiate between structural description and
+behavior of a digital circuit
+understand and identify the different system of
+numbering and coding used in the
+digital system
+analyze and simplify boolean functions
+from its axioms and theorems
+x
+x x x
+xtraditional project based technology basedvii teaching strategies that promote learning
+experimental
+student centered self directed active learningdesign sequential logic circuit taking into account
+count the memory circuit
+implement combinational logic circuit and
+sequential at different levels of abstractioncognitive create
+cognitive create
+cognitive createdesign and implement circuit based on
+digital electronics at different levels of abstraction using logic solutions
+combinational and sequential as the case may be
+application in problems in the field of
+engineering
+introduction to digital system
+description and definition of digital system
+levels of abstraction
+numbering and code system
+alphanumeric numbering codes bcd ascii ebcdic others
+numbering system binary octal decimal hexadecimal gray
+conversion between bases and base arithmetic
+weighted and unweighted numerical codes
+representation of integers magnitude and sign complement
+fixed and floatingpoint representation
+arithmetic operations addition subtraction multiplication division overflow flags carry
+error detection and correction codes hamming codes
+logical functions and boolean
+boolean
+axioms properties and theorems
+operations and logical functions
+logiclogicgate and or not xor truth tables
+canonical expressions sum and standard product
+expressions simplified by boolean
+technologies for the realization of integratedcircuit
+electrical and dynamic characteristics explanation of data sheets power dissipation voltages and currents fan in fan out delays propagation times levels of
+integration etc
+and and or wiring connections totem pole outputs open collector
+buffer three states ttl and mos
+analysis and design of combinational
+definition of combinational
+simplification techniques for logical functions karnaugth maps
+implementation of logic functions with nand or nor logicgate
+applications encoders decoders multiplexer demultiplexer
+half adder full adder integrated adder
+semisubtractor complete subtractor subtraction by complement
+adder subtractor magnitude comparators alu
+rom memory
+analysis and design of sequentials
+classification of sequentials
+flipflop sr d t jk preset clear master slave
+analysis and design of a sequential with finite statemachines statemachine mealy and moore automata
+application with synchronous sequentials register counter shift register
+pwm
+introduction and vision of micro processed technology today cpu level devices
+programmable logic devices
+fpga field programmable logicgate array
+cepld cpld
+psoc psoc
+microcontroller design combinational logic circuit from
+of the basic concepts of boolean
+vi thematic content
+problem based collaborativedeliverable activities partial workshopsreports
+final projectproject
+finallaboratory
+x
+x
+x x x
+x x x
+x x x
+x
+ehp ee ehp
+i g i i g
+approval date by curriculum council number of
+minutes
+abbreviation
+ehp
+ebp
+eop
+ee
+ef
+edweb pages
+http wwwxilinxcom
+https wwwcypresscom products psoc creator integrated design environment ide viii evaluation
+xi bibliographylearning outcomes associated with assessments
+t theoretical p practical
+rooms equipped with
+oscilloscopes
+multimeters
+dc sources
+signal generators
+connectors
+matlab and multisim software
+implementation of boolean functions
+canonical forms of sum and product
+implementation with nand and nor logicgate
+adders
+restors
+multipliers
+encoders and static display
+multiplexer
+magnitude comparators
+register
+statemachines
+counter and dynamic visualization
+pwmnote type
+x academic practices field outputs learning outcomes ra to be evaluated
+complementary
+stephen brown fundamentals of digital logic with vhdl design mcgraw gill j f wakerly digital design pearson education
+t l floyd fundamentals of digital system
+r j tocci and n s widmer digital system pearson education
+v p nelson analysis and design of digital logic circuit
+m d ercegovac and t lang digital arithmetic elsevier ra
+ra
+basic
+d d gajski digital design principles prentice hall
+t l floyd fundamentals of digital system
+julián camargo introduction to psoc lp theory and applications francisco josé de caldas district university
+review date by curricular council xii monitoring and update of the syllabusix educational media and resourcesevaluation percentage
+individual work i or group g ra
+ra
+ra
+ra
+evaluation type
+practical skills assessment
+project based evaluation
+oral evaluation or presentations
+written evaluation
+formative evaluation
+performance evaluation type of evaluation
+“franc isco josé de caldas” district university
+technological faculty
+technology in medium and low voltage electrical system
+articulated by propaedeutic cycles with electrical engineering i
+district university
+“francisco josé de caldas”
+technological faculty
+system technology
+medium and low electric
+tension articulated by
+propaedeutic cycles with
+electrical engineering by cycles
+general information
+digital circuit academic space
+code
+type theoretical practical space
+basic engineering area
+academic credits htd htc hta hours week
+credits
+justification
+taking into account that the only limitation of the application of the design and synthesis of
+digital circuit lies in the imagination of the designer and that most processes
+electrical and electronic processes are carried out in digital form both in control and
+communications electromedicine image processing etc it is mandatory that the
+professional in the area of modern electrical energy learn about modeling techniques and
+synthesis of digital circuit with a very high level of integration and speed through the
+vhdl hardware description language to be able to compete successfully in the environment
+labor
+objectives
+• introduce the student to the principles of digital logic and the different
+digital electronic design techniques
+• design simple operational and functional digital circuit with components
+discrete and half scale integratedcircuit making use of the principles of
+digital logic
+• know the different digital architectures for the implementation of circuit
+digital such as cpld fpga microcontroller m icrocontroller and
+digital signal cpu dsp
+• interpret and model digital circuit with a very high level of integration and
+speed through the vhdl hardware description language distrital university “franc isco josé de caldas”
+technological faculty
+technology in medium and low voltage electrical system
+articulated by propaedeutic cycles with electrical engineering i
+• design analyze model simulate synthesize and program digital circuit with
+help of cad eda tools based on digital technologies such as cpld
+and fpga
+requirements
+as a pre knowledge this course requires basic knowledge of devices
+semiconductors and dc circuit theory it is desirable to use a language of
+programming but it is not an essential requirement for the development of the course it is required
+access to a personal computer with the appropriate software and access to a laboratory to
+basic circuit practices
+pedagogical aspects
+the proposal developed by the group of teachers of the technology curricular project
+in electricity and electrical engineering started from the analysis of the general characteristics that
+every technologist must have as a professional in the electrical sector in addition to the
+specific knowledge specific to the application of your career that everyone must possess
+engineer and are detailed in the professional profile that is part of the proposal
+for the transition to academic credits
+such characteristics fused within the academic spaces of the curriculum
+they are
+• high level of development of their communication skills
+• skills in defining problems collecting and evaluating information and developing
+real and efficient solutions
+• teamwork capabilities ability to work with others
+• ability to use all of the above to address problems in the complex
+real world
+all academic spaces in the curriculum like this one are considered
+theoretical practical supporting this dynamic in a problem or question that the student
+must be solved throughout the weeks of the semester as a final project or work distrital university “franc isco josé de caldas”
+technological faculty
+technology in medium and low voltage electrical system
+articulated by propaedeutic cycles with electrical engineering i
+description of credits
+distribution of activities hours
+weekly hours
+semester number of
+credits
+in person class
+direct work introduction of concept exemplification of content completion of exercises and problems reinforcement workshops evaluation and diagnosis of knowledge
+accompaniment
+work
+cooperative knowledge diagnosis always follow up to workshops and consultations extractase workshops practices in laboratories final project
+activities
+extractase work
+autonomous previous readings workshops and extra class consultations exercises and work design of laboratory practices strengthening investigative training
+through problems applied to reality
+total
+competencies and indicators
+name of the
+thematic unit
+competencies
+suitability indicators
+concepts
+fundamentals of the
+digital system
+interpretive
+argumentative
+contextual development in the field of digital circuit
+system
+numbering and
+interpretive operations
+argumentative and
+propositive
+understand and develop skills in the operative manipulation of the
+conversion of bases and their application to real structures
+interpretive boolean
+argumentative and
+propositive explores understands and develops the concepts of boolean as well
+as the basic theorems of this as well as the principles of the design of
+specific hardware applying simplification of functions
+logic
+combinational
+interpretive
+argumentative and
+propositive ability to design and analyze combinational circuit through the
+strong and moderately structured problem solving and using
+different components or integratedcircuit lsi and msi and tools of
+software
+architectures
+reconfigurable interpretive
+argumentative and
+propositive
+knowledge of the most used digital architectures and argumentation
+of its operation differences advantages and disadvantages
+vhdl language
+interpretive
+argumentative and
+propositive understands and argues the importance of the language of description of
+hardware for high speed integratedcircuit vhdl
+understand the meaning of concurrency in vhdl
+correctly differentiate between serial statements and concurrent statements
+acquire skill in developing the top down methodology through
+use of structural description
+interpretive sequential logic
+argumentative and
+propositive ability to design and analyze sequential circuit through the
+strong and moderately structured problem solving and using
+msl components or integratedcircuit and software tools “franc isco josé de caldas” district university
+technological faculty
+technology in medium and low voltage electrical system
+articulated by propaedeutic cycles with electrical engineering i
+name of the
+thematic unit
+competencies
+suitability indicators
+statemachines
+finite
+interpretive
+argumentative and
+purposeful successfully confront weak and moderately structured problems in the
+field of digital electronics with specific applications of electronics the
+computer architecture automation and control processes and
+telecommunications doing analysis and design of finite statemachines
+synchronous and asynchronous
+memory and
+storage
+interpretive
+argumentative and
+propositive explore and understand the development of digital electronics within the
+global development of these areas explore understand develop and manipulate the technologies available in the
+market for end users analyzing its potential in the development of
+production of productive forces for the development of the country
+programmatic content
+unit
+theme
+week session
+hsp
+hsa
+ths guidelines
+concepts
+fundamental
+of the system
+digital
+course presentation
+introduction
+analog and digital quantities
+digital design vs analog design
+binary digits logic levels and digital waveforms
+introduction to basic logical functions
+fixed function integratedcircuit cmos ttl
+system
+numbering and
+operations
+decimal system
+binary system
+octal system
+hexadecimal system
+bcd system
+gray system
+binary arithmetic
+complement a and a
+signed numbers
+boolean
+logiclogicgate
+boolean properties
+boolean laws
+demoorgan s theorem
+boolean functions
+minterms and maxterms
+canonical function
+simplification by boolean
+karnaughs
+combinational logic
+design of combinational
+full adder
+adder – subtractor
+comparator
+design of miscellaneous combinational
+practice
+discreet design blood types
+“franc isco josé de caldas” district university
+technological faculty
+technology in medium and low voltage electrical system
+articulated by propaedeutic cycles with electrical engineering i
+unit
+theme
+week session
+hsp
+hsa
+ths guidelines
+multiplexer
+demultiplexer
+encoders
+decoders
+segment display
+code converters
+three state devices
+hamming code
+practice
+discreet design code converter
+workshop and solution to doubts
+midterm exam
+practice
+introduction to xilinx schematic design
+architectures
+reconfigurable
+spld architecture gal pla and pal
+architecture of the cplds
+fpga architecture
+introduction to the vhdl language
+design methodologies bottom up and top down
+design description schematic behavioral or
+functional and structural
+vhd l language
+practice
+full adder
+design process
+xilinx development system ise and mod elsim
+description of the digital circuit
+functional and delayed simulation
+summary of the circuit description
+user restrictions
+implementation and routing of the cpld or fpga
+cpld or fpga programming
+verification and testing
+concept of entity and architecture
+structure of a vhdl program
+examples
+special symbols
+reserved words
+operators and expressions
+data types
+element attributes
+generics constants signal and variables
+declarations of generics constants signal and variables
+practice
+code converter
+“franc isco josé de caldas” district university
+technological faculty
+technology in medium and low voltage electrical system
+articulated by propaedeutic cycles with electrical engineering i
+storage
+unit
+theme
+week session
+hsp
+hsa
+ths guidelines
+concurrent execution and serial execution description by flow
+data and algorithmic
+serial execution block process
+conditional statement if…then…else
+selection statement case
+examples
+conditional assignment when…else
+assignment with selection with select when examples
+practice
+multiplexer decoder practice and
+concurrent block block
+waiting statement wait
+loops loop for and while
+procedure call
+definition of components
+component reference
+link between components and entities
+examples
+workshop and solution to doubts
+practice
+alu functions bit
+midterm exam
+sequential logic
+definition of sequential digital system
+clock signal
+register
+integratedcircuit
+practice
+prescaler
+flipflop
+accountants
+shift register
+statemachines
+finite
+finite statemachine statemachine
+statemachine moore type and mealy type
+examples
+practice
+simple counter
+analysis and design of statemachine with vhdl
+memory and
+concept of memory
+memory operation
+ram ram
+read only memory rom
+types of rom memory
+practice
+stopwatch
+“franc isco josé de caldas” district university
+technological faculty
+technology in medium and low voltage electrical system
+articulated by propaedeutic cycles with electrical engineering i
+unit
+theme
+week session
+hsp
+hsa
+ths guidelines
+digital circuit design with rom
+other digital architectures
+practice
+stepper motor control
+workshop and solution to doubts
+midterm exam
+research project
+practice
+free practice
+research project
+research project
+practice
+researcher project
+research project
+research project
+practice
+presentation of the research project
+evaluation strategies
+partials x research project x
+workshops and quices x laboratory practices x
+assessment of evaluation strategies
+strategy percentage topics to evaluate date
+st partial note combinational logic week
+nd partial note reconfigurable architectures and language
+vhdl week
+rd partial note sequential logic week
+th note workshops and
+quices workshops and quizzes carried out during the
+semester the entire semester distrital university “franc isco josé de caldas”
+technological faculty
+technology in medium and low voltage electrical system
+articulated by propaedeutic cycles with electrical engineering i
+th note practices laboratory practices carried out during the
+semester week to
+th note project research project and standard report
+ieee week article
+bibliography and other sources of documentation
+course guide texts
+• floyd thomas “fundamentals of digital system” ninth edition prentice
+hall
+• pardo fernando boluda josé a vhdl language for synthesis and mod elation
+of circuit second edition alfaomega
+complementary bibliography
+• brown stephen vranesic zvonko “fundamentals of digital logic with design
+vhdl” second edition mcgraw hill
+• morris mano m “digital design” third edition prentice hall
+• teres lluis torroja iago olcoz serafin villar eugenio vhdl
+standard electronic design language mcgraw hill
+• wake rley john f “digital design” third edition pearson education
+mexico
+• wake rly john f “digital design principles and practices and xilinx i
+student package” rd edition prentice hall july recommended infographic
+• xilinx website xilinx available at http www xilinxcom
+• altera website alter available at http www alteracom
+• ise tutorials xilinx available in
+http wwwxilinxcom support techsup tutorials indexhtm
+• max plus ii tutorial alter available in
+http campusglobalucmes asignaturas c
+tcitig tutorial paginas paginassinusar tutorialhtm
+francisco josé de district university
+caldas
+technological faculty
+electronics technology
+toll free line
+pbx ext wwwudistritaleduco calle d bis a sur no f bogotá dc colombia
+high quality institutional accreditation resolution no of december tecelectronica udistritaleduco
+academic space area
+digital electronics syllabus
+subject digital circuit i
+code
+credits htd htc hta hours week classification
+mandatory
+basic
+credits
+last update date
+important mr professor for the francisco josé de caldas district university you have great qualities as a human being impeccable values and knowledge
+suitable to assume the educational process in our curricular project therefore by accepting the designation in this academic space the university deposits in you the
+confidence to carry out an excellent training exercise which is part of the mission not only of our curricular project but of the faculty and the university with
+in relation to our process of forming a comprehensive professional it must be understood understood and instilled in all our students without being ambitious in three
+fundamental characteristics instill in them to be socially responsible anthropology of the self so that they are constructed as rational men intelligent men in conquest
+of reason and a man as a person ethical and moral being
+general information of the academic space
+teacher name of teacher
+location faculty of technology francisco josé de distrital university
+caldas cii s no a
+schedule specify class days and times
+mail
+email user udistritaleduco
+website http wwwudistritaleduco
+important the electronic technology curricular project has been developing a pedagogical methodology of learning by project plp where in addition to offering the learning of content epistemological aspects the
+development of competencies and training in values in the student is complemented by the generation of projects at the service of the community the social progress of the individual in all its facets and cultural change are sought highlighting
+reflecting and re signifying fundamental values such as respect for equality tolerance the free development of personality solidarity respect morality against double standards ethics industriousness humility not servility
+perseverance iyou as an active representative of the academic community must integrate the training and strengthening of these values in your academic space through didactic and pedagogical mechanisms
+description of the academic space
+this is a course that presents a wide range of concepts of current digital electronics
+specifically working with pld reconfigurable digital devices using
+simulation and programming tools such as ise xilinx quartus l l altera altium
+designery isis by proteus
+the concepts developed have their theoretical basis and their corresponding practice of
+application supported with their respective simulations starting with numerical system
+its different notations and reaching the basic architecture of a cpu
+developed within a programmable device
+methodology
+the focus of the subject will be theoretical practical oriented to the training of the student
+as a designer of digital electronic system at different levels of integration
+motivating the development and use of design and simulation tools the course is
+francisco josé de district university
+caldas
+technological faculty
+electronics technology
+toll free line
+pbx ext wwwudistritaleduco calle d bis a sur no f bogotá dc colombia high quality institutional accreditation resolution no of december tecelectronica udistritaleduco
+complemented by carrying out laboratory practices through which the student
+becomes familiar with the elements
+of attention
+components and tools necessary to carry out a major final project
+complexity where the student faces the solution of a particular problem
+applying advanced topics of the course
+the methodology used for the development of the course will be based on learning theory
+active where it is the student who learns and the teacher who guides the learning
+the presentation of the topics by the teacher will be carried out using material
+printed projection in video beam and ict software and consultations on the word wide web
+pedagogical aspects
+the proposal developed by the group of teachers of the technology in
+electronics started from the analysis of the general characteristics that every
+technologist as a professional in the sector in addition to one s own specific knowledge
+of the application of his career that every engineer must have and are detailed
+in the professional profile that is part of the proposal for the transition to credits
+academics
+such characteristics fused within the academic spaces of the curriculum
+they are
+high level of development of their communication skills
+skills in defining problems collecting and evaluating information and developing
+real and efficient solutions
+teamwork capabilities ability to work with others
+ability to use all of the above to address problems in the complex world
+real
+all the academic areas of the curriculum like this one are considered theoretical
+practical supporting this dynamic in a problem or question that the student must
+solve throughout the weeks of the semester as a project or
+final work
+objectives
+general
+introduce the student to digital design using the tools and techniques
+of modern design in such a way that it can solve real problems in the industry
+specific
+introduce the student to the principles of digital logic and the different
+digital electronic design techniques
+know and manage the different structural subsystem of digital design in
+electronics
+make simple operational and functional designs of digital circuit with components
+discrete and half scale integratedcircuit making use of the principles of logic
+digital
+design and model such circuit properly with the help of software
+francisco josé de district university
+caldas
+technological faculty
+electronics technology
+toll free line
+pbx ext wwwudistritaleduco calle d bis a sur no f bogotá dc colombia
+high quality institutional accreditation resolution no of december tecelectronica udistritaleduco
+programmatic content
+hardware description language weeks
+c basic vhdl elements definition of entities architectures identifiers
+operators types of statements structural description simulation and phases of
+simulation
+combinatorial logic design principles weeks
+boolean logical synthesis of combinatorial circuit representation by addition
+of products and by product of sums karnaughs quine algorithm—mccluskeyn
+combinatorial logic circuit weeks
+binary decoders from to from to and from to lines application examples
+in computers segment bcd decoders state register
+encoders multiplexer and demultiplexer parity generators
+of attention
+io comparators arithmetic circuit adder and subtractor of bits bcd adder alu arithmetic and logic unit combinatorial multiplier
+programmable logic devices week logic design today computational tools
+used in top down design methodologies tools for
+electronic design automation eda tools principles and applications of the
+programmable logic devices such as pals and plds language programming
+cupl
+latches and flipflop weeks definition of sequential logic latches with
+logicgate metastable state debounce switch flip flops flip flops
+built with transmission logicgate and inverters
+counter and register week propagation counter synchronous counter
+examples of integratedcircuit counter shift register counter in
+ring integratedcircuit for watches laboratory counter with detector
+photoelectric
+analysis and design of sequential circuit weeks theory of statemachines statemachine
+analysis and design of synchronous sequential circuit circuit analysis
+asynchronous sequential examples of sequential control
+sequential plds week architecture of various sequential plds programming examples
+memory weeks
+general aspects about memory ram solo memory
+reading rom applications of memory examples of commercial memory
+digital cpus weeks
+configuration architecture of a microcontroller decoders ports memory
+instructions in assembly language microcontrollers
+bibliographic references
+francisco josé de district university
+caldas
+technological faculty
+electronics technology
+toll free line
+pbx ext wwwudistritaleduco calle d bis a sur no f bogotá dc colombia
+high quality institutional accreditation resolution no of december tecelectronica udistritaleduco
+haskell richard digital design ed lbe books
+wakerley john digital design ed pearson
+wakerly john digital design principles and practices and xilinx i student
+package ed prentice hall
+floyd thomas fundamentals of digital system
+ed prentice hall morris hand digital logic and
+computer design ed prentice hall
+balch mark complete digital design ed mcgraw hill
+evaluation system
+in accordance with the current student statute agreement no of issued by the
+higher university council and in its article no and article no literal d the
+when presenting the program the teacher presents an evaluation proposal as part of his
+methodological proposal the one presented by the teacher and the one agreed upon must be reflected
+here for this reason teacher the evaluation plan must be agreed between the
+teachers who are guiding the academic space with a certain amount of time in advance
+in such a way that the topics worked on are homogeneous in all groups and agree with the
+weeks established by chapter
+the course evaluation will be composed of six individual grades discriminated from the
+following way
+partial
+partial
+of attention
+io labs
+final project transversal
+total
+the last delivery of the final transversal project will be carried out according to its rules
+coexistence in the classroom
+students and teachers are expected to attend class sessions punctually
+respect the schedules established here respectfully make suggestions to the teacher and
+students observe due seriousness and responsibility in the proposed assignments if
+will work with respect for freedom of religion and ideologies as well as avoiding
+discrimination based on gender and or race the teacher and or students are free to remove from the classroom those who do not observe decent behavior or threaten security and
+health of course attendees or the integrity of laboratory or multimedia material
+used in it
+important any student who decides to remain officially enrolled in this academic space must maintain good standards of conduct in the classroom carry out
+respectful suggestions to the teacher and his colleagues must have respect for freedom of religion and ideologies avoid discrimination based on gender and or race and encourage
+and exercise the aforementioned values likewise you agree to know and comply with all of the above requirements as well as the terms and contents of
+this academic space was under their own responsibility and commitment
+update date july
+francisco josé de district university
+caldas
+technological faculty
+electronics technology
+toll free line
+pbx ext wwwudistritaleduco calle d bis a sur no f bogotá dc colombia
+high quality institutional accreditation resolution no of december tecelectronica udistritaleduco
+of attention
+francisco josé de caldas district university
+page of
+technological faculty
+technology in data systematization by propedeutic cycles
+programmatic contents curricular reform applied from iii technological faculty
+technology in data systematization by propedeutical cycles
+programmable content logical design
+time weeks
+semester
+subject code
+weekly schedule intensity
+academic credits
+justification
+establish the base rules boolean with which digital circuit programmable devices
+ci integratedcircuit explain the logical operation of the main digital elements and their
+interaction by knowing the rules of operation and the basic digital constituent elements designing devices
+that provide solutions to problems in the industry
+objectives
+general
+provide tools to the student to develop skills that allow them to design digital devices with
+discrete components and half scale circuit making use of the principles of digital logic
+specific objectives
+address concepts of number system logiclogicgate boolean combinational logic
+register memory statemachines counter
+model problems and solve them through digital devices
+give tools to the student to develop skills that allow them to design devices
+digital with discrete components and half scale circuit making use of the principles of logic
+digital
+training skills
+the abilities skills and abilities to be developed by the student of electronic electrical and technology technology
+data systematization or the first cycle engineer in the respective area in this academic space they are
+assessment and development of the following general or basic capabilities
+problem solving
+the communicative ability
+teamwork
+the development of critical and analytical thinking
+the impulse of logical spatial thinking
+the development of creativity and work in design
+the ability to understand the social context and
+the valuation of productive work
+assessment and development of the following professional skills francisco josé de caldas district university
+page of
+technological faculty
+technology in data systematization by propedeutic cycles
+programmatic contents curricular reform applied from iii successfully confront weak and moderately structured problems in the field of
+digital electronics with specific applications of electronics computer architecture
+automation and control processes and telecommunications
+communicative capacity using plans diagrams circuit to express through media
+written verbal and multimedia interpretation of your thinking in the area of electronics
+digital
+development of teamwork helping to formalize an adequate distribution of work
+with adequate control work in the tasks inherent to a job in the electronics area
+digital
+ability to value their work and that of their colleagues based on social work
+involved in every moment of the project
+design of digital devices in the solution of electronic problems and in the assembly of
+electronic projects
+assessment and development of the following cognitive abilities
+design of combinational and or sequential circuit system with different components
+discrete decoders multiplexer memory counter register plds
+analysis of basic digital system
+assessment and development of the following contextual capabilities locate the cognitive areas of the semester within the spectrum of the role of the practical engineer and the
+engineer required by the country and dc
+place the development of digital electronics within the global development of these areas
+identify appropriate use technologies available in the market for end users by analyzing their
+potentialities in the development of production of productive forces for the development of the country
+subject content
+chapter introduction
+objective place the student within the context of the subject
+competence contextual development in the field of digital circuit
+fundamental concepts of digital circuit
+digital design vs analog design
+digital design software
+integratedcircuit
+digital design levels
+logical families
+cmos family
+ttl family
+cmos ttl interfaces
+chapter binary digital information
+objective give the student the necessary tools to handle binary hexadecimal and octal numbering
+competency development of skills in the operative manipulation of base conversion and its application to
+real structures
+basic aspects concept of positional system francisco josé de caldas district university
+page of
+technological faculty
+technology in data systematization by propedeutic cycles
+programmatic contents curricular reform applied from iii binary octal and hexadecimal system
+conversions
+arithmetic operations
+binary decimal bcd coding
+binary number system
+unsigned integers
+two s complement integers
+unsigned fractional
+fractional with two s complement sign
+gray code
+signed magnitude
+two s complement with shift
+one s complement
+floatingpoint
+codes for error detection and correction
+codes for serial data transmission and storage
+exercises and simulations
+chapter logical functions
+objective introduce the student to the knowledge of boolean as well as its basic theorems
+competence development of the abilities to interpret apply and establish connections with logical operators
+between logical propositions
+boolean in electronics
+elementary logical operations
+truth table
+functional expressions
+exercises and simulations
+chapter elementary digital circuit
+objective to introduce students to the existing circuit with basic logicgate and introduce them to the design of
+specific hardware applying function simplification
+competency development of your ability to analyze and design simple combinational logic circuit for
+interpret them and with them propose some new ones
+logiclogicgate
+and logicgate
+or logicgate
+not logicgate
+additional logicgate
+circuit analysis
+equivalent circuit
+circuit design
+direct and simplified
+conditioned by a type of logicgate
+exercises and simulations
+chapter combinational
+francisco josé de caldas district university
+page of
+technological faculty
+technology in data systematization by propedeutic cycles
+programmatic contents curricular reform applied from iii objective analyze design and implement basic combinational circuit
+competence development of the capacity to design and analyze combinational circuit through the resolution of
+strongly and moderately structured problems using different components or integratedcircuit and tools
+of software
+definition of a combinational
+analysis of combinational circuit
+combinational subsystem
+encoders
+decoders multiplexer
+demultiplexer
+arithmetic circuit
+synthesis of combinational circuit
+simplification methods in programming
+the abel hardware description language
+the vhdl hardware description language
+exercises and simulations
+chapter applied combinational design
+objective analyze and implement combinational circuit with basic msl circuit
+competence development of the capacity to design and analyze combinational circuit through the resolution of
+strong and moderately structured problems and using msl components or integratedcircuit and
+software
+standards documentation
+time circuit
+plds
+decoders
+encoders
+three state devices
+multiplexer
+exclusive or logicgate and parity circuit
+comparators
+adders subtractors and alus
+multipliers
+exercises and simulations using abel and vhdl
+chapter sequentials
+objective know and develop system with memory
+competence development of the capacity to design and analyze sequential circuit through the resolution of
+strong and moderately structured problems using msl components or integratedcircuit and
+software
+development of your communication skills through plans and reports
+definition of a sequential francisco josé de caldas district university
+page of
+technological faculty
+technology in data systematization by propedeutic cycles
+programmatic contents curricular reform applied from iii flipflop
+analysis of circuit with flipflop
+logical analysis
+temporal analysis
+analysis of statemachines
+design of sequentials
+synchronous case
+asynchronous case
+sequential subsystem
+shift register
+counter
+characteristics of sequential design in abel and vhdl
+exercises and simulations
+chapter memory and programmable logic devices
+objective mix combinational and sequential circuit to make memory and applications with them
+competencies you will develop the following capabilities
+place the development of digital electronics within the global development of these areas and identify appropriate and
+make use of technologies available in the market for end users analyzing their potential in development
+production of productive forces for the development of the country
+memory concept
+address decoding
+types of memory ram and rom
+realization of logic circuit with rom
+programmable logic devices cplds and fpgas
+circuit design
+chapter statemachines
+objective design and analyze statemachines applicable to academic activity and the work environment
+competence successfully confront weak and moderately structured problems in the field of electronics
+digital with specific applications of electronics computer architecture automation processes and
+control and telecommunications doing analysis and design of synchronous and asynchronous finite statemachines
+definition of statemachine
+classification
+moore type mealy type
+msf and asf
+analysis and design of msf
+asf analysis and design
+applications with vhdl altera
+chapter architecture of the cpus francisco josé de caldas district university
+page of
+technological faculty
+technology in data systematization by propedeutic cycles
+programmatic contents curricular reform applied from iii
+objective understand the way in which sequential and combinational subcircuit are intertwined to form
+information processing system
+competency develop your interpretive and contextual capacity by conceptually linking course applications in development to information processing processes
+architectures
+vonnewman
+architectures
+modified architectures
+microcontrollers and microcontrollers
+microcontroller
+microcontroller microcontroller
+hc microcontroller
+dsp tmscx
+microprogramming
+bibliography and infography
+bibliography
+cekit sa practical course on digital electronics pereira
+dempsey john basic digital electronics
+mandado enrique digital electronic system alfaomega marcombo
+marcus m p digital circuit for engineering pretince hall
+hall
+morris mano m digital logic and computer design pretice hall
+ruiz jairo elements of digital logic ud
+tokeim roger digital electronics barcelona bogotá editorial reverte
+prentice hall july
+exico
+infographic
+xilinx website http wwwxilinxcom
+texas instruments website http wwwticom
+motorola website http wwwmotorolacom seamless mobility
+altera website http wwwalteracom
+national semiconductor website http wwwnationalcom
+nec website http wwwnecelcom en cprofile fab indexhtml
+code aa fr
+version
+approval date
+htd htc hta
+subject x chair
+mandatory
+basicx elective intrinsicelective
+extrinsic
+theoretical practical theoretical practical x others which
+in person xin person with
+incorporation of ticvirtual others which
+mastery ra level
+cognitive applycompetencies learning results
+know and understand the fundamentals of mathematical logic
+apply knowledge of boolean techniques to design and
+build combinational hardwaresimplify propositional expressions by applying the lawsunderstand and algebraically manipulate the
+variables and boolean operators build tables
+really and optimizes the propositions
+simplifying themcognitive know
+cognitive apply
+understand how it works design and build
+digital hardware establish the relationship between natural language and logical connectives
+build the truth tables of each of the logical connectivesi identification of the academic space
+name of the academic space computer architecture curriculum code faculty engineering
+system engineering curricular project
+iii justification of academic space
+iv objectives of the academic space general and specific
+v training and learning purposes pfa of the academic space academic space code number of academic credits
+type of academic space
+modality of offer of the academic space distribution of working hours
+nature of the academic space
+character of the academic space mandatory
+complementary
+ii suggestions for prior knowledge and knowledge
+basic knowledge of computer programming
+basic knowledge of circuit
+system engineers must know the basic hardware of computer system to have a clear concept of the operation of small and
+large in addition to the optimization of available resources
+general objective
+introduce the student to the basic elements of digital design and apply them to the design of computer system to improve the efficiency and performance of the information system
+computation
+specific objectives
+know and understand the different positional number system
+acquire the elements to manage the logic used in computer system
+acquire skills for the implementation of combinational hardware
+acquire skills for the implementation of sequential hardware
+acquire knowledge to manage memory devices and transfer register syllabus format
+macroprocess strategic direction
+process self assessment and accreditation
+cognitive evaluate
+x x x
+x x x
+x
+deliverable activities partial workshops reports
+final projectproject
+finalexhibitions
+x
+x
+x
+x
+x
+x
+x
+x
+x x
+racognitive apply
+know and design repertoires of simple instructions in a cpucognitive know
+cognitive apply
+compare the performance and or consumption in a computer system taking into account
+account the memory hierarchy storage system the design of the
+machine language and the main cpu design techniques
+rastudent centered self directed active learning
+learning outcomes ra to be evaluated learning outcomes associated with the evaluations
+t theoretical p practical traditional project baseddescribe the internal structure functional units and operation of
+the main components of a computer systemdigital hardware
+identify understand and evaluate the structure and
+computer architecture as well as
+basic components that make them up know the different existing architectures of computer system
+and their differences in performance apply simple optimizations to code snippets to improve performance
+performance and or consumption in a computer system apply knowledge of boolean techniques to design and
+build sequential hardware
+vii teaching strategies that promote learning fundamentals of mathematical logic
+boolean functions boolean expressions
+postulates and theorems
+boolean equations maxterms and minterms
+optimization of boolean functions
+logiclogicgate and or not xor
+implementation of boolean functions using logical compounds
+universality of nand and nor logiclogicgate
+combinational
+logiclogicgate in integratedcircuit
+adders subtractor encoders decoders multiplexer demultiplexer
+cpu alu
+sequentials
+latch and flipflop
+accountants
+register
+memory
+introduction to computer architecture
+the bus concept
+access to the bus tristate buffer
+cpu organization
+instruction design
+addressing modes
+memory maps
+complementary topics
+advanced computer architectures
+parallelism
+technology based
+problem based collaborative experimental
+viii evaluation
+ra
+ra
+ra
+ra
+ra
+ravi thematic contentx x
+x
+g g i g g i g
+approval date by curriculum council minute number ra
+• normal room with blackboard for lecture sessions and discussion sessions
+• access to videobeam
+• website to publish teaching material work guides workshops etc
+• didactic videos around the topics of the subject
+• access outside of classes to computer rooms to carry out investigative and practical workshops
+• access to recommended bibliographic material
+there is no x academic practices field outings
+basic
+hand morris and kime charles fundamentals of logic design and computers prentice hall publishing mexico
+malvino albert paul and brown jerald digital computer electronics mcgraw hill
+complementary
+• martinez jaime and olvera jorge computer organization and architecture prentice hall publishing mexico
+• gajski daniel digital design principles prentice hall publishing spain
+• tanenbaum andrew computer organization a structured approach prentice hall publishing third edition mexico
+• paterson david and henessy john computer organization and design the hardware software interface mcgraw hill publishing spain
+• stalling william computer organization and architecture prentice hall publishing seventh edition spain
+web pages
+intel documentation center https wwwintelcom content www us en resources documentation developerhtml
+amd documentation center https developeramdcom resources developer guides manuals
+arm developer https developerarmcom documentation
+risc specifications manuals https riscvorg technical specifications xi bibliography
+evaluation type
+evaluation percentage
+individual i or group g work
+note type
+review date by curricular council xii monitoring and update of the syllabusix educational media and resources

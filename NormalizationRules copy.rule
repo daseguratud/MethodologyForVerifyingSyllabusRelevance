@@ -1,8 +1,0 @@
-flipflop<-flip[-\s]?flops?;sr;jk;latch
-memory<-\bmemor(y|ies)\b;storage;prom;eprom;eeprom
-logic<-\blogic(s|al)?\b
-exercise<-exercises
-verilog<-verilog modeling
-boolean<-boolean function;boolean algebra;boolean expression;boole;booleanan
-state machine<-fsm;finite state;mealy;moore;state;machines asms
-combinational<-combinational logic

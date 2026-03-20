@@ -1,0 +1,546 @@
+contents
+preface xxi
+number system and codes
+learning objectives
+analogue versus digital
+introduction to number system
+decimal number system
+binary number system
+advantages
+octal number system
+hexadecimal number system
+number system – some common terms
+binary number system decimal number system octal number system hexadecimal number system
+number representation in binary
+sign bit magnitude
+’s complement ’s complement
+finding the decimal equivalent
+binary to decimal conversion
+octal to decimal conversion
+hexadecimal to decimal conversion
+decimal to binary conversion
+decimal to octal conversion
+decimal to hexadecimal conversion
+binary–octal and octal–binary conversion
+hex–binary and binary–hex conversion
+hex–octal and octal–hex conversion
+the four axioms
+floating point numbers
+range of numbers and precision
+floating point number formats
+binary coded decimal
+bcd to binary conversion
+binary to bcd conversion higher density bcd encoding
+packed and unpacked bcd numbers
+excess code
+gray code
+binary–gray code conversion
+gray code–binary conversion
+n ary gray code
+applications
+alphanumeric codes
+ascii code
+ebcdic code
+unicode
+seven segment display code
+error detection and correction codes
+parity code
+repetition code
+cyclic redundancy check code
+hamming code
+key terms
+review questions
+problems
+objective type exercises
+answers
+digital arithmetic
+learning objectives
+basic rules of binary addition and subtraction
+addition of larger bit binary numbers
+addition using the ’s complement method
+subtraction of larger bit binary numbers
+subtraction using ’s complement arithmetic
+bcd addition and subtraction in excess code
+addition
+subtraction
+binary multiplication
+repeated left shift and add algorithm
+repeated add and right shift algorithm
+binary division
+repeated right shift and subtract algorithm
+repeated subtract and left shift algorithm
+floating point arithmetic
+addition and subtraction
+multiplication and division viii • contents key terms
+review questions
+problems
+objective type exercises
+answers
+logiclogicgate and related devices
+learning objectives
+positive and negative logic
+truth table
+logiclogicgate
+or logicgate
+and logicgate
+not logicgate
+exclusive or logicgate
+nand logicgate
+nor logicgate
+exclusive nor logicgate
+inhibit logicgate
+universal logicgate
+logicgate with open collector drain outputs
+tristate logiclogicgate
+and or invert logicgate
+schmitt logicgate
+special output logicgate
+fan out of logiclogicgate
+buffers and transceivers
+ieee ansi standard symbols
+ieee ansi standards – salient features
+application relevant information
+key terms
+review questions
+problems
+objective type exercises
+answers
+logic families
+learning objectives
+logic families – signifi cance and types
+signifi cance
+types of logic families
+characteristic parameters
+transistor transistor logic ttl
+standard ttl contents • ix open collector logicgate
+low power ttl high power ttl h h schottky ttl s s low power schottky ttl ls ls
+advanced low power schottky ttl als als
+advanced schottky ttl as as fairchild advanced schottky ttl f f floating and unused inputs
+current transients and power supply decoupling
+emitter coupled logic ecl
+different sub families
+logiclogicgate implementation in ecl
+salient features of ecl
+cmos logic family
+circuit implementation of logic functions
+bicmos logic
+bicmos inverter
+bicmos nand
+nmos and pmos logic
+pmos logic
+nmos logic
+integrated injection logic i
+l family
+comparison of different logic families
+guidelines to using ttl devices
+guidelines to handling and using cmos devices
+interfacing with different logic families
+cmos to ttl interface
+ttl to cmos interface
+ttl to ecl and ecl to ttl interface
+cmos to ecl and ecl to cmos interface
+classifi cation of digital ics
+application relevant information
+key terms
+review questions
+problems
+objective type questions
+answers
+boolean and simplifi cation techniques
+learning objectives
+introduction to boolean
+variables literals and terms in boolean expressions
+equivalent and complement of boolean expressions
+dual of a boolean expression x • contentscontents • xi
+postulates of boolean
+theorems of boolean
+theorem operations with ‘’ and ‘’
+theorem operations with ‘’ and ‘’
+theorem idempotent or identity laws
+theorem complementation law
+theorem commutative laws
+theorem associative laws
+theorem distributive laws
+theorem
+theorem
+theorem absorption law or redundancy law
+theorem
+theorem consensus theorem
+theorem demorgan’s theorem
+theorem transposition theorem
+theorem
+theorem
+theorem involution law
+simplifi cation techniques
+sum of products boolean expressions
+product of sums expressions
+expanded forms of boolean expressions
+canonical form of boolean expressions
+∑ and ∏ nomenclature
+quine–mccluskey tabular method
+tabular method for multi output functions
+karnaugh method
+construction of karnaugh
+karnaughs for boolean expressions with larger number of variables
+karnaughs for multi output functions
+key terms
+review questions
+problems
+objective type exercises
+answers
+arithmetic circuit
+learning objectives
+combinational circuit
+implementing combinational logic
+arithmetic circuit – basic building blocks
+half adder
+full adder half subtractor
+full subtractor
+controlled inverter
+adder–subtractor
+bcd adder
+carry propagation–look ahead carry generator
+alu alu
+multipliers
+magnitude comparator
+cascading magnitude comparators
+application relevant information
+key terms
+review questions
+problems
+objective type exercises
+answers
+combinational logic circuit
+learning objectives
+multiplexer
+inside the multiplexer
+implementing boolean functions with multiplexer
+multiplexer for parallel to serial data conversion
+cascading multiplexer circuit
+encoders
+priority encoder
+demultiplexer and decoders
+implementing boolean functions with decoders
+cascading decoder circuit
+parity generation and checking
+application relevant information
+key terms
+review questions
+problems
+objective type exercises
+answers
+flipflop and related devices
+learning objectives
+multivibrator
+bistable multivibrator
+schmitt trigger
+monostable multivibrator xii • contentscontents • xiii
+astable multivibrator
+integratedcircuit ic multivibrators
+digital ic based monostable multivibrator
+integratedcircuittimer based multivibrators
+r s flipflop
+r s flipflop with active low inputs
+r s flipflop with active high inputs
+clocked r s flipflop
+level triggered and edge triggered flipflop
+j k flipflop
+j k flipflop with preset and clear inputs
+master–slave flipflop
+toggle flipflop t flipflop
+j k flipflop as toggle flipflop
+d flipflop
+j k flipflop as d flipflop
+d type latch
+synchronous and asynchronous inputs
+flipflop timing parameters
+set up and hold times
+propagation delay
+clock pulse high and low times
+asynchronous input active pulse width
+clock transition times
+maximum clock frequency
+flipflop applications
+switch debouncing
+flipflop synchronization
+detecting sequence of edges
+application relevant data
+key terms
+review questions
+problems
+objective type exercises
+answers
+counter and register
+learning objectives
+ripple asynchronous counter
+propagation delay in ripple counter
+synchronous counter
+modulus of a counter
+binary ripple counter – operational basics xiv • contents
+binary ripple counter with a modulus of less than n
+ripple counter inintegratedcircuitform
+synchronous or parallel counter
+up down counter
+decade and bcd counter
+presettable counter
+variable modulus with presettable counter
+decoding a counter
+cascading counter
+cascading binary counter
+cascading bcd counter
+designing counter with arbitrary sequences
+excitation table of a flipflop
+state transition diagram
+design procedure
+shift register
+serial in serial out siso shift register
+serial in parallel out sipo shift register
+parallel in serial out piso shift register
+parallel in parallel out pipo shift register
+bidirectional shift register
+universal shift register
+shift register counter
+ring counter
+shift counter
+ieee ansi symbology for counter and register
+counter
+register
+application relevant information
+key terms
+review questions
+problems
+objective type questions
+answers
+data conversion circuit d a and a d converters
+learning objectives
+digital to analogue converters
+simple resistive divider network for d a conversion
+binary ladder network for d a conversion
+d a convertor specifi cations
+resolution
+accuracy
+conversion speed or settling time contents • xv
+dynamic range
+nonlinearity and differential nonlinearity
+monotonocity
+types of d a converters
+multiplying type d a converters
+bipolar output d a converters
+companding d a converters
+modes of operation
+current steering mode of operation
+voltage switching mode of operation
+bcd input d a converter
+integratedcircuit d a converters
+dac
+dac
+dac ad dac dac
+d a converter applications
+d a converter as multiplier
+d a converter as a divider
+programmable integrator
+low frequency function generator
+digitally controlled filters
+a d converters
+a d converter specifi cations
+resolution
+accuracy
+gain and offset errors
+gain and offset drifts
+sampling frequency and aliasing phenomenon
+quantization error
+nonlinearity
+differential nonlinearity
+conversion time
+aperture and acquisition times
+code width a d converter terminology
+unipolar mode operation
+bipolar mode operation
+coding
+low byte and high byte
+right justifi ed data left justifi ed data
+command register status register
+control lines xvi • contents
+types of a d converters
+simultaneous or flash a d converters
+half flash a d converter
+counter type a d converter
+tracking type a d converter
+successive approximation type a d converter
+single dual and multi slope a d converters
+sigma delta a d converter
+integratedcircuit a d converters
+adc
+adc adc ad adc
+adc adc ad adc ad adc ad
+ad icl icl
+a d converter applications
+data acquisition
+key terms
+review questions
+problems
+objective type questions
+answers
+programmable logic devices
+learning objectives
+fixed logic versus programmable logic
+advantages and disadvantages
+programmable logic devices an overview
+programmable roms
+programmable logic array pla
+programmable array logic pal
+generic array logic gal
+cpld
+fpga fpga
+programmable roms
+programmable logic array pla
+programmable array logic pal
+pal architecture
+pal numbering system
+generic array logic gal
+cplds
+internal architecture
+applications
+field programmable logicgate arrays contents • xvii
+internal architecture
+applications
+programmable interconnect technologies
+fuse
+floating logicgate transistor switch
+static ram controlled programmable switches
+antifuse
+design and development of programmable logic hardware
+programming languages
+abel hardware description language
+vhdl vhsic hardware description language
+verilog
+java hdl
+key terms
+review questions
+problems
+objective type exercises
+answers
+microcontrollers
+learning objectives
+introduction to microcontrollers
+evolution of microcontrollers
+inside a microcontroller
+alu alu
+register file
+control unit
+basic microcontroller instructions
+data transfer instructions
+arithmetic instructions
+logic instructions
+control transfer or branch or program control instructions
+machine control instructions
+addressing modes
+absolute or memory direct addressing mode
+immediate addressing mode
+register direct addressing mode
+register indirect addressing mode
+indexed addressing mode
+implicit addressing mode and relative addressing mode
+microcontroller selection
+selection criteria
+microcontroller selection table for common applications
+programming microcontrollers xviii • contents
+risc versus cisc cpus
+eight bit microcontrollers
+the microcontroller
+the motorola microcontroller
+the zilog z microcontroller
+bit microcontrollers
+the microcontroller
+the microcontroller
+the microcontroller
+the mc microcontroller
+bit microcontrollers
+the microcontroller
+the mc microcontroller
+the mc microcontroller
+the microcontroller
+powerpc risc microcontrollers
+pentium series of microcontrollers
+salient features
+pentium pro microcontroller
+pentium ii series
+pentium iii and pentium iv microcontrollers
+pentium m d and extreme edition cpus
+celeron and xeon cpus
+microcontrollers for embedded applications
+peripheral devices
+programmable timer counter
+programmable peripheral interface ppi
+programmable interrupt controller pic
+dma controller
+programmable communication interface pci
+math cocpu
+programmable keyboard display interface
+programmable crt controller
+floppy disk controller
+clock generator
+octal bus transceiver
+key terms
+review questions
+objective type exercises
+answers
+microcontrollers
+learning objectives
+introduction to microcontroller contents • xix
+applications
+inside the microcontroller
+cpu cpu
+ram ram
+rom rom
+special function register
+peripheral components
+microcontroller architecture
+architecture to access memory
+mapping special function register into memory space
+cpu architecture
+power saving modes
+interfacing peripheral devices with a microcontroller
+interfacing leds
+interfacing electromechanical relays
+interfacing keyboards
+interfacing seven segment displays
+interfacing lcd display
+interfacing a d converter
+interfacing d a converter
+key terms
+review questions
+problems
+objective type exercises
+answers
+memory devices
+learning objectives
+anatomy of a computer
+cpu cpu
+memory
+input output ports
+a computer system
+computer memory
+primary memory
+ram ram
+static ram sram
+dynamic ram dram
+applications of ram
+rom rom
+rom architecture
+types of rom
+applications of rom
+expanding memory capacity xx • contents
+word size expansion
+memory locations expansion
+secondary storage or auxiliary storage
+magnetic storage devices
+magneto optical storage devices
+optical storage devices
+usb flash drive
+key terms
+review questions
+problems
+objective type exercises
+answers
+index

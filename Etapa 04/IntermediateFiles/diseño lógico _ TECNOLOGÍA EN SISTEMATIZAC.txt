@@ -1,54 +1,54 @@
-Francisco José de Caldas District University
+francisco josé de caldas district university
 page of
 technological faculty
-technology in data systematization by propaedeutic cycles
-programmatic contents curricular reform applied from the iii technological faculty
-technology in data systematization by propaedeutic cycles
-programmatic content logical design
+technology in data systematization by propedeutic cycles
+programmatic contents curricular reform applied from iii technological faculty
+technology in data systematization by propedeutical cycles
+programmable content logical design
 time weeks
 semester
 subject code
 weekly schedule intensity
 academic credits
 justification
-establish the basic rules of boolean algebra with which digital circuits operate programmable devices
-IC integrated circuits reveal the logical operation of the main digital elements and their
-interaction by knowing the rules of operation and the basic digital constituent elements of designing devices
+establish the base rules boolean with which digital circuit programmable devices
+ci integratedcircuit explain the logical operation of the main digital elements and their
+interaction by knowing the rules of operation and the basic digital constituent elements designing devices
 that provide solutions to problems in the industry
 objectives
 general
 provide tools to the student to develop skills that allow them to design digital devices with
-discrete components and half-scale circuits using the principles of digital logic
+discrete components and half scale circuit making use of the principles of digital logic
 specific objectives
-address concepts of number systems logical gates boolean algebra combinational logic
-registers memories state machines counters
+address concepts of number system logiclogicgate boolean combinational logic
+register memory statemachines counter
 model problems and solve them through digital devices
 give tools to the student to develop skills that allow them to design devices
-digital with discrete components and half-scale circuits using the principles of logic
+digital with discrete components and half scale circuit making use of the principles of logic
 digital
 training skills
-the skills and abilities to be developed by the student of electrical and electronic technology
-data systematization or the first cycle engineer in the respective area in this academic space are
+the abilities skills and abilities to be developed by the student of electronic electrical and technology technology
+data systematization or the first cycle engineer in the respective area in this academic space they are
 assessment and development of the following general or basic capabilities
 problem solving
-communicative ability
+the communicative ability
 teamwork
 the development of critical and analytical thinking
-the impulse of spatial logical thinking
+the impulse of logical spatial thinking
 the development of creativity and work in design
 the ability to understand the social context and
 the valuation of productive work
-assessment and development of the following professional capabilities francisco josé de caldas district university
+assessment and development of the following professional skills francisco josé de caldas district university
 page of
 technological faculty
-technology in data systematization by propaedeutic cycles
-programmatic contents curricular reform applied from iii to successfully confront weak and moderately structured problems in the field of
+technology in data systematization by propedeutic cycles
+programmatic contents curricular reform applied from iii successfully confront weak and moderately structured problems in the field of
 digital electronics with specific applications of electronics computer architecture
 automation and control processes and telecommunications
-communicative capacity making use of circuit diagrams to express through means
-verbal and multimedia writings the interpretation of his thoughts in the area of electronics
+communicative capacity using plans diagrams circuit to express through media
+written verbal and multimedia interpretation of your thinking in the area of electronics
 digital
-development of teamwork, helping to formalize an adequate distribution of work
+development of teamwork helping to formalize an adequate distribution of work
 with adequate control work in the tasks inherent to a job in the electronics area
 digital
 ability to value their work and that of their colleagues based on social work
@@ -56,193 +56,190 @@ involved in every moment of the project
 design of digital devices in the solution of electronic problems and in the assembly of
 electronic projects
 assessment and development of the following cognitive abilities
-circuit design combinational and or sequential systems with different components
-discrete decoders multiplexers memories counters registers plds
-basic digital systems analysis
-assessment and development of the following contextual capacities
-locate the cognitive areas of the semester within the spectrum of the role of the practical engineer and the
-engineer that the country and the dc require
-locate the development of digital electronics within the global development of these areas
-identify appropriate use technologies available on the market for end users by analyzing their
+design of combinational and or sequential circuit system with different components
+discrete decoders multiplexer memory counter register plds
+analysis of basic digital system
+assessment and development of the following contextual capabilities locate the cognitive areas of the semester within the spectrum of the role of the practical engineer and the
+engineer required by the country and dc
+place the development of digital electronics within the global development of these areas
+identify appropriate use technologies available in the market for end users by analyzing their
 potentialities in the development of production of productive forces for the development of the country
 subject content
-introduction chapter
-objective to place the student within the context of the subject
-contextual development competence in the field of digital circuits
-fundamental concepts of digital circuits
+chapter introduction
+objective place the student within the context of the subject
+competence contextual development in the field of digital circuit
+fundamental concepts of digital circuit
 digital design vs analog design
 digital design software
-integrated circuits
+integratedcircuit
 digital design levels
 logical families
 cmos family
 ttl family
 cmos ttl interfaces
-binary digital information chapter
-objective to give the student the necessary tools to handle hexadecimal and octal binary numbering
-competence development of skills in the operative manipulation of base conversion and its application to
+chapter binary digital information
+objective give the student the necessary tools to handle binary hexadecimal and octal numbering
+competency development of skills in the operative manipulation of base conversion and its application to
 real structures
 basic aspects concept of positional system francisco josé de caldas district university
 page of
 technological faculty
-technology in data systematization by propaedeutic cycles
-programmatic contents curricular reform applied from the iii octal and hexadecimal binary systems
+technology in data systematization by propedeutic cycles
+programmatic contents curricular reform applied from iii binary octal and hexadecimal system
 conversions
 arithmetic operations
-binary decimal bcd encoding
-binary number systems
+binary decimal bcd coding
+binary number system
 unsigned integers
-two's complement integers
+two s complement integers
 unsigned fractional
-fractional with two's complement sign
+fractional with two s complement sign
 gray code
 signed magnitude
-two's complement with shift
-complement to one
-floating point
+two s complement with shift
+one s complement
+floatingpoint
 codes for error detection and correction
 codes for serial data transmission and storage
 exercises and simulations
-logical functions chapter
-objective is to introduce the student to the knowledge of Boolean logic as well as its basic theorems.
-competence development of the abilities to interpret, apply and establish connections with logical operators
+chapter logical functions
+objective introduce the student to the knowledge of boolean as well as its basic theorems
+competence development of the abilities to interpret apply and establish connections with logical operators
 between logical propositions
-boolean logic in electronics
+boolean in electronics
 elementary logical operations
 truth table
 functional expressions
 exercises and simulations
-chapter elementary digital circuits
-The objective is to introduce students to the existing circuits with basic gates and introduce them to the design of
+chapter elementary digital circuit
+objective to introduce students to the existing circuit with basic logicgate and introduce them to the design of
 specific hardware applying function simplification
-competence development of their ability to analyze and design simple combinational logic circuits to
+competency development of your ability to analyze and design simple combinational logic circuit for
 interpret them and with them propose some new ones
-logic gates
-gate and
-or gate
-gate not
-additional gates
+logiclogicgate
+and logicgate
+or logicgate
+not logicgate
+additional logicgate
 circuit analysis
-equivalent circuits
+equivalent circuit
 circuit design
 direct and simplified
-conditioned by a type of gate
+conditioned by a type of logicgate
 exercises and simulations
-combinational systems chapter
-Francisco José de Caldas District University
+chapter combinational
+francisco josé de caldas district university
 page of
 technological faculty
-technology in data systematization by propaedeutic cycles
-programmatic contents curricular reform applied from objective iii, analyze, design and implement basic combinational circuits
-competence development of the ability to design and analyze combinational circuits through the resolution of
-strongly and moderately structured problems using different components or integrated circuits and tools
-software
-definition of a combinational system
-combinational circuit analysis
-combinational subsystems
+technology in data systematization by propedeutic cycles
+programmatic contents curricular reform applied from iii objective analyze design and implement basic combinational circuit
+competence development of the capacity to design and analyze combinational circuit through the resolution of
+strongly and moderately structured problems using different components or integratedcircuit and tools
+of software
+definition of a combinational
+analysis of combinational circuit
+combinational subsystem
 encoders
-decoders
-multiplexers
-demultiplexers
-arithmetic circuits
-combinational circuit synthesis
+decoders multiplexer
+demultiplexer
+arithmetic circuit
+synthesis of combinational circuit
 simplification methods in programming
 the abel hardware description language
-vhdl hardware description language
+the vhdl hardware description language
 exercises and simulations
-applied combinational design chapter
-objective to analyze and implement combinational circuits with basic msl circuits
-competence development of the ability to design and analyze combinational circuits through the resolution of
-strongly and moderately structured problems and using components or integrated circuits msl and tools of
+chapter applied combinational design
+objective analyze and implement combinational circuit with basic msl circuit
+competence development of the capacity to design and analyze combinational circuit through the resolution of
+strong and moderately structured problems and using msl components or integratedcircuit and
 software
 standards documentation
-time circuits
+time circuit
 plds
 decoders
-encoder
+encoders
 three state devices
-multiplexers
-or exclusive parity gates and circuits
+multiplexer
+exclusive or logicgate and parity circuit
 comparators
 adders subtractors and alus
 multipliers
 exercises and simulations using abel and vhdl
-chapter sequential systems
-objective to know and develop systems with memory
-competence development of the ability to design and analyze sequential circuits through the resolution of
-strong and moderately structured problems using components or integrated circuits msl and tools of
+chapter sequentials
+objective know and develop system with memory
+competence development of the capacity to design and analyze sequential circuit through the resolution of
+strong and moderately structured problems using msl components or integratedcircuit and
 software
 development of your communication skills through plans and reports
-definition of a sequential system francisco josé de caldas district university
+definition of a sequential francisco josé de caldas district university
 page of
 technological faculty
-technology in data systematization by propaedeutic cycles
-programmatic contents curricular reform applied from bistable iii
-analysis of circuits with flipflop
+technology in data systematization by propedeutic cycles
+programmatic contents curricular reform applied from iii flipflop
+analysis of circuit with flipflop
 logical analysis
 temporal analysis
-state machine analysis
-sequential system design
+analysis of statemachines
+design of sequentials
 synchronous case
 asynchronous case
-sequential subsystems
-shift registers
-accountants
-features of sequential layout in abel and vhdl
+sequential subsystem
+shift register
+counter
+characteristics of sequential design in abel and vhdl
 exercises and simulations
-chapter memories and programmable logic devices
-objective of mixing combinational and sequential circuits to create memories and applications with them
-competencies will develop the following capabilities
-locate the development of digital electronics within the global development of these areas and identify appropriate and
-make use of technologies available on the market for the end user, analyzing their potential in development
+chapter memory and programmable logic devices
+objective mix combinational and sequential circuit to make memory and applications with them
+competencies you will develop the following capabilities
+place the development of digital electronics within the global development of these areas and identify appropriate and
+make use of technologies available in the market for end users analyzing their potential in development
 production of productive forces for the development of the country
 memory concept
 address decoding
-types of ram and rom memory
-making logic circuits with rom
+types of memory ram and rom
+realization of logic circuit with rom
 programmable logic devices cplds and fpgas
 circuit design
-state machines chapter
-objective to design and analyze state machines applicable to academic activity and the work environment
+chapter statemachines
+objective design and analyze statemachines applicable to academic activity and the work environment
 competence successfully confront weak and moderately structured problems in the field of electronics
 digital with specific applications of electronics computer architecture automation processes and
-control and telecommunications doing analysis and design of synchronous and asynchronous finite state machines
-definition of state machine
+control and telecommunications doing analysis and design of synchronous and asynchronous finite statemachines
+definition of statemachine
 classification
 moore type mealy type
-msf and so
-msf analysis and design
-analysis and design of asf
-applications with vhdl alters
-architecture chapter of the processors district university francisco josé de caldas
+msf and asf
+analysis and design of msf
+asf analysis and design
+applications with vhdl altera
+chapter architecture of the cpus francisco josé de caldas district university
 page of
 technological faculty
-technology in data systematization by propaedeutic cycles
-programmatic contents curricular reform applied from the iii
-The objective is to understand the way in which sequential and combinational subcircuits are intertwined to form
-information processing systems
-competency develop your interpretive and contextual capacity by conceptually linking course applications
-in development to information processing processes
-basic architectures
-von newman
-harvard
-modified harvard
-microprocessors and microcontrollers
-microprocessor
-piccx microcontroller
+technology in data systematization by propedeutic cycles
+programmatic contents curricular reform applied from iii
+objective understand the way in which sequential and combinational subcircuit are intertwined to form
+information processing system
+competency develop your interpretive and contextual capacity by conceptually linking course applications in development to information processing processes
+architectures
+vonnewman
+architectures
+modified architectures
+microcontrollers and microcontrollers
+microcontroller
+microcontroller microcontroller
 hc microcontroller
 dsp tmscx
 microprogramming
-bibliography and infographic
+bibliography and infography
 bibliography
-cekit sa practical course in digital electronics pereira
+cekit sa practical course on digital electronics pereira
 dempsey john basic digital electronics
-mandado enrique digital electronic systems alfaomega marcombo
-marcus m p digital circuits for engineering pretince hall
+mandado enrique digital electronic system alfaomega marcombo
+marcus m p digital circuit for engineering pretince hall
 hall
 morris mano m digital logic and computer design pretice hall
-ruiz jairo digital logic elements ud
-tokeim roger electronic digital barcelona bogotá editorial reverte
+ruiz jairo elements of digital logic ud
+tokeim roger digital electronics barcelona bogotá editorial reverte
 prentice hall july
 exico
 infographic
@@ -251,4 +248,4 @@ texas instruments website http wwwticom
 motorola website http wwwmotorolacom seamless mobility
 altera website http wwwalteracom
 national semiconductor website http wwwnationalcom
-nec website http wwwnecelcom in cprofile fab indexhtml
+nec website http wwwnecelcom en cprofile fab indexhtml

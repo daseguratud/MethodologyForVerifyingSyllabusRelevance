@@ -1,0 +1,685 @@
+contenido
+presentación
+parte familias lógicas
+puertas lógicas ttl
+introducción
+estructura de una puerta ttl nand de dos entradas
+cargabilidad de salida de una puerta inversora ttl
+estimación analítica
+análisis mediante pspice
+características de transferencia
+puerta inversora ttl estándar
+puerta inversora ci
+puerta nand ci
+entradas flotantes en puertas ttl
+el riesgo potencial de las entradas flotantes
+qué hacer con las entradas no utilizadas
+caracterización temporal
+parámetros característicos
+el oscilador en anillo
+componentes
+verificación experimental
+obtención de las tablas de verdad
+función lógica not inversión
+función lógica nand
+función lógica nor
+cargabilidad de salida
+estimación de la resistencia de salida de un dispositivo
+características de transferencia de un inversor
+característica de transferencia vs ve
+característica de transferencia ie ve
+entradas flotantes en una puerta nand ci x
+caracterización temporal oscilador en anillo
+ejercicios y cuestiones de refuerzo
+puertas lógicas cmos
+introducción
+estructura de una puerta cmos nand de dos entradas
+cargabilidad de salida de una puerta cmos nand
+consideraciones preliminares
+análisis mediante pspice
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of
+caso de estudio
+caso de estudio
+caso de estudio
+cargabilidad del ci b
+características de transferencia
+entradas flotantes en puertas cmos
+componentes
+verificación experimental
+cargabilidad de salida
+características de transferencia de un inversor cmos
+característica de transferencia vs ve
+característica de transferencia ie ve
+entradas flotantes en una puerta nand ci b
+ejercicios y cuestiones de refuerzo
+parte lógica combinacional
+decodificador binario básico de a
+introducción
+decodificador binario básico de a
+decodificación con salidas activas a nivel alto
+decodificación con salidas activas a nivel bajo
+simulación
+decodificación con salidas activas a nivel alto
+decodificación con salidas activas a nivel bajo
+componentes
+verificación experimental
+decodificación con salidas activas a nivel alto
+decodificación con salidas activas a nivel bajo
+ejercicios y cuestiones de refuerzo
+síntesis óptima de circuitos combinacionales
+introducción
+síntesis en forma de suma de productos and or
+síntesis en forma de producto de sumas or and
+síntesis de dos niveles nand nand
+síntesis de dos niveles nor nor
+síntesis multinivel con puertas nand de dos entradas
+análisis transitorio fenómenos aleatorios
+tipos de fenómenos aleatorios
+fenómenos aleatorios de función
+eliminación de fenómenos aleatorios
+simulación
+análisis en régimen permanente
+análisis transitorio
+componentes
+verificación experimental
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of
+ejercicios y cuestiones de refuerzo
+codificador binario básico de a
+introducción
+codificador binario básico de a sin prioridad
+codificación con entradas activas a nivel alto
+codificación con entradas activas a nivel bajo
+codificador binario básico de a con prioridad
+codificación con entradas activas a nivel alto
+codificación con entradas activas a nivel bajo
+simulación
+circuitos codificadores de a sin prioridad
+codificación con entradas activas a nivel alto
+codificación con entradas activas a nivel bajo
+circuitos codificadores de a con prioridad
+codificación con entradas activas a nivel alto
+codificación con entradas activas a nivel bajo
+componentes
+verificación experimental
+codificación sin prioridad y entradas activas a nivel bajo
+codificación con prioridad y entradas activas a nivel bajo
+ejercicios y cuestiones de refuerzo
+circuitos comparadores de paridad y conversores de código
+introducción
+circuitos aritméticos comparadores
+circuito generador y circuito detector de paridad
+circuitos conversores de código
+simulación
+circuito comparador
+circuito generador de paridad
+circuitos conversores de código
+componentes
+verificación experimental
+circuito comparador
+circuito generador de paridad
+circuitos conversores de código
+ejercicios y cuestiones de refuerzo
+decodificador binario de a con control de polaridad
+introducción
+decodificador binario básico de a con control de polaridad
+tres síntesis distintas con puertas nand de dos entradas
+síntesis con puertas nand de cualquier número de entradas
+síntesis basada en puertas xor
+simulación
+componentes
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of
+verificación experimental
+ejercicios y cuestiones de refuerzo
+detección de números primos con multiplexores
+introducción
+diseño de un detector bcd de números primos
+síntesis mediante puertas lógicas
+síntesis mediante un multiplexor
+síntesis mediante un multiplexor
+síntesis alternativa mediante un multiplexor
+diseño de un detector de números primos de bits
+síntesis mediante puertas lógicas
+síntesis mediante un multiplexor
+síntesis mediante dos multiplexores
+síntesis alternativa mediante un multiplexor
+simulación
+detectores bcd de números primos con multiplexor
+síntesis mediante un multiplexor
+síntesis mediante un multiplexor
+síntesis alternativa mediante un multiplexor
+detectores de números primos de bitcon multiplexor
+síntesis mediante un multiplexor
+síntesis mediante dos multiplexores
+síntesis alternativa mediante un multiplexor
+componentes
+verificación experimental
+ejercicios y cuestiones de refuerzo
+sumador completo y sumador binario en paralelo
+introducción
+circuito semisumador
+circuito sumador completo
+implementaciones de un sumador completo
+síntesis de dos niveles and or mediante pal
+síntesis de dos niveles nand nand
+dos síntesis de seis niveles con puertas básicas
+síntesis de cuatro niveles con puertas nand de tres entradas
+síntesis de dos niveles basada en puertas xor y nand
+síntesis de tres niveles basada en puertas xor y nand
+sumador binario en paralelo con acarreo serie
+simulación
+semisumador
+sumador completo
+sumador binario en paralelo de bitcon acarreo en serie
+propagación del acarreo y retardo asociado
+componentes
+verificación experimental
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of
+semisumador
+sumador completo
+sumador binario en paralelo de bitcon acarreo en serie
+ejercicios y cuestiones de refuerzo
+unidad aritmética de biten complemento a dos
+introducción
+diseño de una unidad aritmética de biten c
+el sumador x
+la puerta xor como solución para implementar la resta
+el detector de desbordamiento
+unidad aritmética completa
+simulación
+módulo sumador
+módulo sumador restador
+unidad aritmética con detector de desbordamiento
+componentes
+verificación experimental
+módulo sumador
+módulo sumador restador
+unidad aritmética con detector de desbordamiento
+ejercicios y cuestiones de refuerzo
+parte lógica secuencial síncrona
+generación de señal de reloj con circuitos astables
+introducción
+diseño de un multivibrador astable con puertas lógicas
+diseño de un multivibrador astable con el
+simulación
+componentes
+verificación experimental
+ejercicios y cuestiones de refuerzo
+counter de rizo módulo con biestables t
+introducción
+dos implementaciones de un counter de rizo
+counter módulo diseñado con biestables j – k
+counter módulo diseñado con biestables d
+la problemática de los estados espurios
+simulación
+respuesta del counter diseñado con biestables j – k
+filtrado de los estados espurios mediante registro
+respuesta del counter diseñado con biestables d
+filtrado de los estados espurios mediante registro
+componentes
+verificación experimental
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of
+ejercicios y cuestiones de refuerzo
+counter de rizo módulo con el x
+introducción
+diseño de un counter módulo con el x
+la problemática de los estados espurios
+simulación
+secuencia de estados del counter módulo
+filtrado de los estados espurios mediante registro
+decodificación de estados con el
+componentes
+verificación experimental
+ejercicios y cuestiones de refuerzo
+counter síncrono reversible módulo con biestables j – k
+introducción
+diseño de un counter síncrono reversible módulo
+simulación
+implementación del diseño con el ci
+entrada de control s constante
+cambio de nivel lógico de s con señal de reloj en estado bajo
+cambio de nivel lógico de s con señal de reloj en estado alto
+conclusiones
+implementación del diseño con el ci lsa
+componentes
+verificación experimental
+ejercicios y cuestiones de refuerzo
+counteres síncronos con el x
+introducción
+diseño de counteres con el x
+counter en modo de carrera libre módulo
+counter módulo con la secuencia …
+counter módulo con la secuencia …
+counter módulo con la secuencia …
+simulación
+counter en modo de carrera libre módulo
+counter módulo con la secuencia …
+counter módulo con la secuencia …
+counter módulo con la secuencia …
+componentes
+verificación experimental
+ejercicios y cuestiones de refuerzo
+segundero digital con counteres modulares
+introducción
+tres diseños de un segundero con counteres síncronos
+combinación de dos x
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of
+combinación de un x y un x
+combinación de un x y un x
+simulación
+componentes
+verificación experimental
+counter módulo unidades del segundero
+counter módulo decenas del segundero
+segundero digital completo
+ejercicios y cuestiones de refuerzo
+decodificación de los estados de un counter
+introducción
+decodificación de counteres modulares
+decodificación de un counter asíncrono
+decodificación de un counter síncrono
+riesgo de interferencias en las líneas decodificadas
+eliminación del riesgo de interferencias en la decodificación
+habilitación desfasada del decodificador
+filtrado mediante registro
+decodificación directa con un counter en anillo
+simulación
+decodificación de counteres x con dispositivos x
+decodificación de counteres x con dispositivos x
+eliminación del riesgo de interferencias en la decodificación
+habilitación desfasada del decodificador
+filtrado mediante registro
+componentes
+verificación experimental
+ejercicios y cuestiones de refuerzo
+registro de desplazamiento de bitcon biestables d
+introducción
+diseño de un registro de desplazamiento de bits
+simulación
+entrada serie y salida en paralelo
+entrada en paralelo y salida en paralelo
+componentes
+verificación experimental
+ejercicios y cuestiones de refuerzo
+generador de números seudoaleatorios
+introducción
+generador seudoaleatorio de bits
+generador seudoaleatorio de bits
+simulación
+generador seudoaleatorio de bits
+generador seudoaleatorio de bits
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of
+componentes
+verificación experimental
+generador seudoaleatorio de bits
+generador seudoaleatorio de bits
+ejercicios y cuestiones de refuerzo
+diseños con el registro de desplazamiento x
+introducción
+diseño secuencial basado en el x
+carga e inhibición
+el counter en anillo
+el counter johnson
+comunicación serie
+simulación
+carga e inhibición
+counter en anillo
+comunicación serie
+counter johnson
+comunicación serie
+componentes
+verificación experimental
+carga e inhibición
+counter en anillo y comunicación serie
+counter johnson y comunicación serie
+ejercicios y cuestiones de refuerzo
+autómatas de estados finitos de mealy y de moore
+introducción
+diseño secuencial según los modelos de mealy y de moore
+especificaciones
+diseño según el modelo de mealy
+diseño según el modelo de moore
+simulación
+autómata de estados finitos de mealy
+autómata de estados finitos de moore
+componentes
+verificación experimental
+ejercicios y cuestiones de refuerzo
+parte lógica secuencial asíncrona
+biestables asíncronos
+introducción
+tres tipos de biestables asíncronos
+biestable asíncrono sin entradas
+biestable asíncrono s – r
+biestable asíncrono –
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of
+simulación
+biestable asíncrono s – r
+respuesta ante secuencias de entrada permitidas
+respuesta ante secuencias de entrada no permitidas
+determinación de la anchura de pulso mínima
+biestable asíncrono –
+respuesta ante secuencias de entrada permitidas
+componentes
+verificación experimental
+biestable asíncrono sin entradas
+biestable asíncrono s – r
+biestable asíncrono –
+ejercicios y cuestiones de refuerzo
+circuitos antirrebotes con biestables asíncronos
+introducción
+la problemática de los rebotes en el diseño digital
+el biestable asíncrono como circuito antirrebotes
+circuito antirrebotes nor
+circuito antirrebotes nand
+circuito antirrebotes not
+detección del acceso a un aparcamiento
+simulación
+funcionamiento del circuito antirrebotes nand
+funcionamiento del circuito antirrebotes not
+componentes
+verificación experimental
+circuito antirrebotes nand
+circuito antirrebotes not
+ejercicios y cuestiones de refuerzo
+cerradura digital de combinación
+introducción
+diseño de un detector de secuencia de modo pulso
+especificaciones
+diseño según el modelo de mealy
+simulación
+componentes
+verificación experimental
+funcionamiento en ausencia de circuitos antirrebotes
+empleo de un biestable básico como circuito antirrebotes
+empleo de un biestable – como circuito antirrebotes
+ejercicios y cuestiones de refuerzo
+divisor de frecuencia asíncrono
+introducción
+diseño de un divisor de frecuencia por dos asíncrono
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of
+especificaciones
+diseño según el modelo de moore
+simulación
+diseño con biestables asíncronos s – r
+diseño preliminar fallido basado en realimentación directa
+diseño correcto basado en realimentación directa
+componentes
+verificación experimental
+diseño con biestables asíncronos s – r
+diseño preliminar fallido basado en realimentación directa
+diseño correcto basado en realimentación directa
+ejercicios y cuestiones de refuerzo
+parte aplicaciones de las funciones lógicas de uso común
+aplicaciones de la decodificación
+generación de minitérminos
+decodificación de líneas de dirección
+los circuitos de memoria y su capacidad de almacenamiento
+decodificación de direcciones de memoria en un computador
+decodificación de bcd a código de siete segmentos
+decodificación de los estados de un counter
+aplicaciones de la codificación
+gestión priorizada de interrupciones en un procesador
+codificación de un teclado numérico
+conversión analógico digital el convertidor flash
+codificación de vídeo digital en formato analógico
+detección de errores con circuitos de paridad
+los errores de transmisión y su detección
+transmisión en paralelo conbitde paridad
+transmisión en serie conbitde paridad
+comprobación de redundancia vertical
+comprobación de redundancia horizontal
+comprobación de redundancia bidimensional
+otras técnicas de detección de errores
+aplicaciones aritméticas de comparadores y sumadores
+selector aritmético con señal de control externa
+el sumador completo en los circuitos multiplicadores
+el multiplicador matricial
+el multiplicador con acarreo reservado
+otros circuitos multiplicadores
+la alu como generalización del sumador modular
+tres circuitos alu y sus prestaciones
+la alu en los computadores
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of
+aplicaciones de los counteres
+counter de pulsos en sistemas automatizados
+divisor de frecuencia
+reloj digital
+el temporizador digital
+sintetizador digital de formas de onda
+medidor de frecuencia
+el registro counter en los computadores
+el computador y su estructura interna
+el counter de programa
+el puntero de pila
+el registro counter de microprograma
+el registro de cuenta de datos en los controladores dma
+el registro counter cx de la arquitectura x
+aplicaciones de los registros de desplazamiento
+lógica de interfaz en la transmisión de datos digitales
+el papel del registro de desplazamiento en la codificación de voz
+tráfico de voz y datos en el bucle de abonado analógico
+revolución en el bucle de abonado llega la fibra óptica
+transmisión serie síncrona
+transmisión serie asíncrona
+desplazamientos y rotaciones de bits
+el desplazador combinacional básico
+desplazadores circulares
+instrucciones de desplazamiento en ensamblador
+establecimiento de un retardo en secuencias de bits
+generación de secuencias seudoaleatorias
+detección de defectos en circuit
+fuentes de ruido blanco
+aplicaciones del multiplexado
+generación de funciones lógicas
+multiplexado de entradas analógicas en microcontroladores
+barrido multiplexado de visualizadores dinámicos
+barrido multiplexado con dispositivos lógicos de función fija
+barrido multiplexado implementado en un microcontrolador
+barrido multiplexado con circuitos digitales configurables
+el multiplexado en la red telefónica conmutada
+sistema de transmisión pcm tdm de dos canales
+sistema de portadora digital t
+jerarquía multinivel en la rtc
+multiplexado y demultiplexado en redes ópticas de acceso
+un nuevo paradigma de redes y servicios de comunicaciones
+parte introducción al prototipado de sistemas empotrados
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of
+estrategias para implementar un circuito digital
+la lógica normalizada de función fija y sus limitaciones
+el diseño lógico personalizado y su ámbito de aplicación
+visión general del diseño lógico semipersonalizado
+celdas normalizadas celdas compiladas y macromódulos
+núcleos de propiedad intelectual ip
+implementación basada en matrices
+matrices de puertas
+matrices preconexionadas
+microcontroladores fundamentos y plataformas de prototipado
+estructura y programación de microcontroladores
+el microcontrolador y sus recursos internos
+organización del acceso a la memoria
+el repertorio de instrucciones arquitecturas cisc y risc
+del código fuente al código máquina
+el microcontrolador en los sistemas empotrados
+microcontroladoresmicrocontrollerde microchip
+módulos electrónicos de programación
+pickit flash starter kittm
+curiosity high pin count hpc
+picfq curiosity nano
+mplab xpress de propósito general
+microcontroladores en el ecosistema de arduino
+arduino diecimila y arduino duemilanove
+arduino uno versiones r r y r
+módulos de expansión los escudos
+arduino mega
+arduino due y el salto a los bits
+arduino nano iot
+arduino uno r
+microcontroladores msp y c de texas instruments
+msp exg launchpad
+c dimm experimenter’s kittm
+microcontroladores stm de stmicroelectronics
+blue pill
+la familia de plataformas de prototipado stm discovery
+stmvldiscovery
+stmfdiscovery
+b ui iota discovery kit
+la familia de plataformas de prototipado stm nucleo
+plataformas representativas de la serie stm nucleo
+plataformas representativas de la serie stm nucleo
+perspectivas de futuro para los microcontroladores
+circuitos fpga fundamentos y plataformas de prototipado
+estructura interna de los circuitos fpga
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of
+edddccccbbbbaaaaaaaaaaaaaaaaaaaa arquitecturas multinivel en la lógica configurable
+módulos lógicos empotrados en un circuito fpga
+el reto del sincronismo
+organización de los bloques lógicos configurables
+lenguajes hdl para la simulación y la síntesis de circuitos
+circuitos fpga de las familias spartan e y artix de xilinx
+circuitos fpga de la familia cyclone iv de altera
+una aplicación en el ámbito de la electrónica industrial
+circuitos fpga vs microcontroladores
+apéndices
+el laboratorio docente
+introducción
+la placa de prototipos
+la fuente de alimentación
+prestaciones y manejo
+cableado de la fuente con una carga genérica
+alimentación de la placa de prototipos
+desacoplo de la fuente de alimentación
+el polímetro
+el osciloscopio
+el osciloscopio analógico hm de hameg instruments
+el osciloscopio digital mp de multicomp pro
+sondas de medida para osciloscopio
+el osciloscopio usb analog discovery de digilent
+el comprobador de circuitos integrados
+notas sobre los montajes experimentales
+la instrumentación y su uso
+consejos prácticos
+componentes auxiliares
+errores comunes
+riesgos eléctricos
+introducción
+la conexión a tierra
+severidad de una electrocución
+identificación de pines en circuitos integrados
+numeración de pines en un ci
+identificación de pines en puertas lógicas
+identificación de pines en otros dispositivos integrados
+identificación de terminales en componentes optoelectrónicos
+terminales de un led y de una barra de luz led
+terminales de un visualizador de siete segmentos
+identificación de terminales en componentes eléctricos
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of
+iiiiiiiiiiiiiiihhhhgggggggggggggggggffffeeee terminales de un potenciómetro rotatorio
+terminales de un condensador electrolítico
+terminales de un interruptor spdt de palanca basculante
+terminales de un interruptor spdt de actuador deslizante
+valores estándar de resistencias y condensadores
+código de colores para resistencias
+valores estándar de resistencias
+valores estándar de condensadores
+notas de simulación
+introducción
+guía rápida de pspice
+creación de un proyecto
+dibujo de un circuito en la ventana de esquemáticos
+perfil de simulación y ejecución
+el editor de modelos de pspice
+conexión de un bus a un circuito
+vinculación de un estímulo a un bus
+inicialización de biestables
+ubicación de componentes en bibliotecas
+listado de todos los componentes utilizados
+fuentes de tensión y estímulos digitales
+semiconductores discretos
+dispositivos integrados con modelo de simulación
+dispositivos integrados sin modelo de simulación
+otros componentes
+notas sobre el álgebra de conmutación
+introducción
+postulados y teoremas del álgebra de conmutación
+funciones lógicas xor y xnor
+bibliografía
+monografías
+artículos de investigación
+información técnica de los fabricantes
+circuitos integrados de función fija general
+puertas lógicas
+decodificadores
+multiplexor
+generador de paridad
+sumador
+unidades aritmético lógicas circuitos alu
+temporizador
+biestables asíncronos
+biestables síncronos
+counteres
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of
+kjiiiiiiiiiiiiiiii registros
+circuitos de memoria rom y ram
+microprocesadores
+microcontroladores
+placas de desarrollo basadas en microcontrolador
+lógica digital configurable circuitos cpld y fpga
+placas de desarrollo basadas en circuitos fpga
+codificadores de vídeo
+conversor a d
+generadores de señal
+diodos luminiscentes ledes
+visualizadores de siete segmentos
+semipuente cuádruple
+interruptor de palanca basculante
+herramienta de simulación para el diseño electrónico
+enlaces web de interés
+acrónimos
+material suplementario
+índice
+vázquez del real javier circuit digitales ed marcombo sa proquest ebook central http ebookcentralproquestcom lib bibliotecausta ebooks detailaction docid
+created from bibliotecausta ebooks on
+copyright © marcombo sa all rightsreserved
+ebook pages printed page of

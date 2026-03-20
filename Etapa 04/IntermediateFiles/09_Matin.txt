@@ -1,0 +1,174 @@
+content
+chapter
+algebra of logical variables
+logical variable
+boolean
+basic theorems of boolean
+boolean functions
+logic functions used in digital electronics
+and function •
+or function
+inversion or not function
+nand function
+nor function
+exclusive or function xor
+exclusive nor xnor function
+combinational circuit
+simplification of logical functions
+algebraic simplification
+karnaugh tables
+incomplete functions
+exercises
+chapter
+number system and binary arithmetic
+number system
+binary system
+hexadecimal and octal system
+binary numerical codes
+alphanumeric codes x digital electronics
+error detector codes
+corrective error codes
+arithmetic operations with binary numbers binary addition
+binary subtraction
+representation of negative numbers binary multiplication and division arithmetic operations with other codes
+bcd sum
+subtraction bcd bcd multiplication and division hexadecimal addition
+hexadecimal subtraction exercises
+c
+chapter
+arithmetic combinational circuit
+design of combinational circuit
+binary adder half adder
+full adder
+integrated full adder circuit parallel adder
+parallel adder with series carry
+parallel adder with parallel carry parallel adder with parallel carrying applied to groups
+integrated adding circuit
+bcd adder binary subtractor complete subtractor
+multi bit binary subtractor
+integrated subtractor circuit adder subtractor
+alu
+integrated arithmetic logical units advance drive unit
+exercises
+c
+chapter
+combinational logic circuit
+parity generator detector
+parity bit
+parity generator detector circuit ls
+binary magnitude comparators integrated comparators ls contents xi
+multiplexer
+multiplexer integratedcircuit
+multiplexer extension using the multiplexer for function generation
+encoders
+priority encoders integrated priority encoders expansion of priority encoders decoders
+the decoder as a data demultiplexer decoder demultiplexer integratedcircuit
+expansion of the decoder demultiplexer
+multiplexer demultiplexer set for data transfer the decoder as a generator of logical functions
+code converters
+bcd to segment converter bcd to binary and binary to bcd converter data bus
+tri state output
+tri state buffer transceivers
+exercises
+c
+chapter
+digital integratedcircuit
+classification of integratedcircuit
+depending on the type of signal they handle according to the internal construction depending on the substrate material according to the number of transistors
+depending on the resolution used in device design
+according to the design methodology depending on the type of active devices used
+depending on the way the digital doors are built
+nomenclature of integratedcircuit
+encapsulated
+electrical characteristics
+supply voltage
+logic input and output voltages noise margin
+input and output currents
+switching times dissipated power
+special considerations
+static electricity power decoupling
+latch up phenomenon xii digital electronics special digital inputs and outputs
+buffer
+schmitt trigger or schmitt trigger open collector output
+connection of digital circuit
+pull up and pull down resistors connection of different logical families connection of circuit at different supply voltages
+exercises
+c
+chapter
+sequential circuit
+rs scale rs scale with nor doors rs scale with nand logicgate
+integratedcircuit and applications
+synchronous flipflop synchronous rs flipflop synchronous rs flipflop with asynchronous inputs
+master slave rs flipflop
+other flipflop level triggered d flipflop
+edge triggered d flipflop
+the d flipflop in integratedcircuit the t flipflop
+the jk flipflop
+the jk flipflop in integratedcircuit characteristic parameters of flipflop sequential circuit
+types of sequential circuit
+types of synchronous sequential circuit synthesis of synchronous sequential circuit
+analysis of synchronous sequential circuit
+other design methods design of complex system
+general design considerations
+exercises
+c
+chapter
+register and counter register storage register shift register
+counter
+binary asynchronous counter decimal asynchronous counter
+binary synchronous counter
+decimal synchronous counter contents xiii
+reversible synchronous counter
+counter with anti blocking protection
+synchronous counter based on shift register integrated digital counter
+expansion of counter
+applications of register and counter exercises
+c
+chapter
+user programmable logic
+programmable logic circuit
+advantages and disadvantages of programmable logic circuit
+design with standard circuit versus design with programmable logic circuit
+design with application specific circuit asic front
+to design with programmable circuit pld type programmable logic circuit prom structure
+pla structure
+pal structure input output structure
+structure of the current plds
+fpga type programmable logic circuit pld fpga comparison
+design techniques with programmable logic circuit
+logical design compilation simulation
+programming
+conclusions exercises c
+chapter
+memory
+ram ram general characteristics read write memory
+read only memory rom
+non volatile ram memory nvram grouping of memory sequential access memory
+fifos
+lifos applications
+luts look up tables
+system synchronization
+exercises xiv digital electronics
+chapter
+analogue digital digital analogue converters
+nyquist s theorem
+digital to analog converter dac d a converter with weighted resistors d a converter with r r ladder network
+inverted ladder d a converter
+parameters of the d a converters analog digital converter
+a d converter with comparators
+successive approximation a d converter a d converter with counter
+dual ramp a d converter
+ramp width a d converter a d converter ıį
+parameters of the a d converters exercises
+answers to the exercises
+chapter
+chapter
+chapter
+chapter chapter
+chapter
+chapter
+chapter
+chapter
+chapter
+bibliography
+analytical index

@@ -1,0 +1,215 @@
+UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE 
+CALDAS 
+Facultad Tecnológica  
+Tecnología en Electrónica  
+ Línea  gratuita 
+ 01  44  
+PBX Ext. 5014 - 5015 www.udistrital.edu.co Calle 68D Bis A Sur No. 49F-70, Bogotá D.C. - Colombia 
+Acreditación Institucional de Alta Calidad. Resolución No. 23096 del 15 de diciembre de 2016  tecelectronica@udistrital.edu.co  
+Área del Espacio Académico: 
+Electrónica Digital Syllabus de la 
+Asignatura: Circuitos Digitales I  
+Código: 1217  
+Créditos HTD HTC HTA Horas/semana  Clasificación  
+4 2 3 9 Obligatoria 
+Básica 
+ 3 créditos   
+Fecha de la última actualización: 24/07/2018  
+ 
+IMPORTANTE: Señor docente, para la Universidad Distrital Francisco José de Caldas usted reúne grandes cualidades como ser hum ano, intachables valores y conocimientos 
+idóneos para asumir el proceso educativo en nuestro proyecto curricular. Por ende, al acep tar la designación en este espacio académico, la universidad deposita en usted la 
+confianza de llevar a cabo un excelente ejercicio de formación, que se enmarca en la misión, no sólo de nuestro proyecto curr icular, sino de la facultad y la universidad. Con  
+relación a nuestro proceso deformación de un profesional integral se debe comprender, entender e infundir a todos nuestros es tudiantes, sin ser ambiciosos en tres 
+características fundamentales: inculcarles ser responsables socialmente (antropología del se r), ique se construyan como hombres racionales (hombres inteligentes en conquista 
+de la razón) y un hombre como persona (ser ético y moral)  
+ 
+1. Información General del Espacio Académico  
+Docente: Nombre del docente  
+Ubicación:  Facultad Tecnológica, Universidad Distrital Francisco José de 
+Caldas (CII. 74S No. 68A -20) 
+Horario: Especifique los días y horas de clase  
+Correo 
+electrónico:  usuario@udistrital.edu.co  
+Página Web:  http://www.udistrital.edu.co  
+ 
+IMPORTANTE: El proyecto curricular de Tecnología en Electrónica, ha venido desarrollando una metodología pedagógica de aprend izaje por proyecto (ApP), donde además de ofrecer el aprendizaje de contenidos (aspectos epistemológicos), el 
+desarrollo de compete ncias, y la formación en valores en el estudiante, se complementa con la generación de proyectos al servicio de la comunidad.  Se busca el progreso social del individuo en todas sus facetas y el cambio cultural, resaltando, 
+reflexionando y re -significando v alores fundamentales como: respeto a la igualdad, tolerancia, el libre desarrollo de la personalidad, la solidaridad, el resp eto, la moral -contra la doble moral -, la ética, la laboriosidad, la humildad —no el servilismo -, 
+la perseverancia. iUsted como repr esentante activo de la comunidad académica deberá integrar a través de mecanismos didácticos y pedagógicos la formación y el fortalecimiento de estos valores en su espacio académico  
+ 
+2. Descripción del Espacio Académico  
+Este es un curso que presenta una amplia gama de conceptos de la electrónica digital actual, 
+específicamente el trabajo con los dispositivos digitales reconfigurables PLD, utilizando 
+las herramientas de simulación y programación cómo: ISE Xilinx, Quartus l l Altera, Altium 
+Designery Isis de proteus.  
+Los conceptos desarrollados tienen su base teórica y su correspondiente practica de 
+aplicación soportada con sus respectivas simulaciones, iniciando con los sistemas numéricos 
+sus diferentes notaciones y llegando hasta la arquitectura básica de un procesad or 
+desarrollado dentro de un dispositivo programable  
+ 
+3. Metodología:  
+El enfoque de la asignatura será teórico — práctico, orientado a la formación del estudiante 
+como diseñador de sistemas electrónicos digitales a diferentes niveles de integración, 
+motivando el desarrollo y utilización de herramientas de diseño y simulación . El curso se 
+UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE 
+CALDAS 
+Facultad Tecnológica  
+Tecnología en Electrónica  
+ Línea  gratuita 
+ 01  44  
+PBX Ext. 5014 - 5015 www.udistrital.edu.co Calle 68D Bis A Sur No. 49F-70, Bogotá D.C. - Colombia 
+Acreditación Institucional de Alta Calidad. Resolución No. 23096 del 15 de diciembre de 2016  tecelectronica@udistrital.edu.co  
+complementa con la realización de prácticas de laboratorio mediante las cuales el estudiante 
+se familiariza con los elementos,  
+de atención  
+  800 091  10 
+componentes y herramientas necesarias para la realización de un proyecto final de mayor 
+complejidad donde el estudiante se enfrenta a la solución de un problema particular, 
+aplicando tópicos avanzados del curso.  
+La metodología empleada para el desarrollo del curso será basado en la teoría del aprendizaje 
+activo, en donde es el estudiante el que aprende y el docente el que orienta el aprendizaje. 
+La presentación de los temas por parte del profesor, se realizara uti lizando material 
+impreso, proyección en Video Beam y TICS, software y consultas en el Word wide web.  
+ASPECTOS PEDAGÓGICOS  
+La propuesta desarrollada por el grupo de docentes del proyecto curricular de Tecnología en 
+electrónica, partió del análisis de las características generales que debe poseer todo 
+tecnólogo, como profesional en el sector, además de los conocimientos específ icos propios 
+de la aplicación de su carrera que debe poseer todo ingeniero, y se encuentran detallados 
+en el perfil profesional que hace parte de la propuesta para el tránsito a créditos 
+académicos.  
+Tales características, fusionadas al interior de los espacios académicos del plan de estudios 
+son: 
+Alto nivel de desarrollo de sus capacidades comunicativas.  
+Habilidades para definir problemas, recoger y evaluar información, y desarrollar 
+soluciones reales y eficientes.  
+Capacidades para trabajar en equipo, habilidad para trabajar con otros.  
+Habilidad para utilizar todo lo anterior a fin de encarar problemas en el complejo mundo 
+real. 
+Todos los espacios académicos del plan de estudios, al igual que éste, se consideran teórico -
+prácticos, sustentando esta dinámica en un problema o pregunta que el estudiante debe 
+solucionar a lo largo de las 16 semanas de duración del semestre, a modo de u n proyecto o 
+trabajo final  
+ 
+4. Objetivos:  
+General  
+Introducir al estudiante en el diseño digital, utilizando las herramientas y las técnicas 
+de diseño modernas, de tal manera que pueda solucionar problemas reales en la industria.  
+Específicos  
+Introducir al estudiante en los principios de la lógica digital, y en las diferentes 
+técnicas de diseño electrónico digital.  
+Conocer y manejar los diferentes subsistemas estructurales de diseño digital en 
+electrónica.  
+Hacer diseños simples, operativos y funcionales de circuitos digitales con componentes 
+discretos y circuitos integrados de media escala, haciendo uso de los principios de la lógica 
+digital.  
+Diseñar y modelar con ayuda de software tales circuitos con propiedad  
+ 
+UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE 
+CALDAS 
+Facultad Tecnológica  
+Tecnología en Electrónica  
+ Línea  gratuita 
+ 01  44  
+PBX Ext. 5014 - 5015 www.udistrital.edu.co Calle 68D Bis A Sur No. 49F-70, Bogotá D.C. - Colombia 
+Acreditación Institucional de Alta Calidad. Resolución No. 23096 del 15 de diciembre de 2016  tecelectronica@udistrital.edu.co  
+5. Contenido programático:  
+lenguaje de descripción de hardware  2 semanas  
+"'C Elementos básicos VHDL, definición entidades, arquitecturas, identificadores, 
+operadores, tipos de sentencias, descripción estructural, simulación y fases de 
+simulación.  
+Principios de diseño de lógica combinatoria  2 semanas  
+Algebra de Boole, Síntesis lógica de circuitos combinatorios, representación por suma 
+de productos y por producto de sumas, mapas de Karnaugh, algoritmo de Quine —McCluskeyn  
+Circuitos lógicos combinatorios  3 semanas  
+Decodificadores binarios de 2 a 4, de 3 a 8 y de 4 a 16 líneas, ejemplos de aplicación 
+en los computadores, decodificadores BCD a 7 segmentos, registros de 3 estados, 
+codificadores, multiplexores y demultiplexores, generadores de paridad,  
+de atención  
+ 8()() ()91  IO comparadores, circuitos aritméticos, sumador y restador de 4 
+bits, sumador BCD, unidad aritmética y lógica ALU, multiplicador combinatorio  
+Dispositivos lógicos programables  1 semana Diseño lógico hoy día, herramientas computacionales 
+utilizadas en las metodologías de diseño descendente (top/down), herramientas para la 
+automatización del diseño electrónico (EDA tools), principios y aplicaciones de los 
+dispositivos lógicos prog ramables como los PALS y los PLDs, programación en lenguaje 
+CUPL. 
+Cerrojos y flip -flops 2 semanas Definición de la lógica secuencial, cerrojos con 
+compuertas, estado metaestable, interruptor sin rebote, flip -Flops, flip -Flops 
+construidos con compuertas de transmisión e inversores,  
+Contadores y registros  1 semana Contadores de propagación, contadores sincrónicos, 
+ejemplos de contadores en circuito integrado, registros de corrimiento, contador en 
+anillo, circuitos integrados para relojes, laboratorio 5. Contador con Detector 
+Fotoeléctrico  
+Análisis y diseño de circuitos secuenciales  2 semanas Teoría de máquinas de estado (FSM), 
+análisis y diseño de circuitos secuenciales sincrónicos, análisis de circuitos 
+secuenciales asincrónicos, ejemplos de Control Secuencial.  
+Plds secuenciales  1 semana Arquitectura de diversos PLDs secuenciales, ejemplos de programación.  
+Memorias  2 semanas  
+Aspectos Generales sobre Memorias, memorias de Acceso Aleatorio, memorias de solo 
+Lectura (ROM), aplicaciones de las Memorias, ejemplos de memorias comerciales.  
+Procesadores digitales  2 semanas  
+Configuración, arquitectura de un microprocesador, decodificadores, puertos, memorias, 
+instrucciones en lenguaje ensamblador, microcontroladores.  
+ 
+5. Referencias Bibliográficas:  
+UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE 
+CALDAS 
+Facultad Tecnológica  
+Tecnología en Electrónica  
+ Línea  gratuita 
+ 01  44  
+PBX Ext. 5014 - 5015 www.udistrital.edu.co Calle 68D Bis A Sur No. 49F-70, Bogotá D.C. - Colombia 
+Acreditación Institucional de Alta Calidad. Resolución No. 23096 del 15 de diciembre de 2016  tecelectronica@udistrital.edu.co  
+Haskell, Richard (2010). Digital Desing. Ed. LBE Books.  
+WAKERLEY, John (2001). Diseño Digital. Ed. Pearson  
+WAKERLY, John (2002). Digital Design: Principles and Practices and Xilinx 4.2i Student 
+Package. Ed. Prentice Hall.  
+FLOYD, Thomas (2002). Fundamentos de sistemas digitales. 
+Ed. Prentice Hall. MORRIS, Mano (1987). Lógica Digital y 
+diseño de Computadores. Ed. Prentice Hall.  
+BALCH, Mark (2003). Complete digital design. Ed. McGraw Hill  
+ 
+6. Sistema de Evaluación:  
+De acuerdo con el estatuto estudiantil vigente (Acuerdo No. 027 de 1993 expedido por el 
+Consejo Superior Universitario y en su Artículo No. 42 y al Artículo No. 3, Literal d) el 
+profesor al presentar el programa presenta una propuesta de evaluación como pa rte de su 
+propuesta metodológica. La presentada por el docente y la acordada deben quedar plasmadas 
+aquí. Por esta razón señor docente, el plan de evaluación debe ser concertado entre los 
+docentes que estén orientando el espacio académico, con determinado tiempo de antelación, de 
+tal forma que los temas trabajados sean homogéneos en todos los grupos y concuerden con las 
+semanas establecidas por capítulo.  
+La evaluación del curso estará compuesta por seis notas individuales discriminadas de la 
+siguiente forma:  
+Parcial (1)  15% 
+Parcial (2)  15% 
+de atención  
+ 8()() ()91  IO Laboratorios  
+Proyecto final (Transversal)  30% 
+ 
+Total: 100% 
+La última entrega del proyecto final "Transversal", se realizará según las reglas del mismo.  
+ 
+7. Convivencia en el Aula:  
+Se espera que los estudiantes y el docente asistan puntualmente a las sesiones de clases, 
+respeten los horarios aquí establecidos, hagan sugerencias respetuosamente al profesor y 
+estudiantes, observen la debida seriedad y responsabilidad en las asignacione s propuestas. Se 
+trabajará con respeto por la libertad de cultos e ideologías, así como se evitarán 
+discriminaciones por género y/o raza. El profesor y/o los estudiantes están en libertad de 
+retirar del aula a quienes no observen una conducta decente o ate nten contra la seguridad y 
+salud de los asistentes al curso o la integridad del material de laboratorio o multimedial 
+utilizado en el mismo.  
+ 
+IMPORTANTE: Todo estudiante que decida permanecer oficialmente inscrito en este espacio académico, debe manejar buenas normas  de conducta en el aula, realizar 
+sugerencias respetuosas al docente y a sus compañeros, debe tener respecto por la libertad de cul to e ideologías, evitar discriminación por género y/o raza y fomentar 
+y ejercer los valores anteriormente citados. De igualforma; acepta conocer y cumplir la totalidad de los anteriores requisito s, así como los términos y contenidos de 
+este espacio académi co, ibajo su propia responsabilidad y compromiso.  
+ Fecha de Actualización:  24 de julio de 2018  
+UNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE 
+CALDAS 
+Facultad Tecnológica  
+Tecnología en Electrónica  
+ Línea  gratuita 
+ 01  44  
+PBX Ext. 5014 - 5015 www.udistrital.edu.co Calle 68D Bis A Sur No. 49F-70, Bogotá D.C. - Colombia 
+Acreditación Institucional de Alta Calidad. Resolución No. 23096 del 15 de diciembre de 2016  tecelectronica@udistrital.edu.co  
+de atención  
+  800 091  10 

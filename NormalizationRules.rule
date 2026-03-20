@@ -1,29 +1,38 @@
-flipflop<-flip-flop;flip flop;flipflops;flip flops
-flipflop<-flipflop flipflop
-flipflop<- flip , flop 
-statemachine<-state machine;state machines;state-machine;fsm
-statemachine<-state machine machine;state machine machines
-memory<-memories?;ememory;eememory
-alu<-arithmetic logic unit
-fpga<-field programmable gate array
-cpld<-complex programmable logic device
-psoc<-programmable system on chip
-register<-registers?
-counter<-counters?
-multiplexer<-multiplexers?
-karnaugh<-karnaugh map;karnaugh maps
-boolean<-boolean logic; booleans
-logicgate<-logic gate;logic gates
-gate<-gates?
-register<-registers?
-counter<-counters?
-integratedcircuit<-integrated circuit;integrated circuits; ic 
-circuit<-circuits?
-system<-systems?
-combinational<-combinational system;combinational systems
-sequential<-sequential system;sequential systems
-boolean<-boolean algebra;booleans
 2scomplement<-s complement,2s complement,two's complement
-floatingpoint<-floating point
-fixedpoint<-fixed point
+alu<-arithmetic logic unit
+boolean<-boolean logic; booleans;boolean algebra
+circuit<-circuits?;circuitos lógicos
+combinational<-combinational system;combinational systems;combinationals
+counter<-counters?;contador
+cpld<-complex programmable logic device
+cpu<-central processing unit;processor
 errorcontrol<-error detection,error correction
+fixedpoint<-fixed point
+flipflop<-flip-flop;flip flop;flipflops;flip flops;ﬂip ﬂop
+flipflop<- flip , flop 
+flipflop<-flipflop flipflop
+floatingpoint<-floating point
+fpga<-field programmable gate array
+gate<-gates?
+integratedcircuit<-integrated circuit;integrated circuits; ic 
+karnaugh<-karnaugh map;karnaugh maps
+logicgate<-logic gate;logic gates;gate
+rom<-read only memory
+memory<-memories?;ememory;eememory; ram, rom, prom, eprom, eeprom
+multiplexer<-multiplexers?
+psoc<-programmable system on chip
+ram<-random access memory
+register<-registers?;records
+sequential<-sequential system;sequential systems
+signal<-signals?
+statemachine<-state machine machine;state machine machines
+statemachine<-state machine;state machines;state-machine;fsm
+system<-systems?
+don t<-dont
+vonnewman<-von newman
+architectures<-basic architectures;von newman;harvard;modified harvard
+microcontroller<-pic16c8x;microcpu; pic 
+dsp<-tmscx
+subtractor<-subtracters
+rightsreserved<-rights reserved
+bit<- bits 

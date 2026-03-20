@@ -1,0 +1,58 @@
+digital circuit problems and exercises solved
+© antonio adán oliver inocente sánchez ciudad blanca quintana galera
+© from the edition ra ma
+trademarks the designations used by companies to distinguish their products hardware
+software operating system etc are usually registered trademarks ra ma has attempted throughout this book to distinguish
+the trademarks of the descriptive terms following the style used by the manufacturer without intention of
+infringe the trademark and only for the benefit of its owner the data in the examples and screens are fictitious
+unless otherwise specified
+ra ma is a registered trademark
+every effort has been made to provide the reader with complete and accurate information however ra ma
+editorial does not assume any responsibility derived from its use nor from any violation of patents or other
+rights of third parties that may arise this publication is intended to provide some knowledge
+precise and accredited on the topic discussed its sale does not imply any form of legal assistance for the publisher
+administrative or of any other type if legal advice or other forms of expert help are required they should be sought
+the services of a competent professional
+all publication rightsreserved in any language
+according to the provisions of the current penal code no part of this book may be reproduced recorded in a system
+storage or transmitted in any form or by any process whether electronic mechanical
+reprographic magnetic or any other without prior written authorization from ra ma your content is protected
+by current law which establishes prison sentences and or fines for those who intentionally reproduce or plagiarize in
+in whole or in part a literary artistic or scientific work
+edited by
+ra ma editorial
+jarama street a igarsa industrial park
+paracuellos de jarama madrid
+telephone
+fax
+email editorial ra macom
+internet wwwra maes and wwwra macom
+isbn
+legal deposit m
+layout antonio garcía tomé
+cover design antonio garcía tomé
+filming and printing safekat
+printed in spain in october
+the law prohibits
+photocopy this bookindex
+about the authors
+introduction
+chapter representation of information
+contents
+solved exercises
+test and short questions
+chapter logical functions
+contents
+solved exercises
+test and short questions
+chapter combinational doors
+contents
+solved exercises
+test and short questions
+chapter combinational modules contents
+solved exercises
+test and short questions
+chapter arithmetic and logical circuit
+contents
+solved exercises
+test and short questions

@@ -1,0 +1,49 @@
+v
+content
+preface
+chapter
+introduction
+numbering system and base changes
+coding
+binary coded decimal number bcd
+gray codes
+addition and subtraction in base ten and in base two
+chapter exercises
+chapter
+basic logiclogicgate
+and boolean
+basic logicgate
+boolean
+rules of boolean
+the dual of a boolean equation
+maps of karnaugh
+equality between sum of products and product of sums
+karnaugh of five variables
+maps of karnaugh with indifference
+solved examples
+chapter exercises vi
+switching
+digital design
+chapter
+combinational logic circuit
+seven segment display
+comparator of two numbers
+semi adder and full adder
+decoders
+encoders
+priority encoder
+multiplexer
+demultiplexer
+chapter exercises
+chapter
+sequential logic circuit
+preliminaries
+latches and flipflop
+basic applications of latches and flipflop
+excitation tables
+chapter exercises
+appendix
+combinational analysis
+appendix
+transistors
+reference

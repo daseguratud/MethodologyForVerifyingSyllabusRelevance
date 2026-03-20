@@ -10,7 +10,7 @@ class Etapa03:
             Book("01_Flyod.pdf", 12, 4),      
             Book("02_Julian.pdf", 8, 5),     
             Book("03_Ndjountche.pdf", 4, 3), 
-            Book("04_Tocci.pdf", 1, 10), # ERROR  
+            # Book("04_Tocci.pdf", 1, 10), # ERROR  
             Book("05_Morris.pdf", 8, 6),    
             Book("06_Adan.pdf", 5, 2),      
             Book("07_Wakerly.pdf", 7, 7),   

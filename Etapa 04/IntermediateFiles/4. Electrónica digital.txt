@@ -1,0 +1,183 @@
+code aa fr
+version
+approval date
+htd htc hta
+subject
+mandatory
+basicx elective intrinsicelective
+extrinsic
+theoretical practical theoretical practical
+in person xin person with
+incorporation of ticvirtual others which
+ra
+syllabus format
+macroprocess strategic direction
+process self assessment and accreditation
+the technological development of recent years is largely due to the advance in the conception of modern techniques in the design and implementation of electronic circuit among
+which highlight digital system as raw material for the majority of electronic devices or components used at home business or academic level this
+academic space provides a basic foundation on the analysis of basic digital circuit such as combinational and sequential circuit which are necessary
+for the interpretation analysis and development of more complex digital circuit such as cpus controllers and or application specific integratedcircuit asic
+additionally digital circuit synthesis techniques are introduced along with design procedures seen from different levels of abstraction which provides a
+complete vision to address hardware development problems using various technological options
+general objective
+develop in the student skills and abilities in the analysis design and implementation of digital system applicable in computing data processing
+industrial instrumentation and control
+specific objectives
+provide the student with the basic concepts of boolean for the analysis and synthesis of combinational circuit
+familiarize the student with the concept of memory and its conception at a hardware level for the development of sequential circuit
+give the student knowledge about the hardware implementation of finite statemachines
+show an overview of the applications in which microcontroller microcontroller dsp s and fpga s technologies are usediii justification of academic space
+iv objectives of the academic space general and specific i identification of the academic space
+name of the academic space digital electronics study plan code faculty faculty of engineering
+electrical engineering curricular project
+ii suggestions for prior knowledge and knowledge
+analogue electronics academic space code number of academic credits
+type of academic space
+modality of offer of the academic space distribution of working hours
+nature of the academic space
+character of the academic space mandatory
+complementary
+v training and learning purposes pfa of the academic space
+domain level competencies
+cognitive understanding
+cognitive understanding
+cognitive analyzeunderstand and master the different system of
+numeration and the basic concepts of algebra
+boolean as a fundamental tool for
+design and implementation of digital circuit learning outcomes
+differentiate between structural description and
+behavior of a digital circuit
+understand and identify the different system of
+numbering and coding used in the
+digital system
+analyze and simplify boolean functions
+from its axioms and theorems
+x
+x x x
+xtraditional project based technology basedvii teaching strategies that promote learning
+experimental
+student centered self directed active learningdesign sequential logic circuit taking into account
+count the memory circuit
+implement combinational logic circuit and
+sequential at different levels of abstractioncognitive create
+cognitive create
+cognitive createdesign and implement circuit based on
+digital electronics at different levels of abstraction using logic solutions
+combinational and sequential as the case may be
+application in problems in the field of
+engineering
+introduction to digital system
+description and definition of digital system
+levels of abstraction
+numbering and code system
+alphanumeric numbering codes bcd ascii ebcdic others
+numbering system binary octal decimal hexadecimal gray
+conversion between bases and base arithmetic
+weighted and unweighted numerical codes
+representation of integers magnitude and sign complement
+fixed and floatingpoint representation
+arithmetic operations addition subtraction multiplication division overflow flags carry
+error detection and correction codes hamming codes
+logical functions and boolean
+boolean
+axioms properties and theorems
+operations and logical functions
+logiclogicgate and or not xor truth tables
+canonical expressions sum and standard product
+expressions simplified by boolean
+technologies for the realization of integratedcircuit
+electrical and dynamic characteristics explanation of data sheets power dissipation voltages and currents fan in fan out delays propagation times levels of
+integration etc
+and and or wiring connections totem pole outputs open collector
+buffer three states ttl and mos
+analysis and design of combinational
+definition of combinational
+simplification techniques for logical functions karnaugth maps
+implementation of logic functions with nand or nor logicgate
+applications encoders decoders multiplexer demultiplexer
+half adder full adder integrated adder
+semisubtractor complete subtractor subtraction by complement
+adder subtractor magnitude comparators alu
+rom memory
+analysis and design of sequentials
+classification of sequentials
+flipflop sr d t jk preset clear master slave
+analysis and design of a sequential with finite statemachines statemachine mealy and moore automata
+application with synchronous sequentials register counter shift register
+pwm
+introduction and vision of micro processed technology today cpu level devices
+programmable logic devices
+fpga field programmable logicgate array
+cepld cpld
+psoc psoc
+microcontroller design combinational logic circuit from
+of the basic concepts of boolean
+vi thematic content
+problem based collaborativedeliverable activities partial workshopsreports
+final projectproject
+finallaboratory
+x
+x
+x x x
+x x x
+x x x
+x
+ehp ee ehp
+i g i i g
+approval date by curriculum council number of
+minutes
+abbreviation
+ehp
+ebp
+eop
+ee
+ef
+edweb pages
+http wwwxilinxcom
+https wwwcypresscom products psoc creator integrated design environment ide viii evaluation
+xi bibliographylearning outcomes associated with assessments
+t theoretical p practical
+rooms equipped with
+oscilloscopes
+multimeters
+dc sources
+signal generators
+connectors
+matlab and multisim software
+implementation of boolean functions
+canonical forms of sum and product
+implementation with nand and nor logicgate
+adders
+restors
+multipliers
+encoders and static display
+multiplexer
+magnitude comparators
+register
+statemachines
+counter and dynamic visualization
+pwmnote type
+x academic practices field outputs learning outcomes ra to be evaluated
+complementary
+stephen brown fundamentals of digital logic with vhdl design mcgraw gill j f wakerly digital design pearson education
+t l floyd fundamentals of digital system
+r j tocci and n s widmer digital system pearson education
+v p nelson analysis and design of digital logic circuit
+m d ercegovac and t lang digital arithmetic elsevier ra
+ra
+basic
+d d gajski digital design principles prentice hall
+t l floyd fundamentals of digital system
+julián camargo introduction to psoc lp theory and applications francisco josé de caldas district university
+review date by curricular council xii monitoring and update of the syllabusix educational media and resourcesevaluation percentage
+individual work i or group g ra
+ra
+ra
+ra
+evaluation type
+practical skills assessment
+project based evaluation
+oral evaluation or presentations
+written evaluation
+formative evaluation
+performance evaluation type of evaluation

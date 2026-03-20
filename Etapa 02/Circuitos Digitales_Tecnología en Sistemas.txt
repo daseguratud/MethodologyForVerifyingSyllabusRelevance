@@ -1,0 +1,818 @@
+UNIVERSIDAD  DISTRITAL “FRANC ISCO  JOSÉ DE CALDAS” 
+Facultad Tecnológica 
+Tecnología en Sistemas Eléctricos de Media y Baja    Tensión 
+articulado por ciclos propedéuticos con Ingeniería Eléctrica 2016 -I 
+ 1  
+ 
+ 
+ 
+ 
+UNIVERSIDAD DISTRITAL 
+“Francisco José de Caldas” 
+Facultad Tecnológica 
+Tecn ología en Sistemas  
+Eléctricos de media y baja 
+tensión articulado por 
+ciclos propedéuticos con  
+Ingeniería Eléctrica por ciclos 
+ 
+ 
+ 
+1. Información Gener al 
+ 
+Espacio Académico Circuitos Digitales 
+Código 1635  
+Tipo Espacio teórico-práctico 
+Área Básicas de ingeniería 
+ 
+Créditos académicos HTD HTC HTA Horas/semana 
+4 2 3 9 
+3 cré ditos 
+ 
+2. Justificación 
+Teniendo en  cuenta que la  única limit ación de  la  aplicación del  diseño  y  síntesis de 
+circuitos digitales radica en la imaginación del diseñador, y que la mayoría  de los procesos 
+eléctricos y electrónicos se llevan a cabo en forma digital tanto en control como 
+comunicaciones, electromedicina, procesamiento de imágenes etc., es obligatorio que el 
+profesional en el área de la energía eléctrica moderno conozca  las técnicas de modelado y 
+síntesis  de circuitos digitales de muy alto nivel de integración y velocidad, a través del 
+lenguaje de descripción de hardware VHDL, para pod er competir  con éxito en el ambiente 
+laboral. 
+ 
+3. Objetivos 
+• Introducir al estudiante en los principios de la lógica digital, y en las diferentes 
+técnicas de diseño electrónico digital. 
+• Diseñar  circuitos  digitales  simples,  operativos  y  funcionales  con  componentes 
+discretos y circuitos integrados de media escala, haciendo uso de los principios de la 
+lógica digital. 
+• Conocer las diferentes arquitecturas digitales para la implementación de circuitos 
+digitales, tales como: CPLD, FPGA, Microprocesador, M icrocontrolador y 
+Procesador Digital de Señales (DSP). 
+• Interpretar  y  modelar  circuitos  digitales  de  muy  alto  nivel  de  integración  y 
+velocidad, a través del lenguaje de descripción de h ardware VHDL.UNIVERSIDAD  DISTRITAL “FRANC ISCO  JOSÉ DE CALDAS” 
+Facultad Tecnológica 
+Tecnología en Sistemas Eléctricos de Media y Baja    Tensión 
+articulado por ciclos propedéuticos con Ingeniería Eléctrica 2016 -I 
+ 2  
+  
+ 
+• Diseñar, analizar, modelar, simular, sintetizar y programar circuitos digitales con 
+ayuda de herramientas CAD-EDA  basadas en tecnologías digitales como los CPLD 
+y FPGA. 
+ 
+4. Requ erimientos 
+Como pre-saberes, éste curso requiere de un conocimiento básico de dispositivos 
+semicondu ctores y de la teoría de circuitos DC. Es deseable el manejo de un lenguaje de 
+programación, p ero no es requisito indispensable. Para el desarrollo del curso se requiere 
+acceso a un computador personal con el software adecuado, y acceso a un laboratorio para 
+prácticas básicas de circuitos. 
+ 
+5. Aspectos pedagóg icos 
+La propuesta desarrollada por el grupo de docentes del proyecto curricular de Tecnología 
+en Electricidad e Ingeniería Eléctrica, partió del análisis de las características generales que 
+debe poseer todo tecnólogo, como profesional en el sector eléctrico, además de los 
+conocimientos específicos propios de  la aplicación de su carrera que debe poseer todo 
+ingeniero, y se encuentran detallados en el perfil profesional que  hace parte de la propuesta 
+para el transito a créditos académicos. 
+ 
+Tales características, fusionadas al interior de los espacios académicos del plan de estudios 
+son: 
+ 
+•   Alto nivel de desarrollo de sus capacidades comunicativas. 
+• Habilidades para definir problemas, recoger y evaluar información, y desarrollar 
+soluciones reales y eficientes. 
+•   Capacidades para trabajar en equipo, habilidad para trabajar con otros. 
+• Habilidad para utilizar todo lo anterior a fin de encarar problemas en el complejo 
+mundo  real. 
+ 
+Todos  los  espacios académicos del  plan de  estudios, al  igual  que éste,  se  consideran 
+teórico-prácticos, sus tentando esta dinámica en un problema o pregunta que el estudiante 
+debe solucionar a lo largo de las 16 semanas de duración del semestre, a modo de un 
+proyecto o trabajo final.UNIVERSIDAD  DISTRITAL “FRANC ISCO  JOSÉ DE CALDAS” 
+Facultad Tecnológica 
+Tecnología en Sistemas Eléctricos de Media y Baja    Tensión 
+articulado por ciclos propedéuticos con Ingeniería Eléctrica 2016 -I 
+ 3  
+  
+ 
+ 
+6. Descripción de crédi tos 
+ 
+Distribución de las actividades Horas 
+semanales Horas 
+semestre Número de 
+créditos 
+ 
+ 
+Clase presencial 
+(trabajo directo)  Introducción de concepto  Ejemplificación del contenido  Realización de ejercicios y problemas  Talleres de refuerzo  Evaluación y Diagnóstico de conocimientos  
+ 
+4  
+ 
+64  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4  
+Acompañamiento 
+(trabajo 
+cooperativo)  Diagnóstico de conocimientos (siempre)  Seguimiento a los talleres y consultas  Talleres extractase  Prácticas en laboratorios  Proyecto final  
+ 
+2  
+ 
+32 
+ 
+ 
+Actividades 
+extractase (trabajo 
+autónomo)  Lecturas previas  Talleres y consultas extra-clase  Ejercicios y trabajos  Diseño de las prácticas de laboratorio  Fortalecimiento de la formación investigativa 
+a través de problemas aplicados a la r ealidad  
+ 
+ 
+6  
+ 
+ 
+96 
+TOTAL 12 192 
+ 
+7. Competencias e indic adores 
+ 
+ 
+Nombre de la 
+unidad temática  
+ 
+Competencias  
+Indicadores de Idoneidad 
+ 
+ 
+ 
+Conceptos 
+fundamentales de los 
+sistemas digitales  
+ 
+Interpretativa, 
+Argumentativa  
+ 
+ 
+Desarrollo contextual en el ámbito de los circuitos digitales. 
+Sistemas de 
+numeración y 
+operaciones Interpretativa, 
+Argumentativa y 
+Propositiva  
+Comprende  y  desarrolla  destrezas  en  la  manipulación  operatoria  de  la 
+conversión de bases y su aplicación a estructuras reales. 
+ 
+Algebra de Boole Interpretativa, 
+Argumentativa y 
+Propositiva Explora, comprende y desarrolla los conceptos de la lógica Booleana, así 
+como  los teoremas básicos de   ésta, así como los principios del diseño de 
+hardware específico aplicando simplificación de funciones. 
+ 
+Lógica 
+combinacional  
+Interpretativa, 
+Argumentativa y 
+Propositiva Capacidad de diseño y análisis de circuitos combinacionales, mediante la 
+resolución de problemas fuerte y medianamente estructurados, y usando 
+diferentes componentes o circuitos integrados LSI y MSI y herramientas de 
+software. 
+ 
+Arquitecturas 
+reconfigurables Interpretativa, 
+Argumentativa y 
+Propositiva  
+Conocimiento de las arquitecturas digitales más utilizadas y argumentación 
+de su funcionamiento, diferencias, ventajas y desventajas. 
+ 
+ 
+ 
+Lenguaje VHDL   
+ 
+Interpretativa, 
+Argumentativa y 
+Propositiva Comprende  y  argumenta  la  importancia  del  lenguaje  de  descripción  de 
+hardware para circuitos integrados de alta velocidad (VHDL). 
+Comprende el significado concurrencia en el VHDL. 
+Diferencia correctamente las sentencias serie y las sentencias concurrentes. 
+Adquiere habilidad en el desarrollo de la metodología Top-Down a través del 
+uso de la descripción estructural. 
+ 
+Lógica secuencial Interpretativa, 
+Argumentativa y 
+Propositiva Capacidad  de  diseño  y  análisis  de  circuitos  secuenciales,  mediante  la 
+resolución  de  problemas  fuerte  y  medianamente  estructurados,  y  usando 
+componentes o circuitos integrados MSL y herramientas de software. UNIVERSIDAD  DISTRITAL “FRANC ISCO  JOSÉ DE CALDAS” 
+Facultad Tecnológica 
+Tecnología en Sistemas Eléctricos de Media y Baja    Tensión 
+articulado por ciclos propedéuticos con Ingeniería Eléctrica 2016 -I 
+ 4  
+  
+ 
+ 
+Nombre de la 
+unidad temática  
+ 
+Competencias  
+Indicadores de Idoneidad 
+ 
+ 
+ 
+Máquinas de Estados 
+Finitos  
+Interpretativa, 
+Argumentativa y 
+Propositiva Enfrentarse con éxito a problemas débil y medianamente estructurados en el 
+campo de la electrónica digital con aplicaciones concretas de electrónica, la 
+arquitectura de computadores, los procesos de automatización y control y las 
+telecomunicaciones haciendo análisis y diseño de máquinas de estado finitas 
+síncronas y asíncronas 
+ 
+ 
+Memorias y 
+Almace namiento  
+Interpretativa, 
+Argumentativa y 
+Propositiva Explora  y  comprende  el  desarrollo  de  la  electrónica  digital  dentro  del 
+desarrollo mundial de estas áreas. 
+Explora, comprende, desarrolla y  manipula las tecnologías dispuestas en el 
+mercado para usuario final, analizando sus potencialidades en el desarrollo de 
+producción de fuerzas productivas para el desarrollo del país. 
+ 
+8. Contenido  programático 
+ 
+ 
+Unidad 
+Temática  
+ 
+Semana/Sesión   
+ 
+HSP  
+ 
+HSA  
+ 
+THS Lineamientos 
+ Conceptos 
+fundamentales 
+de los sistemas 
+digitales  
+ 
+ 
+1/1 Presentación del curso 
+Introducción 
+Magnitudes analógicas y digitales. 
+Diseño digital vs diseño análogo. 
+Dígitos binarios, niveles lógicos y formas de onda digitales. 
+Introducción a las funciones lógicas básicas. 
+Circuitos integrados de función fija. CMOS/TTL.  
+ 
+ 
+2  
+ 
+ 
+2  
+ 
+ 
+4  
+Sistemas de 
+numeración y 
+operaciones  
+ 
+ 
+1/2 Sistema decimal 
+Sistema binario 
+Sistema Octal 
+Sistema Hexadecimal 
+Sistema BCD 
+Sistema Gray  
+ 
+ 
+2  
+ 
+ 
+2  
+ 
+ 
+4 
+ 
+1/3 Aritmética Binaria 
+Complemento a1 y a2 
+Números con signo  
+2  
+2  
+4  
+ 
+Algebra de Boole  
+ 
+2/1 Puertas lógicas 
+Propiedades de Boole 
+Leyes de Boole 
+Teorema de Demorgan  
+ 
+2  
+ 
+2  
+ 
+4 
+ 
+ 
+2/2 Funciones Booleanas 
+Minterminos y maxterminos 
+Función canónica 
+Simplificación por algebra de Boole  
+ 
+2  
+ 
+2  
+ 
+4 
+ 
+2/3  
+Mapas de Karnaugh  
+2  
+2  
+4  
+ 
+Lógica combinacional  
+ 
+3/1 Diseño de sistemas combinacionales 
+Sumador completo 
+Sumador – restador 
+Comparador  
+ 
+2  
+ 
+2  
+ 
+4 
+ 
+3/2  
+Diseño de sistemas combinacionales misceláneos  
+2  
+2  
+4 
+ 
+3/3 Practica 1: 
+Diseño discreto, tipos de sangre  
+2  
+2  
+4 UNIVERSIDAD  DISTRITAL “FRANC ISCO  JOSÉ DE CALDAS” 
+Facultad Tecnológica 
+Tecnología en Sistemas Eléctricos de Media y Baja    Tensión 
+articulado por ciclos propedéuticos con Ingeniería Eléctrica 2016 -I 
+ 5  
+  
+ 
+ 
+Unidad 
+Temática  
+ 
+Semana/Sesión   
+ 
+HSP  
+ 
+HSA  
+ 
+THS Lineamientos 
+ 
+  
+ 
+4/1 Multiplexores 
+Demultiplexores 
+Codificadores 
+Decodificadores  
+ 
+2  
+ 
+2  
+ 
+4 
+ 
+ 
+4/2 Display de 7 segmentos 
+Conversores de código 
+Dispositivos Three-State 
+Codigo Hamming  
+ 
+2  
+ 
+2  
+ 
+4 
+ 
+4/3 Practica 2: 
+Diseño discreto, conversor de código  
+2  
+2  
+4 
+ 
+5/1  
+Taller y solución de dudas  
+2  
+2  
+4 
+ 
+5/2  
+Examen parcial 1  
+2  
+2  
+4 
+ 
+5/3 Practica 3: 
+Introducción a Xilinx, diseño esquemático  
+2  
+2  
+4  
+Arquitecturas 
+reconfigurables  
+6/1 Arquitectura de los SPLD: GAL, PLA y PAL. 
+Arquitectura de los CPLDs. 
+Arquitectura de los FPGAs.  
+2  
+2  
+4 
+ 
+ 
+6/2 Introducción al lenguaje VHDL. 
+Metodologías de Diseño: Bottom-Up y Top-Down. 
+Descripción  del   Diseño:   Esquemático,   Comportamental   o 
+Funcional y Estructural.  
+ 
+2  
+ 
+2  
+ 
+4  
+ 
+Lenguaje VHD L  
+ 
+ 
+ 
+ 
+6/3 Practica 4: 
+Sumador completo 
+Proceso de Diseño. 
+Sistemas de Desarrollo Xilinx (ISE y Mod elSim). 
+Descripción del circuito digital. 
+Simulación funcional y con retardos. 
+Síntesis de la descripción del circuito. 
+Restricciones de usuario. 
+Implementación y enrutamiento del CPLD o FPGA. 
+Programac ión del CPLD o FPGA. 
+Verificación y pruebas.  
+ 
+ 
+ 
+ 
+2  
+ 
+ 
+ 
+ 
+2  
+ 
+ 
+ 
+ 
+4 
+ 
+7/1 Concepto de Entidad y Arquitectura. 
+Estructura de un programa en VHDL 
+Ejemplos  
+2  
+2  
+4 
+ 
+ 
+ 
+7/2 Símbolos especiales 
+Palabras reservadas. 
+Operadores y expresiones. 
+Tipos de datos. 
+Atributos de los elementos. 
+Genéricos, Constantes, Señales y Variables. 
+Declaraciones de Genéricos, Constantes, Señales y Variables.  
+ 
+ 
+2  
+ 
+ 
+2  
+ 
+ 
+4 
+ 
+7/3 Practica 5: 
+Conversor de código  
+2  
+2  
+4 UNIVERSIDAD  DISTRITAL “FRANC ISCO  JOSÉ DE CALDAS” 
+Facultad Tecnológica 
+Tecnología en Sistemas Eléctricos de Media y Baja    Tensión 
+articulado por ciclos propedéuticos con Ingeniería Eléctrica 2016 -I 
+ 6  
+ 
+Almace namiento  
+ 
+ 
+Unidad 
+Temática  
+ 
+Semana/Sesión   
+ 
+HSP  
+ 
+HSA  
+ 
+THS Lineamientos 
+ 
+  
+ 
+ 
+8/1 Ejecución concurrente y ejecución serie: descripción por flujo 
+de datos y algorítmica. 
+Bloque de ejecución serie: PROCESS 
+Sentencia condicional: IF … THEN  … ELSE 
+Sentencia de selección: CASE 
+Ejemplos  
+ 
+ 
+2  
+ 
+ 
+2  
+ 
+ 
+4 
+ 
+8/2 Asignación condicional: WHEN  … ELSE 
+Asignación con selección: WITH ... SELECT  … WHEN 
+Ejemplos.  
+2  
+2  
+4 
+ 
+8/3 Practica 6: 
+Multiplexor, Decodificador, Practica 1 y 2.  
+2  
+2  
+4 
+ 
+ 
+ 
+ 
+9/1 Bloque concurrente: BLOCK  
+Sentencia de espera: WAIT 
+Bucles: LOOP, FOR y WHILE 
+Llamado de procedimientos 
+Definición de componentes 
+Referencia de componentes 
+Enlace entre componentes y entidades 
+Ejemplos  
+ 
+ 
+ 
+2  
+ 
+ 
+ 
+2  
+ 
+ 
+ 
+4 
+ 
+9/2  
+Taller y solución de dudas  
+2  
+2  
+4 
+ 
+9/3 Practica 7: 
+ALU 4 funciones 4 bits  
+2  
+2  
+4 
+ 
+10/1  
+Examen parcial 2  
+2  
+2  
+4  
+ 
+Lógica secuencial  
+ 
+10/2 Definición de sistemas digitales secuenciales 
+Señal de reloj 
+Registros 
+Circuito Integrado 555  
+ 
+2  
+ 
+2  
+ 
+4 
+ 
+10/3 Practica 8: 
+Prescaler  
+2  
+2  
+4 
+ 
+11/1 Flip-Flops 
+Contadores 
+Registros de desplazamiento  
+2  
+2  
+4  
+Máquinas de Estados 
+Finitos  
+11/2 Máquina de Estados Finitos (FSM) 
+FSM Tipo Moore y Tipo Mealy 
+Ejemplos  
+2  
+2  
+4 
+ 
+11/3 Practica 9: 
+Contador sencillo 0-9  
+2  
+2  
+4 
+ 
+12/1  
+Análisis y diseño de FSM con VHDL   
+2  
+2  
+4  
+Memorias y  
+ 
+12/2 Concepto de memoria 
+Funcionamiento de una Memoria 
+Memorias de acceso aleatorio (RAM) 
+Memorias de solo lectura (ROM) 
+Tipos de memoria ROM   
+ 
+2  
+ 
+2  
+ 
+4 
+ 
+12/3 Practica 10: 
+Cronometro 0-99  
+2  
+2  
+4 UNIVERSIDAD  DISTRITAL “FRANC ISCO  JOSÉ DE CALDAS” 
+Facultad Tecnológica 
+Tecnología en Sistemas Eléctricos de Media y Baja    Tensión 
+articulado por ciclos propedéuticos con Ingeniería Eléctrica 2016 -I 
+ 7  
+  
+ 
+ 
+Unidad 
+Temática  
+ 
+Semana/Sesión   
+ 
+HSP  
+ 
+HSA  
+ 
+THS Lineamientos 
+ 
+  
+13/1  
+Diseño de circuitos digitales con ROM   
+2  
+2  
+4 
+ 
+13/2  
+Otras arquitecturas digitales  
+2  
+2  
+4 
+ 
+13/3 Practica 11: 
+Control motor paso a paso  
+2  
+2  
+4 
+ 
+14/1  
+Taller y solución de dudas  
+2  
+2  
+4 
+ 
+14/2  
+Examen parcial 3  
+2  
+2  
+4  
+ 
+Proyecto de investigación  
+14/3 Practica 12: 
+Practica libre  
+2  
+2  
+4 
+ 
+15/1  
+Proyecto de investigación  
+2  
+2  
+4 
+ 
+15/2  
+Proyecto de investigación  
+2  
+2  
+4 
+ 
+15/3 Practica 13: 
+Proyecto de Investigador  
+2  
+2  
+4 
+ 
+16/1  
+Proyecto de investigación  
+2  
+2  
+4 
+ 
+16/2  
+Proyecto de investigación  
+2  
+2  
+4 
+ 
+16/3 Practica 14: 
+Presentación del Proyecto de Investigación  
+2  
+2  
+4 
+  
+96  
+48  
+144 
+ 
+9. Estrategias de evaluación 
+ 
+Parciales: X Proyecto de Investigación: X 
+Talleres y Quices: X Prácticas de laboratorio: X 
+ 
+10. Valoración de las estrategias de evaluación 
+ 
+ Estrategia Porcentaje Temas a evaluar Fecha 
+1ra Nota Parcial 1 15% Lógica combinacional Semana 5 
+2ra Nota Parcial 2 15% Arquitecturas reconfigurables y Lenguaje 
+VHDL Semana 10 
+3ra Nota Parcial 3 20% Lógica secuencial Semana 14 
+4ta Nota Talleres y 
+Quices 10% Talleres y quices realizados durante el 
+semestre Todo el semestre UNIVERSIDAD  DISTRITAL “FRANC ISCO  JOSÉ DE CALDAS” 
+Facultad Tecnológica 
+Tecnología en Sistemas Eléctricos de Media y Baja    Tensión 
+articulado por ciclos propedéuticos con Ingeniería Eléctrica 2016 -I 
+ 8  
+  
+ 
+5ta Nota Prácticas 20% Prácticas de laboratorio realizadas durante el 
+semestre Semana 3 a la 12 
+6ta Nota Proyecto 20% Proyecto de investigación e informe tipo 
+articulo IEEE Semana 16 
+ 
+11. Bibliografía y demás fuentes de documentación 
+TEXTOS GUIA DEL CUR SO: 
+•   FLOYD,  Thomas. “Fundamentos de sistemas digitales”. Novena Edición. Prentice 
+Hall. 2006.  
+• PARDO, Fernando. BOLUDA, José A. VHDL Lenguaje para Síntesis y Mod elado 
+de Circuitos. Segunda  Edición. Alfaomega. 2004.  
+ 
+BIBLIOGRAFIA COMPLEMENTARIA  
+•   BROWN, Stephen. Vranesic, Zvonko.  “Fundamentos de Lógica Digital con Diseño 
+VHDL”. Segunda Edición. Mc Graw Hill. 2006.  
+•   MORRIS, Mano M. “Diseño Digital”. Tercera Edición. Prentice Hall. 2003.  
+• TERES,  Lluis. TORROJA, Yago. OLCOZ, Serafín. VILLAR, Eugenio. VHDL 
+Lenguaje Estándar de Diseño Electrónico. Mc Graw Hill. 1998.  
+• WAKE RLEY,  John  F.  “Diseño  Digital”.  Tercera  edición,  Pearson  Educación, 
+México, 2001.  
+•   WAKE RLY, John F. “Digital Design: Principles and Practices and Xilinx 4.2i 
+Student Package”, 3rd Edition, Prentice Hall, July 19, 2002.  
+ 
+INFOGRAFIA RECOMENDADA  
+•   Página Web de Xilinx. Xilinx. Dispon ible en http://www. xilinx.com/ 
+•   Página Web de Altera. Altera. Dispon ible en http://www. altera.com/ 
+• Tutoriales               de               ISE.               Xilinx.               Dispon ible               en 
+http://www.x ilinx.com/suppo rt/techsup /tutorials/index.htm 
+• Tutorial         de         Max         Plus         II.         Altera.         Dispon ible         en 
+http://campusglobal.uc3m.es/asignaturas/C8.52.10004 - 
+31/TCITIG/tutorial/paginas/paginassinusar/tutorial.htm 

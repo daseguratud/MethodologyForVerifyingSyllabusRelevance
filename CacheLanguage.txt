@@ -1,0 +1,94 @@
+Código: AA-FR-003
+Versión: 01
+Fecha de Aprobación: 
+27/07/2023
+333
+215
+HTD 4 HTC 2 HTA 3
+Asignatura esUNIVERSIDAD  DISTRITAL “FRANC ISCO  JOSÉ DE CALDAS” 
+Facultad Tecnológica 
+Tecnología en Sistemas ElesUNIVERSIDAD DISTRITAL FRANCISCO JOSÉ DE 
+CALDAS 
+Facultad Tecnológica  
+Tecnología en Electrónica  
+esUniversidad Distrital Francisco José de Caldas 
+ 
+Página 72 de 144  
+ 
+Facultad Tecnológica 
+TecnoloesCódigo: AA-FR-003
+Versión: 01
+Fecha de Aprobación: 
+27/07/2023
+HTD 2 HTC 4 HTA 3
+Asignatura x CátedresCONTENTS
+CHAPTER 1 Introductory Concepts 15
+1-1  Digital and Analog Quantities 16
+1-2  Binary DigitsenIndice general
+Mensaje del editor IX
+Sobre el autor XI
+Prefacio XIX
+1. Microfabricación y tecnologíaesContents
+Preface ........................................ i x
+Chapter 1. Number Systems ............enContents
+1
+. 
+Preface
+ 
+ix
+1
+. 
+1
+ Digital Systems and Binary Numbers
+ 
+1
+1
+. 
+1.1
+ Digital Systems
+enCircuitos digitales. Problemas y ejercicios resueltos
+© Antonio Adán Oliver, Inocente Sánchez CiudadesviiCONTENTS
+Preface xv
+1 INTRODUCTION 1
+1.1 About Digital Design 1
+1.2 Analog versus Digital 3
+1.3 Aenv
+CONTENIDO
+PREFACIO  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+CapítuloesCONTENIDO
+CAPÍTULO 1
+Álgebra de variables lógicas...................................................esContents
+ Preface xxi
+1 Number Systems and Codes 1
+   Learning Objectives 1
+ 1.1 Analogue Versus Digenv
+Contents
+Preface  xiii
+How to Use This Book for Self-Study  xviii
+Digital Resources  xix
+About theenContents
+1 Basic components and combinatorial circuits . . . . . . . . . . . . . . . . . . . . . . 1enContents
+Preface  xvii
+Chapter 1.  Origin of Electronics  1
+ 1.1 What is Electronics  1
+ 1.2 Evolutien´INDICE
+´Indice 5
+Listado de código VHDL 13
+Prefacio 21
+1 Fundamentos del diseño del hardware digitaesG.A. El -Sheikh                                                                  Digital Logic DesigenContents
+ 
+Preface	 xi
+ 
+Ackno wledgement	 xv
+ 
+List of Figur es	 xvii
+ 
+List of T ables	 xxix 
+Listen2.3.22.3.12.32.22.12.1.91.8.51.8.41.8.3.21.8.3.11.8.31.8.2.11.8.21.8.1.31.8.1.21.8.1.11.8.11.81.71.6enCONTENIDO
+Introducción  ............................................................................esContents 
+1: INTRODUCTION: ANALOG VERSUS DIGITAL ...................................................en1. Analog and Digital Signals  1–4
+Definitions • Difference between analog and digital signals • AdvenContents
+1 Binary Number System ........................................ 1
+1.1 Introduction . . . . enPreface  vii
+Chapter  1: Introduction to Digital Systems  1.1-1.6
+ 1.1 Analog and Digital Electronicen

@@ -1,0 +1,168 @@
+general index
+editor s message ix
+about the author xi
+preface xix
+micromanufacturing and technology
+introduction
+the manufacturing process
+lithography
+the photolithographic process
+r e m o t i o n
+masks
+oxidation
+external factors
+introduction of dopants
+dissemination
+implantation of ions
+d eposition
+evaporation
+s puttering
+chemical vapor deposition
+e p ita x is
+simplified processes
+manufacture of a resistor r
+manufacturing of an n m o s transistor
+geometric design rules
+technological processes
+p w e l l process
+twin tub process
+silicon on insulator so i
+inclusion of bipolar transistors
+xiv general index
+d processes
+f a lls
+performance o y i e l d
+margins
+devices
+interconnections
+parasitic capacities
+parasitic resistances
+parasitic inductances
+driver models
+lumped parameter models
+distributed parameter models the semi iconic joint
+dc behavior
+linear incremental model
+a c model
+investment capacity
+direct capacity
+the m o s transistor
+d c model
+n m o s
+p m o s
+linear incremental model
+a c model
+capacity d z g a te
+jointing capacity
+overlapping capacity
+cmos combinational logic circuit
+preliminary concepts
+the transistor as a key
+c m o s logiclogicgate
+conceptual description
+the reversing logicgate
+the n a n d logicgate
+the ñ o r logicgate
+passage and transmission logicgate
+three state inverter
+characteristics of d c
+the reversing logicgate
+the n a n d logicgate
+the ñ o r logicgate
+passage and transmission logicgate
+i pass nmos transistor
+alfaomega cmos digital integratedcircuit pedro julian
+xv
+a step pmos transistor
+transmission logicgate
+complex logicgate
+other logical styles
+pseudo nmos logic
+dynamic logic
+step logicgate logic
+complementary pass transistor logic cpl
+physical design of logicgate freehand diagrams
+basic logicgate
+the inv e rs or r
+nand and nor logicgate
+transmission logicgate
+com p lex logicgate
+e u le r paths methodology
+w einberger methodology
+standard cells
+good habits of the y o u t
+dynamics of combinational circuit
+transition times
+non immediate entry transitions
+the transistor as a resistor
+computation of capacities
+input capacity
+safety capacity
+c m o s logicgate
+the reversing logicgate
+the n a n d logicgate
+the ñ o r logicgate
+dim ensioning
+investor chain
+choice of the number of stages
+branching effect
+power dissipation
+static dissipation
+dynamic dissipation
+short circuit current dissipation
+sequential circuit
+latch and static register
+definitions
+temporary requirements
+cmos digital integratedcircuit pedro julian alfaomega
+xvi general index
+register
+l atch
+regeneration and bistability
+regenerative property bistability principle
+c m o s implementations
+l a tch
+r e g ist
+non ideal clock signal
+flipflop s r
+m em ories
+rom memory
+static ram memory sram
+read operation
+write operation
+dynamic ram memory dram
+cell t
+cell i t
+decoders
+fi l a decoders
+column decoders
+non stable circuit
+oscillators or astables
+monostable circuit
+schmitt trigger circuit
+a elmore method
+b design flow
+c practical aspects
+cl external connections p a d s
+c latch up
+c internal connections power and clock
+c food
+c r e l o j
+d spice models
+dl s u e rs
+dll independent sources
+d dependent sources
+d passive devices
+d resistors
+d capacitors
+d inductors
+alfaomega cmos digital integratedcircuit pedro julian
+xvii
+d mutual inductors
+d semiconductor devices d d i o d o
+d bipolar transistors
+d mos transistors
+d level model
+d level and models
+d level model
+cmos digital integratedcircuit pedro julian alfaomega

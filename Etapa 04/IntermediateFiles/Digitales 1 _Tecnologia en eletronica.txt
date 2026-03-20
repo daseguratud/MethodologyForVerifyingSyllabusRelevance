@@ -1,0 +1,193 @@
+francisco josé de district university
+caldas
+technological faculty
+electronics technology
+toll free line
+pbx ext wwwudistritaleduco calle d bis a sur no f bogotá dc colombia
+high quality institutional accreditation resolution no of december tecelectronica udistritaleduco
+academic space area
+digital electronics syllabus
+subject digital circuit i
+code
+credits htd htc hta hours week classification
+mandatory
+basic
+credits
+last update date
+important mr professor for the francisco josé de caldas district university you have great qualities as a human being impeccable values and knowledge
+suitable to assume the educational process in our curricular project therefore by accepting the designation in this academic space the university deposits in you the
+confidence to carry out an excellent training exercise which is part of the mission not only of our curricular project but of the faculty and the university with
+in relation to our process of forming a comprehensive professional it must be understood understood and instilled in all our students without being ambitious in three
+fundamental characteristics instill in them to be socially responsible anthropology of the self so that they are constructed as rational men intelligent men in conquest
+of reason and a man as a person ethical and moral being
+general information of the academic space
+teacher name of teacher
+location faculty of technology francisco josé de distrital university
+caldas cii s no a
+schedule specify class days and times
+mail
+email user udistritaleduco
+website http wwwudistritaleduco
+important the electronic technology curricular project has been developing a pedagogical methodology of learning by project plp where in addition to offering the learning of content epistemological aspects the
+development of competencies and training in values in the student is complemented by the generation of projects at the service of the community the social progress of the individual in all its facets and cultural change are sought highlighting
+reflecting and re signifying fundamental values such as respect for equality tolerance the free development of personality solidarity respect morality against double standards ethics industriousness humility not servility
+perseverance iyou as an active representative of the academic community must integrate the training and strengthening of these values in your academic space through didactic and pedagogical mechanisms
+description of the academic space
+this is a course that presents a wide range of concepts of current digital electronics
+specifically working with pld reconfigurable digital devices using
+simulation and programming tools such as ise xilinx quartus l l altera altium
+designery isis by proteus
+the concepts developed have their theoretical basis and their corresponding practice of
+application supported with their respective simulations starting with numerical system
+its different notations and reaching the basic architecture of a cpu
+developed within a programmable device
+methodology
+the focus of the subject will be theoretical practical oriented to the training of the student
+as a designer of digital electronic system at different levels of integration
+motivating the development and use of design and simulation tools the course is
+francisco josé de district university
+caldas
+technological faculty
+electronics technology
+toll free line
+pbx ext wwwudistritaleduco calle d bis a sur no f bogotá dc colombia high quality institutional accreditation resolution no of december tecelectronica udistritaleduco
+complemented by carrying out laboratory practices through which the student
+becomes familiar with the elements
+of attention
+components and tools necessary to carry out a major final project
+complexity where the student faces the solution of a particular problem
+applying advanced topics of the course
+the methodology used for the development of the course will be based on learning theory
+active where it is the student who learns and the teacher who guides the learning
+the presentation of the topics by the teacher will be carried out using material
+printed projection in video beam and ict software and consultations on the word wide web
+pedagogical aspects
+the proposal developed by the group of teachers of the technology in
+electronics started from the analysis of the general characteristics that every
+technologist as a professional in the sector in addition to one s own specific knowledge
+of the application of his career that every engineer must have and are detailed
+in the professional profile that is part of the proposal for the transition to credits
+academics
+such characteristics fused within the academic spaces of the curriculum
+they are
+high level of development of their communication skills
+skills in defining problems collecting and evaluating information and developing
+real and efficient solutions
+teamwork capabilities ability to work with others
+ability to use all of the above to address problems in the complex world
+real
+all the academic areas of the curriculum like this one are considered theoretical
+practical supporting this dynamic in a problem or question that the student must
+solve throughout the weeks of the semester as a project or
+final work
+objectives
+general
+introduce the student to digital design using the tools and techniques
+of modern design in such a way that it can solve real problems in the industry
+specific
+introduce the student to the principles of digital logic and the different
+digital electronic design techniques
+know and manage the different structural subsystem of digital design in
+electronics
+make simple operational and functional designs of digital circuit with components
+discrete and half scale integratedcircuit making use of the principles of logic
+digital
+design and model such circuit properly with the help of software
+francisco josé de district university
+caldas
+technological faculty
+electronics technology
+toll free line
+pbx ext wwwudistritaleduco calle d bis a sur no f bogotá dc colombia
+high quality institutional accreditation resolution no of december tecelectronica udistritaleduco
+programmatic content
+hardware description language weeks
+c basic vhdl elements definition of entities architectures identifiers
+operators types of statements structural description simulation and phases of
+simulation
+combinatorial logic design principles weeks
+boolean logical synthesis of combinatorial circuit representation by addition
+of products and by product of sums karnaughs quine algorithm—mccluskeyn
+combinatorial logic circuit weeks
+binary decoders from to from to and from to lines application examples
+in computers segment bcd decoders state register
+encoders multiplexer and demultiplexer parity generators
+of attention
+io comparators arithmetic circuit adder and subtractor of bits bcd adder alu arithmetic and logic unit combinatorial multiplier
+programmable logic devices week logic design today computational tools
+used in top down design methodologies tools for
+electronic design automation eda tools principles and applications of the
+programmable logic devices such as pals and plds language programming
+cupl
+latches and flipflop weeks definition of sequential logic latches with
+logicgate metastable state debounce switch flip flops flip flops
+built with transmission logicgate and inverters
+counter and register week propagation counter synchronous counter
+examples of integratedcircuit counter shift register counter in
+ring integratedcircuit for watches laboratory counter with detector
+photoelectric
+analysis and design of sequential circuit weeks theory of statemachines statemachine
+analysis and design of synchronous sequential circuit circuit analysis
+asynchronous sequential examples of sequential control
+sequential plds week architecture of various sequential plds programming examples
+memory weeks
+general aspects about memory ram solo memory
+reading rom applications of memory examples of commercial memory
+digital cpus weeks
+configuration architecture of a microcontroller decoders ports memory
+instructions in assembly language microcontrollers
+bibliographic references
+francisco josé de district university
+caldas
+technological faculty
+electronics technology
+toll free line
+pbx ext wwwudistritaleduco calle d bis a sur no f bogotá dc colombia
+high quality institutional accreditation resolution no of december tecelectronica udistritaleduco
+haskell richard digital design ed lbe books
+wakerley john digital design ed pearson
+wakerly john digital design principles and practices and xilinx i student
+package ed prentice hall
+floyd thomas fundamentals of digital system
+ed prentice hall morris hand digital logic and
+computer design ed prentice hall
+balch mark complete digital design ed mcgraw hill
+evaluation system
+in accordance with the current student statute agreement no of issued by the
+higher university council and in its article no and article no literal d the
+when presenting the program the teacher presents an evaluation proposal as part of his
+methodological proposal the one presented by the teacher and the one agreed upon must be reflected
+here for this reason teacher the evaluation plan must be agreed between the
+teachers who are guiding the academic space with a certain amount of time in advance
+in such a way that the topics worked on are homogeneous in all groups and agree with the
+weeks established by chapter
+the course evaluation will be composed of six individual grades discriminated from the
+following way
+partial
+partial
+of attention
+io labs
+final project transversal
+total
+the last delivery of the final transversal project will be carried out according to its rules
+coexistence in the classroom
+students and teachers are expected to attend class sessions punctually
+respect the schedules established here respectfully make suggestions to the teacher and
+students observe due seriousness and responsibility in the proposed assignments if
+will work with respect for freedom of religion and ideologies as well as avoiding
+discrimination based on gender and or race the teacher and or students are free to remove from the classroom those who do not observe decent behavior or threaten security and
+health of course attendees or the integrity of laboratory or multimedia material
+used in it
+important any student who decides to remain officially enrolled in this academic space must maintain good standards of conduct in the classroom carry out
+respectful suggestions to the teacher and his colleagues must have respect for freedom of religion and ideologies avoid discrimination based on gender and or race and encourage
+and exercise the aforementioned values likewise you agree to know and comply with all of the above requirements as well as the terms and contents of
+this academic space was under their own responsibility and commitment
+update date july
+francisco josé de district university
+caldas
+technological faculty
+electronics technology
+toll free line
+pbx ext wwwudistritaleduco calle d bis a sur no f bogotá dc colombia
+high quality institutional accreditation resolution no of december tecelectronica udistritaleduco
+of attention
